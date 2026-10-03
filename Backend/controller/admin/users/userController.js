@@ -7,49 +7,47 @@ exports.getUserCount = async (req, res) => {
 
 exports.getUsers = async (req, res) => {
   try {
-    //  removing the sensitive information
-    // $ne = admin is indicating the user with data not = admin
-    //also data of usefr operating will also be not hsown
     const userId = req.user.id;
     const users = await User.find({
       _id: { $ne: userId },
-      role: { $ne: "admin" },
+      role: req.user.role === "seller" ? "customer" : { $ne: "admin" },
     }).select("-password -role -otp -isOtpVerified");
-    if (users.length < 1) {
-      res.status(404).json({
-        message: "no users found",
-        userData: [],
-      });
-    } else {
-      res.status(200).json({
-        message: "users found",
-        userData: users,
-      });
-    }
+    return res.status(200).json({
+      message: users.length ? "users found" : "no users found",
+      userData: users,
+    });
   } catch (e) {
-    res.status(400).json({
+    return res.status(500).json({
       message: "an error occured",
     });
-    console.log(e);
   }
 };
 
 exports.deleteUser = async (req, res) => {
   const userId = req.params.id;
   if (!userId) {
-    res.status(400).json({
-      message: "you need to login as an admin the system didnt get your id",
-    });
+    return res.status(400).json({ message: "user id is required" });
   }
   const userFound = await User.findById(userId);
   if (!userFound) {
-    res.status(400).json({
-      message: "the user with this id is not found in the databse",
-    });
-  } else {
-    await User.findByIdAndDelete(userId);
-    res.status(200).json({
-      message: "Successfully deleted an user with ID" + userId,
-    });
+    return res.status(404).json({ message: "user not found" });
   }
+
+  if (
+    userFound.role === "admin" ||
+    String(userFound._id) === String(req.user.id)
+  ) {
+    return res.status(403).json({ message: "This user cannot be deleted" });
+  }
+
+  if (req.user.role === "seller" && userFound.role !== "customer") {
+    return res
+      .status(403)
+      .json({ message: "Sellers can only delete customers" });
+  }
+
+  await User.findByIdAndDelete(userId);
+  return res.status(200).json({
+    message: `Successfully deleted user ${userId}`,
+  });
 };

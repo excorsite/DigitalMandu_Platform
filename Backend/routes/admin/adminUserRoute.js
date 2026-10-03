@@ -11,7 +11,7 @@ rtr
   .route("/users")
   .get(
     catchAsync(isUserAuthenticated),
-    catchAsync(restrict("admin")),
+    catchAsync(restrict("admin", "seller")),
     catchAsync(getUsers),
   );
 rtr
@@ -25,7 +25,7 @@ rtr
   .route("/users/:id")
   .delete(
     catchAsync(isUserAuthenticated),
-    catchAsync(restrict("admin")),
+    catchAsync(restrict("admin", "seller")),
     catchAsync(deleteUser),
   );
 

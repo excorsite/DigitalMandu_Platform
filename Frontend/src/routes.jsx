@@ -16,6 +16,7 @@ const SellerProducts = lazy(() => import("./pages/seller/Products"));
 const SellerProductCreate = lazy(() => import("./pages/seller/ProductCreate"));
 const SellerOrders = lazy(() => import("./pages/seller/Orders"));
 const SellerAnalytics = lazy(() => import("./pages/seller/Analytics"));
+const SellerUsers = lazy(() => import("./pages/seller/Users"));
 const AdminDashboard = lazy(() => import("./pages/admin/Dashboard"));
 const AdminUsers = lazy(() => import("./pages/admin/Users"));
 const AdminProducts = lazy(() => import("./pages/admin/Products"));
@@ -175,6 +176,16 @@ const router = createBrowserRouter([
               <Suspense fallback={<PageLoader />}>
                 <ProtectedRoute requiredRole="seller">
                   <SellerAnalytics />
+                </ProtectedRoute>
+              </Suspense>
+            ),
+          },
+          {
+            path: "users",
+            element: (
+              <Suspense fallback={<PageLoader />}>
+                <ProtectedRoute requiredRole="seller">
+                  <SellerUsers />
                 </ProtectedRoute>
               </Suspense>
             ),

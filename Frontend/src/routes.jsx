@@ -150,6 +150,16 @@ const router = createBrowserRouter([
             ),
           },
           {
+            path: "products/:id/edit",
+            element: (
+              <Suspense fallback={<PageLoader />}>
+                <ProtectedRoute requiredRole="seller">
+                  <SellerProductCreate />
+                </ProtectedRoute>
+              </Suspense>
+            ),
+          },
+          {
             path: "orders",
             element: (
               <Suspense fallback={<PageLoader />}>

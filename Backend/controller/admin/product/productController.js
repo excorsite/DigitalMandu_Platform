@@ -120,36 +120,27 @@ exports.updateProduct = async (req, res) => {
 
         // Destructure the data from the body
         const { updatedUserProductName, updatedUserProductPrice, updatedUserProductDescription, updatedUserProductStatus, updatedUserProductStock } = req.body;
-        console.log('Request Body:', req.body);
 
-        // Validate if any field is missing
-        if (!updatedUserProductName || !updatedUserProductPrice || !updatedUserProductDescription || !updatedUserProductStatus || !updatedUserProductStock) {
+        if (
+            updatedUserProductName === undefined || updatedUserProductName.trim() === '' ||
+            updatedUserProductPrice === undefined || updatedUserProductPrice === '' ||
+            updatedUserProductDescription === undefined || updatedUserProductDescription.trim() === '' ||
+            updatedUserProductStatus === undefined || updatedUserProductStatus.trim() === '' ||
+            updatedUserProductStock === undefined || updatedUserProductStock === ''
+        ) {
             return res.status(400).json({
                 message: "Given product field must be filled compulsorily",
                 bodyfile: req.file
             });
         }
 
-        // Proceed with the rest of your code
-
-        // if any of the above information is not provided give 400 status error
-
-        // taking productImage value from the json of product
-        const imageToEdit = productToEdit.productImage;//http://localhost:3000/abc.png
-        const toCut = process.env.BACKEND_URL.length;//
-        // giving absolute path bu cuttingthe URL part and only feeding image part
-        const finalFilePathAfterCut = "./uploads/" + imageToEdit.slice(toCut)//abc.png
-        console.log(finalFilePathAfterCut + "=========");
-        // if user has added a file wit hfilename request then delete previous image
-        if (req.file && req.file.filename) {
-            fs.unlink(finalFilePathAfterCut, (err) => {
-                if (err) {
-                    console.log(err)
-                } else {
-                    console.log("deleted file successfully")
-                }
-            })
-
+        const imageToEdit = productToEdit.productImage || '';
+        const backendBaseUrl = (process.env.BACKEND_URL || '').replace(/\/?$/, '/');
+        if (req.file?.filename && backendBaseUrl && imageToEdit.startsWith(backendBaseUrl)) {
+            const previousImagePath = path.join(__dirname, "..", "..", "..", "uploads", path.basename(imageToEdit));
+            fs.unlink(previousImagePath, (err) => {
+                if (err) console.log("error deleting previous product image", err);
+            });
         }
 
         const updatedData = await Product.findByIdAndUpdate(id, {
@@ -159,7 +150,7 @@ exports.updateProduct = async (req, res) => {
             productStatus: updatedUserProductStatus,
             productStock: updatedUserProductStock,
             // setting image as filename if give nfile give path else give old filepath name
-            productImage: (req.file && req.file.filename) ? process.env.BACKEND_URL + "" + req.file.filename : imageToEdit
+            productImage: req.file?.filename ? `${backendBaseUrl || 'http://localhost:3000/'}${req.file.filename}` : imageToEdit
         }, {
             new: true
         })

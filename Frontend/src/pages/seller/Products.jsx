@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { PrimaryButton, SecondaryButton } from '../../components/common/Button';
 
 export default function SellerProducts() {
-  const { data, isLoading } = useProducts({ page:1, limit:50 });
+  const { data, isLoading } = useProducts({ page:1, limit:50, all:true });
   const { mutate: del } = useDeleteProduct();
   const products = data?.data || data?.products || [];
   if (isLoading) return <div className="p-6">Loading...</div>;
@@ -25,6 +25,9 @@ export default function SellerProducts() {
               <p className="font-bold text-primary mt-2">Rs {p.productPrice}</p>
               <p className="text-xs text-gray-400">Stock: {p.productStock} • {p.productStatus}</p>
               <div className="flex gap-2 mt-3">
+                <Link to={`/seller/products/${p._id}/edit`} className="flex-1">
+                  <SecondaryButton label="Edit" onClick={()=>{}} className="w-full justify-center" />
+                </Link>
                 <SecondaryButton label="Delete" onClick={()=> { if(confirm('Delete?')) del(p._id); }} className="flex-1 justify-center" />
                 <span className={`text-xs px-2 py-1 rounded-full self-center ${p.productStatus==='public'?'bg-green-100 text-green-700':'bg-amber-100 text-amber-700'}`}>{p.productStatus}</span>
               </div>

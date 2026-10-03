@@ -6,240 +6,240 @@ Excluded for safety/size: `.env` / local secret files, `.git/`, dependency folde
 
 ## File Inventory
 
-| Path | Encoding | Bytes | SHA-256 |
-|---|---|---:|---|
-| `.gitignore` | text | 601 | `ae7eeef3fbace4515968e7dc92d1617798dc616584c0747ed2359946eea41168` |
-| `algorithm_reproduce_recommendation.md` | text | 28320 | `4c890faa47cd80f5094654c77f9f33323fd3488867d312a74edae5cd0ca57f01` |
-| `Backend/.env.example` | text | 275 | `f1e9ea599205d5b6968b0afdb4dc116156f7b88bfaaadd4087b171ecab600ca7` |
-| `Backend/.gitignore` | text | 94 | `5266428240f34dfeeed8ab3bdb65dfe63b155d2be4db8c2c49f72e9821e4a538` |
-| `Backend/adminSeeder.js` | text | 886 | `81c6a90c0fee00627f463fdbe40f36bc6123bad5b04d2abee49f12ca9123a4c8` |
-| `Backend/app.js` | text | 3321 | `5849b9f2d741b6628ae92e17f7a698f8ea68831441ff20f7cca4fb5a4d9df8ff` |
-| `Backend/controller/admin/order/adminOrderController.js` | text | 2219 | `a15a42299ca2f81ce8e3a359bcb1c64adaf53b8df3fad7c67bd9bd886e9c6e01` |
-| `Backend/controller/admin/product/productController.js` | text | 6762 | `13d6d556d763674ec6f7ad86943a7a04dd5ae6fc1a114df456a9dab64db2aea8` |
-| `Backend/controller/admin/users/userController.js` | text | 1522 | `6bcca868fc84c217f433bb568c1587aee34dabb01af50df474453945c7f6e91b` |
-| `Backend/controller/auth/authController.js` | text | 9249 | `b991b3cd95ca5323bd21409aecde9963c75f7b0c36d1bc24263d02c73b68bfcc` |
-| `Backend/controller/global/globalController.js` | text | 2791 | `02a1f9e417c09a5d6d7107bc81f8a3ef0dbb58e4c1de14966b65b1157b9be9f4` |
-| `Backend/controller/user/cart/cartController.js` | text | 4517 | `f7e5b05e8b32cc246663b53ca54c0a469516cfd89feef409232795ca8e4427fb` |
-| `Backend/controller/user/customization/customizationController.js` | text | 4216 | `6cce9cbf9a792d8738a84348f7d0d092e1b69a1e67ad9d4562cc7c011da1f1d5` |
-| `Backend/controller/user/order/orderController.js` | text | 4923 | `3fa08d1f741e7b1dc76965a2c85b49deb35bb2c6e104970c2e4b9f8563102e10` |
-| `Backend/controller/user/payment/paymentController.js` | text | 3955 | `6c771c6ca581700e7a49148a48df472dc917779ed7f69ad45febbecde8b46ebb` |
-| `Backend/controller/user/review/reviewController.js` | text | 4949 | `ee7619258e4dd29ac2bc093259cd145dc932b027e1dd7ea0e86e11015cfd3ead` |
-| `Backend/controller/user/userController.js` | text | 3362 | `08bbd41ea52abae67ebf8f920f514d1e9ae7aeeab1e89ebfd7a4206e85e8ab71` |
-| `Backend/database/database.js` | text | 325 | `00a93c63c9c757fcf940971a8f1ac87d89c9bc1fc678c74c7ddc9cfec74729ff` |
-| `Backend/middlewares/isAuthenticated.js` | text | 1618 | `04f24699dd09003b8dad1c55aa015f72ea06061b324fd22f5c8dd179972f0ac0` |
-| `Backend/middlewares/multerConfig.js` | text | 1179 | `bb524d205874be943593544c32357110385dac42b29610c4e92e32979e9ec8f6` |
-| `Backend/middlewares/nullChecker.js` | text | 393 | `7b92f83d332066913ac16174b5590bc15f3559ccfeebe52962305b9749399292` |
-| `Backend/middlewares/restrict.js` | text | 352 | `b44f20a6a227e7eea80cb8a374acb167348af2720c3e8efc94c8a1656387fb80` |
-| `Backend/models/nextWayReviewModel.js` | text | 1197 | `8aeefabd232414e8edfe9ade3c2bb7d49e18b379639a2bb29b7e1f6a82a9cfc6` |
-| `Backend/models/orderModel.js` | text | 1344 | `358dee4439f1d61a40c066f7df59ad99f02c6e1bd8e078706eacaff2cafc6f16` |
-| `Backend/models/productModel.js` | text | 1615 | `704177ee005733f05483f5750ba44b3b9d3c5145338871fe7cee7df61d1c2fce` |
-| `Backend/models/reviewModel.js` | text | 945 | `c5b89bff3ba7a4f30f505f7cc820377a14f99f4cf012e558c160ca120d7a5a68` |
-| `Backend/models/userModel.js` | text | 1365 | `b502d5902057dcc7f2a82ee96be4a02b0820e6eba804e9c1815967cee78d7663` |
-| `Backend/package.json` | text | 697 | `0d7e609f0a7795018f6b2bd9ee5a604fea34a236ac742b9b2f7a3bea54de42c8` |
-| `Backend/package-lock.json` | text | 75638 | `fab1801ade2f0f12564836e97856be5d712df25fb08d551f444976592aca4310` |
-| `Backend/routes/admin/adminOrderRoute.js` | text | 910 | `a4cb317349c571779631c7f58bb8774733280e086b6da1a5ccf28199c499f2ac` |
-| `Backend/routes/admin/adminUserRoute.js` | text | 571 | `03b002e4150b794368dfc3ccafb3166e197ee4d528a3c8e280f81e671597d408` |
-| `Backend/routes/admin/productRoute.js` | text | 2341 | `5caf9146b206304c3b6bc050519fe2ed92bea35db92b61fbae410deaf5e94292` |
-| `Backend/routes/auth/authRoute.js` | text | 647 | `0eac4d4c662575b6f040f692403ade957155e80dfa40e67e6ada3be0808610c7` |
-| `Backend/routes/user/cartRoute.js` | text | 1322 | `214a19bd3d95b12a9b6c096ea10e038787c7bd9c3235d3b53bf34445834f2b23` |
-| `Backend/routes/user/orderRoute.js` | text | 1429 | `240c2b66ed58584decfd794de5dbe2e631ef0764981f9a8b8d84e75c087d908c` |
-| `Backend/routes/user/paymentRoute.js` | text | 492 | `d2633ef1cc19841a539d367722971cc7d54ecb808800703b790ed26c14d845b3` |
-| `Backend/routes/user/profileRoute.js` | text | 646 | `e18547720c1ebf2c49ceadc1bd928efe5ce1e58ed0cf2b746c6091d091c552c0` |
-| `Backend/routes/user/userReviewRoute.js` | text | 1439 | `6aadd998b38f8628edbd17c66b0a57967be6cbe2a0bfc48e20e2b3dea161675a` |
-| `Backend/seed.js` | text | 5015 | `076bff24ed9731a402aaa7889fe43e08d393fadb9f68c3b92743fdeba384cbd1` |
-| `Backend/services/catchAsync.js` | text | 730 | `61c255ece1553b0d73d1c31edffadf99ee6a022f331b8f6032609b440cecf4fc` |
-| `Backend/services/sendEmail.js` | text | 1004 | `cb573c0048e756d6eba49434e433cd146331e5a6ba229884c5faa85fd3aa691e` |
-| `Frontend/.env.example` | text | 249 | `8c8ca210de20da1e4cd4cb2b916493999b95fdf5dc13180cf8f7ac8d532885af` |
-| `Frontend/.gitignore` | text | 365 | `2a319bf7b36fc9dd432684c6a30a2f488cfefce8b4e5ee4258c06897b0ec45f2` |
-| `Frontend/eslint.config.js` | text | 877 | `8b89fc391ff59fdb65e53372211a59859c56d5dd32c22027a3b89ecabfbd8a35` |
-| `Frontend/index.html` | text | 374 | `472991f8897778a0332d618c13eb6580fef2bb7622842bc3c7e4e33064885611` |
-| `Frontend/package.json` | text | 953 | `06e588c4ce802559605da9febc84550e696c73b19a3269760e8b82dd6ffd9a17` |
-| `Frontend/package-lock.json` | text | 144364 | `1330760145aa1a6b49aea174d557641f72ddbce884edc68fabf77c3db595295d` |
-| `Frontend/postcss.config.cjs` | text | 89 | `b78f5d0a0a449ecf58b6b6252e26cd2216c7aa41235e2d6d01a26b9a065cd439` |
-| `Frontend/postcss.config.js` | text | 87 | `98e8d8a143f16216f4b50a2520024f6254987049b2e199026742a96e16ba411e` |
-| `Frontend/public/header_img.png` | binary | 1814649 | `27b56d46ae1f5a395142e86f36344e3c1867f17bfaf950b602fcf33290632c61` |
-| `Frontend/public/vite.svg` | text | 1497 | `4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb` |
-| `Frontend/README.md` | text | 868 | `ef9a7aab14baa21a1c2f4e9b68fe34afe98a448cc7d80711458ce1775f55801c` |
-| `Frontend/src/api/client.js` | text | 862 | `9c119f5b2c22857472760923e061c8001eb7d8d9df794bb231ad19521a7c0e14` |
-| `Frontend/src/api/config.js` | text | 1627 | `1eaedc2567874c3ef83c6332f8e9f9314587f45239c5f2dbc2073cfbffdc499b` |
-| `Frontend/src/api/endpoints/auth.js` | text | 476 | `51d77abf129966239b018a54af0b01122cc0574fe09f832de7c9a7175c770b86` |
-| `Frontend/src/api/endpoints/cart.js` | text | 540 | `c9fb937cc38d307c0489acfc14312cf6c56823282272260cd2dc9a9e8b28c04c` |
-| `Frontend/src/api/endpoints/orders.js` | text | 1027 | `802ab900389163c3b2e7a613159ff01fd0a7accce00fc881a3a9ec7328c23cf5` |
-| `Frontend/src/api/endpoints/payment.js` | text | 256 | `aa754a99f239df70f8c06326d5ade126c8432c208a20671f570ae0b6662832fe` |
-| `Frontend/src/api/endpoints/products.js` | text | 1147 | `d1f01aa160f4e3d87e17eed4e395bd77a1854ef7470b600f7a39cec4bf1ea130` |
-| `Frontend/src/api/endpoints/reviews.js` | text | 433 | `f327fbdbf9235f5fd43477b58ecc297364a0c773e40bbc36121a73db0ef26b87` |
-| `Frontend/src/api/endpoints/user.js` | text | 500 | `a87ebcb8880e5262bff26715d27a8e1efa9acdd59ebfb0b3bb48f616b9837e8c` |
-| `Frontend/src/api/hooks.js` | text | 4580 | `908c4161153e8936fdfb6b76f3de94dbea7a9d2bd9856fbbf4bd3d4d94a5bce5` |
-| `Frontend/src/App.css` | text | 0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
-| `Frontend/src/App.jsx` | text | 168 | `4389507049fe0a15eda640cae1789f9a687a2f4c80475c1a57cc7f2f847ae02b` |
-| `Frontend/src/assets/add_icon_green.png` | binary | 810 | `89ee5d9c64ff5cfac69e229ee7c13e8e5474b2b9712fb09ada1431a6b802db6c` |
-| `Frontend/src/assets/add_icon_white.png` | binary | 1656 | `d3b56fceedf745782f9401e78e5317dbb3549c5ee2e52c858ab4ae76d86c9245` |
-| `Frontend/src/assets/admin_assets/add_icon.png` | binary | 676 | `a8d431fde564d1c8715e20e8c8c33e646db8115eacf94206d6a6d28c29775c1f` |
-| `Frontend/src/assets/admin_assets/assets.js` | text | 423 | `e71925584c5cd5be1fa7ee24e17eb53128c86b19ef27dc171a526174db3f1570` |
-| `Frontend/src/assets/admin_assets/logo.png` | binary | 3145 | `67fd06034699a5e4b5cdab6bdbff932b17a53cc7f0f3647ccf8453da13154a55` |
-| `Frontend/src/assets/admin_assets/order_icon.png` | binary | 378 | `7856887e54525215782938fdd02cd477504a441fae51d9fbf65e93e7a3372591` |
-| `Frontend/src/assets/admin_assets/parcel_icon.png` | binary | 888 | `a13c55f7624cbb9c0f86f7cbf269d6c3ff73a4f6393c5e1564644cc72fe42453` |
-| `Frontend/src/assets/admin_assets/profile_image.png` | binary | 6221 | `dcbabe3be63b35f818677a65cee805b8bfd7763456e91f0052c02f4f1a45604c` |
-| `Frontend/src/assets/admin_assets/upload_area.png` | binary | 1514 | `54ea7cc90b4e9ad0b07dc1694df68e187102c08bbe28b3c00ff8a81e5bdd170c` |
-| `Frontend/src/assets/app_store.png` | binary | 6110 | `a9c9decb11e1a1afaf926f02bcc29e11e8e387674c5e1ed706e1b5948b64a6b4` |
-| `Frontend/src/assets/assets.js` | text | 10120 | `8cae6ba2be981731dbd0cf841c7f7f8e3ae0b9a71863cf579229bc0563c275e4` |
-| `Frontend/src/assets/bag_icon.png` | binary | 735 | `97d2da92932e598d5ce769ec96ba17cc8a5e4f8a7c4d76271344b22a8a7cf422` |
-| `Frontend/src/assets/basket_icon.png` | binary | 721 | `cdc1bfdbb5caddfee97fd47d9c625b2c34945ed5bd618ecc4abec739465f929b` |
-| `Frontend/src/assets/cross_icon.png` | binary | 616 | `d1f5bf00e9dc604a1477364effd12b1577383591762bb6a69d905df6623428ba` |
-| `Frontend/src/assets/data/EditIcon.js` | text | 0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
-| `Frontend/src/assets/data/icons.jsx` | text | 32085 | `fda355147fd150cf6cb2bbe3f62ffd5b46d6575b245188c664b37154b5cbdb43` |
-| `Frontend/src/assets/data/index.js` | text | 7994 | `b10309b4bc66e71523887ac67948e39b1ca216ddbcb2e9f254b509edcc6b60b3` |
-| `Frontend/src/assets/data/StaffPaperclipIcon.js` | text | 0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
-| `Frontend/src/assets/data/WorksheetFileIcon.js` | text | 0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
-| `Frontend/src/assets/facebook_icon.png` | binary | 780 | `49311acf94c13c0e95b989db438c097c9d3d425665bdd03031d8515263fb4c81` |
-| `Frontend/src/assets/food_1.png` | binary | 200066 | `8b871f864065ced5579d311fd60ab448a9b879a400289cbf8568215ca28c6d03` |
-| `Frontend/src/assets/food_10.png` | binary | 146912 | `0d325eb11712f6b8c70fea9db3795a12b54d9d0ea76ffc3870db8c41e9c3b2fb` |
-| `Frontend/src/assets/food_11.png` | binary | 151596 | `7c4cd0def3217bc05752c704a8ceee50123569a5c554f39b27e62611f8bd40c2` |
-| `Frontend/src/assets/food_12.png` | binary | 130384 | `7aec725b86f6b13f0e5ec2213b81757c86ac76974d8cac1e9a17b10cdc00eab0` |
-| `Frontend/src/assets/food_13.png` | binary | 159907 | `60bd829afa501162e61d8a69027b00788d25ca0db6df528e8bd1640bc8a28824` |
-| `Frontend/src/assets/food_14.png` | binary | 185318 | `259cbbd8c0dc34ebd84994f797c52098f3925ea4dad3636f686ba30166d0b252` |
-| `Frontend/src/assets/food_15.png` | binary | 204072 | `c4c21b17c1ae08b35e42f2ddee59ea2a92f789ff83a1cb39f33094c4db96b6da` |
-| `Frontend/src/assets/food_16.png` | binary | 209909 | `84969e394c3f47dde606d83e82909bf3bca77cb142dc0d6da86e75a304a17c9b` |
-| `Frontend/src/assets/food_17.png` | binary | 145164 | `7820db99168848cc61d11152c04e8a86b6fc1eb6594754ac2d393233a15396d7` |
-| `Frontend/src/assets/food_18.png` | binary | 141141 | `e101d165aefdbf20c4c0214e160a8da2675d92f135681beaeab6bd63237f4213` |
-| `Frontend/src/assets/food_19.png` | binary | 98571 | `81a6c2d4a3ece619d3312a2675134dbcfb344defb39cc3143da58b40bff2dae4` |
-| `Frontend/src/assets/food_2.png` | binary | 200772 | `cfff534bf0b2db3735f30495a8b7ac359fc3d1d13714067edf9ba1ef6af5dc6a` |
-| `Frontend/src/assets/food_20.png` | binary | 161894 | `e590dde756a4f5189e0fca07510f304bf63f35e0715050c31aab0d796dfcbfa2` |
-| `Frontend/src/assets/food_21.png` | binary | 204476 | `6aed72790b0e45f95ab9d693b7e6026512d694ce8429d589d1e99387776e368c` |
-| `Frontend/src/assets/food_22.png` | binary | 211518 | `99fa2cf58afbb6972fd6c5a074de7cb7cbf68457100584ef24e4533692fc4306` |
-| `Frontend/src/assets/food_23.png` | binary | 197754 | `df8779d6bd6d43a3c6daf01d49ecf2a50f9ce60eb3c4026096e57e7719690d52` |
-| `Frontend/src/assets/food_24.png` | binary | 204432 | `e2c6fb3ec51d436f7d5b1f19b3175bfe499afa77519a1a0bb37dec16110a848c` |
-| `Frontend/src/assets/food_25.png` | binary | 186268 | `68dc48b06ea933dc75d14ae15f3c3b7f62d563f227a9c5c16c911718bd9dd319` |
-| `Frontend/src/assets/food_26.png` | binary | 204967 | `fd5ffe3598e0f950054251b3c745526e2681c46e1e129a7a2c0dca73eb111b36` |
-| `Frontend/src/assets/food_27.png` | binary | 154430 | `fb287d98059ee3405a17ec4b5b1d7e068bbee87cb1de369dbc4a4bc9c3ca9890` |
-| `Frontend/src/assets/food_28.png` | binary | 222285 | `5f8b8be3aab1f74e5927eb7462c569d131193b69fbe7e2ada9dfcc10eb7f4573` |
-| `Frontend/src/assets/food_29.png` | binary | 182585 | `e0f3d7557dda9dec971e4569b887f640ed00e740a475831dcea0a332eda3e454` |
-| `Frontend/src/assets/food_3.png` | binary | 187106 | `3ac7eef8a34bc859896732be3a9262fe368adb2ceb127020a41adb0b621786b6` |
-| `Frontend/src/assets/food_30.png` | binary | 139491 | `c6b8d9fa5268d4926df6971c1edf719ccec6ac45af8e71b933fdf88d3ea9b0dd` |
-| `Frontend/src/assets/food_31.png` | binary | 148139 | `78039d79b964046b5feece3d101b69917a8d42531b7fa8250222bbaf863dbfdc` |
-| `Frontend/src/assets/food_32.png` | binary | 195852 | `fb68ec14d6b4a299a93f534c6d22efc8e00a969ac9cf108f9c902924e5508250` |
-| `Frontend/src/assets/food_4.png` | binary | 240199 | `ae6aa7abcc07b2a1a0122d7b5cc19aed62bde95f944a8af4375997c4a591f593` |
-| `Frontend/src/assets/food_5.png` | binary | 187385 | `712a459469f41586ac7d322635a6bd7bef4a42fdd201f0ec631ed62b5a73bfd6` |
-| `Frontend/src/assets/food_6.png` | binary | 195192 | `2c589d0bc914c7a3fc46c7d75f0915f36b53c1b74a4dd2cec1679fbfe8d49b91` |
-| `Frontend/src/assets/food_7.png` | binary | 201212 | `235a2dda24db5df9bd7c579f11d9481400b291ed415678c2a992ad2ddbb744a1` |
-| `Frontend/src/assets/food_8.png` | binary | 225044 | `7f0f1a4f880aa6fa46b1063eac2dd77bd1ab3d515c07be827491e7bcd408119a` |
-| `Frontend/src/assets/food_9.png` | binary | 142883 | `12b1f9102af1f76b267c03b357bdd9b39dd32c1712ad1054bae3a641d94fb403` |
-| `Frontend/src/assets/header_img.png` | binary | 1814649 | `27b56d46ae1f5a395142e86f36344e3c1867f17bfaf950b602fcf33290632c61` |
-| `Frontend/src/assets/linkedin_icon.png` | binary | 818 | `afa26687bb45f826abddcc7fceb21cd0cf442402036557aad4d7a39ae0cab445` |
-| `Frontend/src/assets/logo.png` | binary | 1916 | `fa71272ac168951cf5e2f2773b59f34f2f1f373e86ec394d15012cac179b4710` |
-| `Frontend/src/assets/logout_icon.png` | binary | 232 | `f86eac8a68c823e4fd9f3ff52ab6f440c83ba72ccd02209ea3540ac4c74bd1ab` |
-| `Frontend/src/assets/menu_1.png` | binary | 37565 | `85b7b3890b0d80cf0b30910019fb867380869886e850a767552fb1442b154927` |
-| `Frontend/src/assets/menu_2.png` | binary | 32216 | `557f8b011b2b35d7a42e1d742a74260ce623fdfb8be493c7470ccb44146dbabc` |
-| `Frontend/src/assets/menu_3.png` | binary | 35253 | `735321b0e37cbfb0c1e47e3adf2ac485d990afd931cbafc82f5b96ad92a57422` |
-| `Frontend/src/assets/menu_4.png` | binary | 31989 | `c9e291fe1f9fb37542e2aec825b3829f65e079bd3615929ca4f3abd329da8e67` |
-| `Frontend/src/assets/menu_5.png` | binary | 37604 | `c9549727d550f07363e2b1dd8d345ccfa1733b512a9ce4bb2a29cd52ee239643` |
-| `Frontend/src/assets/menu_6.png` | binary | 40092 | `3623af2ee708bbfc9e22b9ad0056269e4da4ba8eb655fa06bb76feeae6eb221d` |
-| `Frontend/src/assets/menu_7.png` | binary | 39558 | `c605032bcc0f09ebe3df0e8c40491f5cdc4a7f80de434c62cf5d6c50d1d49a09` |
-| `Frontend/src/assets/menu_8.png` | binary | 38028 | `198436c47edfc119663c45806552a7f47e5241d831f7a1251a86cba515088cbc` |
-| `Frontend/src/assets/parcel_icon.png` | binary | 709 | `ebaacba91290955a6f5fef1bf5273a6290b158277ce1163c9e5cb7adac81d395` |
-| `Frontend/src/assets/play_store.png` | binary | 7507 | `6a784f8e39f0195fafec33c410f3bdd548b7da0e5a9528b45dc733c66d3090d3` |
-| `Frontend/src/assets/profile_icon.png` | binary | 673 | `13508ab1bdc62a1f0d13641121a7545362e3db2c2888e8b91f068f3ed0f3fe82` |
-| `Frontend/src/assets/rating_starts.png` | binary | 756 | `ce117cc329a721196fe9048205c9a6a16154041900f660ca13e4122197f9bafb` |
-| `Frontend/src/assets/remove_icon_red.png` | binary | 629 | `621ee046fe4f7a150c1b9740ed145b3e32bfb481bbb82d63dda5108d804ac4ce` |
-| `Frontend/src/assets/search_icon.png` | binary | 796 | `1092c225eadbdcfaee65ad602d1c2471626e9f3eaea2e4a66f147b007af7fe82` |
-| `Frontend/src/assets/selector_icon.png` | binary | 524 | `3e505fd4636ca228eaacb0856ecc35a72ce886ffb0482895917c118f2ad86c37` |
-| `Frontend/src/assets/styles/global.css` | text | 5207 | `8178324210fe86f04bc3016ac52d0e35f9ec417b8d28b008f908af8e0d63c0e7` |
-| `Frontend/src/assets/twitter_icon.png` | binary | 880 | `bc106612ba599ed5aa8c790b83249048a836f5fd03863d66810db29177668210` |
-| `Frontend/src/components/common/Breadcrumbs.jsx` | text | 1386 | `e9b913c0b0c26c428cda394e7087a78055a4147d32e9da588b6a589b4d7380ed` |
-| `Frontend/src/components/common/Button/index.jsx` | text | 5718 | `b13eea86c756b206f92f6a9451361cba818a020d2911316ff727862957d67b67` |
-| `Frontend/src/components/common/ButtonCard/index.jsx` | text | 816 | `0bc50c5f3c36881370be12cfb143f676c32ab09c96d0f731dfe3a74ac35db4d6` |
-| `Frontend/src/components/common/calender.jsx` | text | 786 | `eb870e5e4fd87d62b3f91bda06d1fbdd445d98dfb6e50a9c378f9a86c3848489` |
-| `Frontend/src/components/common/CollapsableTableView/index.jsx` | text | 23244 | `7acf373f1df57392baf7897a8b10e41583b1080460b3a9ea66e19e6682748ec1` |
-| `Frontend/src/components/common/CustomCheckbox/index.jsx` | text | 2007 | `eb41d4d9f5288163e4c8517140c944c6d1a75e9b4845baf974840cb420dfef93` |
-| `Frontend/src/components/common/CustomCheckboxDropdown/index.jsx` | text | 4127 | `da3cfbc147b9a7ce419bf21e52f35f836bb9948d98e27bd10313cbd2fbe102d1` |
-| `Frontend/src/components/common/CustomFileUpload/index.jsx` | text | 3441 | `c3bff9ac2c56c61ecebad6e4da8f6844a4dca249901ec01f1e6273fc86f01ff9` |
-| `Frontend/src/components/common/CustomRadioField/index.jsx` | text | 1929 | `184c9aa4ebc3ee32e8a749519af8f756223e9f7852e05757f70e67bd32ccbfbd` |
-| `Frontend/src/components/common/CustomTableAccount/index.jsx` | text | 4586 | `d74cab5f2e104bcb67fa5975643ea4fa65cd2e477af7cba9e72895de0bd134cf` |
-| `Frontend/src/components/common/CustomTableFooter/index.jsx` | text | 2917 | `e9adbf0e73f5d1cc628cf215facb5b719f2d011eb5e741d4e65574604987da9a` |
-| `Frontend/src/components/common/CustomTextArea/index.jsx` | text | 2323 | `97edfee93e3635a65a13434ebaac77511fb85a4e477f70676e87d347df43b370` |
-| `Frontend/src/components/common/CustomTimePicker/index.jsx` | text | 8751 | `afd98d5619dad2b7d1d7762d92d75e34e4f41e292387aa59da0b25b50235671b` |
-| `Frontend/src/components/common/CutomDatePicker/index.jsx` | text | 15849 | `b07f0f0db4ad58fd1f9bd6be02f3271a555b5a98aef638dfc86e764367de9769` |
-| `Frontend/src/components/common/DesktopNav/index.jsx` | text | 2792 | `d5421a2e0f24db763808fdc309c306177bc2eb7dea083e75e282a9fa18f0294d` |
-| `Frontend/src/components/common/DroppableTableView/index.jsx` | text | 59655 | `c08ce4a4cb8977f7945b6b5e8968fa311c43806c12f4929f118f433c073020c1` |
-| `Frontend/src/components/common/DynamicForm/index.jsx` | text | 9711 | `0a87ae4047c5ad56452bee91f5665c4552d8a78ce551ba9189ae2e97fbcaebb1` |
-| `Frontend/src/components/common/index.js` | text | 2270 | `c8f0a509e037fa920b18f56a2dcc4f6462f9e4fdd07fb2a1b16b025c1f99805c` |
-| `Frontend/src/components/common/InputField/index.jsx` | text | 3647 | `d91664ed884a911c0f3ca33d4ea1ee3b6e0787e1d4ff8d23f825f05caa6c1931` |
-| `Frontend/src/components/common/MapWithDirections.jsx` | text | 1087 | `0cc9ac95051ac1c81ad8104bc231839736f70d9cf3ba6863cdef0c9657f191cc` |
-| `Frontend/src/components/common/MobileNav/index.jsx` | text | 4490 | `3a93f34e4932b40e04f4fed5d5d6eb91afcc12c9ecfb2bcafc9e9c02f6d04f65` |
-| `Frontend/src/components/common/Modal.jsx` | text | 4604 | `1150b4e96c29fb6e7b90ad3ef302c634814897d4590b18ba4d684d1aac1aaf76` |
-| `Frontend/src/components/common/MultiSelectDatePicker/index.jsx` | text | 15415 | `51b892244457d989312655a13e346af76a16c21623c7d2c14b4a59f3d7277f0d` |
-| `Frontend/src/components/common/MultiSelectField/index.jsx` | text | 4473 | `dae4a3e3a9715360992ab04637b0ea45a94624941a06b09730e24cde65b01355` |
-| `Frontend/src/components/common/PayrollSummaryCard/index.jsx` | text | 1841 | `366a937ae704b4a0a1378cc103a9f3505db34ae7719ab64a9f8b7baba9b9099b` |
-| `Frontend/src/components/common/PermissionActionMenu.jsx` | text | 2229 | `6a6730afc1f66ee7de537a1a63564d9a476bba717db9c9c1257b0c0660467479` |
-| `Frontend/src/components/common/PermissionButton.jsx` | text | 1555 | `f83047838c4ae9a84e555112ba374c562048318dd7c6f3ff584ddfec49257709` |
-| `Frontend/src/components/common/PermissionGate.jsx` | text | 881 | `7e80649f3d837a9fc12980eb536cb87a6eca1fd6e153676822ba03751bffd286` |
-| `Frontend/src/components/common/PermissionInput.jsx` | text | 1169 | `8617395cd0c3527bb161eef9bd66e6341dbe7db94e6542a1f5d505f14dfb7a5c` |
-| `Frontend/src/components/common/PermissionModal.jsx` | text | 921 | `2e9929e033b6eeb5de89912f1b8950000f0d77e32d5ab5926d2e340fbd89a153` |
-| `Frontend/src/components/common/PermissionTable.jsx` | text | 1603 | `08ac50429af0a701e6b9c7cf2938b6f40f12c2b1ffc9cca1faa00c69556012de` |
-| `Frontend/src/components/common/PermissionWrapper.jsx` | text | 733 | `badbca92de8b2e217fad6c71d296991ce947dab4be7f08beeedc772506d367ee` |
-| `Frontend/src/components/common/ProtectedButton.jsx` | text | 1873 | `8626b06d7f91858541f0a5ffdc5f26a21440d9282172cd28ba231716e6dd64f3` |
-| `Frontend/src/components/common/ProtectedInput.jsx` | text | 809 | `bd073b85560719eff8a8281f05b1d8c97bdad6e3abbf0744039d899df5e991a1` |
-| `Frontend/src/components/common/ProtectedRoute.jsx` | text | 484 | `07caf8953e17914a0a84696dee079756879b59163eee9e16eed86b025c0b0aeb` |
-| `Frontend/src/components/common/ProtectedSection.jsx` | text | 748 | `94ed9d24b902e09abaac70b568327b3232caadb8720284bae92f1e5649d854fa` |
-| `Frontend/src/components/common/QuestionField/index.jsx` | text | 2475 | `26b8c56d24204258ecbb4ddae1ee0688fa0433869d908b933a13a8cfc280f9dd` |
-| `Frontend/src/components/common/RichTextEditor/index.jsx` | text | 3688 | `f28816385313618a6a5a5e3c4d96820d0d4b095712b90feac9b5b7b646cd489b` |
-| `Frontend/src/components/common/SearchableCheckboxDropdown/index.jsx` | text | 9419 | `e4d92a98ad0d5463c93a569d79b0c84305c1a590cb00e34c7d2175e17bbf6b02` |
-| `Frontend/src/components/common/SelectField/index.jsx` | text | 7395 | `1e4c777ccf3259972fc0dc7ab3883942746425ecf5bfa4f0a42ac4a415980483` |
-| `Frontend/src/components/common/SelectFilter/SelectFilter.jsx` | text | 3303 | `0f2b93de34fbb3f3bc2f03813a2fb16b90b487c557d2f84f5e9775e1b7dba555` |
-| `Frontend/src/components/common/SkletonLoader/FilterLoader.jsx` | text | 506 | `c0a607351a0841c5b4a5749212ce935e5aea6daa170c9e4b029644b8348247d8` |
-| `Frontend/src/components/common/SkletonLoader/index.jsx` | text | 3261 | `7d65963bd09a9538510f8e89fa5bcef3326fad7b3900ca2e2dedebfc00edb688` |
-| `Frontend/src/components/common/SkletonLoader/PersonalDetailsLoader.jsx` | text | 2377 | `51f4ec25ee738169e9a5c0753b89a33aa562637cd81e5cb00dd9d1c8b69a7fad` |
-| `Frontend/src/components/common/TabbedModal/index.jsx` | text | 3360 | `9fea85a2c19e279f501a96d6fe1b70b1d87ea9e55e525f640d3b6928b307040b` |
-| `Frontend/src/components/common/TableView/index.jsx` | text | 16750 | `1c4bead7a8c1c4c1bb4f570299b356dba0fda64af17afeb2be6510c54dafa3d0` |
-| `Frontend/src/components/common/ThemeCustomizer/index.jsx` | text | 2372 | `c7699695da50facf9c088e2cb38357078c4882f8269a88465f9d197ba3436ed2` |
-| `Frontend/src/components/common/ToggleButton/index.jsx` | text | 1838 | `6bc2156d5546b2d6df718d99cacb63f1ea768ed8cfcc132cd89d81df6814e6d6` |
-| `Frontend/src/components/common/Tooltip.jsx` | text | 1263 | `a4a70916982ecb5c4fb44bac04617c467a6cae2727ff432fdd22c8d252247cba` |
-| `Frontend/src/components/common/UrlTabs/index.jsx` | text | 5055 | `1d35bd1602022332d82f8eda48ff5bd425d93a3fa2273b759caa9ee108140afb` |
-| `Frontend/src/components/index.js` | text | 296 | `7694e8415dfe964ac886eba4a2c9652d4582e03f547384cb3960ec452b3aaf55` |
-| `Frontend/src/components/layout/AppShell.jsx` | text | 780 | `ffe0ed049d57bd7cafebf5706f865c9387be0492511fbcfb95f02b0d99c5618a` |
-| `Frontend/src/components/layout/Footer.jsx` | text | 2057 | `b0644e7700e79df31ba2b4ebf09de1fbc5b8d0d45474eb0534d56d77b9614035` |
-| `Frontend/src/components/layout/Header.jsx` | text | 2320 | `bd482a519504b006fd1062938c0a11efb35ee92b800a18108872d5ce841e87e7` |
-| `Frontend/src/components/layout/Sidebar.jsx` | text | 1940 | `d13a4275e1068da615cc0b2e137ad9fb0a16ffd933c851eb378549f5a9e422a9` |
-| `Frontend/src/components/layout/UserMenu.jsx` | text | 2814 | `37c4d47c48a386601647d1920c77de0f16fcadbbbd678703bde286697128d6e9` |
-| `Frontend/src/hooks/useAuth.js` | text | 98 | `e96f5d0bb37e533bca6e3c8701501dea770dbb3f0db3fbe15a38c896954680ac` |
-| `Frontend/src/hooks/useDebounce.js` | text | 306 | `53f28952ae2da46d695d4ad1a9275af5581cfee998ea7d816da428d58910ab16` |
-| `Frontend/src/hooks/useLocalStorage.js` | text | 589 | `b8c90356b94a8ce46ed6d4dbd57fcfdd2eb1363b1305176ba5a84b420783b341` |
-| `Frontend/src/index.css` | text | 239 | `a0a2bc688962a21b8ff14ca2a8daf7b36acc17f6a530f86ded9fdbe099a8c03d` |
-| `Frontend/src/main.jsx` | text | 532 | `48879a2942b48ee45d6364feaeebc590be74653ce5903414c554f39b7290b71f` |
-| `Frontend/src/pages/admin/Dashboard.jsx` | text | 861 | `992b52b26bcfa4c5643bf3da97fae9ee688e22b96e63f9a4bdf58fd8722d1245` |
-| `Frontend/src/pages/admin/Orders.jsx` | text | 808 | `70b1d6ff7b610e9eecdf5215d521869706c2e8d658e5a93ce83f81a8ab66f196` |
-| `Frontend/src/pages/admin/Products.jsx` | text | 655 | `37e071863be3ecc3eb25697fe4b125c3ef92911d50d7892285a4cc0932a993fd` |
-| `Frontend/src/pages/admin/Users.jsx` | text | 838 | `3fecb8110be3597cdc1c8d3afd5db502ac8c33ffd1b40fbbfa3bc12bae6b1ec8` |
-| `Frontend/src/pages/auth/login/Login.jsx` | text | 2100 | `885a936b010d47ffc7ad1e92d9c4c4d3d4de3d81d2bed30af3cc78db2dffec27` |
-| `Frontend/src/pages/auth/register/Register.jsx` | text | 2221 | `8a687b1dc4ac8207df35a909540dab9d026c2e5eca9b3c45b0761ac1babc1b61` |
-| `Frontend/src/pages/buyer/Cart.jsx` | text | 4310 | `81b9db88e7e88c215b051514c07c3fadea4821b30de15008cc4f731e0e45cb2c` |
-| `Frontend/src/pages/buyer/Checkout.jsx` | text | 6007 | `3d2148fab46f6821f30c622cc276b28ab0600ff0a9296e176509f0e098e3e6dc` |
-| `Frontend/src/pages/buyer/Home.jsx` | text | 4835 | `8220e86566b6e063eec67e9567d3a458659f75e599fffde71f2c41ad5fd7fa57` |
-| `Frontend/src/pages/buyer/MyOrders.jsx` | text | 1691 | `1efad92440852424e335623de3b3e6c8b33903b258b73634c95b17e72e81d730` |
-| `Frontend/src/pages/buyer/MyProfile.jsx` | text | 2893 | `da97340be7ccda4a699a4aa7b852f822af2a3d9bc9aa0b203ca7d8e509eb9c94` |
-| `Frontend/src/pages/buyer/ProductDetails.jsx` | text | 3279 | `fcc061130764ecb2cd30f00fd292a232d2e83ee5f20b53c19e390123497f1d24` |
-| `Frontend/src/pages/payment/KhaltiFailed.jsx` | text | 216 | `41f62005b564ecfbf02a7a8fc44fb503b58b13144856c6a1faec673fd20f9f03` |
-| `Frontend/src/pages/payment/KhaltiSuccess.jsx` | text | 609 | `495bb0e255188f7f48d7dfc01ec684e5417619e01bec31e6d6914be9c9b73d1e` |
-| `Frontend/src/pages/payment/PaymentPending.jsx` | text | 114 | `7cd02ff7ca1300863041c39233777eac0a737a613ce47da53f6f6f9e953affa9` |
-| `Frontend/src/pages/seller/Analytics.jsx` | text | 4617 | `4a7f05a4fe145de1d4af64677ffb6dcdc1c03b68af5798166f3e5840289cd720` |
-| `Frontend/src/pages/seller/Dashboard.jsx` | text | 990 | `3e8bda973024370d9bc623c5e90e00dd430befb85cd5c2f2112189ddfc2b57ed` |
-| `Frontend/src/pages/seller/Orders.jsx` | text | 2608 | `eff669639a5b0889a0087fa2b2c5f861ea7476c5dd2bac5c27264bb16a38911b` |
-| `Frontend/src/pages/seller/ProductCreate.jsx` | text | 3863 | `23bdfd08254183d17feedc68ab169f778b329d0dd9839f1d3f4047bc415832d2` |
-| `Frontend/src/pages/seller/Products.jsx` | text | 2254 | `ee1b365f9dcfe63bfab836b28c1d60bf946894baab9b37a5dde80bcd8722eb91` |
-| `Frontend/src/routes.jsx` | text | 4202 | `0380045ca1297e1ed21870f241c8f04af856fc190244ecf163d795e6dd7bad23` |
-| `Frontend/src/store/authStore.js` | text | 2731 | `026403bfefd523f7dca0f7834adb057014902e6fa554580bd9404019e90e78c1` |
-| `Frontend/src/store/cartStore.js` | text | 1365 | `b31114d67ca0af9f0034e2217c175cdf8c1b621045be307ce40f39fb8bafb5f3` |
-| `Frontend/src/store/index.js` | text | 131 | `17a6cc07e76445edd63f1971ba54fa4d3241ca7a30f2538f20890c57d6f2137d` |
-| `Frontend/src/store/uiStore.js` | text | 593 | `7bf41c14182c61c3a13690bd329b7399e9b40c986f34a95fa2e7f57e53cbe764` |
-| `Frontend/src/utils/cart.js` | text | 781 | `f8eded5934568fc833996a276240872fafe796444fc0d6e2ca02f9d18636d5f6` |
-| `Frontend/src/utils/constants.js` | text | 530 | `8ae48789054cd6f61dec091cf1700d052b6bd764333111197d3f2abac59ef192` |
-| `Frontend/src/utils/errorHandler.js` | text | 364 | `bbc184dc83b1aaf252b28ffa1ca275111131075b1d9f56c0ba9c5b9e3bd9ad3e` |
-| `Frontend/src/utils/formatters.js` | text | 576 | `c7c8d6d38dcdab913f5ff9dd68b401fc24aed87196228ab25ad605e995a8c8ab` |
-| `Frontend/src/utils/productImage.js` | text | 2001 | `2c6a50f0eb442bfdadbc52ba563ff194ef8292a031c52bc58dbea0ed825d87ee` |
-| `Frontend/src/utils/validators.js` | text | 317 | `a49cd4da759576dbf7340765fd5c23d4acec5c0f341713a1950b7ac9ba20568b` |
-| `Frontend/tailwind.config.js` | text | 610 | `331b700568c1a9f762caa0fee07cf78b27c210b3efa6ba508f642cbaa8a7a7bb` |
-| `Frontend/vite.config.js` | text | 310 | `7451cbc80c20fc315bf43b0a61de49cb4a457edd42fa586fa218400780969c66` |
-| `README.md` | text | 8004 | `db49fa2158eec2767d220a586d3c2cf3aa96ca0ce60fea0d40ce7bbe8b06bfc5` |
+| Path                                                                     | Encoding |   Bytes | SHA-256                                                            |
+| ------------------------------------------------------------------------ | -------- | ------: | ------------------------------------------------------------------ |
+| `.gitignore`                                                             | text     |     601 | `ae7eeef3fbace4515968e7dc92d1617798dc616584c0747ed2359946eea41168` |
+| `algorithm_reproduce_recommendation.md`                                  | text     |   28320 | `4c890faa47cd80f5094654c77f9f33323fd3488867d312a74edae5cd0ca57f01` |
+| `Backend/.env.example`                                                   | text     |     275 | `f1e9ea599205d5b6968b0afdb4dc116156f7b88bfaaadd4087b171ecab600ca7` |
+| `Backend/.gitignore`                                                     | text     |      94 | `5266428240f34dfeeed8ab3bdb65dfe63b155d2be4db8c2c49f72e9821e4a538` |
+| `Backend/adminSeeder.js`                                                 | text     |     886 | `81c6a90c0fee00627f463fdbe40f36bc6123bad5b04d2abee49f12ca9123a4c8` |
+| `Backend/app.js`                                                         | text     |    3321 | `5849b9f2d741b6628ae92e17f7a698f8ea68831441ff20f7cca4fb5a4d9df8ff` |
+| `Backend/controller/admin/order/adminOrderController.js`                 | text     |    2219 | `a15a42299ca2f81ce8e3a359bcb1c64adaf53b8df3fad7c67bd9bd886e9c6e01` |
+| `Backend/controller/admin/product/productController.js`                  | text     |    6762 | `13d6d556d763674ec6f7ad86943a7a04dd5ae6fc1a114df456a9dab64db2aea8` |
+| `Backend/controller/admin/users/userController.js`                       | text     |    1522 | `6bcca868fc84c217f433bb568c1587aee34dabb01af50df474453945c7f6e91b` |
+| `Backend/controller/auth/authController.js`                              | text     |    9249 | `b991b3cd95ca5323bd21409aecde9963c75f7b0c36d1bc24263d02c73b68bfcc` |
+| `Backend/controller/global/globalController.js`                          | text     |    2791 | `02a1f9e417c09a5d6d7107bc81f8a3ef0dbb58e4c1de14966b65b1157b9be9f4` |
+| `Backend/controller/user/cart/cartController.js`                         | text     |    4517 | `f7e5b05e8b32cc246663b53ca54c0a469516cfd89feef409232795ca8e4427fb` |
+| `Backend/controller/user/customization/customizationController.js`       | text     |    4216 | `6cce9cbf9a792d8738a84348f7d0d092e1b69a1e67ad9d4562cc7c011da1f1d5` |
+| `Backend/controller/user/order/orderController.js`                       | text     |    4923 | `3fa08d1f741e7b1dc76965a2c85b49deb35bb2c6e104970c2e4b9f8563102e10` |
+| `Backend/controller/user/payment/paymentController.js`                   | text     |    3955 | `6c771c6ca581700e7a49148a48df472dc917779ed7f69ad45febbecde8b46ebb` |
+| `Backend/controller/user/review/reviewController.js`                     | text     |    4949 | `ee7619258e4dd29ac2bc093259cd145dc932b027e1dd7ea0e86e11015cfd3ead` |
+| `Backend/controller/user/userController.js`                              | text     |    3362 | `08bbd41ea52abae67ebf8f920f514d1e9ae7aeeab1e89ebfd7a4206e85e8ab71` |
+| `Backend/database/database.js`                                           | text     |     325 | `00a93c63c9c757fcf940971a8f1ac87d89c9bc1fc678c74c7ddc9cfec74729ff` |
+| `Backend/middlewares/isAuthenticated.js`                                 | text     |    1618 | `04f24699dd09003b8dad1c55aa015f72ea06061b324fd22f5c8dd179972f0ac0` |
+| `Backend/middlewares/multerConfig.js`                                    | text     |    1179 | `bb524d205874be943593544c32357110385dac42b29610c4e92e32979e9ec8f6` |
+| `Backend/middlewares/nullChecker.js`                                     | text     |     393 | `7b92f83d332066913ac16174b5590bc15f3559ccfeebe52962305b9749399292` |
+| `Backend/middlewares/restrict.js`                                        | text     |     352 | `b44f20a6a227e7eea80cb8a374acb167348af2720c3e8efc94c8a1656387fb80` |
+| `Backend/models/nextWayReviewModel.js`                                   | text     |    1197 | `8aeefabd232414e8edfe9ade3c2bb7d49e18b379639a2bb29b7e1f6a82a9cfc6` |
+| `Backend/models/orderModel.js`                                           | text     |    1344 | `358dee4439f1d61a40c066f7df59ad99f02c6e1bd8e078706eacaff2cafc6f16` |
+| `Backend/models/productModel.js`                                         | text     |    1615 | `704177ee005733f05483f5750ba44b3b9d3c5145338871fe7cee7df61d1c2fce` |
+| `Backend/models/reviewModel.js`                                          | text     |     945 | `c5b89bff3ba7a4f30f505f7cc820377a14f99f4cf012e558c160ca120d7a5a68` |
+| `Backend/models/userModel.js`                                            | text     |    1365 | `b502d5902057dcc7f2a82ee96be4a02b0820e6eba804e9c1815967cee78d7663` |
+| `Backend/package.json`                                                   | text     |     697 | `0d7e609f0a7795018f6b2bd9ee5a604fea34a236ac742b9b2f7a3bea54de42c8` |
+| `Backend/package-lock.json`                                              | text     |   75638 | `fab1801ade2f0f12564836e97856be5d712df25fb08d551f444976592aca4310` |
+| `Backend/routes/admin/adminOrderRoute.js`                                | text     |     910 | `a4cb317349c571779631c7f58bb8774733280e086b6da1a5ccf28199c499f2ac` |
+| `Backend/routes/admin/adminUserRoute.js`                                 | text     |     571 | `03b002e4150b794368dfc3ccafb3166e197ee4d528a3c8e280f81e671597d408` |
+| `Backend/routes/admin/productRoute.js`                                   | text     |    2341 | `5caf9146b206304c3b6bc050519fe2ed92bea35db92b61fbae410deaf5e94292` |
+| `Backend/routes/auth/authRoute.js`                                       | text     |     647 | `0eac4d4c662575b6f040f692403ade957155e80dfa40e67e6ada3be0808610c7` |
+| `Backend/routes/user/cartRoute.js`                                       | text     |    1322 | `214a19bd3d95b12a9b6c096ea10e038787c7bd9c3235d3b53bf34445834f2b23` |
+| `Backend/routes/user/orderRoute.js`                                      | text     |    1429 | `240c2b66ed58584decfd794de5dbe2e631ef0764981f9a8b8d84e75c087d908c` |
+| `Backend/routes/user/paymentRoute.js`                                    | text     |     492 | `d2633ef1cc19841a539d367722971cc7d54ecb808800703b790ed26c14d845b3` |
+| `Backend/routes/user/profileRoute.js`                                    | text     |     646 | `e18547720c1ebf2c49ceadc1bd928efe5ce1e58ed0cf2b746c6091d091c552c0` |
+| `Backend/routes/user/userReviewRoute.js`                                 | text     |    1439 | `6aadd998b38f8628edbd17c66b0a57967be6cbe2a0bfc48e20e2b3dea161675a` |
+| `Backend/seed.js`                                                        | text     |    5015 | `076bff24ed9731a402aaa7889fe43e08d393fadb9f68c3b92743fdeba384cbd1` |
+| `Backend/services/catchAsync.js`                                         | text     |     730 | `61c255ece1553b0d73d1c31edffadf99ee6a022f331b8f6032609b440cecf4fc` |
+| `Backend/services/sendEmail.js`                                          | text     |    1004 | `cb573c0048e756d6eba49434e433cd146331e5a6ba229884c5faa85fd3aa691e` |
+| `Frontend/.env.example`                                                  | text     |     249 | `8c8ca210de20da1e4cd4cb2b916493999b95fdf5dc13180cf8f7ac8d532885af` |
+| `Frontend/.gitignore`                                                    | text     |     365 | `2a319bf7b36fc9dd432684c6a30a2f488cfefce8b4e5ee4258c06897b0ec45f2` |
+| `Frontend/eslint.config.js`                                              | text     |     877 | `8b89fc391ff59fdb65e53372211a59859c56d5dd32c22027a3b89ecabfbd8a35` |
+| `Frontend/index.html`                                                    | text     |     374 | `472991f8897778a0332d618c13eb6580fef2bb7622842bc3c7e4e33064885611` |
+| `Frontend/package.json`                                                  | text     |     953 | `06e588c4ce802559605da9febc84550e696c73b19a3269760e8b82dd6ffd9a17` |
+| `Frontend/package-lock.json`                                             | text     |  144364 | `1330760145aa1a6b49aea174d557641f72ddbce884edc68fabf77c3db595295d` |
+| `Frontend/postcss.config.cjs`                                            | text     |      89 | `b78f5d0a0a449ecf58b6b6252e26cd2216c7aa41235e2d6d01a26b9a065cd439` |
+| `Frontend/postcss.config.js`                                             | text     |      87 | `98e8d8a143f16216f4b50a2520024f6254987049b2e199026742a96e16ba411e` |
+| `Frontend/public/header_img.png`                                         | binary   | 1814649 | `27b56d46ae1f5a395142e86f36344e3c1867f17bfaf950b602fcf33290632c61` |
+| `Frontend/public/vite.svg`                                               | text     |    1497 | `4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb` |
+| `Frontend/README.md`                                                     | text     |     868 | `ef9a7aab14baa21a1c2f4e9b68fe34afe98a448cc7d80711458ce1775f55801c` |
+| `Frontend/src/api/client.js`                                             | text     |     862 | `9c119f5b2c22857472760923e061c8001eb7d8d9df794bb231ad19521a7c0e14` |
+| `Frontend/src/api/config.js`                                             | text     |    1627 | `1eaedc2567874c3ef83c6332f8e9f9314587f45239c5f2dbc2073cfbffdc499b` |
+| `Frontend/src/api/endpoints/auth.js`                                     | text     |     476 | `51d77abf129966239b018a54af0b01122cc0574fe09f832de7c9a7175c770b86` |
+| `Frontend/src/api/endpoints/cart.js`                                     | text     |     540 | `c9fb937cc38d307c0489acfc14312cf6c56823282272260cd2dc9a9e8b28c04c` |
+| `Frontend/src/api/endpoints/orders.js`                                   | text     |    1027 | `802ab900389163c3b2e7a613159ff01fd0a7accce00fc881a3a9ec7328c23cf5` |
+| `Frontend/src/api/endpoints/payment.js`                                  | text     |     256 | `aa754a99f239df70f8c06326d5ade126c8432c208a20671f570ae0b6662832fe` |
+| `Frontend/src/api/endpoints/products.js`                                 | text     |    1147 | `d1f01aa160f4e3d87e17eed4e395bd77a1854ef7470b600f7a39cec4bf1ea130` |
+| `Frontend/src/api/endpoints/reviews.js`                                  | text     |     433 | `f327fbdbf9235f5fd43477b58ecc297364a0c773e40bbc36121a73db0ef26b87` |
+| `Frontend/src/api/endpoints/user.js`                                     | text     |     500 | `a87ebcb8880e5262bff26715d27a8e1efa9acdd59ebfb0b3bb48f616b9837e8c` |
+| `Frontend/src/api/hooks.js`                                              | text     |    4580 | `908c4161153e8936fdfb6b76f3de94dbea7a9d2bd9856fbbf4bd3d4d94a5bce5` |
+| `Frontend/src/App.css`                                                   | text     |       0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
+| `Frontend/src/App.jsx`                                                   | text     |     168 | `4389507049fe0a15eda640cae1789f9a687a2f4c80475c1a57cc7f2f847ae02b` |
+| `Frontend/src/assets/add_icon_green.png`                                 | binary   |     810 | `89ee5d9c64ff5cfac69e229ee7c13e8e5474b2b9712fb09ada1431a6b802db6c` |
+| `Frontend/src/assets/add_icon_white.png`                                 | binary   |    1656 | `d3b56fceedf745782f9401e78e5317dbb3549c5ee2e52c858ab4ae76d86c9245` |
+| `Frontend/src/assets/admin_assets/add_icon.png`                          | binary   |     676 | `a8d431fde564d1c8715e20e8c8c33e646db8115eacf94206d6a6d28c29775c1f` |
+| `Frontend/src/assets/admin_assets/assets.js`                             | text     |     423 | `e71925584c5cd5be1fa7ee24e17eb53128c86b19ef27dc171a526174db3f1570` |
+| `Frontend/src/assets/admin_assets/logo.png`                              | binary   |    3145 | `67fd06034699a5e4b5cdab6bdbff932b17a53cc7f0f3647ccf8453da13154a55` |
+| `Frontend/src/assets/admin_assets/order_icon.png`                        | binary   |     378 | `7856887e54525215782938fdd02cd477504a441fae51d9fbf65e93e7a3372591` |
+| `Frontend/src/assets/admin_assets/parcel_icon.png`                       | binary   |     888 | `a13c55f7624cbb9c0f86f7cbf269d6c3ff73a4f6393c5e1564644cc72fe42453` |
+| `Frontend/src/assets/admin_assets/profile_image.png`                     | binary   |    6221 | `dcbabe3be63b35f818677a65cee805b8bfd7763456e91f0052c02f4f1a45604c` |
+| `Frontend/src/assets/admin_assets/upload_area.png`                       | binary   |    1514 | `54ea7cc90b4e9ad0b07dc1694df68e187102c08bbe28b3c00ff8a81e5bdd170c` |
+| `Frontend/src/assets/app_store.png`                                      | binary   |    6110 | `a9c9decb11e1a1afaf926f02bcc29e11e8e387674c5e1ed706e1b5948b64a6b4` |
+| `Frontend/src/assets/assets.js`                                          | text     |   10120 | `8cae6ba2be981731dbd0cf841c7f7f8e3ae0b9a71863cf579229bc0563c275e4` |
+| `Frontend/src/assets/bag_icon.png`                                       | binary   |     735 | `97d2da92932e598d5ce769ec96ba17cc8a5e4f8a7c4d76271344b22a8a7cf422` |
+| `Frontend/src/assets/basket_icon.png`                                    | binary   |     721 | `cdc1bfdbb5caddfee97fd47d9c625b2c34945ed5bd618ecc4abec739465f929b` |
+| `Frontend/src/assets/cross_icon.png`                                     | binary   |     616 | `d1f5bf00e9dc604a1477364effd12b1577383591762bb6a69d905df6623428ba` |
+| `Frontend/src/assets/data/EditIcon.js`                                   | text     |       0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
+| `Frontend/src/assets/data/icons.jsx`                                     | text     |   32085 | `fda355147fd150cf6cb2bbe3f62ffd5b46d6575b245188c664b37154b5cbdb43` |
+| `Frontend/src/assets/data/index.js`                                      | text     |    7994 | `b10309b4bc66e71523887ac67948e39b1ca216ddbcb2e9f254b509edcc6b60b3` |
+| `Frontend/src/assets/data/StaffPaperclipIcon.js`                         | text     |       0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
+| `Frontend/src/assets/data/WorksheetFileIcon.js`                          | text     |       0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
+| `Frontend/src/assets/facebook_icon.png`                                  | binary   |     780 | `49311acf94c13c0e95b989db438c097c9d3d425665bdd03031d8515263fb4c81` |
+| `Frontend/src/assets/food_1.png`                                         | binary   |  200066 | `8b871f864065ced5579d311fd60ab448a9b879a400289cbf8568215ca28c6d03` |
+| `Frontend/src/assets/food_10.png`                                        | binary   |  146912 | `0d325eb11712f6b8c70fea9db3795a12b54d9d0ea76ffc3870db8c41e9c3b2fb` |
+| `Frontend/src/assets/food_11.png`                                        | binary   |  151596 | `7c4cd0def3217bc05752c704a8ceee50123569a5c554f39b27e62611f8bd40c2` |
+| `Frontend/src/assets/food_12.png`                                        | binary   |  130384 | `7aec725b86f6b13f0e5ec2213b81757c86ac76974d8cac1e9a17b10cdc00eab0` |
+| `Frontend/src/assets/food_13.png`                                        | binary   |  159907 | `60bd829afa501162e61d8a69027b00788d25ca0db6df528e8bd1640bc8a28824` |
+| `Frontend/src/assets/food_14.png`                                        | binary   |  185318 | `259cbbd8c0dc34ebd84994f797c52098f3925ea4dad3636f686ba30166d0b252` |
+| `Frontend/src/assets/food_15.png`                                        | binary   |  204072 | `c4c21b17c1ae08b35e42f2ddee59ea2a92f789ff83a1cb39f33094c4db96b6da` |
+| `Frontend/src/assets/food_16.png`                                        | binary   |  209909 | `84969e394c3f47dde606d83e82909bf3bca77cb142dc0d6da86e75a304a17c9b` |
+| `Frontend/src/assets/food_17.png`                                        | binary   |  145164 | `7820db99168848cc61d11152c04e8a86b6fc1eb6594754ac2d393233a15396d7` |
+| `Frontend/src/assets/food_18.png`                                        | binary   |  141141 | `e101d165aefdbf20c4c0214e160a8da2675d92f135681beaeab6bd63237f4213` |
+| `Frontend/src/assets/food_19.png`                                        | binary   |   98571 | `81a6c2d4a3ece619d3312a2675134dbcfb344defb39cc3143da58b40bff2dae4` |
+| `Frontend/src/assets/food_2.png`                                         | binary   |  200772 | `cfff534bf0b2db3735f30495a8b7ac359fc3d1d13714067edf9ba1ef6af5dc6a` |
+| `Frontend/src/assets/food_20.png`                                        | binary   |  161894 | `e590dde756a4f5189e0fca07510f304bf63f35e0715050c31aab0d796dfcbfa2` |
+| `Frontend/src/assets/food_21.png`                                        | binary   |  204476 | `6aed72790b0e45f95ab9d693b7e6026512d694ce8429d589d1e99387776e368c` |
+| `Frontend/src/assets/food_22.png`                                        | binary   |  211518 | `99fa2cf58afbb6972fd6c5a074de7cb7cbf68457100584ef24e4533692fc4306` |
+| `Frontend/src/assets/food_23.png`                                        | binary   |  197754 | `df8779d6bd6d43a3c6daf01d49ecf2a50f9ce60eb3c4026096e57e7719690d52` |
+| `Frontend/src/assets/food_24.png`                                        | binary   |  204432 | `e2c6fb3ec51d436f7d5b1f19b3175bfe499afa77519a1a0bb37dec16110a848c` |
+| `Frontend/src/assets/food_25.png`                                        | binary   |  186268 | `68dc48b06ea933dc75d14ae15f3c3b7f62d563f227a9c5c16c911718bd9dd319` |
+| `Frontend/src/assets/food_26.png`                                        | binary   |  204967 | `fd5ffe3598e0f950054251b3c745526e2681c46e1e129a7a2c0dca73eb111b36` |
+| `Frontend/src/assets/food_27.png`                                        | binary   |  154430 | `fb287d98059ee3405a17ec4b5b1d7e068bbee87cb1de369dbc4a4bc9c3ca9890` |
+| `Frontend/src/assets/food_28.png`                                        | binary   |  222285 | `5f8b8be3aab1f74e5927eb7462c569d131193b69fbe7e2ada9dfcc10eb7f4573` |
+| `Frontend/src/assets/food_29.png`                                        | binary   |  182585 | `e0f3d7557dda9dec971e4569b887f640ed00e740a475831dcea0a332eda3e454` |
+| `Frontend/src/assets/food_3.png`                                         | binary   |  187106 | `3ac7eef8a34bc859896732be3a9262fe368adb2ceb127020a41adb0b621786b6` |
+| `Frontend/src/assets/food_30.png`                                        | binary   |  139491 | `c6b8d9fa5268d4926df6971c1edf719ccec6ac45af8e71b933fdf88d3ea9b0dd` |
+| `Frontend/src/assets/food_31.png`                                        | binary   |  148139 | `78039d79b964046b5feece3d101b69917a8d42531b7fa8250222bbaf863dbfdc` |
+| `Frontend/src/assets/food_32.png`                                        | binary   |  195852 | `fb68ec14d6b4a299a93f534c6d22efc8e00a969ac9cf108f9c902924e5508250` |
+| `Frontend/src/assets/food_4.png`                                         | binary   |  240199 | `ae6aa7abcc07b2a1a0122d7b5cc19aed62bde95f944a8af4375997c4a591f593` |
+| `Frontend/src/assets/food_5.png`                                         | binary   |  187385 | `712a459469f41586ac7d322635a6bd7bef4a42fdd201f0ec631ed62b5a73bfd6` |
+| `Frontend/src/assets/food_6.png`                                         | binary   |  195192 | `2c589d0bc914c7a3fc46c7d75f0915f36b53c1b74a4dd2cec1679fbfe8d49b91` |
+| `Frontend/src/assets/food_7.png`                                         | binary   |  201212 | `235a2dda24db5df9bd7c579f11d9481400b291ed415678c2a992ad2ddbb744a1` |
+| `Frontend/src/assets/food_8.png`                                         | binary   |  225044 | `7f0f1a4f880aa6fa46b1063eac2dd77bd1ab3d515c07be827491e7bcd408119a` |
+| `Frontend/src/assets/food_9.png`                                         | binary   |  142883 | `12b1f9102af1f76b267c03b357bdd9b39dd32c1712ad1054bae3a641d94fb403` |
+| `Frontend/src/assets/header_img.png`                                     | binary   | 1814649 | `27b56d46ae1f5a395142e86f36344e3c1867f17bfaf950b602fcf33290632c61` |
+| `Frontend/src/assets/linkedin_icon.png`                                  | binary   |     818 | `afa26687bb45f826abddcc7fceb21cd0cf442402036557aad4d7a39ae0cab445` |
+| `Frontend/src/assets/logo.png`                                           | binary   |    1916 | `fa71272ac168951cf5e2f2773b59f34f2f1f373e86ec394d15012cac179b4710` |
+| `Frontend/src/assets/logout_icon.png`                                    | binary   |     232 | `f86eac8a68c823e4fd9f3ff52ab6f440c83ba72ccd02209ea3540ac4c74bd1ab` |
+| `Frontend/src/assets/menu_1.png`                                         | binary   |   37565 | `85b7b3890b0d80cf0b30910019fb867380869886e850a767552fb1442b154927` |
+| `Frontend/src/assets/menu_2.png`                                         | binary   |   32216 | `557f8b011b2b35d7a42e1d742a74260ce623fdfb8be493c7470ccb44146dbabc` |
+| `Frontend/src/assets/menu_3.png`                                         | binary   |   35253 | `735321b0e37cbfb0c1e47e3adf2ac485d990afd931cbafc82f5b96ad92a57422` |
+| `Frontend/src/assets/menu_4.png`                                         | binary   |   31989 | `c9e291fe1f9fb37542e2aec825b3829f65e079bd3615929ca4f3abd329da8e67` |
+| `Frontend/src/assets/menu_5.png`                                         | binary   |   37604 | `c9549727d550f07363e2b1dd8d345ccfa1733b512a9ce4bb2a29cd52ee239643` |
+| `Frontend/src/assets/menu_6.png`                                         | binary   |   40092 | `3623af2ee708bbfc9e22b9ad0056269e4da4ba8eb655fa06bb76feeae6eb221d` |
+| `Frontend/src/assets/menu_7.png`                                         | binary   |   39558 | `c605032bcc0f09ebe3df0e8c40491f5cdc4a7f80de434c62cf5d6c50d1d49a09` |
+| `Frontend/src/assets/menu_8.png`                                         | binary   |   38028 | `198436c47edfc119663c45806552a7f47e5241d831f7a1251a86cba515088cbc` |
+| `Frontend/src/assets/parcel_icon.png`                                    | binary   |     709 | `ebaacba91290955a6f5fef1bf5273a6290b158277ce1163c9e5cb7adac81d395` |
+| `Frontend/src/assets/play_store.png`                                     | binary   |    7507 | `6a784f8e39f0195fafec33c410f3bdd548b7da0e5a9528b45dc733c66d3090d3` |
+| `Frontend/src/assets/profile_icon.png`                                   | binary   |     673 | `13508ab1bdc62a1f0d13641121a7545362e3db2c2888e8b91f068f3ed0f3fe82` |
+| `Frontend/src/assets/rating_starts.png`                                  | binary   |     756 | `ce117cc329a721196fe9048205c9a6a16154041900f660ca13e4122197f9bafb` |
+| `Frontend/src/assets/remove_icon_red.png`                                | binary   |     629 | `621ee046fe4f7a150c1b9740ed145b3e32bfb481bbb82d63dda5108d804ac4ce` |
+| `Frontend/src/assets/search_icon.png`                                    | binary   |     796 | `1092c225eadbdcfaee65ad602d1c2471626e9f3eaea2e4a66f147b007af7fe82` |
+| `Frontend/src/assets/selector_icon.png`                                  | binary   |     524 | `3e505fd4636ca228eaacb0856ecc35a72ce886ffb0482895917c118f2ad86c37` |
+| `Frontend/src/assets/styles/global.css`                                  | text     |    5207 | `8178324210fe86f04bc3016ac52d0e35f9ec417b8d28b008f908af8e0d63c0e7` |
+| `Frontend/src/assets/twitter_icon.png`                                   | binary   |     880 | `bc106612ba599ed5aa8c790b83249048a836f5fd03863d66810db29177668210` |
+| `Frontend/src/components/common/Breadcrumbs.jsx`                         | text     |    1386 | `e9b913c0b0c26c428cda394e7087a78055a4147d32e9da588b6a589b4d7380ed` |
+| `Frontend/src/components/common/Button/index.jsx`                        | text     |    5718 | `b13eea86c756b206f92f6a9451361cba818a020d2911316ff727862957d67b67` |
+| `Frontend/src/components/common/ButtonCard/index.jsx`                    | text     |     816 | `0bc50c5f3c36881370be12cfb143f676c32ab09c96d0f731dfe3a74ac35db4d6` |
+| `Frontend/src/components/common/calender.jsx`                            | text     |     786 | `eb870e5e4fd87d62b3f91bda06d1fbdd445d98dfb6e50a9c378f9a86c3848489` |
+| `Frontend/src/components/common/CollapsableTableView/index.jsx`          | text     |   23244 | `7acf373f1df57392baf7897a8b10e41583b1080460b3a9ea66e19e6682748ec1` |
+| `Frontend/src/components/common/CustomCheckbox/index.jsx`                | text     |    2007 | `eb41d4d9f5288163e4c8517140c944c6d1a75e9b4845baf974840cb420dfef93` |
+| `Frontend/src/components/common/CustomCheckboxDropdown/index.jsx`        | text     |    4127 | `da3cfbc147b9a7ce419bf21e52f35f836bb9948d98e27bd10313cbd2fbe102d1` |
+| `Frontend/src/components/common/CustomFileUpload/index.jsx`              | text     |    3441 | `c3bff9ac2c56c61ecebad6e4da8f6844a4dca249901ec01f1e6273fc86f01ff9` |
+| `Frontend/src/components/common/CustomRadioField/index.jsx`              | text     |    1929 | `184c9aa4ebc3ee32e8a749519af8f756223e9f7852e05757f70e67bd32ccbfbd` |
+| `Frontend/src/components/common/CustomTableAccount/index.jsx`            | text     |    4586 | `d74cab5f2e104bcb67fa5975643ea4fa65cd2e477af7cba9e72895de0bd134cf` |
+| `Frontend/src/components/common/CustomTableFooter/index.jsx`             | text     |    2917 | `e9adbf0e73f5d1cc628cf215facb5b719f2d011eb5e741d4e65574604987da9a` |
+| `Frontend/src/components/common/CustomTextArea/index.jsx`                | text     |    2323 | `97edfee93e3635a65a13434ebaac77511fb85a4e477f70676e87d347df43b370` |
+| `Frontend/src/components/common/CustomTimePicker/index.jsx`              | text     |    8751 | `afd98d5619dad2b7d1d7762d92d75e34e4f41e292387aa59da0b25b50235671b` |
+| `Frontend/src/components/common/CutomDatePicker/index.jsx`               | text     |   15849 | `b07f0f0db4ad58fd1f9bd6be02f3271a555b5a98aef638dfc86e764367de9769` |
+| `Frontend/src/components/common/DesktopNav/index.jsx`                    | text     |    2792 | `d5421a2e0f24db763808fdc309c306177bc2eb7dea083e75e282a9fa18f0294d` |
+| `Frontend/src/components/common/DroppableTableView/index.jsx`            | text     |   59655 | `c08ce4a4cb8977f7945b6b5e8968fa311c43806c12f4929f118f433c073020c1` |
+| `Frontend/src/components/common/DynamicForm/index.jsx`                   | text     |    9711 | `0a87ae4047c5ad56452bee91f5665c4552d8a78ce551ba9189ae2e97fbcaebb1` |
+| `Frontend/src/components/common/index.js`                                | text     |    2270 | `c8f0a509e037fa920b18f56a2dcc4f6462f9e4fdd07fb2a1b16b025c1f99805c` |
+| `Frontend/src/components/common/InputField/index.jsx`                    | text     |    3647 | `d91664ed884a911c0f3ca33d4ea1ee3b6e0787e1d4ff8d23f825f05caa6c1931` |
+| `Frontend/src/components/common/MapWithDirections.jsx`                   | text     |    1087 | `0cc9ac95051ac1c81ad8104bc231839736f70d9cf3ba6863cdef0c9657f191cc` |
+| `Frontend/src/components/common/MobileNav/index.jsx`                     | text     |    4490 | `3a93f34e4932b40e04f4fed5d5d6eb91afcc12c9ecfb2bcafc9e9c02f6d04f65` |
+| `Frontend/src/components/common/Modal.jsx`                               | text     |    4604 | `1150b4e96c29fb6e7b90ad3ef302c634814897d4590b18ba4d684d1aac1aaf76` |
+| `Frontend/src/components/common/MultiSelectDatePicker/index.jsx`         | text     |   15415 | `51b892244457d989312655a13e346af76a16c21623c7d2c14b4a59f3d7277f0d` |
+| `Frontend/src/components/common/MultiSelectField/index.jsx`              | text     |    4473 | `dae4a3e3a9715360992ab04637b0ea45a94624941a06b09730e24cde65b01355` |
+| `Frontend/src/components/common/PayrollSummaryCard/index.jsx`            | text     |    1841 | `366a937ae704b4a0a1378cc103a9f3505db34ae7719ab64a9f8b7baba9b9099b` |
+| `Frontend/src/components/common/PermissionActionMenu.jsx`                | text     |    2229 | `6a6730afc1f66ee7de537a1a63564d9a476bba717db9c9c1257b0c0660467479` |
+| `Frontend/src/components/common/PermissionButton.jsx`                    | text     |    1555 | `f83047838c4ae9a84e555112ba374c562048318dd7c6f3ff584ddfec49257709` |
+| `Frontend/src/components/common/PermissionGate.jsx`                      | text     |     881 | `7e80649f3d837a9fc12980eb536cb87a6eca1fd6e153676822ba03751bffd286` |
+| `Frontend/src/components/common/PermissionInput.jsx`                     | text     |    1169 | `8617395cd0c3527bb161eef9bd66e6341dbe7db94e6542a1f5d505f14dfb7a5c` |
+| `Frontend/src/components/common/PermissionModal.jsx`                     | text     |     921 | `2e9929e033b6eeb5de89912f1b8950000f0d77e32d5ab5926d2e340fbd89a153` |
+| `Frontend/src/components/common/PermissionTable.jsx`                     | text     |    1603 | `08ac50429af0a701e6b9c7cf2938b6f40f12c2b1ffc9cca1faa00c69556012de` |
+| `Frontend/src/components/common/PermissionWrapper.jsx`                   | text     |     733 | `badbca92de8b2e217fad6c71d296991ce947dab4be7f08beeedc772506d367ee` |
+| `Frontend/src/components/common/ProtectedButton.jsx`                     | text     |    1873 | `8626b06d7f91858541f0a5ffdc5f26a21440d9282172cd28ba231716e6dd64f3` |
+| `Frontend/src/components/common/ProtectedInput.jsx`                      | text     |     809 | `bd073b85560719eff8a8281f05b1d8c97bdad6e3abbf0744039d899df5e991a1` |
+| `Frontend/src/components/common/ProtectedRoute.jsx`                      | text     |     484 | `07caf8953e17914a0a84696dee079756879b59163eee9e16eed86b025c0b0aeb` |
+| `Frontend/src/components/common/ProtectedSection.jsx`                    | text     |     748 | `94ed9d24b902e09abaac70b568327b3232caadb8720284bae92f1e5649d854fa` |
+| `Frontend/src/components/common/QuestionField/index.jsx`                 | text     |    2475 | `26b8c56d24204258ecbb4ddae1ee0688fa0433869d908b933a13a8cfc280f9dd` |
+| `Frontend/src/components/common/RichTextEditor/index.jsx`                | text     |    3688 | `f28816385313618a6a5a5e3c4d96820d0d4b095712b90feac9b5b7b646cd489b` |
+| `Frontend/src/components/common/SearchableCheckboxDropdown/index.jsx`    | text     |    9419 | `e4d92a98ad0d5463c93a569d79b0c84305c1a590cb00e34c7d2175e17bbf6b02` |
+| `Frontend/src/components/common/SelectField/index.jsx`                   | text     |    7395 | `1e4c777ccf3259972fc0dc7ab3883942746425ecf5bfa4f0a42ac4a415980483` |
+| `Frontend/src/components/common/SelectFilter/SelectFilter.jsx`           | text     |    3303 | `0f2b93de34fbb3f3bc2f03813a2fb16b90b487c557d2f84f5e9775e1b7dba555` |
+| `Frontend/src/components/common/SkletonLoader/FilterLoader.jsx`          | text     |     506 | `c0a607351a0841c5b4a5749212ce935e5aea6daa170c9e4b029644b8348247d8` |
+| `Frontend/src/components/common/SkletonLoader/index.jsx`                 | text     |    3261 | `7d65963bd09a9538510f8e89fa5bcef3326fad7b3900ca2e2dedebfc00edb688` |
+| `Frontend/src/components/common/SkletonLoader/PersonalDetailsLoader.jsx` | text     |    2377 | `51f4ec25ee738169e9a5c0753b89a33aa562637cd81e5cb00dd9d1c8b69a7fad` |
+| `Frontend/src/components/common/TabbedModal/index.jsx`                   | text     |    3360 | `9fea85a2c19e279f501a96d6fe1b70b1d87ea9e55e525f640d3b6928b307040b` |
+| `Frontend/src/components/common/TableView/index.jsx`                     | text     |   16750 | `1c4bead7a8c1c4c1bb4f570299b356dba0fda64af17afeb2be6510c54dafa3d0` |
+| `Frontend/src/components/common/ThemeCustomizer/index.jsx`               | text     |    2372 | `c7699695da50facf9c088e2cb38357078c4882f8269a88465f9d197ba3436ed2` |
+| `Frontend/src/components/common/ToggleButton/index.jsx`                  | text     |    1838 | `6bc2156d5546b2d6df718d99cacb63f1ea768ed8cfcc132cd89d81df6814e6d6` |
+| `Frontend/src/components/common/Tooltip.jsx`                             | text     |    1263 | `a4a70916982ecb5c4fb44bac04617c467a6cae2727ff432fdd22c8d252247cba` |
+| `Frontend/src/components/common/UrlTabs/index.jsx`                       | text     |    5055 | `1d35bd1602022332d82f8eda48ff5bd425d93a3fa2273b759caa9ee108140afb` |
+| `Frontend/src/components/index.js`                                       | text     |     296 | `7694e8415dfe964ac886eba4a2c9652d4582e03f547384cb3960ec452b3aaf55` |
+| `Frontend/src/components/layout/AppShell.jsx`                            | text     |     780 | `ffe0ed049d57bd7cafebf5706f865c9387be0492511fbcfb95f02b0d99c5618a` |
+| `Frontend/src/components/layout/Footer.jsx`                              | text     |    2057 | `b0644e7700e79df31ba2b4ebf09de1fbc5b8d0d45474eb0534d56d77b9614035` |
+| `Frontend/src/components/layout/Header.jsx`                              | text     |    2320 | `bd482a519504b006fd1062938c0a11efb35ee92b800a18108872d5ce841e87e7` |
+| `Frontend/src/components/layout/Sidebar.jsx`                             | text     |    1940 | `d13a4275e1068da615cc0b2e137ad9fb0a16ffd933c851eb378549f5a9e422a9` |
+| `Frontend/src/components/layout/UserMenu.jsx`                            | text     |    2814 | `37c4d47c48a386601647d1920c77de0f16fcadbbbd678703bde286697128d6e9` |
+| `Frontend/src/hooks/useAuth.js`                                          | text     |      98 | `e96f5d0bb37e533bca6e3c8701501dea770dbb3f0db3fbe15a38c896954680ac` |
+| `Frontend/src/hooks/useDebounce.js`                                      | text     |     306 | `53f28952ae2da46d695d4ad1a9275af5581cfee998ea7d816da428d58910ab16` |
+| `Frontend/src/hooks/useLocalStorage.js`                                  | text     |     589 | `b8c90356b94a8ce46ed6d4dbd57fcfdd2eb1363b1305176ba5a84b420783b341` |
+| `Frontend/src/index.css`                                                 | text     |     239 | `a0a2bc688962a21b8ff14ca2a8daf7b36acc17f6a530f86ded9fdbe099a8c03d` |
+| `Frontend/src/main.jsx`                                                  | text     |     532 | `48879a2942b48ee45d6364feaeebc590be74653ce5903414c554f39b7290b71f` |
+| `Frontend/src/pages/admin/Dashboard.jsx`                                 | text     |     861 | `992b52b26bcfa4c5643bf3da97fae9ee688e22b96e63f9a4bdf58fd8722d1245` |
+| `Frontend/src/pages/admin/Orders.jsx`                                    | text     |     808 | `70b1d6ff7b610e9eecdf5215d521869706c2e8d658e5a93ce83f81a8ab66f196` |
+| `Frontend/src/pages/admin/Products.jsx`                                  | text     |     655 | `37e071863be3ecc3eb25697fe4b125c3ef92911d50d7892285a4cc0932a993fd` |
+| `Frontend/src/pages/admin/Users.jsx`                                     | text     |     838 | `3fecb8110be3597cdc1c8d3afd5db502ac8c33ffd1b40fbbfa3bc12bae6b1ec8` |
+| `Frontend/src/pages/auth/login/Login.jsx`                                | text     |    2100 | `885a936b010d47ffc7ad1e92d9c4c4d3d4de3d81d2bed30af3cc78db2dffec27` |
+| `Frontend/src/pages/auth/register/Register.jsx`                          | text     |    2221 | `8a687b1dc4ac8207df35a909540dab9d026c2e5eca9b3c45b0761ac1babc1b61` |
+| `Frontend/src/pages/buyer/Cart.jsx`                                      | text     |    4310 | `81b9db88e7e88c215b051514c07c3fadea4821b30de15008cc4f731e0e45cb2c` |
+| `Frontend/src/pages/buyer/Checkout.jsx`                                  | text     |    6007 | `3d2148fab46f6821f30c622cc276b28ab0600ff0a9296e176509f0e098e3e6dc` |
+| `Frontend/src/pages/buyer/Home.jsx`                                      | text     |    4835 | `8220e86566b6e063eec67e9567d3a458659f75e599fffde71f2c41ad5fd7fa57` |
+| `Frontend/src/pages/buyer/MyOrders.jsx`                                  | text     |    1691 | `1efad92440852424e335623de3b3e6c8b33903b258b73634c95b17e72e81d730` |
+| `Frontend/src/pages/buyer/MyProfile.jsx`                                 | text     |    2893 | `da97340be7ccda4a699a4aa7b852f822af2a3d9bc9aa0b203ca7d8e509eb9c94` |
+| `Frontend/src/pages/buyer/ProductDetails.jsx`                            | text     |    3279 | `fcc061130764ecb2cd30f00fd292a232d2e83ee5f20b53c19e390123497f1d24` |
+| `Frontend/src/pages/payment/KhaltiFailed.jsx`                            | text     |     216 | `41f62005b564ecfbf02a7a8fc44fb503b58b13144856c6a1faec673fd20f9f03` |
+| `Frontend/src/pages/payment/KhaltiSuccess.jsx`                           | text     |     609 | `495bb0e255188f7f48d7dfc01ec684e5417619e01bec31e6d6914be9c9b73d1e` |
+| `Frontend/src/pages/payment/PaymentPending.jsx`                          | text     |     114 | `7cd02ff7ca1300863041c39233777eac0a737a613ce47da53f6f6f9e953affa9` |
+| `Frontend/src/pages/seller/Analytics.jsx`                                | text     |    4617 | `4a7f05a4fe145de1d4af64677ffb6dcdc1c03b68af5798166f3e5840289cd720` |
+| `Frontend/src/pages/seller/Dashboard.jsx`                                | text     |     990 | `3e8bda973024370d9bc623c5e90e00dd430befb85cd5c2f2112189ddfc2b57ed` |
+| `Frontend/src/pages/seller/Orders.jsx`                                   | text     |    2608 | `eff669639a5b0889a0087fa2b2c5f861ea7476c5dd2bac5c27264bb16a38911b` |
+| `Frontend/src/pages/seller/ProductCreate.jsx`                            | text     |    3863 | `23bdfd08254183d17feedc68ab169f778b329d0dd9839f1d3f4047bc415832d2` |
+| `Frontend/src/pages/seller/Products.jsx`                                 | text     |    2254 | `ee1b365f9dcfe63bfab836b28c1d60bf946894baab9b37a5dde80bcd8722eb91` |
+| `Frontend/src/routes.jsx`                                                | text     |    4202 | `0380045ca1297e1ed21870f241c8f04af856fc190244ecf163d795e6dd7bad23` |
+| `Frontend/src/store/authStore.js`                                        | text     |    2731 | `026403bfefd523f7dca0f7834adb057014902e6fa554580bd9404019e90e78c1` |
+| `Frontend/src/store/cartStore.js`                                        | text     |    1365 | `b31114d67ca0af9f0034e2217c175cdf8c1b621045be307ce40f39fb8bafb5f3` |
+| `Frontend/src/store/index.js`                                            | text     |     131 | `17a6cc07e76445edd63f1971ba54fa4d3241ca7a30f2538f20890c57d6f2137d` |
+| `Frontend/src/store/uiStore.js`                                          | text     |     593 | `7bf41c14182c61c3a13690bd329b7399e9b40c986f34a95fa2e7f57e53cbe764` |
+| `Frontend/src/utils/cart.js`                                             | text     |     781 | `f8eded5934568fc833996a276240872fafe796444fc0d6e2ca02f9d18636d5f6` |
+| `Frontend/src/utils/constants.js`                                        | text     |     530 | `8ae48789054cd6f61dec091cf1700d052b6bd764333111197d3f2abac59ef192` |
+| `Frontend/src/utils/errorHandler.js`                                     | text     |     364 | `bbc184dc83b1aaf252b28ffa1ca275111131075b1d9f56c0ba9c5b9e3bd9ad3e` |
+| `Frontend/src/utils/formatters.js`                                       | text     |     576 | `c7c8d6d38dcdab913f5ff9dd68b401fc24aed87196228ab25ad605e995a8c8ab` |
+| `Frontend/src/utils/productImage.js`                                     | text     |    2001 | `2c6a50f0eb442bfdadbc52ba563ff194ef8292a031c52bc58dbea0ed825d87ee` |
+| `Frontend/src/utils/validators.js`                                       | text     |     317 | `a49cd4da759576dbf7340765fd5c23d4acec5c0f341713a1950b7ac9ba20568b` |
+| `Frontend/tailwind.config.js`                                            | text     |     610 | `331b700568c1a9f762caa0fee07cf78b27c210b3efa6ba508f642cbaa8a7a7bb` |
+| `Frontend/vite.config.js`                                                | text     |     310 | `7451cbc80c20fc315bf43b0a61de49cb4a457edd42fa586fa218400780969c66` |
+| `README.md`                                                              | text     |    8004 | `db49fa2158eec2767d220a586d3c2cf3aa96ca0ce60fea0d40ce7bbe8b06bfc5` |
 
 ## File Contents
 
@@ -366,22 +366,24 @@ It is based on real purchase data in MongoDB.
 ## 3. Real data model used by the algorithm
 
 ### User model
+
 File: Backend/models/userModel.js
 
 Main relevant fields:
 
-- _id
+- \_id
 - name
 - email
 - role
 - cart
 
 ### Product model
+
 File: Backend/models/productModel.js
 
 Main relevant fields:
 
-- _id
+- \_id
 - productName
 - productDescription
 - productPrice
@@ -390,6 +392,7 @@ Main relevant fields:
 - productImage
 
 ### Order model
+
 File: Backend/models/orderModel.js
 
 Main relevant fields:
@@ -478,11 +481,11 @@ The algorithm uses cosine similarity on a binary user-item interaction matrix.
 
 ### Binary matrix example
 
-User / Product | Product A | Product B | Product C
---- | --- | --- | ---
-User A | 1 | 1 | 0
-User B | 1 | 0 | 0
-User C | 0 | 1 | 1
+| User / Product | Product A | Product B | Product C |
+| -------------- | --------- | --------- | --------- |
+| User A         | 1         | 1         | 0         |
+| User B         | 1         | 0         | 0         |
+| User C         | 0         | 1         | 1         |
 
 The similarity for Product A vs Product B is measured by how many users bought both products compared to how many overall bought each product.
 
@@ -988,7 +991,9 @@ exports.getRecommendations = async (req, res) => {
       });
     }
 
-    const selectedProductIds = candidates.map((candidate) => candidate.productId);
+    const selectedProductIds = candidates.map(
+      (candidate) => candidate.productId,
+    );
     const products = await Product.find({
       _id: { $in: selectedProductIds },
       productStatus: "public",
@@ -1086,13 +1091,19 @@ export const useRecommendations = () =>
   {recommendationsLoading ? (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {Array.from({ length: 4 }).map((_, index) => (
-        <div key={index} className="animate-pulse h-72 rounded-xl bg-gray-200" />
+        <div
+          key={index}
+          className="animate-pulse h-72 rounded-xl bg-gray-200"
+        />
       ))}
     </div>
   ) : recommendations.length > 0 ? (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {recommendations.map((product, idx) => (
-        <div key={product._id} className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition group">
+        <div
+          key={product._id}
+          className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition group"
+        >
           <div className="relative h-48 overflow-hidden bg-green-footer">
             <img
               src={getProductImage(product, idx)}
@@ -1125,7 +1136,8 @@ export const useRecommendations = () =>
     </div>
   ) : (
     <div className="rounded-xl border border-dashed border-gray-200 bg-gray-50 p-6 text-gray-600">
-      No recommendations yet. Add a few completed orders to unlock personalized suggestions.
+      No recommendations yet. Add a few completed orders to unlock personalized
+      suggestions.
     </div>
   )}
 </section>
@@ -1135,23 +1147,25 @@ export const useRecommendations = () =>
 
 ```js
 const authHeader = req.headers.authorization;
-const userToken = req.headers.user_auth_token ||
-  (authHeader && authHeader.startsWith("Bearer ") ? authHeader.split(" ")[1] : null);
+const userToken =
+  req.headers.user_auth_token ||
+  (authHeader && authHeader.startsWith("Bearer ")
+    ? authHeader.split(" ")[1]
+    : null);
 ```
 
 ### 15.8 Frontend client token injection
 
 ```js
-client.interceptors.request.use(
-  (config) => {
-    const token = localStorage.getItem('token') || localStorage.getItem('authToken');
-    if (token) {
-      config.headers.user_auth_token = token;
-      config.headers.Authorization = `Bearer ${token}`;
-    }
-    return config;
-  },
-);
+client.interceptors.request.use((config) => {
+  const token =
+    localStorage.getItem("token") || localStorage.getItem("authToken");
+  if (token) {
+    config.headers.user_auth_token = token;
+    config.headers.Authorization = `Bearer ${token}`;
+  }
+  return config;
+});
 ```
 
 ---
@@ -1395,30 +1409,32 @@ coverage/
 ### `Backend/adminSeeder.js`
 
 ```javascript
-const hx = require('bcryptjs');
+const hx = require("bcryptjs");
 const User = require("./models/userModel");
-const adminSeeder = async ()=>{
-    // Hash the password
-    const saltRounds = 10;
-    const plainPassword = "admin";
-    const hashedPassword = await hx.hash(plainPassword, saltRounds);
-    
-    // Check if admin already exists
-    const isAdminExisted = await User.findOne({ email: "rustamshrestha619@gmail.com" });
-    if (!isAdminExisted) {
-        // admin data seeding after connection arrives
-        await User.create({
-            name: "Rustam",
-            phone: 9861473532,
-            password: hashedPassword,
-            email: "rustamshrestha619@gmail.com",
-            role: "admin",
-        });
-        console.log("admin seeded successfully");
-    } else {
-        console.log("admin already exists");
-    }
-}
+const adminSeeder = async () => {
+  // Hash the password
+  const saltRounds = 10;
+  const plainPassword = "admin";
+  const hashedPassword = await hx.hash(plainPassword, saltRounds);
+
+  // Check if admin already exists
+  const isAdminExisted = await User.findOne({
+    email: "rustamshrestha619@gmail.com",
+  });
+  if (!isAdminExisted) {
+    // admin data seeding after connection arrives
+    await User.create({
+      name: "Rustam",
+      phone: 9861473532,
+      password: hashedPassword,
+      email: "rustamshrestha619@gmail.com",
+      role: "admin",
+    });
+    console.log("admin seeded successfully");
+  } else {
+    console.log("admin already exists");
+  }
+};
 
 // exprot above module
 module.exports = adminSeeder;
@@ -1434,187 +1450,187 @@ const app = express();
 // requiring the registeruser and login user from auth controller from controller file
 const { registerUser, loginUser } = require("./controller/auth/authController");
 
-
-
-// We need this to parse JSON format data and URL-encoded data   
+// We need this to parse JSON format data and URL-encoded data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // code for making client access the folder named uploads only by defalt node doesnnot allow us access the folder
-//directly by lcient 
-app.use(express.static("./uploads"))
-
+//directly by lcient
+app.use(express.static("./uploads"));
 
 // Include .env to access environment variables (must be before any process.env usage)
-require('dotenv').config();
+require("dotenv").config();
 
 // Make database connection - supports both MONGO_URI and legacy Mongo_URI
 const mongoUri = process.env.MONGO_URI || process.env.Mongo_URI;
 connectDatabase(mongoUri);
 
-
-const {Server} = require("socket.io")
+const { Server } = require("socket.io");
 //requirieng cors for fixing cors related error
-const cors = require("cors")
-
+const cors = require("cors");
 
 //importing the authRoute.js in this file to work with routes
-const admin_user_route = require("./routes/admin/adminUserRoute")
-const admin_order_route = require("./routes/admin/adminOrderRoute")
+const admin_user_route = require("./routes/admin/adminUserRoute");
+const admin_order_route = require("./routes/admin/adminOrderRoute");
 const product_routes = require("./routes/admin/productRoute");
 const auth_routes = require("./routes/auth/authRoute");
-const user_review_route = require("./routes/user/userReviewRoute")
-const user_profile_route = require("./routes/user/profileRoute")
-const user_order_route = require("./routes/user/orderRoute")
-const user_payment_route = require("./routes/user/paymentRoute")
+const user_review_route = require("./routes/user/userReviewRoute");
+const user_profile_route = require("./routes/user/profileRoute");
+const user_order_route = require("./routes/user/orderRoute");
+const user_payment_route = require("./routes/user/paymentRoute");
 
 //step:5 create the requirement of the route path here
-const user_cart_route = require("./routes/user/cartRoute")
+const user_cart_route = require("./routes/user/cartRoute");
 
-app.use(cors({
-    origin:'*'
-}))
+app.use(
+  cors({
+    origin: "*",
+  }),
+);
 
 // using the routes we added for the auth routes
-// the "/" denotes that there are no subfolders for the route 
+// the "/" denotes that there are no subfolders for the route
 // we can leave it "" only it will work
-app.use("/api",auth_routes)
-app.use("/api",product_routes)
-app.use("/api",admin_user_route)
-app.use("/api",user_review_route)
-app.use("/api",user_order_route)
-app.use("/api",admin_order_route)
-app.use("/api",user_payment_route)
+app.use("/api", auth_routes);
+app.use("/api", product_routes);
+app.use("/api", admin_user_route);
+app.use("/api", user_review_route);
+app.use("/api", user_order_route);
+app.use("/api", admin_order_route);
+app.use("/api", user_payment_route);
 
 // another way of using route either add everything on main route file like top
 //or explicitly mention path here like i did  tin this boottm part mentioning profile route explicitly
-app.use("/api/profile",user_profile_route)
+app.use("/api/profile", user_profile_route);
 
 // step 6: make use of the included route
-//notice how id did /api and did /profile 
+//notice how id did /api and did /profile
 //it is basically same as i worte whole path here for profile
-//and for cart i have written it in their own route file cartRoute 
-app.use("/api",user_cart_route)
+//and for cart i have written it in their own route file cartRoute
+app.use("/api", user_cart_route);
 
 // Test API
 app.get("/", (req, res) => {
-    res.status(404).json({
-        message: "I am alive"
-    });
+  res.status(404).json({
+    message: "I am alive",
+  });
 });
-
 
 const PORT = process.env.PORT || 3000; // Default to port 3000 if PORT is not set
 // setting server variable
 const server = app.listen(PORT, () => {
-    console.log("Server is running at: http://localhost:" + PORT);
+  console.log("Server is running at: http://localhost:" + PORT);
 });
 
 // passing our server address to socket
 const io = new Server(server);
 
 io.on("connection", (socket) => {
-    console.log("connected to a socket");
-    // You can add more event listeners here
-    console.log(server)
+  console.log("connected to a socket");
+  // You can add more event listeners here
+  console.log(server);
 });
 
-const getSocketIo = ()=>{
-    return io
-}
-module.exports.getSocketIo = getSocketIo
+const getSocketIo = () => {
+  return io;
+};
+module.exports.getSocketIo = getSocketIo;
 ```
 
 ### `Backend/controller/admin/order/adminOrderController.js`
 
 ```javascript
-const Order = require("../../../models/orderModel")
-
+const Order = require("../../../models/orderModel");
 
 // getting the orders of user
 exports.getAllOrders = async (req, res) => {
-    
-    const orders = await Order.find().populate({
-        path: "items.product",
-        model: "Product",
-        select: "-productStock -reviews",
+  const orders = await Order.find().populate({
+    path: "items.product",
+    model: "Product",
+    select: "-productStock -reviews",
+  });
+  if (orders.length == 0) {
+    res.status(404).json({
+      message: "no orders",
+      data: orders,
     });
-    if (orders.length == 0) {
-
-        res.status(404).json({
-            message: "no orders",
-            data: orders
-        })
-    }
-    res.status(200).json({
-        message: "orders fetched successfully",
-        data: orders
-    })
-
-}
-
+  }
+  res.status(200).json({
+    message: "orders fetched successfully",
+    data: orders,
+  });
+};
 
 //gegging single order details
 exports.getSingleOrder = async (req, res) => {
-    const {id} = req.params
-    const order = await Order.findById(id).populate({
-        path: "items.product",
-        model: "Product"
-    })
-    if (!order) {
-        res.status(404).json({
-            message: "order not found",
-            data: order
-        })
-    }
-    res.status(200).json({
-        message: "order details fetched successfully",
-        data: order
-    })
-}
+  const { id } = req.params;
+  const order = await Order.findById(id).populate({
+    path: "items.product",
+    model: "Product",
+  });
+  if (!order) {
+    res.status(404).json({
+      message: "order not found",
+      data: order,
+    });
+  }
+  res.status(200).json({
+    message: "order details fetched successfully",
+    data: order,
+  });
+};
 
 //update order status
 exports.updateOrderStatus = async (req, res) => {
-    const { id } = req.params;
-    const { newOrderStatus } = req.body;
+  const { id } = req.params;
+  const { newOrderStatus } = req.body;
 
-    if (!newOrderStatus || !["pending", "delivered", "cancelled", "ontheway", "preparation"].includes(newOrderStatus.toLowerCase())) {
-        return res.status(400).json({
-            message: "invalid status",
-            data: null
-        });
-    }
-
-    const order = await Order.findByIdAndUpdate(id, { orderStatus: newOrderStatus }, { new: true });
-
-    if (!order) {
-        return res.status(404).json({
-            message: "order not found",
-            data: null
-        });
-    }
-
-    return res.status(200).json({
-        message: "order status updated successfully",
-        data: order
+  if (
+    !newOrderStatus ||
+    !["pending", "delivered", "cancelled", "ontheway", "preparation"].includes(
+      newOrderStatus.toLowerCase(),
+    )
+  ) {
+    return res.status(400).json({
+      message: "invalid status",
+      data: null,
     });
+  }
+
+  const order = await Order.findByIdAndUpdate(
+    id,
+    { orderStatus: newOrderStatus },
+    { new: true },
+  );
+
+  if (!order) {
+    return res.status(404).json({
+      message: "order not found",
+      data: null,
+    });
+  }
+
+  return res.status(200).json({
+    message: "order status updated successfully",
+    data: order,
+  });
 };
 
 //delete order
 exports.deleteOrder = async (req, res) => {
-    const {id} = req.params
-    const order = await Order.findByIdAndDelete(id)
-    if (!order) {
-        res.status(404).json({
-            message: "order not found",
-            data: order
-        })
-    }
-    res.status(200).json({
-        message: "order deleted successfully",
-        data: order
-    })
-}
+  const { id } = req.params;
+  const order = await Order.findByIdAndDelete(id);
+  if (!order) {
+    res.status(404).json({
+      message: "order not found",
+      data: order,
+    });
+  }
+  res.status(200).json({
+    message: "order deleted successfully",
+    data: order,
+  });
+};
 ```
 
 ### `Backend/controller/admin/product/productController.js`
@@ -1624,173 +1640,208 @@ const Product = require("../../../models/productModel");
 const fs = require("fs");
 const path = require("path");
 // Include .env to access environment variables
-require('dotenv').config();
+require("dotenv").config();
 
-exports.createProduct = ((req, res) => {
-    try {
-        // getting file metadata
-        const file = req.file
-        // setting default filepath as some image
-        let filepath
-        if (!req.file) {
-            filepath = "https://artists.spotify.com/songwriter/3IMp1zKhmOEmva4eNPGZKf"
-        } else {
-            const base = (process.env.BACKEND_URL || 'http://localhost:3000/').replace(/\/?$/, '/')
-            filepath = base + req.file.filename
-        }
-        console.log(file)
-        console.log(req.user);
-        // return;
-        // support both legacy userProduct* and new product* keys from frontend FormData
-        const userProductName = req.body.userProductName || req.body.productName;
-        const userProductPrice = req.body.userProductPrice || req.body.productPrice;
-        const userProductDescription = req.body.userProductDescription || req.body.productDescription;
-        const userProductStatus = req.body.userProductStatus || req.body.productStatus || 'public';
-        const userProductStock = req.body.userProductStock || req.body.productStock;
-        // if any of the above information is not provided give 400 status error
-        if (!userProductName || !userProductPrice || !userProductDescription || !userProductStatus || !userProductStock) {
-            // send 400 status with required product field not filled 
-            return res.status(400).json({
-                message: "given product field must be filled compulsarily"
-            })
-        }
-        // insert to the Products collectionin mongo db 
-        Product.create({
-            productName: userProductName,
-            productPrice: userProductPrice,
-            productDescription: userProductDescription,
-            productStatus: userProductStatus,
-            productStock: userProductStock,
-            // setting image as filename
-            productImage: filepath,
-        })
-            .then((product) => {
-                res.status(201).json({
-                    message: "product created successfully",
-                    product: product
-                })
-            })
-    } catch (err) {
-        console.log(err.message)
-        res.status(500).json({
-            message: "Something went wrong"
-        })
-
+exports.createProduct = (req, res) => {
+  try {
+    // getting file metadata
+    const file = req.file;
+    // setting default filepath as some image
+    let filepath;
+    if (!req.file) {
+      filepath =
+        "https://artists.spotify.com/songwriter/3IMp1zKhmOEmva4eNPGZKf";
+    } else {
+      const base = (
+        process.env.BACKEND_URL || "http://localhost:3000/"
+      ).replace(/\/?$/, "/");
+      filepath = base + req.file.filename;
     }
-
-
-})
+    console.log(file);
+    console.log(req.user);
+    // return;
+    // support both legacy userProduct* and new product* keys from frontend FormData
+    const userProductName = req.body.userProductName || req.body.productName;
+    const userProductPrice = req.body.userProductPrice || req.body.productPrice;
+    const userProductDescription =
+      req.body.userProductDescription || req.body.productDescription;
+    const userProductStatus =
+      req.body.userProductStatus || req.body.productStatus || "public";
+    const userProductStock = req.body.userProductStock || req.body.productStock;
+    // if any of the above information is not provided give 400 status error
+    if (
+      !userProductName ||
+      !userProductPrice ||
+      !userProductDescription ||
+      !userProductStatus ||
+      !userProductStock
+    ) {
+      // send 400 status with required product field not filled
+      return res.status(400).json({
+        message: "given product field must be filled compulsarily",
+      });
+    }
+    // insert to the Products collectionin mongo db
+    Product.create({
+      productName: userProductName,
+      productPrice: userProductPrice,
+      productDescription: userProductDescription,
+      productStatus: userProductStatus,
+      productStock: userProductStock,
+      // setting image as filename
+      productImage: filepath,
+    }).then((product) => {
+      res.status(201).json({
+        message: "product created successfully",
+        product: product,
+      });
+    });
+  } catch (err) {
+    console.log(err.message);
+    res.status(500).json({
+      message: "Something went wrong",
+    });
+  }
+};
 
 exports.deleteProduct = async (req, res) => {
-    const { id } = req.params
-    if (!id) {
-        return res.status(400).json({
-            message: "Please provide id"
-        })
-    }
-    // deleting old data while 
-    const oldData = await Product.findById(id)
-    if (!oldData) {
-        return res.status(404).json({
-            message: "No data found with that id"
-        })
-    }
+  const { id } = req.params;
+  if (!id) {
+    return res.status(400).json({
+      message: "Please provide id",
+    });
+  }
+  // deleting old data while
+  const oldData = await Product.findById(id);
+  if (!oldData) {
+    return res.status(404).json({
+      message: "No data found with that id",
+    });
+  }
 
-    const oldProductImage = oldData.productImage || "" // http://localhost:3000/1698943267271-bunImage.png"
-    if (oldProductImage.includes("spotify.com") || !oldProductImage.startsWith("http")) {
-        // nothing to delete on disk
-    } else {
-    const baseLen = (process.env.BACKEND_URL || 'http://localhost:3000/').length
-    const finalFilePathAfterCut = oldProductImage.slice(baseLen).replace(/^\//,'')
+  const oldProductImage = oldData.productImage || ""; // http://localhost:3000/1698943267271-bunImage.png"
+  if (
+    oldProductImage.includes("spotify.com") ||
+    !oldProductImage.startsWith("http")
+  ) {
+    // nothing to delete on disk
+  } else {
+    const baseLen = (process.env.BACKEND_URL || "http://localhost:3000/")
+      .length;
+    const finalFilePathAfterCut = oldProductImage
+      .slice(baseLen)
+      .replace(/^\//, "");
     // REMOVE FILE FROM UPLOADS FOLDER
-    const absPath = path.join(__dirname, "..", "..", "..", "uploads", finalFilePathAfterCut)
+    const absPath = path.join(
+      __dirname,
+      "..",
+      "..",
+      "..",
+      "uploads",
+      finalFilePathAfterCut,
+    );
     fs.unlink(absPath, (err) => {
-        if (err) {
-            console.log("error deleting file", err)
-        } else {
-            console.log("file deleted successfully")
-        }
-    })
-    }
-    await Product.findByIdAndDelete(id)
-    res.status(200).json({
-
-        message: "Product delete successfully"
-    })
-
-}
-
+      if (err) {
+        console.log("error deleting file", err);
+      } else {
+        console.log("file deleted successfully");
+      }
+    });
+  }
+  await Product.findByIdAndDelete(id);
+  res.status(200).json({
+    message: "Product delete successfully",
+  });
+};
 
 exports.updateProduct = async (req, res) => {
-    // kicking off user without id parameters
-    const { id } = req.params
-    if (!id) {
-        return res.status(400).json({
-            message: "provide the ID"
-        })
+  // kicking off user without id parameters
+  const { id } = req.params;
+  if (!id) {
+    return res.status(400).json({
+      message: "provide the ID",
+    });
+  }
+
+  // getting the old photo and deleting the,m
+  const productToEdit = await Product.findById(id);
+  if (!productToEdit) {
+    return res.status(404).json({
+      message: "no dtaa with that id",
+    });
+    // if product to be edited is found
+  } else {
+    // Log the entire body to see the received data
+
+    // Destructure the data from the body
+    const {
+      updatedUserProductName,
+      updatedUserProductPrice,
+      updatedUserProductDescription,
+      updatedUserProductStatus,
+      updatedUserProductStock,
+    } = req.body;
+    console.log("Request Body:", req.body);
+
+    // Validate if any field is missing
+    if (
+      !updatedUserProductName ||
+      !updatedUserProductPrice ||
+      !updatedUserProductDescription ||
+      !updatedUserProductStatus ||
+      !updatedUserProductStock
+    ) {
+      return res.status(400).json({
+        message: "Given product field must be filled compulsorily",
+        bodyfile: req.file,
+      });
     }
 
-    // getting the old photo and deleting the,m
-    const productToEdit = await Product.findById(id);
-    if (!productToEdit) {
-        return res.status(404).json({
-            message: "no dtaa with that id",
-        })
-        // if product to be edited is found
-    } else {
-        // Log the entire body to see the received data
+    // Proceed with the rest of your code
 
-        // Destructure the data from the body
-        const { updatedUserProductName, updatedUserProductPrice, updatedUserProductDescription, updatedUserProductStatus, updatedUserProductStock } = req.body;
-        console.log('Request Body:', req.body);
+    // if any of the above information is not provided give 400 status error
 
-        // Validate if any field is missing
-        if (!updatedUserProductName || !updatedUserProductPrice || !updatedUserProductDescription || !updatedUserProductStatus || !updatedUserProductStock) {
-            return res.status(400).json({
-                message: "Given product field must be filled compulsorily",
-                bodyfile: req.file
-            });
+    // taking productImage value from the json of product
+    const imageToEdit = productToEdit.productImage; //http://localhost:3000/abc.png
+    const toCut = process.env.BACKEND_URL.length; //
+    // giving absolute path bu cuttingthe URL part and only feeding image part
+    const finalFilePathAfterCut = "./uploads/" + imageToEdit.slice(toCut); //abc.png
+    console.log(finalFilePathAfterCut + "=========");
+    // if user has added a file wit hfilename request then delete previous image
+    if (req.file && req.file.filename) {
+      fs.unlink(finalFilePathAfterCut, (err) => {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log("deleted file successfully");
         }
-
-        // Proceed with the rest of your code
-
-        // if any of the above information is not provided give 400 status error
-
-        // taking productImage value from the json of product
-        const imageToEdit = productToEdit.productImage;//http://localhost:3000/abc.png
-        const toCut = process.env.BACKEND_URL.length;//
-        // giving absolute path bu cuttingthe URL part and only feeding image part
-        const finalFilePathAfterCut = "./uploads/" + imageToEdit.slice(toCut)//abc.png
-        console.log(finalFilePathAfterCut + "=========");
-        // if user has added a file wit hfilename request then delete previous image
-        if (req.file && req.file.filename) {
-            fs.unlink(finalFilePathAfterCut, (err) => {
-                if (err) {
-                    console.log(err)
-                } else {
-                    console.log("deleted file successfully")
-                }
-            })
-
-        }
-
-        const updatedData = await Product.findByIdAndUpdate(id, {
-            productName: updatedUserProductName,
-            productPrice: updatedUserProductPrice,
-            productDescription: updatedUserProductDescription,
-            productStatus: updatedUserProductStatus,
-            productStock: updatedUserProductStock,
-            // setting image as filename if give nfile give path else give old filepath name
-            productImage: (req.file && req.file.filename) ? process.env.BACKEND_URL + "" + req.file.filename : imageToEdit
-        }, {
-            new: true
-        })
-        res.status(200).json({
-            message: "successfully updated image",
-            data: updatedData
-        })
+      });
     }
-}
+
+    const updatedData = await Product.findByIdAndUpdate(
+      id,
+      {
+        productName: updatedUserProductName,
+        productPrice: updatedUserProductPrice,
+        productDescription: updatedUserProductDescription,
+        productStatus: updatedUserProductStatus,
+        productStock: updatedUserProductStock,
+        // setting image as filename if give nfile give path else give old filepath name
+        productImage:
+          req.file && req.file.filename
+            ? process.env.BACKEND_URL + "" + req.file.filename
+            : imageToEdit,
+      },
+      {
+        new: true,
+      },
+    );
+    res.status(200).json({
+      message: "successfully updated image",
+      data: updatedData,
+    });
+  }
+};
 ```
 
 ### `Backend/controller/admin/users/userController.js`
@@ -1798,317 +1849,320 @@ exports.updateProduct = async (req, res) => {
 ```javascript
 const User = require("../../../models/userModel");
 
-exports.getUsers = async(req,res)=>{
-    try{
-        //  removing the sensitive information
-        // $ne = admin is indicating the user with data not = admin
-        //also data of usefr operating will also be not hsown
-        const userId = req.user.id;
-        const users = await User.find({
-            _id: { $ne: userId },
-            role: { $ne: 'admin' }
-        }).select('-password -role -otp -isOtpVerified');
-        if(users.length<1){
-            res.status(404).json({
-                message:"no users found",
-                userData:[]
-            })
-        }else{
-            res.status(200).json({
-                message:"users found",
-                userData:users
-            })
-        }
-    }catch(e){
-        res.status(400).json({
-            message:"an error occured"
-        })
-        console.log(e)
+exports.getUsers = async (req, res) => {
+  try {
+    //  removing the sensitive information
+    // $ne = admin is indicating the user with data not = admin
+    //also data of usefr operating will also be not hsown
+    const userId = req.user.id;
+    const users = await User.find({
+      _id: { $ne: userId },
+      role: { $ne: "admin" },
+    }).select("-password -role -otp -isOtpVerified");
+    if (users.length < 1) {
+      res.status(404).json({
+        message: "no users found",
+        userData: [],
+      });
+    } else {
+      res.status(200).json({
+        message: "users found",
+        userData: users,
+      });
     }
-}
+  } catch (e) {
+    res.status(400).json({
+      message: "an error occured",
+    });
+    console.log(e);
+  }
+};
 
-exports.deleteUser = async(req,res)=>{
-    const userId = req.params.id
-    if(!userId){
-        res.status(400).json({
-            message:"you need to login as an admin the system didnt get your id"
-        })
-    }
-    const userFound = await User.findById(userId);
-    if(!userFound){
-        res.status(400).json({
-            message:"the user with this id is not found in the databse"
-        })
-    }else{
-        await User.findByIdAndDelete(userId)
-        res.status(200).json({
-            message:"Successfully deleted an user with ID"+userId
-        })
-    }
-}
+exports.deleteUser = async (req, res) => {
+  const userId = req.params.id;
+  if (!userId) {
+    res.status(400).json({
+      message: "you need to login as an admin the system didnt get your id",
+    });
+  }
+  const userFound = await User.findById(userId);
+  if (!userFound) {
+    res.status(400).json({
+      message: "the user with this id is not found in the databse",
+    });
+  } else {
+    await User.findByIdAndDelete(userId);
+    res.status(200).json({
+      message: "Successfully deleted an user with ID" + userId,
+    });
+  }
+};
 ```
 
 ### `Backend/controller/auth/authController.js`
 
 ```javascript
 // we are actually supposed to import bcrypt to use it for hashing passwords
-const hx = require('bcryptjs')
+const hx = require("bcryptjs");
 
 //require jsonwebtoken for using it to login the user
-const webtoken = require('jsonwebtoken');
+const webtoken = require("jsonwebtoken");
 
 // Import the User model
 const User = require("../../models/userModel");
-const sendEmail = require('../../services/sendEmail');
-
-
-
+const sendEmail = require("../../services/sendEmail");
 
 exports.registerUser = async (req, res) => {
-    // Log received request body
-    console.log("Received registration data:", req.body);
-    
-    // Destructure the JSON form data
-    const { userEmail, userName, userPhone, userPassword } = req.body;
+  // Log received request body
+  console.log("Received registration data:", req.body);
 
-    // Check for empty fields
-    if (!userEmail || !userPhone || !userName || !userPassword) {
-        console.log("Missing required fields");
+  // Destructure the JSON form data
+  const { userEmail, userName, userPhone, userPassword } = req.body;
+
+  // Check for empty fields
+  if (!userEmail || !userPhone || !userName || !userPassword) {
+    console.log("Missing required fields");
+    return res.status(400).json({
+      message: "User creation failed",
+    });
+  } else {
+    try {
+      // Check if a user with the same email already exists
+      const existingUser = await User.findOne({ email: userEmail });
+      console.log("Existing user check result:", existingUser);
+
+      if (existingUser) {
         return res.status(400).json({
-            message: "User creation failed"
+          message: "User with given email already exists",
         });
-    } else {
-        try {
-            // Check if a user with the same email already exists
-            const existingUser = await User.findOne({ email: userEmail });
-            console.log("Existing user check result:", existingUser);
-            
-            if (existingUser) {
-                return res.status(400).json({
-                    message: "User with given email already exists"
-                });
-            }
+      }
 
-            // Create a new user
-            const data = await User.create({
-                email: userEmail,
-                name: userName,
-                phone: userPhone,
-                password: hx.hashSync(userPassword, 10) // Hash password
-            });
+      // Create a new user
+      const data = await User.create({
+        email: userEmail,
+        name: userName,
+        phone: userPhone,
+        password: hx.hashSync(userPassword, 10), // Hash password
+      });
 
-            console.log("User created successfully:", data);
+      console.log("User created successfully:", data);
 
-            // Send success message
-            res.status(201).json({
-                message: "User created successfully",
-                data: data
-            });
-        } catch (error) {
-            console.error("Error creating user:", error);
-            res.status(500).json({
-                message: "Error creating user",
-                error: error.message
-            });
-        }
+      // Send success message
+      res.status(201).json({
+        message: "User created successfully",
+        data: data,
+      });
+    } catch (error) {
+      console.error("Error creating user:", error);
+      res.status(500).json({
+        message: "Error creating user",
+        error: error.message,
+      });
     }
+  }
 };
 
 exports.loginUser = async (req, res) => {
-    // Log received request body
-    console.log("Received login data:", req.body);
-    
-    // Destructure the user email and password
-    const { userEmail, userPassword } = req.body;
+  // Log received request body
+  console.log("Received login data:", req.body);
 
-    if (!userEmail || !userPassword) {
-        console.log("Missing login credentials");
-        return res.status(400).json({
-            message: "Please enter your email and password to login"
+  // Destructure the user email and password
+  const { userEmail, userPassword } = req.body;
+
+  if (!userEmail || !userPassword) {
+    console.log("Missing login credentials");
+    return res.status(400).json({
+      message: "Please enter your email and password to login",
+    });
+  }
+
+  try {
+    // Find the user with the given email
+    const user = await User.findOne({ email: userEmail });
+    console.log("User lookup result:", user);
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    } else {
+      // Compare given password with stored hashed password
+      const isValidPassword = hx.compareSync(userPassword, user.password);
+      console.log("Password validation result:", isValidPassword);
+
+      if (isValidPassword) {
+        const token = webtoken.sign(
+          { id: user._id.toString() },
+          process.env.SECRET_KEY,
+          { expiresIn: "30d", algorithm: "HS256" },
+        );
+        console.log("Generated token:", token);
+
+        res.status(200).json({
+          message: "Login successful",
+          data: user,
+          token: token,
         });
+      } else {
+        console.log("Invalid password");
+        res.status(401).json({ message: "Invalid password" });
+      }
     }
-
-    try {
-        // Find the user with the given email
-        const user = await User.findOne({ email: userEmail });
-        console.log("User lookup result:", user);
-
-        if (!user) {
-            return res.status(404).json({ message: "User not found" });
-        } else {
-            // Compare given password with stored hashed password
-            const isValidPassword = hx.compareSync(userPassword, user.password);
-            console.log("Password validation result:", isValidPassword);
-
-            if (isValidPassword) {
-                const token = webtoken.sign(
-                    { id: user._id.toString() },
-                    process.env.SECRET_KEY,
-                    { expiresIn: '30d', algorithm: 'HS256' }
-                );
-                console.log("Generated token:", token);
-
-                res.status(200).json({
-                    message: "Login successful",
-                    data: user,
-                    token: token
-                });
-            } else {
-                console.log("Invalid password");
-                res.status(401).json({ message: "Invalid password" });
-            }
-        }
-    } catch (err) {
-        console.error("Error in database:", err);
-        res.status(500).json({ message: "Error in database" });
-    }
+  } catch (err) {
+    console.error("Error in database:", err);
+    res.status(500).json({ message: "Error in database" });
+  }
 };
-
-
 
 // forgot password feature implementation
 exports.forgotPassword = async (req, res) => {
-    const { userEmail } = req.body;
-    if (!userEmail) {
-        // returning 400 status message for requesting user to give email
-        return res.status(400).json({
-            message: "Please enter your email to reset password"
-        });
-    }
+  const { userEmail } = req.body;
+  if (!userEmail) {
+    // returning 400 status message for requesting user to give email
+    return res.status(400).json({
+      message: "Please enter your email to reset password",
+    });
+  }
 
-    // checking if user email given is available in database 
-    const emailExists = await User.findOne({ email: userEmail });
-    if (!emailExists) {
-        // returning 404 status message for user not found
-        return res.status(404).json({
-            message: "User not found"
-        });
-    } else {
-        // creating otp with 4 digits 
-        const otpUser = Math.floor(1000 + Math.random() * 9000);
-        // as we give user the OTP we save it to verify them by storing them in db
-        emailExists.otp = otpUser;
-        await emailExists.save()
-        try {
-          await sendEmail({
-              userEmail: userEmail,
-              emailSubject: "Password Reset OTP for Digital Mandu",
-              emailMessage: `Your OTP for password reset is ${otpUser}`,
-          });
-        } catch (mailErr) {
-          console.warn("Email send failed (dev fallback), OTP:", otpUser, mailErr.message);
-        }
-        console.log(`[DEV OTP] ${userEmail} -> ${otpUser}`);
-        const isDev = !process.env.EMAIL_USER || process.env.EMAIL_USER === 'dev@example.com';
-        return res.json({
-            message: isDev ? `OTP sent (dev mode): ${otpUser}` : "Successfully sent message",
-            ...(isDev ? { otp: otpUser } : {})
-        });
+  // checking if user email given is available in database
+  const emailExists = await User.findOne({ email: userEmail });
+  if (!emailExists) {
+    // returning 404 status message for user not found
+    return res.status(404).json({
+      message: "User not found",
+    });
+  } else {
+    // creating otp with 4 digits
+    const otpUser = Math.floor(1000 + Math.random() * 9000);
+    // as we give user the OTP we save it to verify them by storing them in db
+    emailExists.otp = otpUser;
+    await emailExists.save();
+    try {
+      await sendEmail({
+        userEmail: userEmail,
+        emailSubject: "Password Reset OTP for Digital Mandu",
+        emailMessage: `Your OTP for password reset is ${otpUser}`,
+      });
+    } catch (mailErr) {
+      console.warn(
+        "Email send failed (dev fallback), OTP:",
+        otpUser,
+        mailErr.message,
+      );
     }
+    console.log(`[DEV OTP] ${userEmail} -> ${otpUser}`);
+    const isDev =
+      !process.env.EMAIL_USER || process.env.EMAIL_USER === "dev@example.com";
+    return res.json({
+      message: isDev
+        ? `OTP sent (dev mode): ${otpUser}`
+        : "Successfully sent message",
+      ...(isDev ? { otp: otpUser } : {}),
+    });
+  }
 };
 
-
-// verify user Given and system sent OTP 
+// verify user Given and system sent OTP
 exports.verifyOTP = async (req, res) => {
-    // taking email and otp from user input
-    const { userEmail, otpUser } = req.body;
+  // taking email and otp from user input
+  const { userEmail, otpUser } = req.body;
 
-    // checking if otp and email is not null, if null send status code 400
-    if (!userEmail || !otpUser) {
-        return res.status(400).json({
-            message: "Please enter your email and OTP to verify"
-        });
+  // checking if otp and email is not null, if null send status code 400
+  if (!userEmail || !otpUser) {
+    return res.status(400).json({
+      message: "Please enter your email and OTP to verify",
+    });
+  }
+
+  // finding the user with the given email in the db
+  const user = await User.findOne({ email: userEmail });
+
+  if (!user) {
+    // invalid message in case of unidentified email
+    return res.status(400).json({
+      message: "No account with that email",
+    });
+  } else if (user.otp !== otpUser) {
+    // returning 400 status message for invalid OTP
+    return res.status(400).json({
+      message: "Invalid OTP",
+    });
+  } else {
+    // OTP is correct
+    // Reset OTP to undefined in the database for one-time usage
+    user.otp = undefined;
+
+    // Mark the user as verified
+    user.isOtpVerified = true;
+
+    // Save the updated user object
+    await user.save();
+
+    // Respond with success
+    return res.status(200).json({ message: "OTP is correct!" });
+  }
+};
+
+// resetting the pasword afterforgeting in this endpoint we hit then we changet
+// the current password with user given passwword by using the otp verification from
+//avobe
+exports.resetPassword = async (req, res) => {
+  try {
+    // taking email and new password from user input
+    const { userEmail, newUserPassword, confirmUserPassword } = req.body;
+
+    // checking if userEmail, newUserPassword, and confirmUserPassword are not null
+    if (!userEmail || !newUserPassword || !confirmUserPassword) {
+      return res.status(400).json({
+        message: "Enter details in the field",
+      });
     }
 
     // finding the user with the given email in the db
     const user = await User.findOne({ email: userEmail });
 
     if (!user) {
-        // invalid message in case of unidentified email
-        return res.status(400).json({
-            message: "No account with that email"
-        });
-    } else if (user.otp !== otpUser) {
-        // returning 400 status message for invalid OTP
-        return res.status(400).json({
-            message: "Invalid OTP"
-        });
-    } else {
-        // OTP is correct
-        // Reset OTP to undefined in the database for one-time usage
-        user.otp = undefined;
-    
-        // Mark the user as verified
-        user.isOtpVerified = true;
-    
-        // Save the updated user object
-        await user.save();
-    
-        // Respond with success
-        return res.status(200).json({ message: "OTP is correct!" });
+      return res.status(400).json({
+        message: "No account with that email",
+      });
     }
-    
-}
 
-// resetting the pasword afterforgeting in this endpoint we hit then we changet 
-// the current password with user given passwword by using the otp verification from 
-//avobe
-exports.resetPassword = async (req, res) => {
-    try {
-        // taking email and new password from user input
-        const { userEmail, newUserPassword, confirmUserPassword } = req.body;
-
-        // checking if userEmail, newUserPassword, and confirmUserPassword are not null
-        if (!userEmail || !newUserPassword || !confirmUserPassword) {
-            return res.status(400).json({
-                message: "Enter details in the field"
-            });
-        }
-
-        // finding the user with the given email in the db
-        const user = await User.findOne({ email: userEmail });
-
-        if (!user) {
-            return res.status(400).json({
-                message: "No account with that email"
-            });
-        }
-
-        // checking if new password is confirmed
-        if (confirmUserPassword !== newUserPassword) {
-            return res.status(400).json({
-                message: "Please confirm your password by entering the new password twice"
-            });
-        }
-
-        // checking if new password is not equal to old password (use password comparison logic)
-        const isSamePassword = hx.compareSync(newUserPassword, user.password); // Compare hashed password
-        if (isSamePassword) {
-            return res.status(400).json({
-                message: "New password cannot be the same as old password"
-            });
-        }
-        if (user.isOtpVerified !== true) {
-            // if user trying to verify again or trying to access unethical way
-            // show error
-            return res.status(403).json({ message: "You cannot perform this action" });
-        }
-        // updating the user password with the new password
-        user.password = hx.hashSync(newUserPassword, 10);
-        // turn off the otp before saving  thae updated
-        user.isOtpVerified = false;
-        await user.save();
-
-        // sending success response
-        return res.status(200).json({
-            message: "Password reset successfully"
-        });
-    } catch (error) {
-        console.error(error);
-        return res.status(500).json({
-            message: "An error occurred. Please try again later."
-        });
+    // checking if new password is confirmed
+    if (confirmUserPassword !== newUserPassword) {
+      return res.status(400).json({
+        message:
+          "Please confirm your password by entering the new password twice",
+      });
     }
+
+    // checking if new password is not equal to old password (use password comparison logic)
+    const isSamePassword = hx.compareSync(newUserPassword, user.password); // Compare hashed password
+    if (isSamePassword) {
+      return res.status(400).json({
+        message: "New password cannot be the same as old password",
+      });
+    }
+    if (user.isOtpVerified !== true) {
+      // if user trying to verify again or trying to access unethical way
+      // show error
+      return res
+        .status(403)
+        .json({ message: "You cannot perform this action" });
+    }
+    // updating the user password with the new password
+    user.password = hx.hashSync(newUserPassword, 10);
+    // turn off the otp before saving  thae updated
+    user.isOtpVerified = false;
+    await user.save();
+
+    // sending success response
+    return res.status(200).json({
+      message: "Password reset successfully",
+    });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({
+      message: "An error occurred. Please try again later.",
+    });
+  }
 };
 ```
 
@@ -2119,72 +2173,78 @@ const Product = require("../../models/productModel");
 const Review = require("../../models/reviewModel");
 
 exports.getProducts = async (req, res) => {
-    // Changed this code first it used to fetch only id
-    // but now as we changed the reviewModel to nextWayReviewModel
-    // we are changing to fetch data and more data nested inside
-    // the nested path as reviews database selecting name and email of user
-    // const products = await Product.find().populate({
-    // populate after getting into the reviews collection and display name and email of the user from reviews collections 
-    // path: "reviews",
-    // populate: {
-    //     path: "userId",
-    //     select: "name email"
-    // }
-    // above method will populate the user id based way retrieving name email of that user
+  // Changed this code first it used to fetch only id
+  // but now as we changed the reviewModel to nextWayReviewModel
+  // we are changing to fetch data and more data nested inside
+  // the nested path as reviews database selecting name and email of user
+  // const products = await Product.find().populate({
+  // populate after getting into the reviews collection and display name and email of the user from reviews collections
+  // path: "reviews",
+  // populate: {
+  //     path: "userId",
+  //     select: "name email"
+  // }
+  // above method will populate the user id based way retrieving name email of that user
 
-    // });
+  // });
 
-    // Public listing: only products with status public and valid image
-    const filter = { productStatus: 'public' };
-    // allow ?all=true for admin/seller debugging (optional)
-    if (req.query.all === 'true') delete filter.productStatus;
-    const products = await Product.find(filter).sort({ createdAt: -1 });
-    // filter out placeholder spotify image at response level (legacy data)
-    const cleaned = products.filter(p => !String(p.productImage||'').includes('spotify.com'));
+  // Public listing: only products with status public and valid image
+  const filter = { productStatus: "public" };
+  // allow ?all=true for admin/seller debugging (optional)
+  if (req.query.all === "true") delete filter.productStatus;
+  const products = await Product.find(filter).sort({ createdAt: -1 });
+  // filter out placeholder spotify image at response level (legacy data)
+  const cleaned = products.filter(
+    (p) => !String(p.productImage || "").includes("spotify.com"),
+  );
 
-    return res.status(200).json({
-        message: cleaned.length ? "Products fetched successfully" : "No products available",
-        data: cleaned
-    });
+  return res.status(200).json({
+    message: cleaned.length
+      ? "Products fetched successfully"
+      : "No products available",
+    data: cleaned,
+  });
 };
 
 exports.getEachProducts = async (req, res) => {
-    try {
-        // Taking get request destructuring id from URL 
-        const { id } = req.params;
+  try {
+    // Taking get request destructuring id from URL
+    const { id } = req.params;
 
-        // If id is not provided, return an error
-        if (!id) {
-            return res.status(404).json({
-                message: `Oops the item you searched is not here`,
-                data: []
-            });
-        }
-
-        const products = await Product.findById(id);
-        // Showing review to the product simultaneously
-        const reviews = await Review.find({ productId: id }).populate("userId").populate("productId");
-
-        // If products are not available give message of no products available
-        if (!products) {
-            return res.status(404).json({
-                message: `Oops the item you searched is not here`,
-                data: []
-            });
-        } else {
-            return res.status(200).json({
-                message: "Product fetched successfully",
-                data: products,
-                reviews: reviews
-            });
-        }
-    } catch (error) {
-        const { id } = req.params;
-        console.log(error.message);
-        return res.status(400).json({
-            message: `Product with id ${id} not found`,
-        });
+    // If id is not provided, return an error
+    if (!id) {
+      return res.status(404).json({
+        message: `Oops the item you searched is not here`,
+        data: [],
+      });
     }
+
+    const products = await Product.findById(id);
+    // Showing review to the product simultaneously
+    const reviews = await Review.find({ productId: id })
+      .populate("userId")
+      .populate("productId");
+
+    // If products are not available give message of no products available
+    if (!products) {
+      return res.status(404).json({
+        message: `Oops the item you searched is not here`,
+        data: [],
+      });
+    } else {
+      return res.status(200).json({
+        message: "Product fetched successfully",
+        data: products,
+        reviews: reviews,
+      });
+    }
+  } catch (error) {
+    const { id } = req.params;
+    console.log(error.message);
+    return res.status(400).json({
+      message: `Product with id ${id} not found`,
+    });
+  }
 };
 ```
 
@@ -2195,130 +2255,137 @@ const Product = require("../../../models/productModel");
 const User = require("../../../models/userModel");
 
 exports.addToCart = async (req, res) => {
-    try {
-        const userID = req.user.id;
-        const { productID } = req.params;
+  try {
+    const userID = req.user.id;
+    const { productID } = req.params;
 
-        // Retrieve the product
-        const product = await Product.findById(productID);
-        if (!product) {
-            return res.status(404).json({ msg: "Product not found" });
-        }
-
-        // Retrieve the user
-        const user = await User.findById(userID);
-        if (!user) {
-            return res.status(404).json({ msg: "User not found" });
-        }
-
-        // Finding specific product in the cart 
-        const existingCartItem = user.cart.find((x) => x.product.toString() === productID);
-        // If product already exists in cart, increase quantity
-        if (existingCartItem) {
-            existingCartItem.quantity+=1;
-        } else {
-            // Else create new instance of the product
-            user.cart.push({
-                quantity: 1,
-                product: productID
-            });
-        }
-
-        await user.save();
-        const updatedUser = await User.findById(userID).populate("cart.product");
-        res.status(200).json({ message: "Product added to cart", data: updatedUser.cart });
-    } catch (error) {
-        res.status(500).json({ msg: "Server error", error: error.message });
+    // Retrieve the product
+    const product = await Product.findById(productID);
+    if (!product) {
+      return res.status(404).json({ msg: "Product not found" });
     }
+
+    // Retrieve the user
+    const user = await User.findById(userID);
+    if (!user) {
+      return res.status(404).json({ msg: "User not found" });
+    }
+
+    // Finding specific product in the cart
+    const existingCartItem = user.cart.find(
+      (x) => x.product.toString() === productID,
+    );
+    // If product already exists in cart, increase quantity
+    if (existingCartItem) {
+      existingCartItem.quantity += 1;
+    } else {
+      // Else create new instance of the product
+      user.cart.push({
+        quantity: 1,
+        product: productID,
+      });
+    }
+
+    await user.save();
+    const updatedUser = await User.findById(userID).populate("cart.product");
+    res
+      .status(200)
+      .json({ message: "Product added to cart", data: updatedUser.cart });
+  } catch (error) {
+    res.status(500).json({ msg: "Server error", error: error.message });
+  }
 };
 
 // Getting my cart items
 exports.getCartItems = async (req, res) => {
-    try {
-        const userID = req.user.id;
-        // Get specific user
-        const user = await User.findById(userID).populate({
-            path: "cart.product",
-            select: "-productStatus" // Select all fields except productStatus
-        });
+  try {
+    const userID = req.user.id;
+    // Get specific user
+    const user = await User.findById(userID).populate({
+      path: "cart.product",
+      select: "-productStatus", // Select all fields except productStatus
+    });
 
-        if (!user) {
-            return res.status(404).json({ msg: "User not found" });
-        }
-
-        res.status(200).json({
-            message: "Fetched cart items",
-            data: user.cart
-        });
-    } catch (error) {
-        res.status(500).json({ msg: "Server error", error: error.message });
+    if (!user) {
+      return res.status(404).json({ msg: "User not found" });
     }
+
+    res.status(200).json({
+      message: "Fetched cart items",
+      data: user.cart,
+    });
+  } catch (error) {
+    res.status(500).json({ msg: "Server error", error: error.message });
+  }
 };
 
 // Removing element from cart (accepts productID or cartID subdoc _id)
 exports.removeCartItem = async (req, res) => {
-    try {
-        const userID = req.user.id;
-        const productID = req.params.productID || req.params.cartID;
-        // Get specific user
-        const user = await User.findById(userID);
-        
-        if (!user) {
-            return res.status(200).json({ msg: "User not found, but no error" });
-        }
-        
-        // Match by product ObjectId OR subdoc _id (supports both frontend call styles)
-        const cartItemIndex = user.cart.findIndex((x) => x.product.toString() === productID || String(x._id) === productID);
-        if (cartItemIndex === -1) {
-            return res.status(404).json({ msg: "Product not found in cart" });
-        }
-        user.cart = user.cart.filter((x) => String(x._id) !== productID && x.product.toString() !== productID);
-        await user.save();
-        
-        res.status(200).json({
-            message: "Removed an item from cart"
-        });
-    } catch (error) {
-        res.status(500).json({ msg: "Server error", error: error.message });
+  try {
+    const userID = req.user.id;
+    const productID = req.params.productID || req.params.cartID;
+    // Get specific user
+    const user = await User.findById(userID);
+
+    if (!user) {
+      return res.status(200).json({ msg: "User not found, but no error" });
     }
+
+    // Match by product ObjectId OR subdoc _id (supports both frontend call styles)
+    const cartItemIndex = user.cart.findIndex(
+      (x) => x.product.toString() === productID || String(x._id) === productID,
+    );
+    if (cartItemIndex === -1) {
+      return res.status(404).json({ msg: "Product not found in cart" });
+    }
+    user.cart = user.cart.filter(
+      (x) => String(x._id) !== productID && x.product.toString() !== productID,
+    );
+    await user.save();
+
+    res.status(200).json({
+      message: "Removed an item from cart",
+    });
+  } catch (error) {
+    res.status(500).json({ msg: "Server error", error: error.message });
+  }
 };
 
 exports.updateCartItem = async (req, res) => {
-    try {
-        if (!req.user || !req.user.id) {
-            return res.status(401).json({ msg: "Unauthorized: User ID is missing" });
-        }
-
-        const userID = req.user.id;
-        const cartID = req.params.cartID;  // Ensure it's "cartID" (not productID)
-        const { quantity } = req.body;
-
-        if (!quantity || quantity <= 0) {
-            return res.status(400).json({ msg: "Invalid quantity" });
-        }
-
-        const user = await User.findById(userID);
-        if (!user) {
-            return res.status(404).json({ msg: "User not found" });
-        }
-
-        const cartItem = user.cart.find((item) => String(item._id) === cartID);
-        if (!cartItem) {
-            return res.status(404).json({ msg: "Product not found in cart" });
-        }
-
-        cartItem.quantity = quantity;
-        await user.save();
-
-        return res.status(200).json({
-            message: "Updated cart item quantity",
-            updatedCart: user.cart
-        });
-
-    } catch (error) {
-        console.error("Error updating cart item:", error.message);
-        return res.status(500).json({ msg: "Server error", error: error.message });
+  try {
+    if (!req.user || !req.user.id) {
+      return res.status(401).json({ msg: "Unauthorized: User ID is missing" });
     }
+
+    const userID = req.user.id;
+    const cartID = req.params.cartID; // Ensure it's "cartID" (not productID)
+    const { quantity } = req.body;
+
+    if (!quantity || quantity <= 0) {
+      return res.status(400).json({ msg: "Invalid quantity" });
+    }
+
+    const user = await User.findById(userID);
+    if (!user) {
+      return res.status(404).json({ msg: "User not found" });
+    }
+
+    const cartItem = user.cart.find((item) => String(item._id) === cartID);
+    if (!cartItem) {
+      return res.status(404).json({ msg: "Product not found in cart" });
+    }
+
+    cartItem.quantity = quantity;
+    await user.save();
+
+    return res.status(200).json({
+      message: "Updated cart item quantity",
+      updatedCart: user.cart,
+    });
+  } catch (error) {
+    console.error("Error updating cart item:", error.message);
+    return res.status(500).json({ msg: "Server error", error: error.message });
+  }
 };
 ```
 
@@ -2326,289 +2393,312 @@ exports.updateCartItem = async (req, res) => {
 
 ```javascript
 const User = require("../../../models/userModel");
-const hx = require('bcryptjs')
-
+const hx = require("bcryptjs");
 
 //get my profile controller
 
-
 exports.getMyProfile = async (rq, rs) => {
-    const userID = rq.user.id;
-    const myProfile = await User.findById(userID); 
-    if (!myProfile) {
-        return rs.status(404).json({ message: "User not found" });
-    }
-    return rs.json({
-        message: "Found the data", 
-        data: myProfile
-    });
+  const userID = rq.user.id;
+  const myProfile = await User.findById(userID);
+  if (!myProfile) {
+    return rs.status(404).json({ message: "User not found" });
+  }
+  return rs.json({
+    message: "Found the data",
+    data: myProfile,
+  });
 };
-
-
-
-
 
 // Updating the password of a user
 exports.updatePassword = async (req, res) => {
-    const { oldPassword, newPassword, confirmPassword } = req.body;
-    const userID = req.user.id;
-    
-    try {
-        // Check if all fields are filled
-        if (!oldPassword || !newPassword || !confirmPassword) {
-            return res.status(400).json({ message: "Please fill all fields" });
-        }
-        
-        // Find the user by ID
-        const user = await User.findById(userID);
-        if (!user) {
-            return res.status(404).json({ message: "User not found" });
-        }
-        
-        // Verify that the old password matches the one in the database
-        const isPasswordMatch = await hx.compare(oldPassword, user.password);
-        if (!isPasswordMatch) {
-            return res.status(401).json({ message: "Old password is incorrect" });
-        }
-        
-        // Ensure the new password is not the same as the old password
-        const isSamePassword = await hx.compare(newPassword, user.password);
-        if (isSamePassword) {
-            return res.status(400).json({ message: "New password cannot be the same as the old password" });
-        }
+  const { oldPassword, newPassword, confirmPassword } = req.body;
+  const userID = req.user.id;
 
-        // Check if new password and confirm password match
-        if (newPassword.trim() !== confirmPassword.trim()) {
-            return res.status(400).json({ message: "New password and confirmed password do not match" });
-        }
-
-        // Hash the new password
-        const hashedPassword = await hx.hash(newPassword, 12);
-
-        // Update the user's password directly in the database
-        const updatedUser = await User.findByIdAndUpdate(
-            userID,
-            { $set: { password: hashedPassword } },
-            { new: true, runValidators: true }
-        );
-
-        if (!updatedUser) {
-            return res.status(500).json({ message: "Failed to update the password. Please try again." });
-        }
-        
-        // Optional: Clear user tokens or sessions (example implementation below)
-        await expireToken(req);
-
-        return res.status(200).json({ message: "Password updated successfully" });
-    } catch (error) {
-        console.error("Error updating password:", error);
-        return res.status(500).json({ message: "An internal server error occurred. Please try again." });
+  try {
+    // Check if all fields are filled
+    if (!oldPassword || !newPassword || !confirmPassword) {
+      return res.status(400).json({ message: "Please fill all fields" });
     }
-};
 
+    // Find the user by ID
+    const user = await User.findById(userID);
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    // Verify that the old password matches the one in the database
+    const isPasswordMatch = await hx.compare(oldPassword, user.password);
+    if (!isPasswordMatch) {
+      return res.status(401).json({ message: "Old password is incorrect" });
+    }
+
+    // Ensure the new password is not the same as the old password
+    const isSamePassword = await hx.compare(newPassword, user.password);
+    if (isSamePassword) {
+      return res
+        .status(400)
+        .json({
+          message: "New password cannot be the same as the old password",
+        });
+    }
+
+    // Check if new password and confirm password match
+    if (newPassword.trim() !== confirmPassword.trim()) {
+      return res
+        .status(400)
+        .json({ message: "New password and confirmed password do not match" });
+    }
+
+    // Hash the new password
+    const hashedPassword = await hx.hash(newPassword, 12);
+
+    // Update the user's password directly in the database
+    const updatedUser = await User.findByIdAndUpdate(
+      userID,
+      { $set: { password: hashedPassword } },
+      { new: true, runValidators: true },
+    );
+
+    if (!updatedUser) {
+      return res
+        .status(500)
+        .json({ message: "Failed to update the password. Please try again." });
+    }
+
+    // Optional: Clear user tokens or sessions (example implementation below)
+    await expireToken(req);
+
+    return res.status(200).json({ message: "Password updated successfully" });
+  } catch (error) {
+    console.error("Error updating password:", error);
+    return res
+      .status(500)
+      .json({
+        message: "An internal server error occurred. Please try again.",
+      });
+  }
+};
 
 //update my profile controller
 exports.updateProfile = async (req, res) => {
-    const { userName, userEmail, userPhone } = req.body;
-    const userID = req.user.id;
+  const { userName, userEmail, userPhone } = req.body;
+  const userID = req.user.id;
 
-    // Updating user data by finding the data from id and setting new data
-    const updatedUser = await User.findByIdAndUpdate(userID, {
-        $set: {
-            name: userName,
-            email: userEmail,
-            phone: userPhone
-        }
-    }, { new: true, runValidators: true }); 
-    if (!updatedUser) {
-        return res.status(404).json({ message: "User not found" });
-    }
-    return res.json({ message: "Profile updated successfully", data: updatedUser });
+  // Updating user data by finding the data from id and setting new data
+  const updatedUser = await User.findByIdAndUpdate(
+    userID,
+    {
+      $set: {
+        name: userName,
+        email: userEmail,
+        phone: userPhone,
+      },
+    },
+    { new: true, runValidators: true },
+  );
+  if (!updatedUser) {
+    return res.status(404).json({ message: "User not found" });
+  }
+  return res.json({
+    message: "Profile updated successfully",
+    data: updatedUser,
+  });
 };
 
 // Function to expire the token
 const expireToken = async (req) => {
-    try {
-        // Example token invalidation logic:
-        req.user.token = null;
+  try {
+    // Example token invalidation logic:
+    req.user.token = null;
 
-        // Add token invalidation/blacklist logic here if applicable
-        console.log("User token invalidated");
-    } catch (error) {
-        console.error("Error expiring token:", error);
-    }
+    // Add token invalidation/blacklist logic here if applicable
+    console.log("User token invalidated");
+  } catch (error) {
+    console.error("Error expiring token:", error);
+  }
 };
-
 
 //delete my profile contorller
 exports.deleteProfile = async (req, res) => {
-    const userID = req.user.id;
-    const deletedUser = await User.findByIdAndDelete(userID)
-    if (!deletedUser) {
-        return res.status(404).json({ message: "User not found" })
-    }
-    return res.json({ message: "Profile deleted successfully" })
-}
-
-
+  const userID = req.user.id;
+  const deletedUser = await User.findByIdAndDelete(userID);
+  if (!deletedUser) {
+    return res.status(404).json({ message: "User not found" });
+  }
+  return res.json({ message: "Profile deleted successfully" });
+};
 ```
 
 ### `Backend/controller/user/order/orderController.js`
 
 ```javascript
-
 const Order = require("../../../models/orderModel");
 const User = require("../../../models/userModel");
 
 // Create a new order
 exports.createOrder = async (req, res) => {
-    try {
-        const userId = req.user.id;
+  try {
+    const userId = req.user.id;
 
-        const { shippingAddress, items, totalAmount, paymentDetails } = req.body;
+    const { shippingAddress, items, totalAmount, paymentDetails } = req.body;
 
-        // Check if required fields are provided
-        if (!shippingAddress || !items || items.length < 1 || !totalAmount || !paymentDetails) {
-            return res.status(400).json({ message: "Please fill all the fields." });
-        }
-        if (!Array.isArray(items) || items.length === 0 || items.some(i => !i.product)) {
-            return res.status(400).json({ message: "Invalid items data. Each item must have a product ID." });
-        }
-
-        // Populate the orders collection
-        const order = await Order.create({
-            user: userId,
-            shippingAddress,
-            items,
-            totalAmount,
-            paymentDetails,
-        });
-
-        const user = await User.findById(userId)
-        user.cart=[]
-        await user.save()
-        
-
-        return res.status(200).json({
-            message: "Order created successfully",
-            data: order, // Return the created order data
-        });
-        window.location.href="/"
-    } catch (error) {
-        console.log(error);
-        res.status(500).json({ msg: "Server error", error: error.message });
+    // Check if required fields are provided
+    if (
+      !shippingAddress ||
+      !items ||
+      items.length < 1 ||
+      !totalAmount ||
+      !paymentDetails
+    ) {
+      return res.status(400).json({ message: "Please fill all the fields." });
     }
+    if (
+      !Array.isArray(items) ||
+      items.length === 0 ||
+      items.some((i) => !i.product)
+    ) {
+      return res
+        .status(400)
+        .json({
+          message: "Invalid items data. Each item must have a product ID.",
+        });
+    }
+
+    // Populate the orders collection
+    const order = await Order.create({
+      user: userId,
+      shippingAddress,
+      items,
+      totalAmount,
+      paymentDetails,
+    });
+
+    const user = await User.findById(userId);
+    user.cart = [];
+    await user.save();
+
+    return res.status(200).json({
+      message: "Order created successfully",
+      data: order, // Return the created order data
+    });
+    window.location.href = "/";
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ msg: "Server error", error: error.message });
+  }
 };
 
 // Get orders for the logged-in user
 exports.getOrders = async (req, res) => {
-    const userId = req.user.id;
+  const userId = req.user.id;
 
-    if (!userId) {
-        return res.status(400).json({ message: "Please login to view orders" });
-    }
+  if (!userId) {
+    return res.status(400).json({ message: "Please login to view orders" });
+  }
 
-    const orders = await Order.find({ user: userId }).populate({
-        path: "items.product",
-        model: "Product",
-        select: "-productStock -reviews",
-    });
+  const orders = await Order.find({ user: userId }).populate({
+    path: "items.product",
+    model: "Product",
+    select: "-productStock -reviews",
+  });
 
-    return res.status(200).json({
-        message: orders.length ? "Orders fetched successfully" : "No orders yet",
-        data: orders,
-    });
+  return res.status(200).json({
+    message: orders.length ? "Orders fetched successfully" : "No orders yet",
+    data: orders,
+  });
 };
 
 // Update an order
 exports.updateOrders = async (req, res) => {
-    const { id } = req.params;
-    const { newShippingAddress, items } = req.body;
+  const { id } = req.params;
+  const { newShippingAddress, items } = req.body;
 
-    if (!newShippingAddress || items.length === 0) {
-        return res.status(400).json({ message: "Please fill all the fields." });
-    }
+  if (!newShippingAddress || items.length === 0) {
+    return res.status(400).json({ message: "Please fill all the fields." });
+  }
 
-    const existingOrder = await Order.findById(id);
-    if (!existingOrder) {
-        return res.status(404).json({ message: "Order not found" });
-    }
+  const existingOrder = await Order.findById(id);
+  if (!existingOrder) {
+    return res.status(404).json({ message: "Order not found" });
+  }
 
-    // Check if the user is authorized to update the order
-    if (existingOrder.user.toString() !== req.user.id) {
-        return res.status(401).json({ message: "You can't update this order." });
-    }
+  // Check if the user is authorized to update the order
+  if (existingOrder.user.toString() !== req.user.id) {
+    return res.status(401).json({ message: "You can't update this order." });
+  }
 
-    if (existingOrder.orderStatus === "ontheway") {
-        return res.status(400).json({ message: "Order is already on the way" });
-    }
+  if (existingOrder.orderStatus === "ontheway") {
+    return res.status(400).json({ message: "Order is already on the way" });
+  }
 
-    // Update the existing order    
-    const updatedOrder = await Order.findByIdAndUpdate(
-        id,
-        { shippingAddress: newShippingAddress, items: items },
-        { new: true }
-    );
+  // Update the existing order
+  const updatedOrder = await Order.findByIdAndUpdate(
+    id,
+    { shippingAddress: newShippingAddress, items: items },
+    { new: true },
+  );
 
-    return res.status(200).json({
-        message: "Order updated successfully",
-        data: updatedOrder,
-    });
+  return res.status(200).json({
+    message: "Order updated successfully",
+    data: updatedOrder,
+  });
 };
 
 // Delete an order
 exports.deleteOrder = async (req, res) => {
-    const { id } = req.params;
+  const { id } = req.params;
 
-    const existingOrder = await Order.findById(id);
-    if (!existingOrder) {
-        return res.status(404).json({ message: "Order not found" });
-    }
+  const existingOrder = await Order.findById(id);
+  if (!existingOrder) {
+    return res.status(404).json({ message: "Order not found" });
+  }
 
-    // Check if the user is atuhorized to ledete ordrr
-    if (existingOrder.user.toString() !== req.user.id) {
-        return res.status(401).json({ message: "You can't delete this order." });
-    }
+  // Check if the user is atuhorized to ledete ordrr
+  if (existingOrder.user.toString() !== req.user.id) {
+    return res.status(401).json({ message: "You can't delete this order." });
+  }
 
-    if (existingOrder.orderStatus === "ontheway") {
-        return res.status(400).json({ message: "Order is already on the way" });
-    }
+  if (existingOrder.orderStatus === "ontheway") {
+    return res.status(400).json({ message: "Order is already on the way" });
+  }
 
-    await Order.findByIdAndDelete(id);
+  await Order.findByIdAndDelete(id);
 
-    return res.status(200).json({ message: "Order deleted successfully" });
+  return res.status(200).json({ message: "Order deleted successfully" });
 };
 
 // Cancel an order
 exports.cancelOrder = async (req, res) => {
-    const { id } = req.body;
+  const { id } = req.body;
 
-    const existingOrder = await Order.findById(id);
-    if (!existingOrder) {
-        return res.status(404).json({ message: "Order not found" });
-    }
+  const existingOrder = await Order.findById(id);
+  if (!existingOrder) {
+    return res.status(404).json({ message: "Order not found" });
+  }
 
-    // Check if the user is authorized to change the order status
-    if (existingOrder.user.toString() !== req.user.id) {
-        return res.status(401).json({ message: "You can't change this order status." });
-    }
+  // Check if the user is authorized to change the order status
+  if (existingOrder.user.toString() !== req.user.id) {
+    return res
+      .status(401)
+      .json({ message: "You can't change this order status." });
+  }
 
-    if (existingOrder.orderStatus === "cancelled") {
-        return res.status(400).json({ message: "Order is already cancelled" });
-    }
+  if (existingOrder.orderStatus === "cancelled") {
+    return res.status(400).json({ message: "Order is already cancelled" });
+  }
 
-    if (existingOrder.orderStatus !== "pending") {
-        return res.status(400).json({ message: "Order is already on the way" });
-    }
+  if (existingOrder.orderStatus !== "pending") {
+    return res.status(400).json({ message: "Order is already on the way" });
+  }
 
-    // Update the order status to cacnessed
-    existingOrder.orderStatus = "cancelled";
-    await existingOrder.save();
+  // Update the order status to cacnessed
+  existingOrder.orderStatus = "cancelled";
+  await existingOrder.save();
 
-    return res.status(200).json({
-        message: "Order status changed successfully",
-        data: existingOrder,
-    });
+  return res.status(200).json({
+    message: "Order status changed successfully",
+    data: existingOrder,
+  });
 };
 ```
 
@@ -2620,103 +2710,130 @@ const Order = require("../../../models/orderModel");
 const User = require("../../../models/userModel");
 
 exports.initateKhaltiPayment = async (req, res) => {
-    const { orderId, amount } = req.body;
-    if (!orderId || !amount) {
-        return res.status(400).json({ message: "Order id and amount are required." });
-    }
+  const { orderId, amount } = req.body;
+  if (!orderId || !amount) {
+    return res
+      .status(400)
+      .json({ message: "Order id and amount are required." });
+  }
 
-    let order = await Order.findById(orderId);
-    if (!order) {
-        return res.status(404).json({ message: "Order not found." });
-    }
-    // allow paisa or rupees — normalize to number
-    const amountNum = Number(amount);
-    if (Number(order.totalAmount) !== amountNum && Number(order.totalAmount)*100 !== amountNum) {
-        return res.status(400).json({ message: "Invalid amount." });
-    }
+  let order = await Order.findById(orderId);
+  if (!order) {
+    return res.status(404).json({ message: "Order not found." });
+  }
+  // allow paisa or rupees — normalize to number
+  const amountNum = Number(amount);
+  if (
+    Number(order.totalAmount) !== amountNum &&
+    Number(order.totalAmount) * 100 !== amountNum
+  ) {
+    return res.status(400).json({ message: "Invalid amount." });
+  }
 
-    const khaltiKey = process.env.KHALTI_SECRET_KEY || "370da36237d94394a497c6d83e634229";
-    const frontendUrl = (process.env.FRONTEND_URL || "http://localhost:5173").replace(/\/$/, "");
-    const backendUrl = (process.env.BACKEND_URL || "http://localhost:3000/").replace(/\/$/, "/");
-    const data = {
-        return_url: `${frontendUrl}/khalti-success`,
-        purchase_order_id: String(orderId),
-        amount: amountNum < 1000 ? amountNum * 100 : amountNum, // NPR -> paisa if not already
-        website_url: backendUrl,
-        purchase_order_name: "order_name_" + orderId
-    };
+  const khaltiKey =
+    process.env.KHALTI_SECRET_KEY || "370da36237d94394a497c6d83e634229";
+  const frontendUrl = (
+    process.env.FRONTEND_URL || "http://localhost:5173"
+  ).replace(/\/$/, "");
+  const backendUrl = (
+    process.env.BACKEND_URL || "http://localhost:3000/"
+  ).replace(/\/$/, "/");
+  const data = {
+    return_url: `${frontendUrl}/khalti-success`,
+    purchase_order_id: String(orderId),
+    amount: amountNum < 1000 ? amountNum * 100 : amountNum, // NPR -> paisa if not already
+    website_url: backendUrl,
+    purchase_order_name: "order_name_" + orderId,
+  };
 
-    const response = await axios.post("https://dev.khalti.com/api/v2/epayment/initiate/", data, {
-        headers: {
-            "Authorization": `key ${khaltiKey}`,
-            "Content-Type": "application/json"
-        }
-    });
+  const response = await axios.post(
+    "https://dev.khalti.com/api/v2/epayment/initiate/",
+    data,
+    {
+      headers: {
+        Authorization: `key ${khaltiKey}`,
+        "Content-Type": "application/json",
+      },
+    },
+  );
 
-    console.log("response", response.data);
+  console.log("response", response.data);
 
+  //ensuring the order is an object before adding value in pidx
+  if (!order.paymentDetails) {
+    order.paymentDetails = {};
+  }
 
-    //ensuring the order is an object before adding value in pidx
-    if (!order.paymentDetails) {
-        order.paymentDetails = {};
-    }
-
-    order.paymentDetails.pidx = response.data.pidx;
-    await order.save();
-    // this will redirect to the pyayment page with or merchant accout to accept payment and 
-    //filled with all the credentials also giving transactionID too
-    // res.redirect(response.data.payment_url);
-    res.status(200).json(
-        {
-            message: "paymeht has been successful",
-            paymentUrl: response.data.payment_url
-        }
-    )
-
-
+  order.paymentDetails.pidx = response.data.pidx;
+  await order.save();
+  // this will redirect to the pyayment page with or merchant accout to accept payment and
+  //filled with all the credentials also giving transactionID too
+  // res.redirect(response.data.payment_url);
+  res.status(200).json({
+    message: "paymeht has been successful",
+    paymentUrl: response.data.payment_url,
+  });
 };
 
 // verifying transaction id pids
 exports.verifyPidx = async (req, res) => {
-    try {
+  try {
     const pidx = req.body.pidx || req.query.pidx;
-    const userId = req.user?.id
+    const userId = req.user?.id;
 
     if (!pidx) {
-      
-        return res.status(400).json({ message: "Pidx is required." });
+      return res.status(400).json({ message: "Pidx is required." });
     }
-    const khaltiKey = process.env.KHALTI_SECRET_KEY || "370da36237d94394a497c6d83e634229";
-    const response = await axios.post("https://dev.khalti.com/api/v2/epayment/lookup/", { pidx: pidx }, {
+    const khaltiKey =
+      process.env.KHALTI_SECRET_KEY || "370da36237d94394a497c6d83e634229";
+    const response = await axios.post(
+      "https://dev.khalti.com/api/v2/epayment/lookup/",
+      { pidx: pidx },
+      {
         headers: {
-            "Authorization": `key ${khaltiKey}`,
-            "Content-Type": "application/json"
-        }
-    });
-    console.log("khalti lookup", response.data)
+          Authorization: `key ${khaltiKey}`,
+          "Content-Type": "application/json",
+        },
+      },
+    );
+    console.log("khalti lookup", response.data);
     if (response.data.status == "Completed") {
-        let orders = await Order.find({ "paymentDetails.pidx": pidx })
-        if (orders && orders[0]) {
-          if (!orders[0].paymentDetails) orders[0].paymentDetails = {};
-          orders[0].paymentDetails.method = "khalti"
-          orders[0].paymentDetails.status = "paid"
-          orders[0].orderStatus = "confirmed"
-          await orders[0].save()
+      let orders = await Order.find({ "paymentDetails.pidx": pidx });
+      if (orders && orders[0]) {
+        if (!orders[0].paymentDetails) orders[0].paymentDetails = {};
+        orders[0].paymentDetails.method = "khalti";
+        orders[0].paymentDetails.status = "paid";
+        orders[0].orderStatus = "confirmed";
+        await orders[0].save();
+      }
+      if (userId) {
+        let user = await User.findById(userId);
+        if (user) {
+          user.cart = [];
+          await user.save();
         }
-        if (userId) {
-          let user = await User.findById(userId)
-          if (user) { user.cart = []; await user.save(); }
-        }
-        return res.status(200).json({ message: "payment verified successfully", data: response.data })
+      }
+      return res
+        .status(200)
+        .json({
+          message: "payment verified successfully",
+          data: response.data,
+        });
     } else {
-        return res.status(200).json({ message: "payment pending", data: response.data })
+      return res
+        .status(200)
+        .json({ message: "payment pending", data: response.data });
     }
-    } catch (e) {
-        console.error("verifyPidx error", e.response?.data || e.message);
-        return res.status(500).json({ message: "Verification failed", error: e.response?.data || e.message })
-    }
-}
-
+  } catch (e) {
+    console.error("verifyPidx error", e.response?.data || e.message);
+    return res
+      .status(500)
+      .json({
+        message: "Verification failed",
+        error: e.response?.data || e.message,
+      });
+  }
+};
 ```
 
 ### `Backend/controller/user/review/reviewController.js`
@@ -2760,133 +2877,127 @@ const Review = require("../../../models/reviewModel");
 
 // Get all reviews for a product
 exports.getProductReview = async (req, res) => {
-    const productId = req.params.id;
+  const productId = req.params.id;
 
-    if (!productId) {
-        return res.status(400).json({
-            message: "Please provide productId",
-        });
-    }
-
-    const productExist = await Product.findById(productId);
-    if (!productExist) {
-        return res.status(404).json({
-            message: "Product with that id doesn't exist",
-        });
-    }
-
-    const reviews = await Review.find({ productId }).populate("userId");
-    res.status(200).json({
-        message: "Reviews fetched successfully",
-        data: reviews,
+  if (!productId) {
+    return res.status(400).json({
+      message: "Please provide productId",
     });
+  }
+
+  const productExist = await Product.findById(productId);
+  if (!productExist) {
+    return res.status(404).json({
+      message: "Product with that id doesn't exist",
+    });
+  }
+
+  const reviews = await Review.find({ productId }).populate("userId");
+  res.status(200).json({
+    message: "Reviews fetched successfully",
+    data: reviews,
+  });
 };
 
 // Delete a review
 exports.deleteReview = async (req, res) => {
+  //checking if the user is trying to delete only his review not review of others
 
-    //checking if the user is trying to delete only his review not review of others
-
-    const reviewId = req.user.id;
-    const review = await Review.findById(reviewId);
-    const userId = req.body.id
-    const ownerOfReview = review.userId
-    if (!reviewId) {
-        return res.status(400).json({
-            message: "Please provide reviewId",
-        });
-    }
-
-    if (userId !== ownerOfReview) {
-        return res.status(403).json({
-            message: "You can't delete other user's review",
-        });
-    }
-
-
-
-    if (!review) {
-        return res.status(404).json({
-            message: "Review not found",
-        });
-    }
-
-    await Review.findByIdAndDelete(reviewId);
-    res.status(200).json({
-        message: "Review deleted successfully",
+  const reviewId = req.user.id;
+  const review = await Review.findById(reviewId);
+  const userId = req.body.id;
+  const ownerOfReview = review.userId;
+  if (!reviewId) {
+    return res.status(400).json({
+      message: "Please provide reviewId",
     });
-};
+  }
 
+  if (userId !== ownerOfReview) {
+    return res.status(403).json({
+      message: "You can't delete other user's review",
+    });
+  }
+
+  if (!review) {
+    return res.status(404).json({
+      message: "Review not found",
+    });
+  }
+
+  await Review.findByIdAndDelete(reviewId);
+  res.status(200).json({
+    message: "Review deleted successfully",
+  });
+};
 
 //getting review done by specific (user that is actively browsing) user(me) for all the review in my lifetime not specific to productr
 exports.getReviewsByAUser = async (req, res) => {
-    const userId = req.user.id;
-    const reviews = await Review.find({ userId }).populate("productId");
-    res.status(200).json({
-        message: "Reviews fetched successfully",
-        data: reviews,
-    });
+  const userId = req.user.id;
+  const reviews = await Review.find({ userId }).populate("productId");
+  res.status(200).json({
+    message: "Reviews fetched successfully",
+    data: reviews,
+  });
 };
 //getting review done for specific product by all user not only actively browsing user
 exports.getReviewsByProduct = async (req, res) => {
-    const productId = req.params.productId;
-    const reviews = await Review.find({ productId }).populate("userId");
-    res.status(200).json({
-        message: "Reviews fetched successfully",
-        data: reviews,
-    });
+  const productId = req.params.productId;
+  const reviews = await Review.find({ productId }).populate("userId");
+  res.status(200).json({
+    message: "Reviews fetched successfully",
+    data: reviews,
+  });
 };
 //getting review done by specific product and user actively browsing user with specific product
 //my review(single) or reviews(timely) for product x
 exports.getReviewsByProductAndUser = async (req, res) => {
-    const productId = req.params.productId;
-    const userId = req.user.id;
-    // $and operator making sure both id given matches
-    const reviews = await Review.find({ $and: [{ productId }, { userId }] }).populate("userId");
-                        res.status(200).json({
-        message: "Reviews fetched successfully",
-        data: reviews,
-    });
+  const productId = req.params.productId;
+  const userId = req.user.id;
+  // $and operator making sure both id given matches
+  const reviews = await Review.find({
+    $and: [{ productId }, { userId }],
+  }).populate("userId");
+  res.status(200).json({
+    message: "Reviews fetched successfully",
+    data: reviews,
+  });
 };
-
 
 //nesting process of creating the review halting this for now
 
-
-
-
 // Add a product review
 exports.addProductReview = async (req, res) => {
-    const productId = req.params.id;
-    const { userRating, userMessage } = req.body;
-    const userId = req.user.id;
+  const productId = req.params.id;
+  const { userRating, userMessage } = req.body;
+  const userId = req.user.id;
 
-    if (!userRating || !userMessage || !productId) {
-        return res.status(400).json({
-            message: "Please provide rating, message, and productId",
-        });
-    }
-
-    const product = await Product.findById(productId);
-    if (!product) {
-        return res.status(404).json({
-            message: "Product with that id does not exist",
-        });
-    }
-
-    const review = {
-        userId,
-        rating: userRating,
-        message: userMessage,
-    };
-    console.log ("review",review)    
-    console.log("powerfu",product)
-    product.reviews.push(review);
-    await product.save();
-
-    res.status(200).json({
-        message: "Review added successfully",
+  if (!userRating || !userMessage || !productId) {
+    return res.status(400).json({
+      message: "Please provide rating, message, and productId",
     });
+  }
+
+  const product = await Product.findById(productId);
+  if (!product) {
+    return res.status(404).json({
+      message: "Product with that id does not exist",
+    });
+  }
+
+  const review = {
+    userId,
+    rating: userRating,
+    message: userMessage,
+  };
+  console.log("review", review);
+  console.log("powerfu", product);
+  product.reviews.push(review);
+  await product.save();
+
+  res.status(200).json({
+    message: "Review added successfully",
+  });
 };
 ```
 
@@ -2894,11 +3005,6 @@ exports.addProductReview = async (req, res) => {
 
 ```javascript
 //legacy code no need of this code but supporitng factor while creating the projuecgt
-
-
-
-
-
 
 // const Product = require("../../models/productModel");
 // const Review = require("../../models/reviewModel");
@@ -3022,11 +3128,11 @@ const goose = require("mongoose");
 const adminSeeder = require("../adminSeeder");
 
 exports.connectDatabase = async (URI) => {
-    if (!URI) throw new Error("MONGO_URI is not defined. Check Backend/.env");
-    await goose.connect(URI);
-    console.log("successfully connected to MongoDB");
-    await adminSeeder();
-}
+  if (!URI) throw new Error("MONGO_URI is not defined. Check Backend/.env");
+  await goose.connect(URI);
+  console.log("successfully connected to MongoDB");
+  await adminSeeder();
+};
 ```
 
 ### `Backend/middlewares/isAuthenticated.js`
@@ -3040,42 +3146,44 @@ const User = require("../models/userModel");
 const verifyToken = promisify(jwt.verify);
 
 const isUserAuthenticated = async (req, res, next) => {
-    // Retrieve token from the header named user_auth_token
-    const userToken = req.headers.user_auth_token;
-    console.log("User Token:", userToken);
+  // Retrieve token from the header named user_auth_token
+  const userToken = req.headers.user_auth_token;
+  console.log("User Token:", userToken);
 
-    // If token is not provided, return an error
-    if (!userToken) {
-        return res.status(401).json({ message: "Please provide a valid token" });
+  // If token is not provided, return an error
+  if (!userToken) {
+    return res.status(401).json({ message: "Please provide a valid token" });
+  }
+
+  try {
+    // Verify the token
+    const decodedToken = await verifyToken(userToken, process.env.SECRET_KEY);
+    console.log("Decoded Token:", decodedToken);
+
+    // Check if the token is valid
+    if (!decodedToken) {
+      return res.status(401).json({ message: "Invalid token" });
     }
 
-    try {
-        // Verify the token
-        const decodedToken = await verifyToken(userToken, process.env.SECRET_KEY);
-        console.log("Decoded Token:", decodedToken);
+    // Find the user by the decoded token's id
+    const authorizedUser = await User.findOne({ _id: decodedToken.id });
+    console.log("Authorized User:", authorizedUser);
 
-        // Check if the token is valid
-        if (!decodedToken) {
-            return res.status(401).json({ message: "Invalid token" });
-        }
-
-        // Find the user by the decoded token's id
-        const authorizedUser = await User.findOne({ _id: decodedToken.id });
-        console.log("Authorized User:", authorizedUser);
-
-        // If user is not found, return an error
-        if (!authorizedUser) {
-            return res.status(401).json({ message: "You are not authorized to access this route" });
-        }
-
-        // Attach the user to the request object
-        req.user = authorizedUser;
-        next();
-    } catch (error) {
-        // Handle errors
-        console.error(error);
-        return res.status(500).json({ message: "Internal server error" });
+    // If user is not found, return an error
+    if (!authorizedUser) {
+      return res
+        .status(401)
+        .json({ message: "You are not authorized to access this route" });
     }
+
+    // Attach the user to the request object
+    req.user = authorizedUser;
+    next();
+  } catch (error) {
+    // Handle errors
+    console.error(error);
+    return res.status(500).json({ message: "Internal server error" });
+  }
 };
 
 module.exports = isUserAuthenticated;
@@ -3084,72 +3192,71 @@ module.exports = isUserAuthenticated;
 ### `Backend/middlewares/multerConfig.js`
 
 ```javascript
-const multer = require("multer")
-const fs = require("fs")
-const path = require("path")
-const uploadDir = path.join(__dirname, "..", "uploads")
-if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir, { recursive: true })
+const multer = require("multer");
+const fs = require("fs");
+const path = require("path");
+const uploadDir = path.join(__dirname, "..", "uploads");
+if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir, { recursive: true });
 
 const storage = multer.diskStorage({
-    //specifying the destination 
-    destination: function (req, file, cb) {
-        // creating allowd file types array for imgage like jpg png and jpeg
-        const allowedFileTypes = ["image/jpeg", "image/png", "image/jpg"];
-        // checking if the file type is allowed or not
-        if (!allowedFileTypes.includes(file.mimetype)) {
-            return cb(new Error('Not an image!'))
-        } else {
-            cb(null, uploadDir)
-        }
-
-    },
-    filename: function (req, file, cb) {
-        const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9)
-        //   giving null in case of error and 
-        // if success then use filename as  user porvidd - date - random number format
-        const extension = file.mimetype.split('/')[1];
-        cb(null, `${file.fieldname}-${uniqueSuffix}.${extension}`);
+  //specifying the destination
+  destination: function (req, file, cb) {
+    // creating allowd file types array for imgage like jpg png and jpeg
+    const allowedFileTypes = ["image/jpeg", "image/png", "image/jpg"];
+    // checking if the file type is allowed or not
+    if (!allowedFileTypes.includes(file.mimetype)) {
+      return cb(new Error("Not an image!"));
+    } else {
+      cb(null, uploadDir);
     }
-})
+  },
+  filename: function (req, file, cb) {
+    const uniqueSuffix = Date.now() + "-" + Math.round(Math.random() * 1e9);
+    //   giving null in case of error and
+    // if success then use filename as  user porvidd - date - random number format
+    const extension = file.mimetype.split("/")[1];
+    cb(null, `${file.fieldname}-${uniqueSuffix}.${extension}`);
+  },
+});
 module.exports = {
-    multer,
-    storage
-}
+  multer,
+  storage,
+};
 ```
 
 ### `Backend/middlewares/nullChecker.js`
 
 ```javascript
 const nullCheck = (res, message, ...params) => {
-    for (const param of params) {
-        if (!param) {
-            return res.status(400).json({
-                message: message || "All parameters must be provided."
-            });
-        }
+  for (const param of params) {
+    if (!param) {
+      return res.status(400).json({
+        message: message || "All parameters must be provided.",
+      });
     }
-}
+  }
+};
 
 module.exports = nullCheck;
 
-// notice: currently this fnction is not working currnetlyy if it works i will remove thsi comment 
+// notice: currently this fnction is not working currnetlyy if it works i will remove thsi comment
 ```
 
 ### `Backend/middlewares/restrict.js`
 
 ```javascript
-const restrict = (...roles)=>{
-    return (req,res,next)=>{
-        const roleOfUser = req.user.role;
-        console.log(roleOfUser)
-        // return
-        if(!roles.includes(roleOfUser)){
-            return res.status(403).send({message:"Access denied"});
-        }else{
-            next();
-        }
+const restrict = (...roles) => {
+  return (req, res, next) => {
+    const roleOfUser = req.user.role;
+    console.log(roleOfUser);
+    // return
+    if (!roles.includes(roleOfUser)) {
+      return res.status(403).send({ message: "Access denied" });
+    } else {
+      next();
     }
-}
+  };
+};
 module.exports = restrict;
 ```
 
@@ -3157,39 +3264,39 @@ module.exports = restrict;
 
 ```javascript
 // alternative to reviewModel.js this now comes to populate the review directly in products
-const goose = require('mongoose');
+const goose = require("mongoose");
 
 // Define the review schema with database fields as userId, productId, rating, and message
 const reviewSchema = new goose.Schema({
-    // Use MongoDB references to establish relationships
-    userId: {
-        type: goose.Schema.Types.ObjectId,
-        ref: "User",
-        required: [true, "Login first to review"]
-    },
-    rating: {
-        type: Number,
-        required: [true, "You must rate the product on a scale of 1-5"]
-    },
-    message: {
-        type: String,
-        required: [true, "You need to share your experience to give a review"]
-    }
+  // Use MongoDB references to establish relationships
+  userId: {
+    type: goose.Schema.Types.ObjectId,
+    ref: "User",
+    required: [true, "Login first to review"],
+  },
+  rating: {
+    type: Number,
+    required: [true, "You must rate the product on a scale of 1-5"],
+  },
+  message: {
+    type: String,
+    required: [true, "You need to share your experience to give a review"],
+  },
 });
 
 // Create model named Review and assign it the schema we created above
-const NextWayReview = goose.model('NextWayReview', reviewSchema);
+const NextWayReview = goose.model("NextWayReview", reviewSchema);
 
-//exporting the reviewSchema to populate them not populate 
+//exporting the reviewSchema to populate them not populate
 // but it is like nesting the placeholder inside the another database
-//in our case we are nesting it inside the products databse 
+//in our case we are nesting it inside the products databse
 
 // Export the Review model
 module.exports = {
-    NextWayReview,
-    // this review schema will be inside product model
-    reviewSchema
-}   
+  NextWayReview,
+  // this review schema will be inside product model
+  reviewSchema,
+};
 ```
 
 ### `Backend/models/orderModel.js`
@@ -3198,84 +3305,108 @@ module.exports = {
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const orderSchema = new Schema({
+const orderSchema = new Schema(
+  {
     user: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
-    items: [{
+    items: [
+      {
         quantity: {
-            type: Number,
-            required: true
+          type: Number,
+          required: true,
         },
         product: {
-            type: mongoose.Schema.Types.ObjectId, ref: "Product",
-            required: true
+          type: mongoose.Schema.Types.ObjectId,
+          ref: "Product",
+          required: true,
         },
-    }],
-        totalAmount: {
-            type: Number,
-            required: true
-        },
-        shippingAddress: {
-            type: String,
-            required: true
-        },
-        orderStatus: {
-            type: String,
-            enum: ["pending", "delivered", "cancelled", "ontheway", "preparation"],
-            default: "pending"
-        },
-        paymentDetails: {
-            //payment id if paid
-            pidx:{
-                type:String
-            },
-            method: {
-                type: String,
-                enum: ['COD', 'cod', "khalti"],
-                lowercase: true
-            },
-            status: {
-                type: String,
-                enum: ["paid", "unpaid", "pending"],
-                default:"pending"
-            }
-        }
-}, {
-    timestamps: true
-});
-
-
-
-
+      },
+    ],
+    totalAmount: {
+      type: Number,
+      required: true,
+    },
+    shippingAddress: {
+      type: String,
+      required: true,
+    },
+    orderStatus: {
+      type: String,
+      enum: ["pending", "delivered", "cancelled", "ontheway", "preparation"],
+      default: "pending",
+    },
+    paymentDetails: {
+      //payment id if paid
+      pidx: {
+        type: String,
+      },
+      method: {
+        type: String,
+        enum: ["COD", "cod", "khalti"],
+        lowercase: true,
+      },
+      status: {
+        type: String,
+        enum: ["paid", "unpaid", "pending"],
+        default: "pending",
+      },
+    },
+  },
+  {
+    timestamps: true,
+  },
+);
 
 const Order = mongoose.model("Order", orderSchema);
-module.exports = Order
+module.exports = Order;
 ```
 
 ### `Backend/models/productModel.js`
 
 ```javascript
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 // having schema so i can nest an schema inside schema which is nexting the reviews inside products
-const { reviewSchema } = require('./nextWayReviewModel');
+const { reviewSchema } = require("./nextWayReviewModel");
 // const { userSchema } = require('./nextWayUserModel');
 // Define the product schema with database fields as phone, name, and email
-const productSchema = new mongoose.Schema({
+const productSchema = new mongoose.Schema(
+  {
     productName: { type: String, required: [true, "product name is required"] },
-    productDescription: { type: String, required: [true, "product description is required"] },
-    productStock: { type: Number, required: [true, "product stock is required"] },
-    productPrice: { type: Number, required: [true, "product price is required"] },
-    productStatus: { type: String, enum: ['draft', 'public'], required: [true, "draft is required"], default: "draft" },
-    productImage: { type: String,required: [true, "image is required"], default: "drafthttps://artists.spotify.com/songwriter/3IMp1zKhmOEmva4eNPGZKf" },
-    // we may not use the follwoing code if we are not nesting the review on a product and using separate cvollection for reviews 
+    productDescription: {
+      type: String,
+      required: [true, "product description is required"],
+    },
+    productStock: {
+      type: Number,
+      required: [true, "product stock is required"],
+    },
+    productPrice: {
+      type: Number,
+      required: [true, "product price is required"],
+    },
+    productStatus: {
+      type: String,
+      enum: ["draft", "public"],
+      required: [true, "draft is required"],
+      default: "draft",
+    },
+    productImage: {
+      type: String,
+      required: [true, "image is required"],
+      default:
+        "drafthttps://artists.spotify.com/songwriter/3IMp1zKhmOEmva4eNPGZKf",
+    },
+    // we may not use the follwoing code if we are not nesting the review on a product and using separate cvollection for reviews
     // this contsins aray of object which later is going to be populated by .push method while creating a reviwe
     // reviews:[reviewSchema]
-},{
+  },
+  {
     // enabling mongodb to use new data called timespants
-    timestamps:true,
-});
+    timestamps: true,
+  },
+);
 // create model named product which is in side param assigns it the model we created above
 // and assigns it to product variable
-const Product = mongoose.model('Product', productSchema);
+const Product = mongoose.model("Product", productSchema);
 
 // Export the product model
 module.exports = Product;
@@ -3284,66 +3415,81 @@ module.exports = Product;
 ### `Backend/models/reviewModel.js`
 
 ```javascript
-const goose = require('mongoose');
+const goose = require("mongoose");
 
 // Define the review schema with database fields as userId, productId, rating, and message
 const reviewSchema = new goose.Schema({
-    // Use MongoDB references to establish relationships
-    userId: {
-        type: goose.Schema.Types.ObjectId,
-        ref: "User",
-        required: [true, "Login first to review"]
-    },
-    productId: {
-        type: goose.Schema.Types.ObjectId,
-        ref: "Product",
-        required: [true, "No product found"]
-    },
-    rating: {
-        type: Number,
-        required: [true, "You must rate the product on a scale of 1-5"]
-    },
-    message: {
-        type: String,
-        required: [true, "You need to share your experience to give a review"]
-    }
+  // Use MongoDB references to establish relationships
+  userId: {
+    type: goose.Schema.Types.ObjectId,
+    ref: "User",
+    required: [true, "Login first to review"],
+  },
+  productId: {
+    type: goose.Schema.Types.ObjectId,
+    ref: "Product",
+    required: [true, "No product found"],
+  },
+  rating: {
+    type: Number,
+    required: [true, "You must rate the product on a scale of 1-5"],
+  },
+  message: {
+    type: String,
+    required: [true, "You need to share your experience to give a review"],
+  },
 });
 
 // Create model named Review and assign it the schema we created above
-const Review = goose.model('Review', reviewSchema);
+const Review = goose.model("Review", reviewSchema);
 
 // Export the Review model
-module.exports = Review;    
+module.exports = Review;
 ```
 
 ### `Backend/models/userModel.js`
 
 ```javascript
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 // Define the user schema with database fields as phone, name, and email
-const userSchema = new mongoose.Schema({
-    name: { type: String, required: [true, "name is required"]},
-    phone: { type: String, required: [true, "number is required"]},
-    password: { type: String, required: [true, "password is required"]},
-    email: { type: String, required: [true, "email is required"], unique:true, lowercase:true},
-    role: { type: String, enum: ['customer', 'admin', 'seller'], required: [true, "role is required"], default: "customer"},
-    otp: { type: Number},
-    isOtpVerified: { type: Boolean, default:false},
+const userSchema = new mongoose.Schema(
+  {
+    name: { type: String, required: [true, "name is required"] },
+    phone: { type: String, required: [true, "number is required"] },
+    password: { type: String, required: [true, "password is required"] },
+    email: {
+      type: String,
+      required: [true, "email is required"],
+      unique: true,
+      lowercase: true,
+    },
+    role: {
+      type: String,
+      enum: ["customer", "admin", "seller"],
+      required: [true, "role is required"],
+      default: "customer",
+    },
+    otp: { type: Number },
+    isOtpVerified: { type: Boolean, default: false },
     // appending the cart functionality with product reference
-    // thsi will borrow instance of product collection withg stock being the number of product we will populate right after user adds product inside their cart 
-    cart: [{ 
-        quantity: { type: Number,required:true},
-        product: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Product' }], 
-    }]
-},{
+    // thsi will borrow instance of product collection withg stock being the number of product we will populate right after user adds product inside their cart
+    cart: [
+      {
+        quantity: { type: Number, required: true },
+        product: [{ type: mongoose.Schema.Types.ObjectId, ref: "Product" }],
+      },
+    ],
+  },
+  {
     // enabling mongodb to use new data called timespants
-    timestamps:true,
-});
+    timestamps: true,
+  },
+);
 
 // create model named User which is in side param assigns it the model we created above
 // and assigns it to User variable
-const User = mongoose.model('User', userSchema);
+const User = mongoose.model("User", userSchema);
 
 // Export the User model
 module.exports = User;
@@ -3715,9 +3861,7 @@ module.exports = User;
       "version": "1.6.2",
       "resolved": "https://registry.npmjs.org/concat-stream/-/concat-stream-1.6.2.tgz",
       "integrity": "sha512-27HBghJxjiZtIk3Ycvn/4kbJk/1uZuJFfuPEns6LaEvpvG1f0hTea8lilrouyo9mVc2GWdcEZ8OLoGmSADlrCw==",
-      "engines": [
-        "node >= 0.8"
-      ],
+      "engines": ["node >= 0.8"],
       "license": "MIT",
       "dependencies": {
         "buffer-from": "^1.0.0",
@@ -4102,9 +4246,7 @@ module.exports = User;
       "hasInstallScript": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "darwin"
-      ],
+      "os": ["darwin"],
       "engines": {
         "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
       }
@@ -5418,75 +5560,137 @@ module.exports = User;
 ### `Backend/routes/admin/adminOrderRoute.js`
 
 ```javascript
-
-const { getAllOrders, getSingleOrder, updateOrderStatus, deleteOrder } = require("../../controller/admin/order/adminOrderController");
+const {
+  getAllOrders,
+  getSingleOrder,
+  updateOrderStatus,
+  deleteOrder,
+} = require("../../controller/admin/order/adminOrderController");
 const isUserAuthenticated = require("../../middlewares/isAuthenticated");
 const restrict = require("../../middlewares/restrict");
 const catchAsync = require("../../services/catchAsync");
 const rtr = require("express").Router();
-rtr.route("/getOrdersAsAnAdmin")
-    .get(catchAsync(isUserAuthenticated), catchAsync(restrict("admin","seller")), catchAsync(getAllOrders))
-rtr.route("/ordersAsAnAdmin/:id")
-    .get(catchAsync(isUserAuthenticated), catchAsync(restrict("admin","seller")), catchAsync(getSingleOrder))
-    .patch(catchAsync(isUserAuthenticated), catchAsync(restrict("admin","seller")), catchAsync(updateOrderStatus))
-    .delete(catchAsync(isUserAuthenticated), catchAsync(restrict("admin","seller")), catchAsync(deleteOrder))
+rtr
+  .route("/getOrdersAsAnAdmin")
+  .get(
+    catchAsync(isUserAuthenticated),
+    catchAsync(restrict("admin", "seller")),
+    catchAsync(getAllOrders),
+  );
+rtr
+  .route("/ordersAsAnAdmin/:id")
+  .get(
+    catchAsync(isUserAuthenticated),
+    catchAsync(restrict("admin", "seller")),
+    catchAsync(getSingleOrder),
+  )
+  .patch(
+    catchAsync(isUserAuthenticated),
+    catchAsync(restrict("admin", "seller")),
+    catchAsync(updateOrderStatus),
+  )
+  .delete(
+    catchAsync(isUserAuthenticated),
+    catchAsync(restrict("admin", "seller")),
+    catchAsync(deleteOrder),
+  );
 
-
-module.exports = rtr
+module.exports = rtr;
 ```
 
 ### `Backend/routes/admin/adminUserRoute.js`
 
 ```javascript
-const { getUsers, deleteUser } = require("../../controller/admin/users/userController");
+const {
+  getUsers,
+  deleteUser,
+} = require("../../controller/admin/users/userController");
 const isUserAuthenticated = require("../../middlewares/isAuthenticated");
 const restrict = require("../../middlewares/restrict");
 const catchAsync = require("../../services/catchAsync");
 const rtr = require("express").Router();
-rtr.route("/users").get(catchAsync(isUserAuthenticated),catchAsync(restrict("admin")),catchAsync(getUsers))
-rtr.route("/users/:id").delete(catchAsync(isUserAuthenticated),catchAsync(restrict("admin")),catchAsync(deleteUser))
+rtr
+  .route("/users")
+  .get(
+    catchAsync(isUserAuthenticated),
+    catchAsync(restrict("admin")),
+    catchAsync(getUsers),
+  );
+rtr
+  .route("/users/:id")
+  .delete(
+    catchAsync(isUserAuthenticated),
+    catchAsync(restrict("admin")),
+    catchAsync(deleteUser),
+  );
 
-module.exports = rtr
+module.exports = rtr;
 ```
 
 ### `Backend/routes/admin/productRoute.js`
 
 ```javascript
-const { createProduct, deleteProduct, updateProduct } = require('../../controller/admin/product/productController');
-const isUserAuthenticated = require('../../middlewares/isAuthenticated');
-const { storage,multer } = require('../../middlewares/multerConfig');
-const restrict = require('../../middlewares/restrict');
-const { updateMany } = require('../../models/productModel');
-const catchAsync = require('../../services/catchAsync');
-const {getProducts, getEachProducts} = require('../../controller/global/globalController')
+const {
+  createProduct,
+  deleteProduct,
+  updateProduct,
+} = require("../../controller/admin/product/productController");
+const isUserAuthenticated = require("../../middlewares/isAuthenticated");
+const { storage, multer } = require("../../middlewares/multerConfig");
+const restrict = require("../../middlewares/restrict");
+const { updateMany } = require("../../models/productModel");
+const catchAsync = require("../../services/catchAsync");
+const {
+  getProducts,
+  getEachProducts,
+} = require("../../controller/global/globalController");
 // requirint the foncigurations for file handling that we did in the middleware asecitin
-const upload = multer({storage:storage})
+const upload = multer({ storage: storage });
 //using express router
-const rtr = require('express').Router();
-getProducts
-//authenticatio routes 
+const rtr = require("express").Router();
+getProducts;
+//authenticatio routes
 // htting post request on the /register endpoint with the logics
 // rtr.route('/add_product').post(createProduct)
 // thisis post request wit htwo diffwentr contorller
-// we fust go from is user authenticated to the create product 
+// we fust go from is user authenticated to the create product
 // for tat the control must pass from isuserauthenticated
 // then they wil be able to create product
 // the next() takes us from isuserauthenticated controller to create produce controller
 // see next() in action in middleware folder inside the file for isauthenticated.js
 // the third paratmetr is for those who is admin and they can upload a single fiel only
-// productImage alias providd must be followed when taking the image from user otehrwise eror 
-rtr.route('/add_product').post(catchAsync(isUserAuthenticated), catchAsync(restrict("admin","seller")),catchAsync(upload.single('productImage')),catchAsync(createProduct))
+// productImage alias providd must be followed when taking the image from user otehrwise eror
+rtr
+  .route("/add_product")
+  .post(
+    catchAsync(isUserAuthenticated),
+    catchAsync(restrict("admin", "seller")),
+    catchAsync(upload.single("productImage")),
+    catchAsync(createProduct),
+  );
 //for all products
-rtr.route('/products').get(catchAsync(getProducts))
+rtr.route("/products").get(catchAsync(getProducts));
 // for each product
-rtr.route('/products/:id').get(catchAsync(getEachProducts)).delete(catchAsync(isUserAuthenticated),restrict("admin","seller"),catchAsync(upload.single('productImage')),catchAsync(deleteProduct))
-// the upload.single method must be used otherwist the node will nnot handle form data anf file module b\
-// the only reason multer is used 
-.patch(catchAsync(isUserAuthenticated), catchAsync(restrict("admin","seller")), upload.single('productImage'), catchAsync(updateProduct));
+rtr
+  .route("/products/:id")
+  .get(catchAsync(getEachProducts))
+  .delete(
+    catchAsync(isUserAuthenticated),
+    restrict("admin", "seller"),
+    catchAsync(upload.single("productImage")),
+    catchAsync(deleteProduct),
+  )
+  // the upload.single method must be used otherwist the node will nnot handle form data anf file module b\
+  // the only reason multer is used
+  .patch(
+    catchAsync(isUserAuthenticated),
+    catchAsync(restrict("admin", "seller")),
+    upload.single("productImage"),
+    catchAsync(updateProduct),
+  );
 
 // deleting the rpoduct with an id
 // rtr.route('/products/:id').get(catchAsync(getEachProducts))
-
 
 module.exports = rtr;
 ```
@@ -5494,19 +5698,24 @@ module.exports = rtr;
 ### `Backend/routes/auth/authRoute.js`
 
 ```javascript
-const { registerUser, loginUser, forgotPassword, verifyOTP, resetPassword } = require('../../controller/auth/authController');
-const catchAsync = require('../../services/catchAsync');
+const {
+  registerUser,
+  loginUser,
+  forgotPassword,
+  verifyOTP,
+  resetPassword,
+} = require("../../controller/auth/authController");
+const catchAsync = require("../../services/catchAsync");
 
 //using express router
-const rtr = require('express').Router();
-//authenticatio routes 
+const rtr = require("express").Router();
+//authenticatio routes
 // htting post request on the /register endpoint with the logics
-rtr.route('/register').post(catchAsync(registerUser))
-rtr.route('/login').post(catchAsync(loginUser))
-rtr.route('/forgot').post(catchAsync(forgotPassword))
-rtr.route('/verify_otp').post(catchAsync(verifyOTP))
-rtr.route('/reset_password').post(catchAsync(resetPassword))
-
+rtr.route("/register").post(catchAsync(registerUser));
+rtr.route("/login").post(catchAsync(loginUser));
+rtr.route("/forgot").post(catchAsync(forgotPassword));
+rtr.route("/verify_otp").post(catchAsync(verifyOTP));
+rtr.route("/reset_password").post(catchAsync(resetPassword));
 
 module.exports = rtr;
 ```
@@ -5514,115 +5723,133 @@ module.exports = rtr;
 ### `Backend/routes/user/cartRoute.js`
 
 ```javascript
-    // step 3: including the file where the functionality can be found and models
-    //if necessary so we can dleegate task to those file 
+// step 3: including the file where the functionality can be found and models
+//if necessary so we can dleegate task to those file
 
-    const { addToCart, getCartItems, removeCartItem, updateCartItem } = require("../../controller/user/cart/cartController")
-    const isUserAuthenticated = require("../../middlewares/isAuthenticated")
-    const catchAsync = require("../../services/catchAsync")
+const {
+  addToCart,
+  getCartItems,
+  removeCartItem,
+  updateCartItem,
+} = require("../../controller/user/cart/cartController");
+const isUserAuthenticated = require("../../middlewares/isAuthenticated");
+const catchAsync = require("../../services/catchAsync");
 
+// step 1: including router to be exported
+// the roter is a function dont forget it using Router will only incur error that is not there
+//this is nasty thing to forget
+const rtr = require("express").Router();
 
-    // step 1: including router to be exported
-    // the roter is a function dont forget it using Router will only incur error that is not there 
-    //this is nasty thing to forget
-    const rtr = require("express").Router()
+//getting carted items
+rtr.route("/cart").get(isUserAuthenticated, catchAsync(getCartItems));
+//step 4: which endpoint what to execute there
+rtr.route("/cart/:productID").post(isUserAuthenticated, catchAsync(addToCart));
 
-    //getting carted items
-    rtr.route("/cart").get(isUserAuthenticated, catchAsync(getCartItems))
-    //step 4: which endpoint what to execute there
-    rtr.route("/cart/:productID")
-    .post(isUserAuthenticated, catchAsync(addToCart))
+rtr
+  .route("/cart/:cartID")
+  .delete(isUserAuthenticated, catchAsync(removeCartItem))
+  .patch(isUserAuthenticated, catchAsync(updateCartItem));
 
-    rtr.route("/cart/:cartID")
-    .delete(isUserAuthenticated, catchAsync(removeCartItem))
-    .patch(isUserAuthenticated, catchAsync(updateCartItem))
+//strp 2: exportng the router to use by other files
+module.exports = rtr;
 
-    //strp 2: exportng the router to use by other files
-    module.exports = rtr
-
-
-    //step 5 and 6: final step is to make a variable of this whole route in the maimn app.js file see there
-    //next step is to use that route there at the app,js so we can seethere 
+//step 5 and 6: final step is to make a variable of this whole route in the maimn app.js file see there
+//next step is to use that route there at the app,js so we can seethere
 ```
 
 ### `Backend/routes/user/orderRoute.js`
 
 ```javascript
 // step 3: including the file where the functionality can be found and models
-//if necessary so we can dleegate task to those file 
-const { getOrders, createOrder, updateOrders, deleteOrder, cancelOrder } = require("../../controller/user/order/orderController")
-const isUserAuthenticated = require("../../middlewares/isAuthenticated")
-const catchAsync = require("../../services/catchAsync")
-
+//if necessary so we can dleegate task to those file
+const {
+  getOrders,
+  createOrder,
+  updateOrders,
+  deleteOrder,
+  cancelOrder,
+} = require("../../controller/user/order/orderController");
+const isUserAuthenticated = require("../../middlewares/isAuthenticated");
+const catchAsync = require("../../services/catchAsync");
 
 // step 1: including router to be exported
-// the roter is a function dont forget it using Router will only incur error that is not there 
+// the roter is a function dont forget it using Router will only incur error that is not there
 //this is nasty thing to forget
-const rtr = require("express").Router()
+const rtr = require("express").Router();
 
 //getting carted items
 //step 4: which endpoint what to execute there
-rtr.route("/orders")
-    .get(isUserAuthenticated, catchAsync(getOrders))
-    .post(isUserAuthenticated, catchAsync(createOrder))
-
+rtr
+  .route("/orders")
+  .get(isUserAuthenticated, catchAsync(getOrders))
+  .post(isUserAuthenticated, catchAsync(createOrder));
 
 //cancelling order
-rtr.route("/orders/cancel")
-    .patch(isUserAuthenticated, catchAsync(cancelOrder))
+rtr.route("/orders/cancel").patch(isUserAuthenticated, catchAsync(cancelOrder));
 
 //user based updating and deleting of order
-rtr.route("/orders/:id")
-    .patch(isUserAuthenticated, catchAsync(updateOrders))
-    .delete(isUserAuthenticated, catchAsync(deleteOrder))
+rtr
+  .route("/orders/:id")
+  .patch(isUserAuthenticated, catchAsync(updateOrders))
+  .delete(isUserAuthenticated, catchAsync(deleteOrder));
 
 //user based updating and deleting of order
 
 //strp 2: exportng the router to use by other files
-module.exports = rtr
-
+module.exports = rtr;
 
 //step 5 and 6: final step is to make a variable of this whole route in the maimn app.js file see there
-//next step is to use that route there at the app,js so we can seethere 
+//next step is to use that route there at the app,js so we can seethere
 ```
 
 ### `Backend/routes/user/paymentRoute.js`
 
 ```javascript
-const { initateKhaltiPayment, verifyPidx } = require("../../controller/user/payment/paymentController")
-const isUserAuthenticated = require("../../middlewares/isAuthenticated")
-const catchAsync = require("../../services/catchAsync")
+const {
+  initateKhaltiPayment,
+  verifyPidx,
+} = require("../../controller/user/payment/paymentController");
+const isUserAuthenticated = require("../../middlewares/isAuthenticated");
+const catchAsync = require("../../services/catchAsync");
 
-const rtr = require("express").Router()
+const rtr = require("express").Router();
 
-rtr.route("/payment")
-    .post(isUserAuthenticated, catchAsync(initateKhaltiPayment))
+rtr
+  .route("/payment")
+  .post(isUserAuthenticated, catchAsync(initateKhaltiPayment));
 
 //
-rtr.route("/payment/verifyPidx")
-    .post(isUserAuthenticated, catchAsync(verifyPidx))
+rtr
+  .route("/payment/verifyPidx")
+  .post(isUserAuthenticated, catchAsync(verifyPidx));
 
-module.exports = rtr
-
+module.exports = rtr;
 ```
 
 ### `Backend/routes/user/profileRoute.js`
 
 ```javascript
-const { getMyProfile, deleteProfile, updatePassword, updateProfile } = require('../../controller/user/customization/customizationController');
-const isUserAuthenticated = require('../../middlewares/isAuthenticated');
-const catchAsync = require('../../services/catchAsync');
+const {
+  getMyProfile,
+  deleteProfile,
+  updatePassword,
+  updateProfile,
+} = require("../../controller/user/customization/customizationController");
+const isUserAuthenticated = require("../../middlewares/isAuthenticated");
+const catchAsync = require("../../services/catchAsync");
 
 //using express router
-const rtr = require('express').Router();
+const rtr = require("express").Router();
 
-rtr.route("/:id").get(isUserAuthenticated,catchAsync(getMyProfile))
-.delete(isUserAuthenticated,catchAsync(deleteProfile))
-.patch(isUserAuthenticated,catchAsync(updateProfile))
+rtr
+  .route("/:id")
+  .get(isUserAuthenticated, catchAsync(getMyProfile))
+  .delete(isUserAuthenticated, catchAsync(deleteProfile))
+  .patch(isUserAuthenticated, catchAsync(updateProfile));
 
-
-rtr.route("/changePassword/:id")
-.patch(isUserAuthenticated,catchAsync(updatePassword))
+rtr
+  .route("/changePassword/:id")
+  .patch(isUserAuthenticated, catchAsync(updatePassword));
 
 module.exports = rtr;
 ```
@@ -5630,15 +5857,22 @@ module.exports = rtr;
 ### `Backend/routes/user/userReviewRoute.js`
 
 ```javascript
-const { getReviewsByAUser, getProductReview, getReviewsByProductAndUser, createReview, deleteReview, addProductReview } = require('../../controller/user/review/reviewController');
+const {
+  getReviewsByAUser,
+  getProductReview,
+  getReviewsByProductAndUser,
+  createReview,
+  deleteReview,
+  addProductReview,
+} = require("../../controller/user/review/reviewController");
 // const { createReview, getProductReview, deleteReview, addProductReview } = require('../controller/user/userController');
-const isUserAuthenticated = require('../../middlewares/isAuthenticated');
-const restrict = require('../../middlewares/restrict');
-const catchAsync = require('../../services/catchAsync');
+const isUserAuthenticated = require("../../middlewares/isAuthenticated");
+const restrict = require("../../middlewares/restrict");
+const catchAsync = require("../../services/catchAsync");
 
 //using express router
-const rtr = require('express').Router();
-//authenticatio routes 
+const rtr = require("express").Router();
+//authenticatio routes
 // htting post request on the /register endpoint with the logics
 
 // rtr.route('/reviews/:id')
@@ -5647,18 +5881,22 @@ const rtr = require('express').Router();
 //     .post(isUserAuthenticated, catchAsync(createReview));
 
 //for all the review user has done
-rtr.route("/reviews", isUserAuthenticated, catchAsync(getReviewsByAUser))
+rtr.route("/reviews", isUserAuthenticated, catchAsync(getReviewsByAUser));
 
-//for all review related to specific product id 
-rtr.route('/reviews/:id')
-    .get(catchAsync(getProductReview))
-    //letting only user to create and delete review
-    .delete(isUserAuthenticated,restrict("customer"), catchAsync(deleteReview))
-    .post(isUserAuthenticated,restrict("customer"), catchAsync(addProductReview));
+//for all review related to specific product id
+rtr
+  .route("/reviews/:id")
+  .get(catchAsync(getProductReview))
+  //letting only user to create and delete review
+  .delete(isUserAuthenticated, restrict("customer"), catchAsync(deleteReview))
+  .post(
+    isUserAuthenticated,
+    restrict("customer"),
+    catchAsync(addProductReview),
+  );
 
-    //use following if using method 2
-    // .post(isUserAuthenticated, catchAsync(addProductReview));
-
+//use following if using method 2
+// .post(isUserAuthenticated, catchAsync(addProductReview));
 
 module.exports = rtr;
 ```
@@ -5672,29 +5910,98 @@ module.exports = rtr;
  *   npm run seed          # seed if empty
  *   npm run seed -- --reset  # drop and reseed
  */
-require('dotenv').config();
-const mongoose = require('mongoose');
-const bcrypt = require('bcryptjs');
+require("dotenv").config();
+const mongoose = require("mongoose");
+const bcrypt = require("bcryptjs");
 
-const User = require('./models/userModel');
-const Product = require('./models/productModel');
-const Order = require('./models/orderModel');
+const User = require("./models/userModel");
+const Product = require("./models/productModel");
+const Order = require("./models/orderModel");
 
-const MONGO_URI = process.env.MONGO_URI || process.env.Mongo_URI || 'mongodb://127.0.0.1:27017/digitalmandu';
-const RESET = process.argv.includes('--reset');
+const MONGO_URI =
+  process.env.MONGO_URI ||
+  process.env.Mongo_URI ||
+  "mongodb://127.0.0.1:27017/digitalmandu";
+const RESET = process.argv.includes("--reset");
 
 const products = [
-  { productName: 'Chicken Momo', productDescription: 'Steamed chicken momo with achar', productStock: 100, productPrice: 350, productStatus: 'public', productImage: 'https://images.unsplash.com/photo-1534422298391-e4f640380802?w=600' },
-  { productName: 'Veg Chowmein', productDescription: 'Stir-fried noodles with veggies', productStock: 80, productPrice: 250, productStatus: 'public', productImage: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600' },
-  { productName: 'Chicken Biryani', productDescription: 'Aromatic basmati rice with chicken', productStock: 60, productPrice: 550, productStatus: 'public', productImage: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600' },
-  { productName: 'Margherita Pizza', productDescription: 'Classic cheese & tomato pizza 12 inch', productStock: 40, productPrice: 750, productStatus: 'public', productImage: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600' },
-  { productName: 'Veg Burger', productDescription: 'Crispy patty burger with fries', productStock: 50, productPrice: 300, productStatus: 'public', productImage: 'https://images.unsplash.com/photo-1568909344668-6f14a07b56a0?w=600' },
-  { productName: 'Cold Coffee', productDescription: 'Creamy cold coffee 350ml', productStock: 120, productPrice: 180, productStatus: 'public', productImage: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600' },
-  { productName: 'Chicken Curry Set', productDescription: 'Chicken curry with rice and salad', productStock: 30, productPrice: 480, productStatus: 'public', productImage: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600' },
-  { productName: 'Paneer Tikka', productDescription: 'Grilled paneer with mint chutney', productStock: 45, productPrice: 420, productStatus: 'public', productImage: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600' },
+  {
+    productName: "Chicken Momo",
+    productDescription: "Steamed chicken momo with achar",
+    productStock: 100,
+    productPrice: 350,
+    productStatus: "public",
+    productImage:
+      "https://images.unsplash.com/photo-1534422298391-e4f640380802?w=600",
+  },
+  {
+    productName: "Veg Chowmein",
+    productDescription: "Stir-fried noodles with veggies",
+    productStock: 80,
+    productPrice: 250,
+    productStatus: "public",
+    productImage:
+      "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600",
+  },
+  {
+    productName: "Chicken Biryani",
+    productDescription: "Aromatic basmati rice with chicken",
+    productStock: 60,
+    productPrice: 550,
+    productStatus: "public",
+    productImage:
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600",
+  },
+  {
+    productName: "Margherita Pizza",
+    productDescription: "Classic cheese & tomato pizza 12 inch",
+    productStock: 40,
+    productPrice: 750,
+    productStatus: "public",
+    productImage:
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600",
+  },
+  {
+    productName: "Veg Burger",
+    productDescription: "Crispy patty burger with fries",
+    productStock: 50,
+    productPrice: 300,
+    productStatus: "public",
+    productImage:
+      "https://images.unsplash.com/photo-1568909344668-6f14a07b56a0?w=600",
+  },
+  {
+    productName: "Cold Coffee",
+    productDescription: "Creamy cold coffee 350ml",
+    productStock: 120,
+    productPrice: 180,
+    productStatus: "public",
+    productImage:
+      "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600",
+  },
+  {
+    productName: "Chicken Curry Set",
+    productDescription: "Chicken curry with rice and salad",
+    productStock: 30,
+    productPrice: 480,
+    productStatus: "public",
+    productImage:
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600",
+  },
+  {
+    productName: "Paneer Tikka",
+    productDescription: "Grilled paneer with mint chutney",
+    productStock: 45,
+    productPrice: 420,
+    productStatus: "public",
+    productImage:
+      "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600",
+  },
 ];
 
-async function hash(p) { return bcrypt.hash(p, 10); }
+async function hash(p) {
+  return bcrypt.hash(p, 10);
+}
 
 async function seed() {
   await mongoose.connect(MONGO_URI);
@@ -5702,20 +6009,43 @@ async function seed() {
 
   if (RESET) {
     await mongoose.connection.dropDatabase();
-    console.log('Database dropped (--reset)');
+    console.log("Database dropped (--reset)");
   }
 
   // Users
-  const existingAdmin = await User.findOne({ email: 'admin@digitalmandu.local' });
+  const existingAdmin = await User.findOne({
+    email: "admin@digitalmandu.local",
+  });
   if (!existingAdmin) {
     await User.create([
-      { name: 'Admin', phone: '9800000001', email: 'admin@digitalmandu.local', password: await hash('Admin@123'), role: 'admin', isOtpVerified: true },
-      { name: 'Seller One', phone: '9800000002', email: 'seller@digitalmandu.local', password: await hash('Seller@123'), role: 'customer', isOtpVerified: true },
-      { name: 'Test Customer', phone: '9800000003', email: 'customer@digitalmandu.local', password: await hash('Customer@123'), role: 'customer', isOtpVerified: true },
+      {
+        name: "Admin",
+        phone: "9800000001",
+        email: "admin@digitalmandu.local",
+        password: await hash("Admin@123"),
+        role: "admin",
+        isOtpVerified: true,
+      },
+      {
+        name: "Seller One",
+        phone: "9800000002",
+        email: "seller@digitalmandu.local",
+        password: await hash("Seller@123"),
+        role: "customer",
+        isOtpVerified: true,
+      },
+      {
+        name: "Test Customer",
+        phone: "9800000003",
+        email: "customer@digitalmandu.local",
+        password: await hash("Customer@123"),
+        role: "customer",
+        isOtpVerified: true,
+      },
     ]);
-    console.log('Users seeded (admin / seller / customer)');
+    console.log("Users seeded (admin / seller / customer)");
   } else {
-    console.log('Users already exist - skipping');
+    console.log("Users already exist - skipping");
   }
 
   // Products
@@ -5730,7 +6060,7 @@ async function seed() {
   }
 
   // Demo order for customer
-  const customer = await User.findOne({ email: 'customer@digitalmandu.local' });
+  const customer = await User.findOne({ email: "customer@digitalmandu.local" });
   const orderCount = await Order.countDocuments();
   if (customer && createdProducts.length >= 2 && orderCount === 0) {
     await Order.create({
@@ -5739,23 +6069,26 @@ async function seed() {
         { quantity: 2, product: createdProducts[0]._id },
         { quantity: 1, product: createdProducts[1]._id },
       ],
-      totalAmount: createdProducts[0].productPrice * 2 + createdProducts[1].productPrice,
-      shippingAddress: 'Kathmandu, Nepal',
-      orderStatus: 'pending',
-      paymentDetails: { method: 'COD', status: 'pending' },
+      totalAmount:
+        createdProducts[0].productPrice * 2 + createdProducts[1].productPrice,
+      shippingAddress: "Kathmandu, Nepal",
+      orderStatus: "pending",
+      paymentDetails: { method: "COD", status: "pending" },
     });
-    console.log('Demo order seeded');
+    console.log("Demo order seeded");
   }
 
-  console.log('Seed complete');
-  console.log('  admin@digitalmandu.local / Admin@123');
-  console.log('  customer@digitalmandu.local / Customer@123');
+  console.log("Seed complete");
+  console.log("  admin@digitalmandu.local / Admin@123");
+  console.log("  customer@digitalmandu.local / Customer@123");
   await mongoose.disconnect();
 }
 
 seed().catch(async (e) => {
-  console.error('Seed failed', e);
-  try { await mongoose.disconnect(); } catch {}
+  console.error("Seed failed", e);
+  try {
+    await mongoose.disconnect();
+  } catch {}
   process.exit(1);
 });
 ```
@@ -5765,57 +6098,56 @@ seed().catch(async (e) => {
 ```javascript
 // catching asynchronous error
 // anonymous higher order function that takes function paramter and returns another function
-// function can be any from the controller 
+// function can be any from the controller
 // autamaticall taking any argument as fn and return error message immidiately not causing server crash
 
-
 module.exports = (fn) => {
-    return (req, res, next) => {
-        // Ensure fn returns a promise
-        Promise.resolve(fn(req, res, next)).catch((err) => {
-            // Check if headers are already sent
-            if (res.headersSent) {
-                return next(err);
-            }
-            return res.status(500).json({
-                message: err.message,
-                error: err
-            });
-        });
-    };
+  return (req, res, next) => {
+    // Ensure fn returns a promise
+    Promise.resolve(fn(req, res, next)).catch((err) => {
+      // Check if headers are already sent
+      if (res.headersSent) {
+        return next(err);
+      }
+      return res.status(500).json({
+        message: err.message,
+        error: err,
+      });
+    });
+  };
 };
 ```
 
 ### `Backend/services/sendEmail.js`
 
 ```javascript
-const nodemailer= require("nodemailer");
+const nodemailer = require("nodemailer");
 // optionsis the nested object that we give to use them in as email ddta
 const sendEmail = async (options) => {
-    try {
-        // creating transporting channel from nodemailer
-        var transporter = nodemailer.createTransport({
-            service: "gmail",
-            auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS,
-            },
-        });
+  try {
+    // creating transporting channel from nodemailer
+    var transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
+      },
+    });
 
-        // some details to send mail which is passed to the sendMail after this
-        const mailOptions = {
-            from: "<Digital Mandu>",
-            to: options.userEmail,
-            subject: options.emailSubject,
-            text: options.emailMessage,
-        };
+    // some details to send mail which is passed to the sendMail after this
+    const mailOptions = {
+      from: "<Digital Mandu>",
+      to: options.userEmail,
+      subject: options.emailSubject,
+      text: options.emailMessage,
+    };
 
-        // using above data sending emailo
-        await transporter.sendMail(mailOptions);
-        console.log('Email sent successfully');
-    } catch (error) {
-        console.error('Error sending email:', error);
-    }
+    // using above data sending emailo
+    await transporter.sendMail(mailOptions);
+    console.log("Email sent successfully");
+  } catch (error) {
+    console.error("Error sending email:", error);
+  }
 };
 
 module.exports = sendEmail;
@@ -5877,39 +6209,39 @@ build
 ### `Frontend/eslint.config.js`
 
 ```javascript
-import js from '@eslint/js'
-import globals from 'globals'
-import reactHooks from 'eslint-plugin-react-hooks'
-import reactRefresh from 'eslint-plugin-react-refresh'
+import js from "@eslint/js";
+import globals from "globals";
+import reactHooks from "eslint-plugin-react-hooks";
+import reactRefresh from "eslint-plugin-react-refresh";
 
 export default [
-  { ignores: ['dist'] },
+  { ignores: ["dist"] },
   {
-    files: ['**/*.{js,jsx}'],
+    files: ["**/*.{js,jsx}"],
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
       parserOptions: {
-        ecmaVersion: 'latest',
+        ecmaVersion: "latest",
         ecmaFeatures: { jsx: true },
-        sourceType: 'module',
+        sourceType: "module",
       },
     },
     plugins: {
-      'react-hooks': reactHooks,
-      'react-refresh': reactRefresh,
+      "react-hooks": reactHooks,
+      "react-refresh": reactRefresh,
     },
     rules: {
       ...js.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
-      'react-refresh/only-export-components': [
-        'warn',
+      "no-unused-vars": ["error", { varsIgnorePattern: "^[A-Z_]" }],
+      "react-refresh/only-export-components": [
+        "warn",
         { allowConstantExport: true },
       ],
     },
   },
-]
+];
 ```
 
 ### `Frontend/index.html`
@@ -6323,15 +6655,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.25.4.tgz",
       "integrity": "sha512-1VCICWypeQKhVbE9oW/sJaAmjLxhVqacdkvPLEjwlttjfwENRSClS8EjBz0KzRyFSCPDIkuXW34Je/vk7zdB7Q==",
-      "cpu": [
-        "ppc64"
-      ],
+      "cpu": ["ppc64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "aix"
-      ],
+      "os": ["aix"],
       "engines": {
         "node": ">=18"
       }
@@ -6340,15 +6668,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.25.4.tgz",
       "integrity": "sha512-QNdQEps7DfFwE3hXiU4BZeOV68HHzYwGd0Nthhd3uCkkEKK7/R6MTgM0P7H7FAs5pU/DIWsviMmEGxEoxIZ+ZQ==",
-      "cpu": [
-        "arm"
-      ],
+      "cpu": ["arm"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "android"
-      ],
+      "os": ["android"],
       "engines": {
         "node": ">=18"
       }
@@ -6357,15 +6681,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.25.4.tgz",
       "integrity": "sha512-bBy69pgfhMGtCnwpC/x5QhfxAz/cBgQ9enbtwjf6V9lnPI/hMyT9iWpR1arm0l3kttTr4L0KSLpKmLp/ilKS9A==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "android"
-      ],
+      "os": ["android"],
       "engines": {
         "node": ">=18"
       }
@@ -6374,15 +6694,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.25.4.tgz",
       "integrity": "sha512-TVhdVtQIFuVpIIR282btcGC2oGQoSfZfmBdTip2anCaVYcqWlZXGcdcKIUklfX2wj0JklNYgz39OBqh2cqXvcQ==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "android"
-      ],
+      "os": ["android"],
       "engines": {
         "node": ">=18"
       }
@@ -6391,15 +6707,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.25.4.tgz",
       "integrity": "sha512-Y1giCfM4nlHDWEfSckMzeWNdQS31BQGs9/rouw6Ub91tkK79aIMTH3q9xHvzH8d0wDru5Ci0kWB8b3up/nl16g==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "darwin"
-      ],
+      "os": ["darwin"],
       "engines": {
         "node": ">=18"
       }
@@ -6408,15 +6720,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.25.4.tgz",
       "integrity": "sha512-CJsry8ZGM5VFVeyUYB3cdKpd/H69PYez4eJh1W/t38vzutdjEjtP7hB6eLKBoOdxcAlCtEYHzQ/PJ/oU9I4u0A==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "darwin"
-      ],
+      "os": ["darwin"],
       "engines": {
         "node": ">=18"
       }
@@ -6425,15 +6733,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.25.4.tgz",
       "integrity": "sha512-yYq+39NlTRzU2XmoPW4l5Ifpl9fqSk0nAJYM/V/WUGPEFfek1epLHJIkTQM6bBs1swApjO5nWgvr843g6TjxuQ==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "freebsd"
-      ],
+      "os": ["freebsd"],
       "engines": {
         "node": ">=18"
       }
@@ -6442,15 +6746,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.25.4.tgz",
       "integrity": "sha512-0FgvOJ6UUMflsHSPLzdfDnnBBVoCDtBTVyn/MrWloUNvq/5SFmh13l3dvgRPkDihRxb77Y17MbqbCAa2strMQQ==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "freebsd"
-      ],
+      "os": ["freebsd"],
       "engines": {
         "node": ">=18"
       }
@@ -6459,15 +6759,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.25.4.tgz",
       "integrity": "sha512-kro4c0P85GMfFYqW4TWOpvmF8rFShbWGnrLqlzp4X1TNWjRY3JMYUfDCtOxPKOIY8B0WC8HN51hGP4I4hz4AaQ==",
-      "cpu": [
-        "arm"
-      ],
+      "cpu": ["arm"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ],
+      "os": ["linux"],
       "engines": {
         "node": ">=18"
       }
@@ -6476,15 +6772,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.25.4.tgz",
       "integrity": "sha512-+89UsQTfXdmjIvZS6nUnOOLoXnkUTB9hR5QAeLrQdzOSWZvNSAXAtcRDHWtqAUtAmv7ZM1WPOOeSxDzzzMogiQ==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ],
+      "os": ["linux"],
       "engines": {
         "node": ">=18"
       }
@@ -6493,15 +6785,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.25.4.tgz",
       "integrity": "sha512-yTEjoapy8UP3rv8dB0ip3AfMpRbyhSN3+hY8mo/i4QXFeDxmiYbEKp3ZRjBKcOP862Ua4b1PDfwlvbuwY7hIGQ==",
-      "cpu": [
-        "ia32"
-      ],
+      "cpu": ["ia32"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ],
+      "os": ["linux"],
       "engines": {
         "node": ">=18"
       }
@@ -6510,15 +6798,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.25.4.tgz",
       "integrity": "sha512-NeqqYkrcGzFwi6CGRGNMOjWGGSYOpqwCjS9fvaUlX5s3zwOtn1qwg1s2iE2svBe4Q/YOG1q6875lcAoQK/F4VA==",
-      "cpu": [
-        "loong64"
-      ],
+      "cpu": ["loong64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ],
+      "os": ["linux"],
       "engines": {
         "node": ">=18"
       }
@@ -6527,15 +6811,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.25.4.tgz",
       "integrity": "sha512-IcvTlF9dtLrfL/M8WgNI/qJYBENP3ekgsHbYUIzEzq5XJzzVEV/fXY9WFPfEEXmu3ck2qJP8LG/p3Q8f7Zc2Xg==",
-      "cpu": [
-        "mips64el"
-      ],
+      "cpu": ["mips64el"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ],
+      "os": ["linux"],
       "engines": {
         "node": ">=18"
       }
@@ -6544,15 +6824,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.25.4.tgz",
       "integrity": "sha512-HOy0aLTJTVtoTeGZh4HSXaO6M95qu4k5lJcH4gxv56iaycfz1S8GO/5Jh6X4Y1YiI0h7cRyLi+HixMR+88swag==",
-      "cpu": [
-        "ppc64"
-      ],
+      "cpu": ["ppc64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ],
+      "os": ["linux"],
       "engines": {
         "node": ">=18"
       }
@@ -6561,15 +6837,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.25.4.tgz",
       "integrity": "sha512-i8JUDAufpz9jOzo4yIShCTcXzS07vEgWzyX3NH2G7LEFVgrLEhjwL3ajFE4fZI3I4ZgiM7JH3GQ7ReObROvSUA==",
-      "cpu": [
-        "riscv64"
-      ],
+      "cpu": ["riscv64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ],
+      "os": ["linux"],
       "engines": {
         "node": ">=18"
       }
@@ -6578,15 +6850,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.25.4.tgz",
       "integrity": "sha512-jFnu+6UbLlzIjPQpWCNh5QtrcNfMLjgIavnwPQAfoGx4q17ocOU9MsQ2QVvFxwQoWpZT8DvTLooTvmOQXkO51g==",
-      "cpu": [
-        "s390x"
-      ],
+      "cpu": ["s390x"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ],
+      "os": ["linux"],
       "engines": {
         "node": ">=18"
       }
@@ -6595,15 +6863,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.25.4.tgz",
       "integrity": "sha512-6e0cvXwzOnVWJHq+mskP8DNSrKBr1bULBvnFLpc1KY+d+irZSgZ02TGse5FsafKS5jg2e4pbvK6TPXaF/A6+CA==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ],
+      "os": ["linux"],
       "engines": {
         "node": ">=18"
       }
@@ -6612,15 +6876,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.25.4.tgz",
       "integrity": "sha512-vUnkBYxZW4hL/ie91hSqaSNjulOnYXE1VSLusnvHg2u3jewJBz3YzB9+oCw8DABeVqZGg94t9tyZFoHma8gWZQ==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "netbsd"
-      ],
+      "os": ["netbsd"],
       "engines": {
         "node": ">=18"
       }
@@ -6629,15 +6889,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.25.4.tgz",
       "integrity": "sha512-XAg8pIQn5CzhOB8odIcAm42QsOfa98SBeKUdo4xa8OvX8LbMZqEtgeWE9P/Wxt7MlG2QqvjGths+nq48TrUiKw==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "netbsd"
-      ],
+      "os": ["netbsd"],
       "engines": {
         "node": ">=18"
       }
@@ -6646,15 +6902,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.4.tgz",
       "integrity": "sha512-Ct2WcFEANlFDtp1nVAXSNBPDxyU+j7+tId//iHXU2f/lN5AmO4zLyhDcpR5Cz1r08mVxzt3Jpyt4PmXQ1O6+7A==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "openbsd"
-      ],
+      "os": ["openbsd"],
       "engines": {
         "node": ">=18"
       }
@@ -6663,15 +6915,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.25.4.tgz",
       "integrity": "sha512-xAGGhyOQ9Otm1Xu8NT1ifGLnA6M3sJxZ6ixylb+vIUVzvvd6GOALpwQrYrtlPouMqd/vSbgehz6HaVk4+7Afhw==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "openbsd"
-      ],
+      "os": ["openbsd"],
       "engines": {
         "node": ">=18"
       }
@@ -6680,15 +6928,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.25.4.tgz",
       "integrity": "sha512-Mw+tzy4pp6wZEK0+Lwr76pWLjrtjmJyUB23tHKqEDP74R3q95luY/bXqXZeYl4NYlvwOqoRKlInQialgCKy67Q==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "sunos"
-      ],
+      "os": ["sunos"],
       "engines": {
         "node": ">=18"
       }
@@ -6697,15 +6941,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.25.4.tgz",
       "integrity": "sha512-AVUP428VQTSddguz9dO9ngb+E5aScyg7nOeJDrF1HPYu555gmza3bDGMPhmVXL8svDSoqPCsCPjb265yG/kLKQ==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "win32"
-      ],
+      "os": ["win32"],
       "engines": {
         "node": ">=18"
       }
@@ -6714,15 +6954,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.25.4.tgz",
       "integrity": "sha512-i1sW+1i+oWvQzSgfRcxxG2k4I9n3O9NRqy8U+uugaT2Dy7kLO9Y7wI72haOahxceMX8hZAzgGou1FhndRldxRg==",
-      "cpu": [
-        "ia32"
-      ],
+      "cpu": ["ia32"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "win32"
-      ],
+      "os": ["win32"],
       "engines": {
         "node": ">=18"
       }
@@ -6731,15 +6967,11 @@ export default [
       "version": "0.25.4",
       "resolved": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.4.tgz",
       "integrity": "sha512-nOT2vZNw6hJ+z43oP1SPea/G/6AbN6X+bGNhNuq8NtRHy4wsMhw765IKLNmnjek7GvjWBYQ8Q5VBoYTFg9y1UQ==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "win32"
-      ],
+      "os": ["win32"],
       "engines": {
         "node": ">=18"
       }
@@ -7059,281 +7291,201 @@ export default [
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.41.0.tgz",
       "integrity": "sha512-KxN+zCjOYHGwCl4UCtSfZ6jrq/qi88JDUtiEFk8LELEHq2Egfc/FgW+jItZiOLRuQfb/3xJSgFuNPC9jzggX+A==",
-      "cpu": [
-        "arm"
-      ],
+      "cpu": ["arm"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "android"
-      ]
+      "os": ["android"]
     },
     "node_modules/@rollup/rollup-android-arm64": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.41.0.tgz",
       "integrity": "sha512-yDvqx3lWlcugozax3DItKJI5j05B0d4Kvnjx+5mwiUpWramVvmAByYigMplaoAQ3pvdprGCTCE03eduqE/8mPQ==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "android"
-      ]
+      "os": ["android"]
     },
     "node_modules/@rollup/rollup-darwin-arm64": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.41.0.tgz",
       "integrity": "sha512-2KOU574vD3gzcPSjxO0eyR5iWlnxxtmW1F5CkNOHmMlueKNCQkxR6+ekgWyVnz6zaZihpUNkGxjsYrkTJKhkaw==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "darwin"
-      ]
+      "os": ["darwin"]
     },
     "node_modules/@rollup/rollup-darwin-x64": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.41.0.tgz",
       "integrity": "sha512-gE5ACNSxHcEZyP2BA9TuTakfZvULEW4YAOtxl/A/YDbIir/wPKukde0BNPlnBiP88ecaN4BJI2TtAd+HKuZPQQ==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "darwin"
-      ]
+      "os": ["darwin"]
     },
     "node_modules/@rollup/rollup-freebsd-arm64": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.41.0.tgz",
       "integrity": "sha512-GSxU6r5HnWij7FoSo7cZg3l5GPg4HFLkzsFFh0N/b16q5buW1NAWuCJ+HMtIdUEi6XF0qH+hN0TEd78laRp7Dg==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "freebsd"
-      ]
+      "os": ["freebsd"]
     },
     "node_modules/@rollup/rollup-freebsd-x64": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.41.0.tgz",
       "integrity": "sha512-KGiGKGDg8qLRyOWmk6IeiHJzsN/OYxO6nSbT0Vj4MwjS2XQy/5emsmtoqLAabqrohbgLWJ5GV3s/ljdrIr8Qjg==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "freebsd"
-      ]
+      "os": ["freebsd"]
     },
     "node_modules/@rollup/rollup-linux-arm-gnueabihf": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.41.0.tgz",
       "integrity": "sha512-46OzWeqEVQyX3N2/QdiU/CMXYDH/lSHpgfBkuhl3igpZiaB3ZIfSjKuOnybFVBQzjsLwkus2mjaESy8H41SzvA==",
-      "cpu": [
-        "arm"
-      ],
+      "cpu": ["arm"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ]
+      "os": ["linux"]
     },
     "node_modules/@rollup/rollup-linux-arm-musleabihf": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.41.0.tgz",
       "integrity": "sha512-lfgW3KtQP4YauqdPpcUZHPcqQXmTmH4nYU0cplNeW583CMkAGjtImw4PKli09NFi2iQgChk4e9erkwlfYem6Lg==",
-      "cpu": [
-        "arm"
-      ],
+      "cpu": ["arm"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ]
+      "os": ["linux"]
     },
     "node_modules/@rollup/rollup-linux-arm64-gnu": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.41.0.tgz",
       "integrity": "sha512-nn8mEyzMbdEJzT7cwxgObuwviMx6kPRxzYiOl6o/o+ChQq23gfdlZcUNnt89lPhhz3BYsZ72rp0rxNqBSfqlqw==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ]
+      "os": ["linux"]
     },
     "node_modules/@rollup/rollup-linux-arm64-musl": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.41.0.tgz",
       "integrity": "sha512-l+QK99je2zUKGd31Gh+45c4pGDAqZSuWQiuRFCdHYC2CSiO47qUWsCcenrI6p22hvHZrDje9QjwSMAFL3iwXwQ==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ]
+      "os": ["linux"]
     },
     "node_modules/@rollup/rollup-linux-loongarch64-gnu": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-loongarch64-gnu/-/rollup-linux-loongarch64-gnu-4.41.0.tgz",
       "integrity": "sha512-WbnJaxPv1gPIm6S8O/Wg+wfE/OzGSXlBMbOe4ie+zMyykMOeqmgD1BhPxZQuDqwUN+0T/xOFtL2RUWBspnZj3w==",
-      "cpu": [
-        "loong64"
-      ],
+      "cpu": ["loong64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ]
+      "os": ["linux"]
     },
     "node_modules/@rollup/rollup-linux-powerpc64le-gnu": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-powerpc64le-gnu/-/rollup-linux-powerpc64le-gnu-4.41.0.tgz",
       "integrity": "sha512-eRDWR5t67/b2g8Q/S8XPi0YdbKcCs4WQ8vklNnUYLaSWF+Cbv2axZsp4jni6/j7eKvMLYCYdcsv8dcU+a6QNFg==",
-      "cpu": [
-        "ppc64"
-      ],
+      "cpu": ["ppc64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ]
+      "os": ["linux"]
     },
     "node_modules/@rollup/rollup-linux-riscv64-gnu": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.41.0.tgz",
       "integrity": "sha512-TWrZb6GF5jsEKG7T1IHwlLMDRy2f3DPqYldmIhnA2DVqvvhY2Ai184vZGgahRrg8k9UBWoSlHv+suRfTN7Ua4A==",
-      "cpu": [
-        "riscv64"
-      ],
+      "cpu": ["riscv64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ]
+      "os": ["linux"]
     },
     "node_modules/@rollup/rollup-linux-riscv64-musl": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.41.0.tgz",
       "integrity": "sha512-ieQljaZKuJpmWvd8gW87ZmSFwid6AxMDk5bhONJ57U8zT77zpZ/TPKkU9HpnnFrM4zsgr4kiGuzbIbZTGi7u9A==",
-      "cpu": [
-        "riscv64"
-      ],
+      "cpu": ["riscv64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ]
+      "os": ["linux"]
     },
     "node_modules/@rollup/rollup-linux-s390x-gnu": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.41.0.tgz",
       "integrity": "sha512-/L3pW48SxrWAlVsKCN0dGLB2bi8Nv8pr5S5ocSM+S0XCn5RCVCXqi8GVtHFsOBBCSeR+u9brV2zno5+mg3S4Aw==",
-      "cpu": [
-        "s390x"
-      ],
+      "cpu": ["s390x"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ]
+      "os": ["linux"]
     },
     "node_modules/@rollup/rollup-linux-x64-gnu": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.41.0.tgz",
       "integrity": "sha512-XMLeKjyH8NsEDCRptf6LO8lJk23o9wvB+dJwcXMaH6ZQbbkHu2dbGIUindbMtRN6ux1xKi16iXWu6q9mu7gDhQ==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ]
+      "os": ["linux"]
     },
     "node_modules/@rollup/rollup-linux-x64-musl": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.41.0.tgz",
       "integrity": "sha512-m/P7LycHZTvSQeXhFmgmdqEiTqSV80zn6xHaQ1JSqwCtD1YGtwEK515Qmy9DcB2HK4dOUVypQxvhVSy06cJPEg==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "linux"
-      ]
+      "os": ["linux"]
     },
     "node_modules/@rollup/rollup-win32-arm64-msvc": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.41.0.tgz",
       "integrity": "sha512-4yodtcOrFHpbomJGVEqZ8fzD4kfBeCbpsUy5Pqk4RluXOdsWdjLnjhiKy2w3qzcASWd04fp52Xz7JKarVJ5BTg==",
-      "cpu": [
-        "arm64"
-      ],
+      "cpu": ["arm64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "win32"
-      ]
+      "os": ["win32"]
     },
     "node_modules/@rollup/rollup-win32-ia32-msvc": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.41.0.tgz",
       "integrity": "sha512-tmazCrAsKzdkXssEc65zIE1oC6xPHwfy9d5Ta25SRCDOZS+I6RypVVShWALNuU9bxIfGA0aqrmzlzoM5wO5SPQ==",
-      "cpu": [
-        "ia32"
-      ],
+      "cpu": ["ia32"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "win32"
-      ]
+      "os": ["win32"]
     },
     "node_modules/@rollup/rollup-win32-x64-msvc": {
       "version": "4.41.0",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.41.0.tgz",
       "integrity": "sha512-h1J+Yzjo/X+0EAvR2kIXJDuTuyT7drc+t2ALY0nIcGPbTatNOf0VWdhEA2Z4AAjv6X1NJV7SYo5oCTYRJhSlVA==",
-      "cpu": [
-        "x64"
-      ],
+      "cpu": ["x64"],
       "dev": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "win32"
-      ]
+      "os": ["win32"]
     },
     "node_modules/@tanstack/query-core": {
       "version": "5.90.2",
@@ -8458,9 +8610,7 @@ export default [
       "hasInstallScript": true,
       "license": "MIT",
       "optional": true,
-      "os": [
-        "darwin"
-      ],
+      "os": ["darwin"],
       "engines": {
         "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
       }
@@ -10133,39 +10283,40 @@ If you are developing a production application, we recommend using TypeScript wi
 ### `Frontend/src/api/client.js`
 
 ```javascript
-import axios from 'axios';
-import { API_BASE_URL } from './config';
+import axios from "axios";
+import { API_BASE_URL } from "./config";
 
 const client = axios.create({
   baseURL: API_BASE_URL,
   headers: {
-    'Content-Type': 'application/json',
+    "Content-Type": "application/json",
   },
 });
 
 client.interceptors.request.use(
   (config) => {
-    const token = localStorage.getItem('token') || localStorage.getItem('authToken');
+    const token =
+      localStorage.getItem("token") || localStorage.getItem("authToken");
     if (token) {
       config.headers.user_auth_token = token;
     }
     return config;
   },
-  (error) => Promise.reject(error)
+  (error) => Promise.reject(error),
 );
 
 client.interceptors.response.use(
   (response) => response,
   (error) => {
     if (error.response?.status === 401) {
-      localStorage.removeItem('token');
-      localStorage.removeItem('authToken');
-      if (window.location.pathname !== '/login') {
-        window.location.href = '/login';
+      localStorage.removeItem("token");
+      localStorage.removeItem("authToken");
+      if (window.location.pathname !== "/login") {
+        window.location.href = "/login";
       }
     }
     return Promise.reject(error);
-  }
+  },
 );
 
 export default client;
@@ -10174,69 +10325,70 @@ export default client;
 ### `Frontend/src/api/config.js`
 
 ```javascript
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api';
+export const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL || "http://localhost:3000/api";
 
 export const API_ENDPOINTS = {
   // AUTH (actual backend: /api/register, /api/login, /api/forgot, etc.)
-  AUTH_LOGIN: '/login',
-  AUTH_REGISTER: '/register',
-  AUTH_FORGOT: '/forgot',
-  AUTH_VERIFY_OTP: '/verify_otp',
-  AUTH_RESET_PASSWORD: '/reset_password',
+  AUTH_LOGIN: "/login",
+  AUTH_REGISTER: "/register",
+  AUTH_FORGOT: "/forgot",
+  AUTH_VERIFY_OTP: "/verify_otp",
+  AUTH_RESET_PASSWORD: "/reset_password",
 
   // USER PROFILE (mounted at /api/profile)
-  USER_PROFILE: '/profile/:id',
-  USER_UPDATE_PROFILE: '/profile/:id',
-  USER_DELETE_PROFILE: '/profile/:id',
-  USER_CHANGE_PASSWORD: '/profile/changePassword/:id',
+  USER_PROFILE: "/profile/:id",
+  USER_UPDATE_PROFILE: "/profile/:id",
+  USER_DELETE_PROFILE: "/profile/:id",
+  USER_CHANGE_PASSWORD: "/profile/changePassword/:id",
 
   // PRODUCTS (public + admin)
-  PRODUCTS_LIST: '/products',
-  PRODUCT_DETAIL: '/products/:id',
-  PRODUCT_CREATE: '/add_product',
-  PRODUCT_UPDATE: '/products/:id',
-  PRODUCT_DELETE: '/products/:id',
+  PRODUCTS_LIST: "/products",
+  PRODUCT_DETAIL: "/products/:id",
+  PRODUCT_CREATE: "/add_product",
+  PRODUCT_UPDATE: "/products/:id",
+  PRODUCT_DELETE: "/products/:id",
 
   // CART
-  CART_GET: '/cart',
-  CART_ADD: '/cart/:productID',
-  CART_REMOVE: '/cart/:cartID',
-  CART_UPDATE: '/cart/:cartID',
+  CART_GET: "/cart",
+  CART_ADD: "/cart/:productID",
+  CART_REMOVE: "/cart/:cartID",
+  CART_UPDATE: "/cart/:cartID",
 
   // ORDERS (USER)
-  ORDER_LIST: '/orders',
-  ORDER_CREATE: '/orders',
-  ORDER_CANCEL: '/orders/cancel',
-  ORDER_UPDATE: '/orders/:id',
-  ORDER_DELETE: '/orders/:id',
+  ORDER_LIST: "/orders",
+  ORDER_CREATE: "/orders",
+  ORDER_CANCEL: "/orders/cancel",
+  ORDER_UPDATE: "/orders/:id",
+  ORDER_DELETE: "/orders/:id",
 
   // ORDERS (ADMIN)
-  ADMIN_ORDERS: '/getOrdersAsAnAdmin',
-  ADMIN_ORDER_DETAIL: '/ordersAsAnAdmin/:id',
-  ADMIN_ORDER_UPDATE: '/ordersAsAnAdmin/:id',
-  ADMIN_ORDER_DELETE: '/ordersAsAnAdmin/:id',
+  ADMIN_ORDERS: "/getOrdersAsAnAdmin",
+  ADMIN_ORDER_DETAIL: "/ordersAsAnAdmin/:id",
+  ADMIN_ORDER_UPDATE: "/ordersAsAnAdmin/:id",
+  ADMIN_ORDER_DELETE: "/ordersAsAnAdmin/:id",
 
   // PAYMENT
-  PAYMENT_INITIATE: '/payment',
-  PAYMENT_VERIFY: '/payment/verifyPidx',
+  PAYMENT_INITIATE: "/payment",
+  PAYMENT_VERIFY: "/payment/verifyPidx",
 
   // REVIEWS
-  REVIEWS_LIST: '/reviews',
-  PRODUCT_REVIEWS: '/reviews/:id',
-  REVIEW_CREATE: '/reviews/:id',
-  REVIEW_DELETE: '/reviews/:id',
+  REVIEWS_LIST: "/reviews",
+  PRODUCT_REVIEWS: "/reviews/:id",
+  REVIEW_CREATE: "/reviews/:id",
+  REVIEW_DELETE: "/reviews/:id",
 
   // ADMIN USERS
-  ADMIN_USERS: '/users',
-  ADMIN_USER_DELETE: '/users/:id',
+  ADMIN_USERS: "/users",
+  ADMIN_USER_DELETE: "/users/:id",
 };
 ```
 
 ### `Frontend/src/api/endpoints/auth.js`
 
 ```javascript
-import client from '../client';
-import { API_ENDPOINTS } from '../config';
+import client from "../client";
+import { API_ENDPOINTS } from "../config";
 
 export const authAPI = {
   login: (data) => client.post(API_ENDPOINTS.AUTH_LOGIN, data),
@@ -10250,14 +10402,20 @@ export const authAPI = {
 ### `Frontend/src/api/endpoints/cart.js`
 
 ```javascript
-import client from '../client';
-import { API_ENDPOINTS } from '../config';
+import client from "../client";
+import { API_ENDPOINTS } from "../config";
 
 export const cartAPI = {
   getCart: () => client.get(API_ENDPOINTS.CART_GET),
-  addItem: (productID, data) => client.post(API_ENDPOINTS.CART_ADD.replace(':productID', productID), data || {}),
-  removeItem: (cartID) => client.delete(API_ENDPOINTS.CART_REMOVE.replace(':cartID', cartID)),
-  updateItem: (cartID, data) => client.patch(API_ENDPOINTS.CART_UPDATE.replace(':cartID', cartID), data),
+  addItem: (productID, data) =>
+    client.post(
+      API_ENDPOINTS.CART_ADD.replace(":productID", productID),
+      data || {},
+    ),
+  removeItem: (cartID) =>
+    client.delete(API_ENDPOINTS.CART_REMOVE.replace(":cartID", cartID)),
+  updateItem: (cartID, data) =>
+    client.patch(API_ENDPOINTS.CART_UPDATE.replace(":cartID", cartID), data),
   clearCart: () => client.delete(API_ENDPOINTS.CART_GET),
 };
 ```
@@ -10265,30 +10423,35 @@ export const cartAPI = {
 ### `Frontend/src/api/endpoints/orders.js`
 
 ```javascript
-import client from '../client';
-import { API_ENDPOINTS } from '../config';
+import client from "../client";
+import { API_ENDPOINTS } from "../config";
 
 export const ordersAPI = {
   getOrders: () => client.get(API_ENDPOINTS.ORDER_LIST),
   create: (data) => client.post(API_ENDPOINTS.ORDER_CREATE, data),
   cancel: (data) => client.patch(API_ENDPOINTS.ORDER_CANCEL, data),
-  update: (id, data) => client.patch(API_ENDPOINTS.ORDER_UPDATE.replace(':id', id), data),
-  delete: (id) => client.delete(API_ENDPOINTS.ORDER_DELETE.replace(':id', id)),
-  getDetail: (id) => client.get(API_ENDPOINTS.ORDER_UPDATE.replace(':id', id)),
-  updateStatus: (id, status) => client.patch(API_ENDPOINTS.ORDER_UPDATE.replace(':id', id), { status }),
+  update: (id, data) =>
+    client.patch(API_ENDPOINTS.ORDER_UPDATE.replace(":id", id), data),
+  delete: (id) => client.delete(API_ENDPOINTS.ORDER_DELETE.replace(":id", id)),
+  getDetail: (id) => client.get(API_ENDPOINTS.ORDER_UPDATE.replace(":id", id)),
+  updateStatus: (id, status) =>
+    client.patch(API_ENDPOINTS.ORDER_UPDATE.replace(":id", id), { status }),
   // admin
   adminGetAll: () => client.get(API_ENDPOINTS.ADMIN_ORDERS),
-  adminGetDetail: (id) => client.get(API_ENDPOINTS.ADMIN_ORDER_DETAIL.replace(':id', id)),
-  adminUpdate: (id, data) => client.patch(API_ENDPOINTS.ADMIN_ORDER_UPDATE.replace(':id', id), data),
-  adminDelete: (id) => client.delete(API_ENDPOINTS.ADMIN_ORDER_DELETE.replace(':id', id)),
+  adminGetDetail: (id) =>
+    client.get(API_ENDPOINTS.ADMIN_ORDER_DETAIL.replace(":id", id)),
+  adminUpdate: (id, data) =>
+    client.patch(API_ENDPOINTS.ADMIN_ORDER_UPDATE.replace(":id", id), data),
+  adminDelete: (id) =>
+    client.delete(API_ENDPOINTS.ADMIN_ORDER_DELETE.replace(":id", id)),
 };
 ```
 
 ### `Frontend/src/api/endpoints/payment.js`
 
 ```javascript
-import client from '../client';
-import { API_ENDPOINTS } from '../config';
+import client from "../client";
+import { API_ENDPOINTS } from "../config";
 
 export const paymentAPI = {
   initiate: (data) => client.post(API_ENDPOINTS.PAYMENT_INITIATE, data),
@@ -10299,114 +10462,240 @@ export const paymentAPI = {
 ### `Frontend/src/api/endpoints/products.js`
 
 ```javascript
-import client from '../client';
-import { API_ENDPOINTS } from '../config';
+import client from "../client";
+import { API_ENDPOINTS } from "../config";
 
 export const productsAPI = {
   getList: (params) => client.get(API_ENDPOINTS.PRODUCTS_LIST, { params }),
-  getDetail: (id) => client.get(API_ENDPOINTS.PRODUCT_DETAIL.replace(':id', id)),
-  create: (data) => client.post(API_ENDPOINTS.PRODUCT_CREATE, data, { headers: { 'Content-Type': 'multipart/form-data' } }),
-  update: (id, data) => client.patch(API_ENDPOINTS.PRODUCT_UPDATE.replace(':id', id), data, { headers: { 'Content-Type': 'multipart/form-data' } }),
-  delete: (id) => client.delete(API_ENDPOINTS.PRODUCT_DELETE.replace(':id', id)),
-  search: (query) => client.get(API_ENDPOINTS.PRODUCTS_LIST, { params: { q: query } }),
-  getReviews: (id) => client.get(API_ENDPOINTS.PRODUCT_REVIEWS.replace(':id', id)),
+  getDetail: (id) =>
+    client.get(API_ENDPOINTS.PRODUCT_DETAIL.replace(":id", id)),
+  create: (data) =>
+    client.post(API_ENDPOINTS.PRODUCT_CREATE, data, {
+      headers: { "Content-Type": "multipart/form-data" },
+    }),
+  update: (id, data) =>
+    client.patch(API_ENDPOINTS.PRODUCT_UPDATE.replace(":id", id), data, {
+      headers: { "Content-Type": "multipart/form-data" },
+    }),
+  delete: (id) =>
+    client.delete(API_ENDPOINTS.PRODUCT_DELETE.replace(":id", id)),
+  search: (query) =>
+    client.get(API_ENDPOINTS.PRODUCTS_LIST, { params: { q: query } }),
+  getReviews: (id) =>
+    client.get(API_ENDPOINTS.PRODUCT_REVIEWS.replace(":id", id)),
   // admin aliases
   adminGetList: (params) => client.get(API_ENDPOINTS.PRODUCTS_LIST, { params }),
-  adminApprove: (id) => client.patch(API_ENDPOINTS.PRODUCT_UPDATE.replace(':id', id), { status: 'approved' }),
-  adminReject: (id, reason) => client.patch(API_ENDPOINTS.PRODUCT_UPDATE.replace(':id', id), { status: 'rejected', reason }),
+  adminApprove: (id) =>
+    client.patch(API_ENDPOINTS.PRODUCT_UPDATE.replace(":id", id), {
+      status: "approved",
+    }),
+  adminReject: (id, reason) =>
+    client.patch(API_ENDPOINTS.PRODUCT_UPDATE.replace(":id", id), {
+      status: "rejected",
+      reason,
+    }),
 };
 ```
 
 ### `Frontend/src/api/endpoints/reviews.js`
 
 ```javascript
-import client from '../client';
-import { API_ENDPOINTS } from '../config';
+import client from "../client";
+import { API_ENDPOINTS } from "../config";
 
 export const reviewsAPI = {
   getByUser: () => client.get(API_ENDPOINTS.REVIEWS_LIST),
-  getByProduct: (id) => client.get(API_ENDPOINTS.PRODUCT_REVIEWS.replace(':id', id)),
-  create: (id, data) => client.post(API_ENDPOINTS.REVIEW_CREATE.replace(':id', id), data),
-  delete: (id) => client.delete(API_ENDPOINTS.REVIEW_DELETE.replace(':id', id)),
+  getByProduct: (id) =>
+    client.get(API_ENDPOINTS.PRODUCT_REVIEWS.replace(":id", id)),
+  create: (id, data) =>
+    client.post(API_ENDPOINTS.REVIEW_CREATE.replace(":id", id), data),
+  delete: (id) => client.delete(API_ENDPOINTS.REVIEW_DELETE.replace(":id", id)),
 };
 ```
 
 ### `Frontend/src/api/endpoints/user.js`
 
 ```javascript
-import client from '../client';
-import { API_ENDPOINTS } from '../config';
+import client from "../client";
+import { API_ENDPOINTS } from "../config";
 
 export const userAPI = {
-  getProfile: (id) => client.get(API_ENDPOINTS.USER_PROFILE.replace(':id', id)),
-  updateProfile: (id, data) => client.patch(API_ENDPOINTS.USER_UPDATE_PROFILE.replace(':id', id), data),
-  deleteProfile: (id) => client.delete(API_ENDPOINTS.USER_DELETE_PROFILE.replace(':id', id)),
-  changePassword: (id, data) => client.patch(API_ENDPOINTS.USER_CHANGE_PASSWORD.replace(':id', id), data),
+  getProfile: (id) => client.get(API_ENDPOINTS.USER_PROFILE.replace(":id", id)),
+  updateProfile: (id, data) =>
+    client.patch(API_ENDPOINTS.USER_UPDATE_PROFILE.replace(":id", id), data),
+  deleteProfile: (id) =>
+    client.delete(API_ENDPOINTS.USER_DELETE_PROFILE.replace(":id", id)),
+  changePassword: (id, data) =>
+    client.patch(API_ENDPOINTS.USER_CHANGE_PASSWORD.replace(":id", id), data),
 };
 ```
 
 ### `Frontend/src/api/hooks.js`
 
 ```javascript
-import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
-import { productsAPI } from './endpoints/products';
-import { cartAPI } from './endpoints/cart';
-import { ordersAPI } from './endpoints/orders';
-import { paymentAPI } from './endpoints/payment';
-import { reviewsAPI } from './endpoints/reviews';
-import toast from 'react-hot-toast';
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { productsAPI } from "./endpoints/products";
+import { cartAPI } from "./endpoints/cart";
+import { ordersAPI } from "./endpoints/orders";
+import { paymentAPI } from "./endpoints/payment";
+import { reviewsAPI } from "./endpoints/reviews";
+import toast from "react-hot-toast";
 
-export const useProducts = (params) => useQuery({ queryKey: ['products', params], queryFn: () => productsAPI.getList(params).then(r=>r.data), staleTime: 5*60*1000 });
-export const useProductDetail = (id, enabled=true) => useQuery({ queryKey: ['product', id], queryFn: () => productsAPI.getDetail(id).then(r=>r.data), enabled: !!id && enabled, staleTime: 10*60*1000 });
-export const useProductSearch = (query) => useQuery({ queryKey: ['products-search', query], queryFn: () => productsAPI.search(query).then(r=>r.data), enabled: !!query, staleTime: 3*60*1000 });
-export const useProductReviews = (productId) => useQuery({ queryKey: ['reviews', productId], queryFn: () => reviewsAPI.getByProduct(productId).then(r=>r.data), enabled: !!productId });
+export const useProducts = (params) =>
+  useQuery({
+    queryKey: ["products", params],
+    queryFn: () => productsAPI.getList(params).then((r) => r.data),
+    staleTime: 5 * 60 * 1000,
+  });
+export const useProductDetail = (id, enabled = true) =>
+  useQuery({
+    queryKey: ["product", id],
+    queryFn: () => productsAPI.getDetail(id).then((r) => r.data),
+    enabled: !!id && enabled,
+    staleTime: 10 * 60 * 1000,
+  });
+export const useProductSearch = (query) =>
+  useQuery({
+    queryKey: ["products-search", query],
+    queryFn: () => productsAPI.search(query).then((r) => r.data),
+    enabled: !!query,
+    staleTime: 3 * 60 * 1000,
+  });
+export const useProductReviews = (productId) =>
+  useQuery({
+    queryKey: ["reviews", productId],
+    queryFn: () => reviewsAPI.getByProduct(productId).then((r) => r.data),
+    enabled: !!productId,
+  });
 
 export const useCreateProduct = () => {
   const qc = useQueryClient();
-  return useMutation({ mutationFn: (data) => productsAPI.create(data), onSuccess: () => { qc.invalidateQueries({queryKey:['products']}); toast.success('Product created'); }, onError: (e)=> toast.error(e.response?.data?.message||'Failed to create') });
+  return useMutation({
+    mutationFn: (data) => productsAPI.create(data),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ["products"] });
+      toast.success("Product created");
+    },
+    onError: (e) =>
+      toast.error(e.response?.data?.message || "Failed to create"),
+  });
 };
 export const useUpdateProduct = () => {
   const qc = useQueryClient();
-  return useMutation({ mutationFn: ({id,data}) => productsAPI.update(id,data), onSuccess: ()=>{qc.invalidateQueries({queryKey:['products']}); toast.success('Product updated');}, onError:(e)=>toast.error(e.response?.data?.message||'Failed to update')});
+  return useMutation({
+    mutationFn: ({ id, data }) => productsAPI.update(id, data),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ["products"] });
+      toast.success("Product updated");
+    },
+    onError: (e) =>
+      toast.error(e.response?.data?.message || "Failed to update"),
+  });
 };
 export const useDeleteProduct = () => {
   const qc = useQueryClient();
-  return useMutation({ mutationFn: (id)=>productsAPI.delete(id), onSuccess: ()=>{qc.invalidateQueries({queryKey:['products']}); toast.success('Product deleted');}, onError:(e)=>toast.error(e.response?.data?.message||'Failed to delete')});
+  return useMutation({
+    mutationFn: (id) => productsAPI.delete(id),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ["products"] });
+      toast.success("Product deleted");
+    },
+    onError: (e) =>
+      toast.error(e.response?.data?.message || "Failed to delete"),
+  });
 };
 
-export const useCart = () => useQuery({ queryKey: ['cart'], queryFn: () => cartAPI.getCart().then(r=>r.data) });
+export const useCart = () =>
+  useQuery({
+    queryKey: ["cart"],
+    queryFn: () => cartAPI.getCart().then((r) => r.data),
+  });
 export const useAddToCart = () => {
   const qc = useQueryClient();
-  return useMutation({ mutationFn: ({productID, data})=>cartAPI.addItem(productID, data), onSuccess: ()=>{qc.invalidateQueries({queryKey:['cart']}); toast.success('Added to cart');}, onError:(e)=>toast.error(e.response?.data?.message||'Failed to add')});
+  return useMutation({
+    mutationFn: ({ productID, data }) => cartAPI.addItem(productID, data),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ["cart"] });
+      toast.success("Added to cart");
+    },
+    onError: (e) => toast.error(e.response?.data?.message || "Failed to add"),
+  });
 };
 export const useRemoveFromCart = () => {
   const qc = useQueryClient();
-  return useMutation({ mutationFn: (cartID)=>cartAPI.removeItem(cartID), onSuccess: ()=>qc.invalidateQueries({queryKey:['cart']})});
+  return useMutation({
+    mutationFn: (cartID) => cartAPI.removeItem(cartID),
+    onSuccess: () => qc.invalidateQueries({ queryKey: ["cart"] }),
+  });
 };
 export const useUpdateCartItem = () => {
   const qc = useQueryClient();
-  return useMutation({ mutationFn: ({cartID, data})=>cartAPI.updateItem(cartID, data), onSuccess: ()=>qc.invalidateQueries({queryKey:['cart']})});
+  return useMutation({
+    mutationFn: ({ cartID, data }) => cartAPI.updateItem(cartID, data),
+    onSuccess: () => qc.invalidateQueries({ queryKey: ["cart"] }),
+  });
 };
 
-export const useOrders = () => useQuery({ queryKey: ['orders'], queryFn: ()=>ordersAPI.getOrders().then(r=>r.data) });
-export const useOrderDetail = (id, enabled=true) => useQuery({ queryKey: ['order', id], queryFn: ()=>ordersAPI.getDetail(id).then(r=>r.data), enabled: !!id && enabled });
+export const useOrders = () =>
+  useQuery({
+    queryKey: ["orders"],
+    queryFn: () => ordersAPI.getOrders().then((r) => r.data),
+  });
+export const useOrderDetail = (id, enabled = true) =>
+  useQuery({
+    queryKey: ["order", id],
+    queryFn: () => ordersAPI.getDetail(id).then((r) => r.data),
+    enabled: !!id && enabled,
+  });
 export const useCreateOrder = () => {
-  const qc=useQueryClient();
-  return useMutation({ mutationFn:(data)=>ordersAPI.create(data), onSuccess:()=>{qc.invalidateQueries({queryKey:['orders']});toast.success('Order created');}, onError:(e)=>toast.error(e.response?.data?.message||'Failed to create order')});
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: (data) => ordersAPI.create(data),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ["orders"] });
+      toast.success("Order created");
+    },
+    onError: (e) =>
+      toast.error(e.response?.data?.message || "Failed to create order"),
+  });
 };
 export const useCancelOrder = () => {
-  const qc=useQueryClient();
-  return useMutation({ mutationFn:(data)=>ordersAPI.cancel(data), onSuccess:()=>{qc.invalidateQueries({queryKey:['orders']});toast.success('Order cancelled');}});
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: (data) => ordersAPI.cancel(data),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ["orders"] });
+      toast.success("Order cancelled");
+    },
+  });
 };
 export const useUpdateOrderStatus = () => {
-  const qc=useQueryClient();
-  return useMutation({ mutationFn:({id,status})=>ordersAPI.updateStatus(id,status), onSuccess:()=>{qc.invalidateQueries({queryKey:['orders']});toast.success('Order updated');}});
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: ({ id, status }) => ordersAPI.updateStatus(id, status),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ["orders"] });
+      toast.success("Order updated");
+    },
+  });
 };
 
-export const useInitiatePayment = () => useMutation({ mutationFn:(data)=>paymentAPI.initiate(data), onError:(e)=>toast.error(e.response?.data?.message||'Payment failed')});
+export const useInitiatePayment = () =>
+  useMutation({
+    mutationFn: (data) => paymentAPI.initiate(data),
+    onError: (e) => toast.error(e.response?.data?.message || "Payment failed"),
+  });
 export const useVerifyPayment = () => {
-  const qc=useQueryClient();
-  return useMutation({ mutationFn:(data)=>paymentAPI.verify(data), onSuccess:()=>{qc.invalidateQueries({queryKey:['orders']});toast.success('Payment verified');}, onError:(e)=>toast.error(e.response?.data?.message||'Verification failed')});
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: (data) => paymentAPI.verify(data),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ["orders"] });
+      toast.success("Payment verified");
+    },
+    onError: (e) =>
+      toast.error(e.response?.data?.message || "Verification failed"),
+  });
 };
 ```
 
@@ -10419,8 +10708,8 @@ export const useVerifyPayment = () => {
 ### `Frontend/src/App.jsx`
 
 ```jsx
-import { RouterProvider } from 'react-router-dom';
-import router from './routes';
+import { RouterProvider } from "react-router-dom";
+import router from "./routes";
 
 export default function App() {
   return <RouterProvider router={router} />;
@@ -10448,23 +10737,23 @@ iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNS
 ### `Frontend/src/assets/admin_assets/assets.js`
 
 ```javascript
-import logo from './logo.png'
-import add_icon from './add_icon.png'
-import order_icon from './order_icon.png'
-import profile_image from './profile_image.png'
-import upload_area from './upload_area.png'
-import parcel_icon from './parcel_icon.png'
+import logo from "./logo.png";
+import add_icon from "./add_icon.png";
+import order_icon from "./order_icon.png";
+import profile_image from "./profile_image.png";
+import upload_area from "./upload_area.png";
+import parcel_icon from "./parcel_icon.png";
 
-export const assets ={
-    logo,
-    add_icon,
-    order_icon,
-    profile_image,
-    upload_area,
-    parcel_icon
-}
+export const assets = {
+  logo,
+  add_icon,
+  order_icon,
+  profile_image,
+  upload_area,
+  parcel_icon,
+};
 
-export const url = 'http://localhost:4000'
+export const url = "http://localhost:4000";
 ```
 
 ### `Frontend/src/assets/admin_assets/logo.png`
@@ -10964,8 +11253,7 @@ const DownArrow = ({ onClick, className }) => (
 const UpArrow = ({ onClick, className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-        className={`size-4 ml-1 cursor-pointer transition-transform duration-300 ${className}`}
-
+    className={`size-4 ml-1 cursor-pointer transition-transform duration-300 ${className}`}
     viewBox="0 0 24 24"
     fill="none"
   >
@@ -11586,13 +11874,37 @@ const UserIcon = () => (
   </svg>
 );
 const ProfileIcon = ({ size, className = "" }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={size}
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
     height={size}
-    className={className} viewBox="0 0 24 24" fill="none"><path d="M18.14 21.62C17.26 21.88 16.22 22 15 22H8.99998C7.77998 22 6.73999 21.88 5.85999 21.62C6.07999 19.02 8.74998 16.97 12 16.97C15.25 16.97 17.92 19.02 18.14 21.62Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><path d="M15 2H9C4 2 2 4 2 9V15C2 18.78 3.14 20.85 5.86 21.62C6.08 19.02 8.75 16.97 12 16.97C15.25 16.97 17.92 19.02 18.14 21.62C20.86 20.85 22 18.78 22 15V9C22 4 20 2 15 2ZM12 14.17C10.02 14.17 8.42 12.56 8.42 10.58C8.42 8.60002 10.02 7 12 7C13.98 7 15.58 8.60002 15.58 10.58C15.58 12.56 13.98 14.17 12 14.17Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><path d="M15.58 10.58C15.58 12.56 13.98 14.17 12 14.17C10.02 14.17 8.42004 12.56 8.42004 10.58C8.42004 8.60002 10.02 7 12 7C13.98 7 15.58 8.60002 15.58 10.58Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-
-  
+    className={className}
+    viewBox="0 0 24 24"
+    fill="none"
+  >
+    <path
+      d="M18.14 21.62C17.26 21.88 16.22 22 15 22H8.99998C7.77998 22 6.73999 21.88 5.85999 21.62C6.07999 19.02 8.74998 16.97 12 16.97C15.25 16.97 17.92 19.02 18.14 21.62Z"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M15 2H9C4 2 2 4 2 9V15C2 18.78 3.14 20.85 5.86 21.62C6.08 19.02 8.75 16.97 12 16.97C15.25 16.97 17.92 19.02 18.14 21.62C20.86 20.85 22 18.78 22 15V9C22 4 20 2 15 2ZM12 14.17C10.02 14.17 8.42 12.56 8.42 10.58C8.42 8.60002 10.02 7 12 7C13.98 7 15.58 8.60002 15.58 10.58C15.58 12.56 13.98 14.17 12 14.17Z"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M15.58 10.58C15.58 12.56 13.98 14.17 12 14.17C10.02 14.17 8.42004 12.56 8.42004 10.58C8.42004 8.60002 10.02 7 12 7C13.98 7 15.58 8.60002 15.58 10.58Z"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
 );
-
 
 const EditIcon = () => (
   <svg
@@ -11824,21 +12136,21 @@ const HistoryCircle = ({ onClick, className }) => (
 );
 
 const SwitchIcon = ({ onClick, className }) => (
-  <svg 
+  <svg
     onClick={onClick}
-    xmlns="http://www.w3.org/2000/svg" 
-    fill="none" 
-    viewBox="0 0 24 24" 
-    strokeWidth="1.5" 
-    stroke="currentColor" 
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth="1.5"
+    stroke="currentColor"
     className={`size-6 ${className}`}
   >
-  <path 
-    strokeLinecap="round" 
-    strokeLinejoin="round" 
-    d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" 
-  />
-</svg>
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"
+    />
+  </svg>
 );
 
 const CopyIcon = ({ onClick, className }) => (
@@ -11854,46 +12166,129 @@ const CopyIcon = ({ onClick, className }) => (
 );
 
 const MenuIcon = ({ className = "size-6" }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={className}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+    className={className}
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5"
+    />
   </svg>
 );
 
-const GripIcon = ({ className = "shrink-0 text-gray-400 group-hover:text-primary" }) => (
-  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden>
-    <circle cx="8" cy="4" r="1.5" /><circle cx="8" cy="12" r="1.5" /><circle cx="8" cy="20" r="1.5" />
-    <circle cx="16" cy="4" r="1.5" /><circle cx="16" cy="12" r="1.5" /><circle cx="16" cy="20" r="1.5" />
+const GripIcon = ({
+  className = "shrink-0 text-gray-400 group-hover:text-primary",
+}) => (
+  <svg
+    width="12"
+    height="12"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className={className}
+    aria-hidden
+  >
+    <circle cx="8" cy="4" r="1.5" />
+    <circle cx="8" cy="12" r="1.5" />
+    <circle cx="8" cy="20" r="1.5" />
+    <circle cx="16" cy="4" r="1.5" />
+    <circle cx="16" cy="12" r="1.5" />
+    <circle cx="16" cy="20" r="1.5" />
   </svg>
 );
 
 const HomeIcon = ({ className = "size-5" }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={className}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+    className={className}
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+    />
   </svg>
 );
 
 const BasketIcon = ({ className = "size-5" }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={className}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75a3 3 0 0 0-3-3M3.75 6h16.5l-1.5 7.5a2.25 2.25 0 0 1-2.25 1.875H6.75A2.25 2.25 0 0 1 4.5 13.5L3.75 6Z" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+    className={className}
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75a3 3 0 0 0-3-3M3.75 6h16.5l-1.5 7.5a2.25 2.25 0 0 1-2.25 1.875H6.75A2.25 2.25 0 0 1 4.5 13.5L3.75 6Z"
+    />
   </svg>
 );
 
 const ChartBarIcon = ({ className = "size-5" }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={className}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+    className={className}
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z"
+    />
   </svg>
 );
 
 const CrownIcon = ({ className = "size-5" }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={className}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m12-2.513c0-1.135-.845-2.098-1.976-2.192A48.424 48.424 0 0 0 12 8.25c-1.355 0-2.697.055-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m12-2.513v2.513c0 1.135-.845 2.098-1.976 2.192A48.424 48.424 0 0 1 12 15.75c-1.355 0-2.697-.055-4.024-.166C6.845 15.49 6 14.527 6 13.392V10.88m12 0a2.25 2.25 0 0 1 2.25 2.25v6.75a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25v-6.75A2.25 2.25 0 0 1 6 10.88h12Z" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+    className={className}
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m12-2.513c0-1.135-.845-2.098-1.976-2.192A48.424 48.424 0 0 0 12 8.25c-1.355 0-2.697.055-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m12-2.513v2.513c0 1.135-.845 2.098-1.976 2.192A48.424 48.424 0 0 1 12 15.75c-1.355 0-2.697-.055-4.024-.166C6.845 15.49 6 14.527 6 13.392V10.88m12 0a2.25 2.25 0 0 1 2.25 2.25v6.75a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25v-6.75A2.25 2.25 0 0 1 6 10.88h12Z"
+    />
   </svg>
 );
 
 const LocationIcon = ({ className = "size-5" }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={className}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+    className={className}
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+    />
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+    />
   </svg>
 );
 
@@ -11959,15 +12354,23 @@ export {
 ### `Frontend/src/assets/data/index.js`
 
 ```javascript
-import { parsePermissions, hasSubMenuAccess, hasResourcePermission } from '../../utils/permissionParser';
-import { RESOURCE_MAP, NAV_PERMISSION_REQUIREMENTS } from '../../utils/permissionRegistry';
+import {
+  parsePermissions,
+  hasSubMenuAccess,
+  hasResourcePermission,
+} from "../../utils/permissionParser";
+import {
+  RESOURCE_MAP,
+  NAV_PERMISSION_REQUIREMENTS,
+} from "../../utils/permissionRegistry";
 
 /**
  * Build navigation items dynamically from user permissions.
  */
 export const getNavItems = (permissions = [], isSuperUser = false) => {
   // Wildcard "*" in string permissions also means superuser
-  const effectiveSuper = isSuperUser || (Array.isArray(permissions) && permissions.includes("*"));
+  const effectiveSuper =
+    isSuperUser || (Array.isArray(permissions) && permissions.includes("*"));
   const permissionMap = parsePermissions(permissions);
 
   const menuConfig = getMenuConfig();
@@ -11976,13 +12379,47 @@ export const getNavItems = (permissions = [], isSuperUser = false) => {
     const visibleChildren = (menuItem.children || [])
       .filter((child) => {
         // 1) direct subMenu check via menu label + child label (handles backend menu/subMenu names like "Profit and Loss")
-        if (hasSubMenuAccess(permissionMap, menuItem.label, child.label, null, effectiveSuper)) return true;
-        if (hasSubMenuAccess(permissionMap, menuItem.label, child.label, "get", effectiveSuper)) return true;
+        if (
+          hasSubMenuAccess(
+            permissionMap,
+            menuItem.label,
+            child.label,
+            null,
+            effectiveSuper,
+          )
+        )
+          return true;
+        if (
+          hasSubMenuAccess(
+            permissionMap,
+            menuItem.label,
+            child.label,
+            "get",
+            effectiveSuper,
+          )
+        )
+          return true;
         // 2) explicit path -> resource/action mapping
         const req = NAV_PERMISSION_REQUIREMENTS[child.path];
         if (req?.resource) {
-          if (hasResourcePermission(permissionMap, req.resource, req.action, effectiveSuper)) return true;
-          if (hasResourcePermission(permissionMap, req.resource, null, effectiveSuper)) return true;
+          if (
+            hasResourcePermission(
+              permissionMap,
+              req.resource,
+              req.action,
+              effectiveSuper,
+            )
+          )
+            return true;
+          if (
+            hasResourcePermission(
+              permissionMap,
+              req.resource,
+              null,
+              effectiveSuper,
+            )
+          )
+            return true;
         }
         // Supporting/helper permissions (e.g. periodictimesheet, variationtimesheet,
         // accomodationtask, openingcheckemployee) never surface a submenu on their own.
@@ -11998,7 +12435,8 @@ export const getNavItems = (permissions = [], isSuperUser = false) => {
         isDisable: false,
         dropdownItems: visibleChildren,
         hasDropdown: visibleChildren.length > 0,
-        hasDesktopDropdown: menuItem.hasDesktopDropdown && visibleChildren.length > 0,
+        hasDesktopDropdown:
+          menuItem.hasDesktopDropdown && visibleChildren.length > 0,
       };
     }
 
@@ -12015,12 +12453,22 @@ export const getNavItems = (permissions = [], isSuperUser = false) => {
 /**
  * Get first accessible route for the user.
  */
-export const getFirstAccessibleRoute = (permissions = [], isSuperUser = false) => {
-  const effectiveSuper = isSuperUser || (Array.isArray(permissions) && permissions.includes("*"));
+export const getFirstAccessibleRoute = (
+  permissions = [],
+  isSuperUser = false,
+) => {
+  const effectiveSuper =
+    isSuperUser || (Array.isArray(permissions) && permissions.includes("*"));
   const navItems = getNavItems(permissions, effectiveSuper);
 
   // Default routes in order of preference
-  const defaultRoutes = [ "/todo/tasks",'/dashboard', '/clients', '/employee', '/account'];
+  const defaultRoutes = [
+    "/todo/tasks",
+    "/dashboard",
+    "/clients",
+    "/employee",
+    "/account",
+  ];
 
   for (const route of defaultRoutes) {
     for (const item of navItems) {
@@ -12041,7 +12489,7 @@ export const getFirstAccessibleRoute = (permissions = [], isSuperUser = false) =
     }
   }
 
-  return '/todo/tasks';
+  return "/todo/tasks";
 };
 
 /**
@@ -12051,8 +12499,8 @@ const getMenuConfig = () => [
   {
     label: "Dashboard",
     path: "/todo/tasks",
-    hasDropdown: true,        
-    hasDesktopDropdown: true,       
+    hasDropdown: true,
+    hasDesktopDropdown: true,
     children: [
       { label: "User Management", path: "/dashboard/user-management" },
       { label: "Templates", path: "/dashboard/templates" },
@@ -12662,8 +13110,8 @@ html.dark,
  *   --col3-left (default: 100px)
  *   --col4-left (default: 310px)
  */
-.table-sticky-cols thead th:nth-child(-n+4),
-.table-sticky-cols tbody td:nth-child(-n+4) {
+.table-sticky-cols thead th:nth-child(-n + 4),
+.table-sticky-cols tbody td:nth-child(-n + 4) {
   position: sticky !important;
   z-index: 20 !important;
   background: white !important;
@@ -12672,28 +13120,28 @@ html.dark,
 .table-sticky-cols thead th:nth-child(1),
 .table-sticky-cols tbody td:nth-child(1) {
   left: var(--col1-left, 0);
-  box-shadow: 4px 0 8px -4px rgba(0,0,0,0.15);
+  box-shadow: 4px 0 8px -4px rgba(0, 0, 0, 0.15);
 }
 
 .table-sticky-cols thead th:nth-child(2),
 .table-sticky-cols tbody td:nth-child(2) {
   left: var(--col2-left, 50px);
-  box-shadow: 4px 0 8px -4px rgba(0,0,0,0.15);
+  box-shadow: 4px 0 8px -4px rgba(0, 0, 0, 0.15);
 }
 
 .table-sticky-cols thead th:nth-child(3),
 .table-sticky-cols tbody td:nth-child(3) {
   left: var(--col3-left, 100px);
-  box-shadow: 4px 0 8px -4px rgba(0,0,0,0.15);
+  box-shadow: 4px 0 8px -4px rgba(0, 0, 0, 0.15);
 }
 
 .table-sticky-cols thead th:nth-child(4),
 .table-sticky-cols tbody td:nth-child(4) {
   left: var(--col4-left, 310px);
-  box-shadow: 4px 0 8px -4px rgba(0,0,0,0.15);
+  box-shadow: 4px 0 8px -4px rgba(0, 0, 0, 0.15);
 }
 
-.table-sticky-cols tfoot td:nth-child(-n+4) {
+.table-sticky-cols tfoot td:nth-child(-n + 4) {
   position: sticky !important;
   z-index: 20 !important;
 }
@@ -12724,9 +13172,13 @@ iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNS
 ### `Frontend/src/components/common/Breadcrumbs.jsx`
 
 ```jsx
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from "react-router-dom";
 
-const labels = { clients: 'Clients', periodic: 'Periodic', 'active-client': 'Active' };
+const labels = {
+  clients: "Clients",
+  periodic: "Periodic",
+  "active-client": "Active",
+};
 
 export default function Breadcrumbs({ items }) {
   const location = useLocation();
@@ -12735,22 +13187,49 @@ export default function Breadcrumbs({ items }) {
       <nav aria-label="Breadcrumb" className="text-sm text-gray-500">
         {items.map((it, i) => (
           <span key={it.path || i}>
-            {i > 0 && ' / '}
-            {it.path && i !== items.length - 1 ? <Link to={it.path} className="hover:underline text-green-700">{it.label}</Link> : <span className={i === items.length - 1 ? 'font-semibold text-gray-900' : ''}>{it.label}</span>}
+            {i > 0 && " / "}
+            {it.path && i !== items.length - 1 ? (
+              <Link to={it.path} className="hover:underline text-green-700">
+                {it.label}
+              </Link>
+            ) : (
+              <span
+                className={
+                  i === items.length - 1 ? "font-semibold text-gray-900" : ""
+                }
+              >
+                {it.label}
+              </span>
+            )}
           </span>
         ))}
       </nav>
     );
   }
-  const segs = location.pathname.split('/').filter(Boolean);
+  const segs = location.pathname.split("/").filter(Boolean);
   return (
     <nav aria-label="Breadcrumb" className="text-sm text-gray-500">
-      <Link to="/" className="hover:underline">Home</Link>
+      <Link to="/" className="hover:underline">
+        Home
+      </Link>
       {segs.map((s, i) => {
-        const path = '/' + segs.slice(0, i + 1).join('/');
+        const path = "/" + segs.slice(0, i + 1).join("/");
         const isLast = i === segs.length - 1;
-        const label = labels[s] || s.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-        return <span key={path}>{' / '}{isLast ? <span className="font-semibold text-gray-900">{label}</span> : <Link to={path} className="hover:underline text-green-700">{label}</Link>}</span>;
+        const label =
+          labels[s] ||
+          s.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+        return (
+          <span key={path}>
+            {" / "}
+            {isLast ? (
+              <span className="font-semibold text-gray-900">{label}</span>
+            ) : (
+              <Link to={path} className="hover:underline text-green-700">
+                {label}
+              </Link>
+            )}
+          </span>
+        );
       })}
     </nav>
   );
@@ -12866,7 +13345,6 @@ const Button = ({
   return (
     <button
       type={type}
-
       className={`text-sm font-medium py-2 px-8 flex items-center rounded-lg ${buttonClasses[variant]} ${className} ${
         isDisabled ? "opacity-60 cursor-not-allowed" : ""
       }`}
@@ -12984,13 +13462,11 @@ const ButtonCard = ({
       className={`rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition hover:shadow-md ${className}`}
     >
       <div className="mb-4 flex items-start justify-between gap-3">
-        <button
-          type="button"
-          onClick={onClick}
-          className="text-left"
-        >
+        <button type="button" onClick={onClick} className="text-left">
           <h3 className="text-base font-semibold text-gray-900">{title}</h3>
-          {subtitle ? <p className="mt-1 text-xs text-gray-500">{subtitle}</p> : null}
+          {subtitle ? (
+            <p className="mt-1 text-xs text-gray-500">{subtitle}</p>
+          ) : null}
         </button>
         {actions}
       </div>
@@ -13055,78 +13531,82 @@ import CustomTableFooter from "../CustomTableFooter/index";
 // ─────────────────────────────────────────────────────────────
 // TableHeader: Column headers with inline search capability
 // ─────────────────────────────────────────────────────────────
-const TableHeader = memo(({ columns, onFilterChange, hasExpandableRows, useInlineExpandToggle }) => {
-  const [showSearch, setShowSearch] = useState(null);
+const TableHeader = memo(
+  ({ columns, onFilterChange, hasExpandableRows, useInlineExpandToggle }) => {
+    const [showSearch, setShowSearch] = useState(null);
 
-  const handleSearchChange = (accessor, value) => {
-    onFilterChange?.(accessor, value);
-  };
+    const handleSearchChange = (accessor, value) => {
+      onFilterChange?.(accessor, value);
+    };
 
-  const closeSearch = (accessor) => {
-    onFilterChange?.(accessor, null);
-    setShowSearch(null);
-  };
+    const closeSearch = (accessor) => {
+      onFilterChange?.(accessor, null);
+      setShowSearch(null);
+    };
 
-  return (
-    <thead className="text-primary border-b-4 border-primary bg-white sticky top-0 z-50 font-serif shadow-md">
-      <tr>
-        {hasExpandableRows && !useInlineExpandToggle && (
-          <th className="p-3 sm:p-4 text-xs text-primary text-left font-medium w-10 bg-white border-r border-gray-200/70">
-            <span className="sr-only">Expand</span>
-          </th>
-        )}
-        {columns.map((column, index) => (
-          <th
-            key={column.accessor || index}
-            className="p-6 text-xs text-primary text-left font-medium whitespace-nowrap bg-white border-b border-primary"
-            style={{
-              width: column.width ? `${(column.width / 24) * 100}%` : "auto",
-              minWidth:
-                column.accessor === "sn"
-                  ? "60px"
-                  : column.accessor === "name" || column.accessor === "client"
-                  ? "200px"
-                  : "120px",
-            }}
-          >
-            {showSearch === column.accessor ? (
-              <div className="relative w-full min-w-[120px]">
-                <InputField
-                  name={column.accessor}
-                  label=""
-                  type="text"
-                  placeholder={`Search ${column.label.toLowerCase()}...`}
-                  onChange={(e) =>
-                    handleSearchChange(column.accessor, e.target.value)
-                  }
-                  className="w-full pr-8 text-xs sm:text-sm py-1"
-                />
-                <button
-                  onClick={() => closeSearch(column.accessor)}
-                  className="absolute top-1 right-0 text-lg px-2 py-0 rounded-full bg-[#F6F6F6] hover:bg-primary hover:text-white transition-colors"
-                  aria-label={`Clear search for ${column.label}`}
-                >
-                  &times;
-                </button>
-              </div>
-            ) : (
-              <span className="flex items-center gap-1">
-                {column.isComponent ? column.label : <>{column.label}</>}
-                {onFilterChange && !column.isComponent && column.isSearch !== false && (
-                  <SearchIcon
-                    onClick={() => setShowSearch(column.accessor)}
-                    className="text-primary cursor-pointer w-3 h-3 sm:w-4 sm:h-4 hover:opacity-80 transition-opacity"
-                    aria-label={`Search ${column.label}`}
+    return (
+      <thead className="text-primary border-b-4 border-primary bg-white sticky top-0 z-50 font-serif shadow-md">
+        <tr>
+          {hasExpandableRows && !useInlineExpandToggle && (
+            <th className="p-3 sm:p-4 text-xs text-primary text-left font-medium w-10 bg-white border-r border-gray-200/70">
+              <span className="sr-only">Expand</span>
+            </th>
+          )}
+          {columns.map((column, index) => (
+            <th
+              key={column.accessor || index}
+              className="p-6 text-xs text-primary text-left font-medium whitespace-nowrap bg-white border-b border-primary"
+              style={{
+                width: column.width ? `${(column.width / 24) * 100}%` : "auto",
+                minWidth:
+                  column.accessor === "sn"
+                    ? "60px"
+                    : column.accessor === "name" || column.accessor === "client"
+                      ? "200px"
+                      : "120px",
+              }}
+            >
+              {showSearch === column.accessor ? (
+                <div className="relative w-full min-w-[120px]">
+                  <InputField
+                    name={column.accessor}
+                    label=""
+                    type="text"
+                    placeholder={`Search ${column.label.toLowerCase()}...`}
+                    onChange={(e) =>
+                      handleSearchChange(column.accessor, e.target.value)
+                    }
+                    className="w-full pr-8 text-xs sm:text-sm py-1"
                   />
-                )}
-              </span>
-            )}
-          </th>
-        ))}
-      </tr>
-    </thead>
-  );
-});
+                  <button
+                    onClick={() => closeSearch(column.accessor)}
+                    className="absolute top-1 right-0 text-lg px-2 py-0 rounded-full bg-[#F6F6F6] hover:bg-primary hover:text-white transition-colors"
+                    aria-label={`Clear search for ${column.label}`}
+                  >
+                    &times;
+                  </button>
+                </div>
+              ) : (
+                <span className="flex items-center gap-1">
+                  {column.isComponent ? column.label : <>{column.label}</>}
+                  {onFilterChange &&
+                    !column.isComponent &&
+                    column.isSearch !== false && (
+                      <SearchIcon
+                        onClick={() => setShowSearch(column.accessor)}
+                        className="text-primary cursor-pointer w-3 h-3 sm:w-4 sm:h-4 hover:opacity-80 transition-opacity"
+                        aria-label={`Search ${column.label}`}
+                      />
+                    )}
+                </span>
+              )}
+            </th>
+          ))}
+        </tr>
+      </thead>
+    );
+  },
+);
 
 // ─────────────────────────────────────────────────────────────
 // ExpandableRowContent: Renders nested content/table for expanded rows
@@ -13221,14 +13701,17 @@ const TableRow = memo(
                   )}
                 </button>
               ) : (
-                <span className="w-6 h-6 inline-block" aria-hidden="true"></span>
+                <span
+                  className="w-6 h-6 inline-block"
+                  aria-hidden="true"
+                ></span>
               )}
             </td>
           )}
           {columns.map((column, index) => (
             <td
               key={column.accessor || index}
-              className={`py-3 px-2 sm:px-4 text-xs sm:text-sm text-gray-700 whitespace-nowrap border-b border-gray-200/60 border-r border-gray-200/60 last:border-r-0 align-top ${
+              className={`py-3 px-2 sm:px-4 text-xs sm:text-sm text-gray-700 whitespace-nowrap border-b border-gray-200/40 border-r border-gray-200/40 last:border-r-0 align-top ${
                 column.className || ""
               }`}
               style={{
@@ -13237,8 +13720,8 @@ const TableRow = memo(
                   column.accessor === "sn"
                     ? "60px"
                     : column.accessor === "name" || column.accessor === "client"
-                    ? "200px"
-                    : "120px",
+                      ? "200px"
+                      : "120px",
               }}
             >
               {column.render
@@ -13249,7 +13732,7 @@ const TableRow = memo(
                     useInlineExpandToggle,
                     expandToggleAccessor,
                   })
-                : row[column.accessor] ?? "N/A"}
+                : (row[column.accessor] ?? "N/A")}
             </td>
           ))}
         </tr>
@@ -13260,171 +13743,202 @@ const TableRow = memo(
                so the table remains a single table and grows taller.
             2) Otherwise, wrap the nested content in a full-width <td> as before.
         */}
-        {hasExpandableRows && hasChildren && isExpanded && (() => {
-          const nestedResult = renderNested ? renderNested(row) : (
-            <ExpandableRowContent row={row} columns={columns} renderNested={renderNested} />
-          );
+        {hasExpandableRows &&
+          hasChildren &&
+          isExpanded &&
+          (() => {
+            const nestedResult = renderNested ? (
+              renderNested(row)
+            ) : (
+              <ExpandableRowContent
+                row={row}
+                columns={columns}
+                renderNested={renderNested}
+              />
+            );
 
-          // Helper to detect a <tr> React element
-          const isTrElement = (el) => React.isValidElement(el) && el.type === "tr";
+            // Helper to detect a <tr> React element
+            const isTrElement = (el) =>
+              React.isValidElement(el) && el.type === "tr";
 
-          // If nestedResult is a fragment or array of <tr>, render them directly
-          if (Array.isArray(nestedResult) && nestedResult.every(isTrElement)) {
-            return nestedResult;
-          }
-
-          if (React.isValidElement(nestedResult) && nestedResult.type === React.Fragment) {
-            const children = React.Children.toArray(nestedResult.props.children);
-            if (children.length > 0 && children.every(isTrElement)) {
-              return children;
+            // If nestedResult is a fragment or array of <tr>, render them directly
+            if (
+              Array.isArray(nestedResult) &&
+              nestedResult.every(isTrElement)
+            ) {
+              return nestedResult;
             }
-          }
 
-          if (isTrElement(nestedResult)) {
-            return nestedResult;
-          }
+            if (
+              React.isValidElement(nestedResult) &&
+              nestedResult.type === React.Fragment
+            ) {
+              const children = React.Children.toArray(
+                nestedResult.props.children,
+              );
+              if (children.length > 0 && children.every(isTrElement)) {
+                return children;
+              }
+            }
 
-          // Fallback: wrap in a single full-width td
-          return (
-            <tr>
-              <td colSpan={columns.length + (hasExpandableRows && !useInlineExpandToggle ? 1 : 0)} className="p-0">
-                {nestedResult}
-              </td>
-            </tr>
-          );
-        })()}
+            if (isTrElement(nestedResult)) {
+              return nestedResult;
+            }
+
+            // Fallback: wrap in a single full-width td
+            return (
+              <tr>
+                <td
+                  colSpan={
+                    columns.length +
+                    (hasExpandableRows && !useInlineExpandToggle ? 1 : 0)
+                  }
+                  className="p-0"
+                >
+                  {nestedResult}
+                </td>
+              </tr>
+            );
+          })()}
       </>
     );
-  }
+  },
 );
 
 // ─────────────────────────────────────────────────────────────
 // TotalsRow: Footer row displaying column-wise totals
 // ─────────────────────────────────────────────────────────────
-const TotalsRow = memo(({ columns, totals, hasExpandableRows, useInlineExpandToggle }) => {
-  if (!totals || Object.keys(totals).length === 0) return null;
+const TotalsRow = memo(
+  ({ columns, totals, hasExpandableRows, useInlineExpandToggle }) => {
+    if (!totals || Object.keys(totals).length === 0) return null;
 
-  return (
-    <tr className="bg-gradient-to-r from-emerald-50 to-teal-50 border-t-2 border-primary font-semibold shadow-[0_-2px_6px_rgba(0,0,0,0.06)]">
-      {hasExpandableRows && !useInlineExpandToggle && (
-        <td className="py-3 px-2 sm:px-4 text-xs text-primary sticky bottom-0 bg-gradient-to-r from-emerald-50 to-teal-50 z-30">
-          <span className="font-bold">TOTAL</span>
-        </td>
-      )}
-      {columns.map((column, index) => {
-        const totalValue = totals[column.accessor];
-        return (
-          <td
-            key={`total-${column.accessor || index}`}
-            className={`py-3 px-2 sm:px-4 text-xs sm:text-sm whitespace-nowrap sticky bottom-0 bg-gradient-to-r from-emerald-50 to-teal-50 z-30 border-r border-gray-300/60 last:border-r-0 ${
-              column.totalClassName || "text-primary"
-            }`}
-            style={{
-              width: column.width ? `${(column.width / 24) * 100}%` : "auto",
-              minWidth:
-                column.accessor === "sn"
-                  ? "60px"
-                  : column.accessor === "name" || column.accessor === "client"
-                  ? "200px"
-                  : "120px",
-            }}
-          >
-            {column.renderTotal
-              ? column.renderTotal(totalValue, totals)
-              : totalValue ?? "—"}
+    return (
+      <tr className="bg-gradient-to-r from-emerald-50 to-teal-50 border-t-2 border-primary font-semibold shadow-[0_-2px_6px_rgba(0,0,0,0.06)]">
+        {hasExpandableRows && !useInlineExpandToggle && (
+          <td className="py-3 px-2 sm:px-4 text-xs text-primary sticky bottom-0 bg-gradient-to-r from-emerald-50 to-teal-50 z-30">
+            <span className="font-bold">TOTAL</span>
           </td>
-        );
-      })}
-    </tr>
-  );
-});
+        )}
+        {columns.map((column, index) => {
+          const totalValue = totals[column.accessor];
+          return (
+            <td
+              key={`total-${column.accessor || index}`}
+              className={`py-3 px-2 sm:px-4 text-xs sm:text-sm whitespace-nowrap sticky bottom-0 bg-gradient-to-r from-emerald-50 to-teal-50 z-30 border-r border-gray-300/60 last:border-r-0 ${
+                column.totalClassName || "text-primary"
+              }`}
+              style={{
+                width: column.width ? `${(column.width / 24) * 100}%` : "auto",
+                minWidth:
+                  column.accessor === "sn"
+                    ? "60px"
+                    : column.accessor === "name" || column.accessor === "client"
+                      ? "200px"
+                      : "120px",
+              }}
+            >
+              {column.renderTotal
+                ? column.renderTotal(totalValue, totals)
+                : (totalValue ?? "—")}
+            </td>
+          );
+        })}
+      </tr>
+    );
+  },
+);
 
 // ─────────────────────────────────────────────────────────────
 // PaginationFooter: Page navigation controls
 // ─────────────────────────────────────────────────────────────
-const PaginationFooter = memo(({ totalCount = 0, currentPage = 1, pageSize = 10, onPageChange }) => {
-  const totalPages = pageSize > 0 ? Math.ceil(totalCount / pageSize) : 1;
+const PaginationFooter = memo(
+  ({ totalCount = 0, currentPage = 1, pageSize = 10, onPageChange }) => {
+    const totalPages = pageSize > 0 ? Math.ceil(totalCount / pageSize) : 1;
 
-  const getVisiblePages = () => {
-    const delta = 1;
-    const range = [];
-    const rangeWithDots = [];
+    const getVisiblePages = () => {
+      const delta = 1;
+      const range = [];
+      const rangeWithDots = [];
 
-    for (
-      let i = Math.max(2, currentPage - delta);
-      i <= Math.min(totalPages - 1, currentPage + delta);
-      i++
-    ) {
-      range.push(i);
-    }
+      for (
+        let i = Math.max(2, currentPage - delta);
+        i <= Math.min(totalPages - 1, currentPage + delta);
+        i++
+      ) {
+        range.push(i);
+      }
 
-    if (currentPage - delta > 2) {
-      rangeWithDots.push(1, "...");
-    } else {
-      rangeWithDots.push(1);
-    }
+      if (currentPage - delta > 2) {
+        rangeWithDots.push(1, "...");
+      } else {
+        rangeWithDots.push(1);
+      }
 
-    rangeWithDots.push(...range);
+      rangeWithDots.push(...range);
 
-    if (currentPage + delta < totalPages - 1) {
-      rangeWithDots.push("...", totalPages);
-    } else if (totalPages > 1) {
-      rangeWithDots.push(totalPages);
-    }
+      if (currentPage + delta < totalPages - 1) {
+        rangeWithDots.push("...", totalPages);
+      } else if (totalPages > 1) {
+        rangeWithDots.push(totalPages);
+      }
 
-    return rangeWithDots;
-  };
+      return rangeWithDots;
+    };
 
-  if (totalPages <= 1) return null;
+    if (totalPages <= 1) return null;
 
-  return (
-    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 px-4 py-3 bg-[#E2EDE3] border-t border-primary sticky bottom-0 z-20 shadow-sm">
-      <span className="text-gray-700 whitespace-nowrap text-xs sm:text-sm font-bold">
-        Total Results: {totalCount}
-      </span>
+    return (
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 px-4 py-3 bg-[#E2EDE3] border-t border-primary sticky bottom-0 z-20 shadow-sm">
+        <span className="text-gray-700 whitespace-nowrap text-xs sm:text-sm font-bold">
+          Total Results: {totalCount}
+        </span>
 
-      <div className="flex items-center gap-1 overflow-x-auto">
-        <button
-          onClick={() => onPageChange(currentPage - 1)}
-          disabled={currentPage === 1}
-          className="px-2 sm:px-3 py-1 bg-primary text-white rounded text-xs sm:text-sm disabled:opacity-50 hover:bg-primary-dark transition-colors duration-200 flex-shrink-0"
-        >
-          ‹
-        </button>
+        <div className="flex items-center gap-1 overflow-x-auto">
+          <button
+            onClick={() => onPageChange(currentPage - 1)}
+            disabled={currentPage === 1}
+            className="px-2 sm:px-3 py-1 bg-primary text-white rounded text-xs sm:text-sm disabled:opacity-50 hover:bg-primary-dark transition-colors duration-200 flex-shrink-0"
+          >
+            ‹
+          </button>
 
-        <div className="flex gap-1">
-          {getVisiblePages().map((page, index) =>
-            page === "..." ? (
-              <span key={index} className="px-1 sm:px-2 py-1 text-gray-500 text-xs sm:text-sm">
-                ...
-              </span>
-            ) : (
-              <button
-                key={index}
-                onClick={() => onPageChange(page)}
-                className={`px-2 sm:px-3 py-1 rounded text-xs sm:text-sm transition-colors duration-200 flex-shrink-0 ${
-                  currentPage === page
-                    ? "bg-primary text-white hover:bg-primary-dark"
-                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-                }`}
-              >
-                {page}
-              </button>
-            )
-          )}
+          <div className="flex gap-1">
+            {getVisiblePages().map((page, index) =>
+              page === "..." ? (
+                <span
+                  key={index}
+                  className="px-1 sm:px-2 py-1 text-gray-500 text-xs sm:text-sm"
+                >
+                  ...
+                </span>
+              ) : (
+                <button
+                  key={index}
+                  onClick={() => onPageChange(page)}
+                  className={`px-2 sm:px-3 py-1 rounded text-xs sm:text-sm transition-colors duration-200 flex-shrink-0 ${
+                    currentPage === page
+                      ? "bg-primary text-white hover:bg-primary-dark"
+                      : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                  }`}
+                >
+                  {page}
+                </button>
+              ),
+            )}
+          </div>
+
+          <button
+            onClick={() => onPageChange(currentPage + 1)}
+            disabled={currentPage === totalPages}
+            className="px-2 sm:px-3 py-1 bg-primary text-white rounded text-xs sm:text-sm disabled:opacity-50 hover:bg-primary-dark transition-colors duration-200 flex-shrink-0"
+          >
+            ›
+          </button>
         </div>
-
-        <button
-          onClick={() => onPageChange(currentPage + 1)}
-          disabled={currentPage === totalPages}
-          className="px-2 sm:px-3 py-1 bg-primary text-white rounded text-xs sm:text-sm disabled:opacity-50 hover:bg-primary-dark transition-colors duration-200 flex-shrink-0"
-        >
-          ›
-        </button>
       </div>
-    </div>
-  );
-});
+    );
+  },
+);
 
 // ─────────────────────────────────────────────────────────────
 // CollapsibleTableView: Main component
@@ -13491,12 +14005,14 @@ const CollapsibleTableView = memo(
     };
 
     return (
-      <div className={`w-full bg-white rounded-lg shadow-sm overflow-hidden ${className}`}>
+      <div
+        className={`w-full bg-white rounded-lg shadow-sm overflow-hidden ${className}`}
+      >
         {/* Optional custom header actions */}
         {customHeader && (
           <div className="px-4 py-3 border-b border-gray-200 bg-gray-50">
             {customHeader}
-            {(hasExpandableRows && rows.length > 0) && (
+            {hasExpandableRows && rows.length > 0 && (
               <div className="mt-2 flex gap-2">
                 <button
                   onClick={expandAll}
@@ -13527,7 +14043,10 @@ const CollapsibleTableView = memo(
               {loading ? (
                 <tr>
                   <td
-                    colSpan={columns.length + (hasExpandableRows && !useInlineExpandToggle ? 1 : 0)}
+                    colSpan={
+                      columns.length +
+                      (hasExpandableRows && !useInlineExpandToggle ? 1 : 0)
+                    }
                     className="p-4"
                   >
                     <SkeletonTable
@@ -13554,7 +14073,10 @@ const CollapsibleTableView = memo(
               ) : (
                 <tr>
                   <td
-                    colSpan={columns.length + (hasExpandableRows && !useInlineExpandToggle ? 1 : 0)}
+                    colSpan={
+                      columns.length +
+                      (hasExpandableRows && !useInlineExpandToggle ? 1 : 0)
+                    }
                     className="py-12 text-center"
                   >
                     <div className="flex flex-col items-center justify-center">
@@ -13611,7 +14133,7 @@ const CollapsibleTableView = memo(
         )}
       </div>
     );
-  }
+  },
 );
 
 export default CollapsibleTableView;
@@ -13638,7 +14160,7 @@ const CustomCheckbox = memo(
     ...rest
   }) => {
     const [generatedId] = useState(
-      () => `checkbox-${Math.random().toString(36).substr(2, 9)}`
+      () => `checkbox-${Math.random().toString(36).substr(2, 9)}`,
     );
     const ID = id || name || generatedId;
 
@@ -13692,7 +14214,7 @@ const CustomCheckbox = memo(
         </label>
       </div>
     );
-  }
+  },
 );
 
 export default CustomCheckbox;
@@ -13703,7 +14225,7 @@ export default CustomCheckbox;
 ```jsx
 /**
  * CustomCheckboxDropdown — Styled like CustomSelectField
- * 
+ *
  * BEHAVIOR:
  * - Multi-select with checkboxes
  * - Trigger looks like SelectField (gray bg, rounded, arrow)
@@ -13711,118 +14233,124 @@ export default CustomCheckbox;
  * - Options highlight on hover/selection
  * - Display shows count only (e.g., "3") when items selected
  */
-import React, { memo, useState } from 'react';
+import React, { memo, useState } from "react";
 import { DownArrow } from "../../../assets/data/icons";
-import useClickOutside from '../../../hooks/useClickOutside';
-import CustomCheckbox from '../CustomCheckbox';
+import useClickOutside from "../../../hooks/useClickOutside";
+import CustomCheckbox from "../CustomCheckbox";
 
-const CustomCheckboxDropdown = memo(({
-  options,
-  value,
-  onChange,
-  placeholder = "Select options",
-  className = "",
-  ...rest
-}) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const wrapperRef = useClickOutside(() => setIsOpen(false));
+const CustomCheckboxDropdown = memo(
+  ({
+    options,
+    value,
+    onChange,
+    placeholder = "Select options",
+    className = "",
+    ...rest
+  }) => {
+    const [isOpen, setIsOpen] = useState(false);
+    const wrapperRef = useClickOutside(() => setIsOpen(false));
 
-  const allSelected = options.length > 0 && value.length === options.length;
+    const allSelected = options.length > 0 && value.length === options.length;
 
-  const handleSelectAll = (e) => {
-    if (e.target.checked) {
-      onChange(options.map(opt => opt.value));
-    } else {
-      onChange([]);
-    }
-  };
+    const handleSelectAll = (e) => {
+      if (e.target.checked) {
+        onChange(options.map((opt) => opt.value));
+      } else {
+        onChange([]);
+      }
+    };
 
-  const handleOptionChange = (optionValue) => {
-    if (value.includes(optionValue)) {
-      onChange(value.filter(v => v !== optionValue));
-    } else {
-      onChange([...value, optionValue]);
-    }
-  };
+    const handleOptionChange = (optionValue) => {
+      if (value.includes(optionValue)) {
+        onChange(value.filter((v) => v !== optionValue));
+      } else {
+        onChange([...value, optionValue]);
+      }
+    };
 
-  // ✅ Display only the count (e.g., "3") when items selected
-  const getDisplayValue = () => {
-    if (value.length === 0) return placeholder;
-    return `${value.length}`;
-  };
+    // ✅ Display only the count (e.g., "3") when items selected
+    const getDisplayValue = () => {
+      if (value.length === 0) return placeholder;
+      return `${value.length}`;
+    };
 
-  return (
-    <div className={`relative w-full ${className}`} ref={wrapperRef} {...rest}>
-      {/* Trigger — styled like SelectField input */}
+    return (
       <div
-        className="relative w-full cursor-pointer"
-        onClick={() => setIsOpen(!isOpen)}
+        className={`relative w-full ${className}`}
+        ref={wrapperRef}
+        {...rest}
       >
-        <input
-          type="text"
-          readOnly
-          value={getDisplayValue()}
-          placeholder={placeholder}
-          className="w-full text-sm text-gray-700 bg-[#F6F6F6] px-3 py-2.5 rounded focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer"
-        />
-        <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none">
-          <DownArrow />
-        </div>
-      </div>
-
-      {/* Dropdown Panel — matches SelectField */}
-      {isOpen && (
-        <div className="absolute w-full mt-1 bg-white shadow-lg text-gray-700 border-gray-200 border-2 rounded-lg z-[2147483647] max-h-60 overflow-y-auto">
-          <div className="py-1">
-            {/* "All" option */}
-            <div
-              className={`px-3 py-2 text-sm flex items-center ${
-                allSelected
-                  ? "bg-gray-100 font-medium text-primary"
-                  : "hover:bg-gray-100"
-              }`}
-              onClick={(e) => e.stopPropagation()}
-            >
-              <CustomCheckbox
-                label="All"
-                checked={allSelected}
-                onChange={handleSelectAll}
-                className="w-full"
-                tickColor="text-white"
-              />
-            </div>
-
-            <div className="border-t border-gray-200 my-1" />
-
-            {/* Individual options */}
-            {options.map((option) => {
-              const isSelected = value.includes(option.value);
-              return (
-                <div
-                  key={option.value}
-                  className={`px-3 py-2 text-sm flex items-center ${
-                    isSelected
-                      ? "bg-gray-100 font-medium text-primary"
-                      : "hover:bg-gray-100"
-                  }`}
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <CustomCheckbox
-                    label={option.label}
-                    checked={isSelected}
-                    onChange={() => handleOptionChange(option.value)}
-                    className="w-full"
-                    tickColor="text-white"
-                  />
-                </div>
-              );
-            })}
+        {/* Trigger — styled like SelectField input */}
+        <div
+          className="relative w-full cursor-pointer"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <input
+            type="text"
+            readOnly
+            value={getDisplayValue()}
+            placeholder={placeholder}
+            className="w-full text-sm text-gray-700 bg-[#F6F6F6] px-3 py-2.5 rounded focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer"
+          />
+          <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none">
+            <DownArrow />
           </div>
         </div>
-      )}
-    </div>
-  );
-});
+
+        {/* Dropdown Panel — matches SelectField */}
+        {isOpen && (
+          <div className="absolute w-full mt-1 bg-white shadow-lg text-gray-700 border-gray-200 border-2 rounded-lg z-[2147483647] max-h-60 overflow-y-auto">
+            <div className="py-1">
+              {/* "All" option */}
+              <div
+                className={`px-3 py-2 text-sm flex items-center ${
+                  allSelected
+                    ? "bg-gray-100 font-medium text-primary"
+                    : "hover:bg-gray-100"
+                }`}
+                onClick={(e) => e.stopPropagation()}
+              >
+                <CustomCheckbox
+                  label="All"
+                  checked={allSelected}
+                  onChange={handleSelectAll}
+                  className="w-full"
+                  tickColor="text-white"
+                />
+              </div>
+
+              <div className="border-t border-gray-200 my-1" />
+
+              {/* Individual options */}
+              {options.map((option) => {
+                const isSelected = value.includes(option.value);
+                return (
+                  <div
+                    key={option.value}
+                    className={`px-3 py-2 text-sm flex items-center ${
+                      isSelected
+                        ? "bg-gray-100 font-medium text-primary"
+                        : "hover:bg-gray-100"
+                    }`}
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <CustomCheckbox
+                      label={option.label}
+                      checked={isSelected}
+                      onChange={() => handleOptionChange(option.value)}
+                      className="w-full"
+                      tickColor="text-white"
+                    />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  },
+);
 
 export default CustomCheckboxDropdown;
 ```
@@ -13953,61 +14481,65 @@ export default CustomFileUpload;
  */
 import React, { memo } from "react";
 
-const CustomRadioField = memo(({
-  label,
-  value,
-  onChange,
-  options = [],
-  error,
-  className,
-  name,
-  ...rest
-}) => {
-  return (
-    <div className="flex flex-col mb-4">
-      {label && (
-        <label className="text-sm font-normal text-primary mb-2">{label}</label>
-      )}
-      <div className={`flex ${className ? className : "items-center"} gap-6`}>
-        {options.map((option, index) => (
-          <div
-            key={`${name}-${option.value}`}
-            className="flex items-center space-x-2"
-          >
-            {/* Hidden Radio Input */}
-            <input
-              type="radio"
-              id={`${name}-${option.value}`}
-              name={name}
-              value={option.value}
-              checked={value === option.value}
-              onChange={onChange}
-              className="peer hidden"
-              {...rest}
-            />
-
-            {/* Custom Radio Button */}
-            <label
-              htmlFor={`${name}-${option.value}`}
-              className="flex items-center justify-center w-5 h-5 border-2 border-[#D0D5DD] rounded-full cursor-pointer bg-white peer-checked:bg-primary peer-checked:border-primary peer-checked:before:content-[''] peer-checked:before:w-2 peer-checked:before:h-2 peer-checked:before:rounded-full peer-checked:before:bg-white"
-            ></label>
-
-            {/* Label for the Option */}
-            <label
-              htmlFor={`${name}-${option.value}`}
-              className="text-sm font-medium text-gray-600 cursor-pointer"
+const CustomRadioField = memo(
+  ({
+    label,
+    value,
+    onChange,
+    options = [],
+    error,
+    className,
+    name,
+    ...rest
+  }) => {
+    return (
+      <div className="flex flex-col mb-4">
+        {label && (
+          <label className="text-sm font-normal text-primary mb-2">
+            {label}
+          </label>
+        )}
+        <div className={`flex ${className ? className : "items-center"} gap-6`}>
+          {options.map((option, index) => (
+            <div
+              key={`${name}-${option.value}`}
+              className="flex items-center space-x-2"
             >
-              {option.label}
-            </label>
-          </div>
-        ))}
-      </div>
+              {/* Hidden Radio Input */}
+              <input
+                type="radio"
+                id={`${name}-${option.value}`}
+                name={name}
+                value={option.value}
+                checked={value === option.value}
+                onChange={onChange}
+                className="peer hidden"
+                {...rest}
+              />
 
-      {/* Error Message */}
-      {error && <span className="text-red-500 text-sm mt-1">{error}</span>}
-    </div>
-  );
-});
+              {/* Custom Radio Button */}
+              <label
+                htmlFor={`${name}-${option.value}`}
+                className="flex items-center justify-center w-5 h-5 border-2 border-[#D0D5DD] rounded-full cursor-pointer bg-white peer-checked:bg-primary peer-checked:border-primary peer-checked:before:content-[''] peer-checked:before:w-2 peer-checked:before:h-2 peer-checked:before:rounded-full peer-checked:before:bg-white"
+              ></label>
+
+              {/* Label for the Option */}
+              <label
+                htmlFor={`${name}-${option.value}`}
+                className="text-sm font-medium text-gray-600 cursor-pointer"
+              >
+                {option.label}
+              </label>
+            </div>
+          ))}
+        </div>
+
+        {/* Error Message */}
+        {error && <span className="text-red-500 text-sm mt-1">{error}</span>}
+      </div>
+    );
+  },
+);
 
 export default CustomRadioField;
 ```
@@ -14046,44 +14578,53 @@ const TableHeader = memo(({ columns, fitContentColumns = false }) => {
   );
 });
 
-const TableRow = memo(({ row, columns, rowIndex, fitContentColumns = false }) => {
-  if (row.isDivider) {
+const TableRow = memo(
+  ({ row, columns, rowIndex, fitContentColumns = false }) => {
+    if (row.isDivider) {
+      return (
+        <tr>
+          <td colSpan={columns.length} className="py-1 px-4">
+            <div className="border-t-2 border-primary/20 my-1"></div>
+          </td>
+        </tr>
+      );
+    }
     return (
-      <tr>
-        <td colSpan={columns.length} className="py-1 px-4">
-          <div className="border-t-2 border-primary/20 my-1"></div>
-        </td>
+      <tr className="transition-colors hover:bg-gray-50">
+        {columns.map((column, index) => {
+          if (!column) return null;
+          return (
+            <td
+              key={index}
+              className={`py-1 px-2 sm:px-3 h-full text-xs sm:text-sm text-gray-700 border-b border-gray-100 ${fitContentColumns ? "whitespace-nowrap" : "whitespace-normal align-top"}`}
+              style={{
+                width: fitContentColumns
+                  ? "max-content"
+                  : column.width
+                    ? `${(column.width / 24) * 100}%`
+                    : "auto",
+                minWidth: fitContentColumns ? "max-content" : "100px",
+              }}
+            >
+              {column.render
+                ? column.render(row[column.accessor], row, rowIndex)
+                : (column.accessor ? row[column.accessor] : null) || "N/A"}
+            </td>
+          );
+        })}
       </tr>
     );
-  }
-  return (
-    <tr className="transition-colors hover:bg-gray-50">
-      {columns.map((column, index) => {
-        if (!column) return null;
-        return (
-          <td
-            key={index}
-            className={`py-1 px-2 sm:px-3 h-full text-xs sm:text-sm text-gray-700 border-b border-gray-100 ${fitContentColumns ? "whitespace-nowrap" : "whitespace-normal align-top"}`}
-            style={{
-              width: fitContentColumns ? "max-content" : (column.width ? `${(column.width / 24) * 100}%` : "auto"),
-              minWidth: fitContentColumns ? "max-content" : "100px"
-            }}
-          >
-            {column.render
-              ? column.render(row[column.accessor], row, rowIndex)
-              : (column.accessor ? row[column.accessor] : null) || "N/A"}
-          </td>
-        );
-      })}
-    </tr>
-  );
-});
+  },
+);
 
 const TableFooter = memo(({ footer }) => {
   return (
     <tfoot className="bg-[#E2EDE3] border-t-4 border-primary sticky bottom-0 z-20 shadow-md">
       <tr>
-        <td colSpan="100%" className="py-2 px-2 sm:px-4 font-bold text-primary text-xs sm:text-sm">
+        <td
+          colSpan="100%"
+          className="py-2 px-2 sm:px-4 font-bold text-primary text-xs sm:text-sm"
+        >
           {footer}
         </td>
       </tr>
@@ -14091,49 +14632,81 @@ const TableFooter = memo(({ footer }) => {
   );
 });
 
-const CustomTableFooter = memo(({ footers, columns, fitContentColumns = false }) => {
-  return (
-    <tfoot className="bg-[#E2EDE3] border-t-4 border-primary sticky bottom-0 z-20 shadow-md">
-      <tr>
-        {footers.map((footer, index) => (
-          <td
-            key={index}
-            className={`py-2 px-2 sm:px-4 font-bold text-primary text-xs sm:text-sm ${fitContentColumns ? "whitespace-nowrap" : "whitespace-normal"}`}
-            style={{
-              width: fitContentColumns ? "max-content" : (columns[index]?.width ? `${(columns[index].width / 24) * 100}%` : "auto"),
-              minWidth: fitContentColumns ? "max-content" : "100px"
-            }}
-          >
-            {footer}
-          </td>
-        ))}
-      </tr>
-    </tfoot>
-  );
-});
-
-const CustomTableAccount = memo(({ columns, rows, footer, customTableFooter, allowOverflowVisible = false, fitContentColumns = false }) => {
-  const containerClassName = fitContentColumns
-    ? "w-full max-w-full bg-white rounded-lg shadow-md overflow-auto max-h-[750px] scrollbar-thin"
-    : allowOverflowVisible
-      ? "w-full bg-white rounded-lg shadow-md overflow-visible max-h-none scrollbar-thin"
-      : "w-full bg-white rounded-lg shadow-md overflow-x-auto overflow-y-auto max-h-[750px] scrollbar-thin";
-
-  return (
-    <div className={containerClassName}>
-      <table className={`${fitContentColumns ? "w-max" : "min-w-full"} border-collapse table-auto`}>
-        <TableHeader columns={columns} fitContentColumns={fitContentColumns} />
-        <tbody>
-          {rows.map((row, rowIndex) => (
-            <TableRow key={rowIndex} row={row} columns={columns} rowIndex={rowIndex} fitContentColumns={fitContentColumns} />
+const CustomTableFooter = memo(
+  ({ footers, columns, fitContentColumns = false }) => {
+    return (
+      <tfoot className="bg-[#E2EDE3] border-t-4 border-primary sticky bottom-0 z-20 shadow-md">
+        <tr>
+          {footers.map((footer, index) => (
+            <td
+              key={index}
+              className={`py-2 px-2 sm:px-4 font-bold text-primary text-xs sm:text-sm ${fitContentColumns ? "whitespace-nowrap" : "whitespace-normal"}`}
+              style={{
+                width: fitContentColumns
+                  ? "max-content"
+                  : columns[index]?.width
+                    ? `${(columns[index].width / 24) * 100}%`
+                    : "auto",
+                minWidth: fitContentColumns ? "max-content" : "100px",
+              }}
+            >
+              {footer}
+            </td>
           ))}
-        </tbody>
-        {footer && <TableFooter footer={footer} />}
-        {customTableFooter && <CustomTableFooter footers={customTableFooter} columns={columns} fitContentColumns={fitContentColumns} />}
-      </table>
-    </div>
-  );
-});
+        </tr>
+      </tfoot>
+    );
+  },
+);
+
+const CustomTableAccount = memo(
+  ({
+    columns,
+    rows,
+    footer,
+    customTableFooter,
+    allowOverflowVisible = false,
+    fitContentColumns = false,
+  }) => {
+    const containerClassName = fitContentColumns
+      ? "w-full max-w-full bg-white rounded-lg shadow-md overflow-auto max-h-[750px] scrollbar-thin"
+      : allowOverflowVisible
+        ? "w-full bg-white rounded-lg shadow-md overflow-visible max-h-none scrollbar-thin"
+        : "w-full bg-white rounded-lg shadow-md overflow-x-auto overflow-y-auto max-h-[750px] scrollbar-thin";
+
+    return (
+      <div className={containerClassName}>
+        <table
+          className={`${fitContentColumns ? "w-max" : "min-w-full"} border-collapse table-auto`}
+        >
+          <TableHeader
+            columns={columns}
+            fitContentColumns={fitContentColumns}
+          />
+          <tbody>
+            {rows.map((row, rowIndex) => (
+              <TableRow
+                key={rowIndex}
+                row={row}
+                columns={columns}
+                rowIndex={rowIndex}
+                fitContentColumns={fitContentColumns}
+              />
+            ))}
+          </tbody>
+          {footer && <TableFooter footer={footer} />}
+          {customTableFooter && (
+            <CustomTableFooter
+              footers={customTableFooter}
+              columns={columns}
+              fitContentColumns={fitContentColumns}
+            />
+          )}
+        </table>
+      </div>
+    );
+  },
+);
 
 export default CustomTableAccount;
 ```
@@ -14155,7 +14728,11 @@ const TableHeader = memo(({ columns, headerClassName = "" }) => {
       <tr>
         {columns.map((column, index) => {
           const stickyStyle = column.isSticky
-            ? { position: "sticky", left: `${column._stickyLeft}px`, zIndex: 22 }
+            ? {
+                position: "sticky",
+                left: `${column._stickyLeft}px`,
+                zIndex: 22,
+              }
             : {};
           return (
             <th
@@ -14183,7 +14760,12 @@ const TableRow = memo(({ row, columns, rowIndex }) => {
     <tr className="transition-colors hover:bg-gray-50">
       {columns.map((column, index) => {
         const stickyStyle = column.isSticky
-          ? { position: "sticky", left: `${column._stickyLeft}px`, zIndex: 1, backgroundColor: "white" }
+          ? {
+              position: "sticky",
+              left: `${column._stickyLeft}px`,
+              zIndex: 1,
+              backgroundColor: "white",
+            }
           : {};
         return (
           <td
@@ -14205,21 +14787,30 @@ const TableRow = memo(({ row, columns, rowIndex }) => {
   );
 });
 
-const CustomTableFooter = memo(({ columns, rows, footer, className = "", headerClassName }) => {
-  return (
-    <div className={`w-full bg-white rounded-lg shadow-md overflow-x-auto overflow-y-auto max-h-[750px] scrollbar-thin ${className}`}>
-      <table className="min-w-full border-collapse table-auto">
-        <TableHeader columns={columns} headerClassName={headerClassName} />
-        <tbody>
-          {rows.map((row, rowIndex) => (
-            <TableRow key={rowIndex} row={row} columns={columns} rowIndex={rowIndex} />
-          ))}
-        </tbody>
-        {footer && footer}
-      </table>
-    </div>
-  );
-});
+const CustomTableFooter = memo(
+  ({ columns, rows, footer, className = "", headerClassName }) => {
+    return (
+      <div
+        className={`w-full bg-white rounded-lg shadow-md overflow-x-auto overflow-y-auto max-h-[750px] scrollbar-thin ${className}`}
+      >
+        <table className="min-w-full border-collapse table-auto">
+          <TableHeader columns={columns} headerClassName={headerClassName} />
+          <tbody>
+            {rows.map((row, rowIndex) => (
+              <TableRow
+                key={rowIndex}
+                row={row}
+                columns={columns}
+                rowIndex={rowIndex}
+              />
+            ))}
+          </tbody>
+          {footer && footer}
+        </table>
+      </div>
+    );
+  },
+);
 
 export default CustomTableFooter;
 ```
@@ -14232,68 +14823,87 @@ export default CustomTableFooter;
  */
 import React, { memo, useId, forwardRef } from "react";
 
-const CustomTextArea = memo(forwardRef(
-  (
-    { hasAccess = true, id, label, value, placeholder, icon, onChange, onBlur, error, name, disabled = false, touched = undefined, rows = 3, ...props },
-    forwardedRef
-  ) => {
-    const isDisabled = !hasAccess || disabled;
-    const isReadOnly = !hasAccess || props.readOnly;
-    const generatedId = useId();
-    const controlId = id || name || generatedId;
-    const errorId = `${controlId}-error`;
-    const showError = error && (touched === undefined || touched);
+const CustomTextArea = memo(
+  forwardRef(
+    (
+      {
+        hasAccess = true,
+        id,
+        label,
+        value,
+        placeholder,
+        icon,
+        onChange,
+        onBlur,
+        error,
+        name,
+        disabled = false,
+        touched = undefined,
+        rows = 3,
+        ...props
+      },
+      forwardedRef,
+    ) => {
+      const isDisabled = !hasAccess || disabled;
+      const isReadOnly = !hasAccess || props.readOnly;
+      const generatedId = useId();
+      const controlId = id || name || generatedId;
+      const errorId = `${controlId}-error`;
+      const showError = error && (touched === undefined || touched);
 
-    return (
-      <div className="flex flex-col">
-        {label && (
-          <label
-            htmlFor={controlId}
-            className={`text-sm font-normal mb-1 ${disabled ? "text-gray-400" : "text-primary"}`}
-          >
-            {label}
-          </label>
-        )}
+      return (
+        <div className="flex flex-col">
+          {label && (
+            <label
+              htmlFor={controlId}
+              className={`text-sm font-normal mb-1 ${disabled ? "text-gray-400" : "text-primary"}`}
+            >
+              {label}
+            </label>
+          )}
 
-        <div className="relative">
-          <textarea
-            {...props}
-            ref={forwardedRef}
-            id={controlId}
-            name={name}
-            value={value}
-            onChange={onChange}
-            onBlur={onBlur}
-            placeholder={placeholder}
-            rows={rows}
-            disabled={isDisabled}
-            readOnly={isReadOnly}
-            aria-invalid={error ? true : undefined}
-            aria-describedby={showError ? errorId : undefined}
-            aria-disabled={disabled ? true : undefined}
-            className={`w-full text-sm bg-[#F6F6F6] text-gray-700 px-3 py-2.5 
+          <div className="relative">
+            <textarea
+              {...props}
+              ref={forwardedRef}
+              id={controlId}
+              name={name}
+              value={value}
+              onChange={onChange}
+              onBlur={onBlur}
+              placeholder={placeholder}
+              rows={rows}
+              disabled={isDisabled}
+              readOnly={isReadOnly}
+              aria-invalid={error ? true : undefined}
+              aria-describedby={showError ? errorId : undefined}
+              aria-disabled={disabled ? true : undefined}
+              className={`w-full text-sm bg-[#F6F6F6] text-gray-700 px-3 py-2.5 
                        rounded appearance-none focus:outline-none 
                        focus:ring-2 focus:ring-primary resize-none overflow-y-auto ${
-                         error ? "border border-red-500" : "border border-transparent"
+                         error
+                           ? "border border-red-500"
+                           : "border border-transparent"
                        } ${disabled ? "opacity-60 cursor-not-allowed" : ""}`}
-          />
+            />
 
-          {icon && (
-            <div className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
-              {icon}
-            </div>
+            {icon && (
+              <div className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
+                {icon}
+              </div>
+            )}
+          </div>
+
+          {showError && (
+            <span id={errorId} role="alert" className="text-red text-sm mt-1">
+              {error}
+            </span>
           )}
         </div>
-
-        {showError && (
-          <span id={errorId} role="alert" className="text-red text-sm mt-1">
-            {error}
-          </span>
-        )}
-      </div>
-    );
-  }
-));
+      );
+    },
+  ),
+);
 
 export default CustomTextArea;
 ```
@@ -14310,271 +14920,296 @@ import { ClockIcon } from "../../../assets/data/icons";
 import useClickOutside from "../../../hooks/useClickOutside";
 import useKeyboard from "../../../hooks/useKeyboard";
 
-const CustomTimePicker = memo(({
-  label = null,
-  name = "timePicker",
-  value,
-  onChange,
-  onBlur,
-  isForm = false,
-  error,
-  touched = undefined,
-  disabled = false,
-}) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const popupRef = useRef(null);
-  const dropdownRef = useClickOutside(() => setIsOpen(false), [popupRef]);
-  const showError = error && (touched === undefined || touched);
-  const errorId = `${name}-error`;
-  const handleKeyDown = useKeyboard({
-    onEscape: () => setIsOpen(false),
-    enabled: isOpen,
-  });
+const CustomTimePicker = memo(
+  ({
+    label = null,
+    name = "timePicker",
+    value,
+    onChange,
+    onBlur,
+    isForm = false,
+    error,
+    touched = undefined,
+    disabled = false,
+  }) => {
+    const [isOpen, setIsOpen] = useState(false);
+    const popupRef = useRef(null);
+    const dropdownRef = useClickOutside(() => setIsOpen(false), [popupRef]);
+    const showError = error && (touched === undefined || touched);
+    const errorId = `${name}-error`;
+    const handleKeyDown = useKeyboard({
+      onEscape: () => setIsOpen(false),
+      enabled: isOpen,
+    });
 
-  // Default to current time
-  const getCurrentTime = () => {
-    const now = new Date();
-    let hours = now.getHours();
-    const minutes = now.getMinutes();
-    const period = hours >= 12 ? "PM" : "AM";
-    
-    hours = hours % 12;
-    hours = hours ? hours : 12; // Convert 0 to 12
-    
-    return {
-      hour: hours.toString(),
-      minute: minutes.toString().padStart(2, "0"),
-      period,
-    };
-  };
+    // Default to current time
+    const getCurrentTime = () => {
+      const now = new Date();
+      let hours = now.getHours();
+      const minutes = now.getMinutes();
+      const period = hours >= 12 ? "PM" : "AM";
 
-  const defaultTime = getCurrentTime();
-  const [selectedHour, setSelectedHour] = useState(defaultTime.hour);
-  const [selectedMinute, setSelectedMinute] = useState(defaultTime.minute);
-  const [selectedPeriod, setSelectedPeriod] = useState(defaultTime.period);
-  const [popupStyle, setPopupStyle] = useState({});
+      hours = hours % 12;
+      hours = hours ? hours : 12; // Convert 0 to 12
 
-  useEffect(() => {
-    if (!value) return;
-    const parts = value.split(/[:\s]/);
-    if (parts.length === 3) {
-      const [hour, minute, period] = parts;
-      setSelectedHour(hour);
-      setSelectedMinute(minute);
-      setSelectedPeriod(period);
-    }
-  }, [value]);
-
-  const emittedRef = useRef(false);
-  useEffect(() => {
-    if (value) {
-      emittedRef.current = false;
-      return;
-    }
-    if (typeof onChange !== "function") return;
-
-    const time = `${selectedHour}:${selectedMinute} ${selectedPeriod}`;
-    const prevEmit = emittedRef.current;
-    if (prevEmit === time) return;
-
-    if (isForm) {
-      onChange({
-        target: {
-          name,
-          value: time,
-        },
-      });
-    } else {
-      onChange(time);
-    }
-    emittedRef.current = time;
-  }, [value, selectedHour, selectedMinute, selectedPeriod, onChange, isForm, name]);
-
-  const hours = Array.from({ length: 12 }, (_, i) => (i + 1).toString());
-  const minutes = Array.from({ length: 60 }, (_, i) =>
-    i.toString().padStart(2, "0")
-  );
-  const periods = ["AM", "PM"];
-
-  const handleSelection = (event) => {
-    event.preventDefault(); // Prevent default form submission or URL change
-    const time = `${selectedHour}:${selectedMinute} ${selectedPeriod}`;
-    if (isForm) {
-      onChange({
-        target: {
-          name,
-          value: time,
-        },
-      });
-    } else {
-      onChange(time);
-    }
-    setIsOpen(false);
-  };
-
-  const handleToggle = () => {
-    if (disabled) return;
-    setIsOpen(!isOpen);
-  };
-
-  useEffect(() => {
-    if (!isOpen) return;
-    const updatePopupPosition = () => {
-      const anchorElement = dropdownRef.current;
-      if (!anchorElement) return;
-      const rect = anchorElement.getBoundingClientRect();
-      const viewportWidth = window.innerWidth;
-      const popupWidth = 256;
-      const left = Math.max(8, Math.min(rect.left, viewportWidth - popupWidth - 8));
-
-      setPopupStyle({
-        position: "fixed",
-        top: `${rect.bottom + 8}px`,
-        left: `${left}px`,
-        width: `${Math.min(popupWidth, viewportWidth - 16)}px`,
-        zIndex: 9999999999999,
-      });
+      return {
+        hour: hours.toString(),
+        minute: minutes.toString().padStart(2, "0"),
+        period,
+      };
     };
 
-    updatePopupPosition();
-    window.addEventListener("resize", updatePopupPosition);
-    window.addEventListener("scroll", updatePopupPosition, true);
+    const defaultTime = getCurrentTime();
+    const [selectedHour, setSelectedHour] = useState(defaultTime.hour);
+    const [selectedMinute, setSelectedMinute] = useState(defaultTime.minute);
+    const [selectedPeriod, setSelectedPeriod] = useState(defaultTime.period);
+    const [popupStyle, setPopupStyle] = useState({});
 
-    return () => {
-      window.removeEventListener("resize", updatePopupPosition);
-      window.removeEventListener("scroll", updatePopupPosition, true);
-    };
-  }, [isOpen, dropdownRef]);
+    useEffect(() => {
+      if (!value) return;
+      const parts = value.split(/[:\s]/);
+      if (parts.length === 3) {
+        const [hour, minute, period] = parts;
+        setSelectedHour(hour);
+        setSelectedMinute(minute);
+        setSelectedPeriod(period);
+      }
+    }, [value]);
 
-  const popup = useMemo(() => {
-    if (!isOpen || disabled || typeof document === "undefined") return null;
-    return createPortal(
-      <div
-        ref={popupRef}
-        className="bg-white text-[#707070] shadow-lg border rounded-md py-4 px-4"
-        style={popupStyle}
-      >
-        <div className="flex justify-between items-center text-sm">
-          <div className="flex-1 text-center overflow-auto h-40 scrollbar-hidden">
-            {hours.map((hour) => (
-              <button
-                key={hour}
-                onClick={(event) => {
-                  event.preventDefault();
-                  setSelectedHour(hour);
-                }}
-                className={`block w-full py-2 rounded-md hover:bg-green-100 ${
-                  selectedHour === hour
-                    ? "bg-[#E7F1E8] text-primary"
-                    : "text-gray-800"
-                }`}
-              >
-                {hour}
-              </button>
-            ))}
-          </div>
-          <div className="flex-1 text-center overflow-auto h-40 scrollbar-hidden">
-            {minutes.map((minute) => (
-              <button
-                key={minute}
-                onClick={(event) => {
-                  event.preventDefault();
-                  setSelectedMinute(minute);
-                }}
-                className={`block w-full py-2 rounded-md hover:bg-green-100 ${
-                  selectedMinute === minute
-                    ? "bg-[#E7F1E8] text-primary"
-                    : "text-gray-800"
-                }`}
-              >
-                {minute}
-              </button>
-            ))}
-          </div>
-          <div className="flex-1 text-center">
-            {periods.map((period) => (
-              <button
-                key={period}
-                onClick={(event) => {
-                  event.preventDefault();
-                  setSelectedPeriod(period);
-                }}
-                className={`block w-full py-2 rounded-md hover:bg-green-100 ${
-                  selectedPeriod === period
-                    ? "bg-[#E7F1E8] text-primary"
-                    : "text-gray-800"
-                }`}
-              >
-                {period}
-              </button>
-            ))}
-          </div>
-        </div>
-        <div className="mt-4 flex items-center justify-between">
-          <button
-            onClick={() => setIsOpen(false)}
-            className="text-primary font-medium hover:font-bold"
-          >
-            Cancel
-          </button>
-          <button
-            onClick={handleSelection}
-            className="text-primary font-medium hover:font-bold"
-          >
-            Confirm
-          </button>
-        </div>
-      </div>,
-      document.body
+    const emittedRef = useRef(false);
+    useEffect(() => {
+      if (value) {
+        emittedRef.current = false;
+        return;
+      }
+      if (typeof onChange !== "function") return;
+
+      const time = `${selectedHour}:${selectedMinute} ${selectedPeriod}`;
+      const prevEmit = emittedRef.current;
+      if (prevEmit === time) return;
+
+      if (isForm) {
+        onChange({
+          target: {
+            name,
+            value: time,
+          },
+        });
+      } else {
+        onChange(time);
+      }
+      emittedRef.current = time;
+    }, [
+      value,
+      selectedHour,
+      selectedMinute,
+      selectedPeriod,
+      onChange,
+      isForm,
+      name,
+    ]);
+
+    const hours = Array.from({ length: 12 }, (_, i) => (i + 1).toString());
+    const minutes = Array.from({ length: 60 }, (_, i) =>
+      i.toString().padStart(2, "0"),
     );
-  }, [disabled, hours, isOpen, minutes, periods, popupStyle, selectedHour, selectedMinute, selectedPeriod]);
+    const periods = ["AM", "PM"];
 
-  return (
-    <div
-      ref={dropdownRef}
-      onKeyDown={handleKeyDown}
-      className={`relative text-xs font-sans ${disabled ? "opacity-90" : ""}`}
-    >
-      {label && (
-        <label
-          htmlFor={name}
-          className={`text-sm font-medium ${disabled ? "text-gray-400" : "text-primary"}`}
+    const handleSelection = (event) => {
+      event.preventDefault(); // Prevent default form submission or URL change
+      const time = `${selectedHour}:${selectedMinute} ${selectedPeriod}`;
+      if (isForm) {
+        onChange({
+          target: {
+            name,
+            value: time,
+          },
+        });
+      } else {
+        onChange(time);
+      }
+      setIsOpen(false);
+    };
+
+    const handleToggle = () => {
+      if (disabled) return;
+      setIsOpen(!isOpen);
+    };
+
+    useEffect(() => {
+      if (!isOpen) return;
+      const updatePopupPosition = () => {
+        const anchorElement = dropdownRef.current;
+        if (!anchorElement) return;
+        const rect = anchorElement.getBoundingClientRect();
+        const viewportWidth = window.innerWidth;
+        const popupWidth = 256;
+        const left = Math.max(
+          8,
+          Math.min(rect.left, viewportWidth - popupWidth - 8),
+        );
+
+        setPopupStyle({
+          position: "fixed",
+          top: `${rect.bottom + 8}px`,
+          left: `${left}px`,
+          width: `${Math.min(popupWidth, viewportWidth - 16)}px`,
+          zIndex: 9999999999999,
+        });
+      };
+
+      updatePopupPosition();
+      window.addEventListener("resize", updatePopupPosition);
+      window.addEventListener("scroll", updatePopupPosition, true);
+
+      return () => {
+        window.removeEventListener("resize", updatePopupPosition);
+        window.removeEventListener("scroll", updatePopupPosition, true);
+      };
+    }, [isOpen, dropdownRef]);
+
+    const popup = useMemo(() => {
+      if (!isOpen || disabled || typeof document === "undefined") return null;
+      return createPortal(
+        <div
+          ref={popupRef}
+          className="bg-white text-[#707070] shadow-lg border rounded-md py-4 px-4"
+          style={popupStyle}
         >
-          {label}
-        </label>
-      )}
-      <div className="relative">
-        <input
-          id={name}
-          name={name}
-          value={value || `${selectedHour}:${selectedMinute} ${selectedPeriod}`}
-          readOnly
-          onBlur={onBlur}
-          onClick={handleToggle}
-          type="text"
-          disabled={disabled}
-          aria-label={label || name}
-          aria-invalid={error ? true : undefined}
-          aria-describedby={showError ? errorId : undefined}
-          aria-disabled={disabled ? true : undefined}
-          className={`cursor-pointer w-full text-sm bg-[#F6F6F6] text-gray-500 px-3 py-2.5 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-primary ${
-            disabled ? "cursor-not-allowed opacity-70" : ""
-          } ${error ? "border border-red-500" : "border border-transparent"}`}
-        />
-        <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none">
-          <ClockIcon />
-        </div>
-      </div>
-      {showError && (
-        <span id={errorId} role="alert" style={{ color: "red" }}>
-          {error}
-        </span>
-      )}
+          <div className="flex justify-between items-center text-sm">
+            <div className="flex-1 text-center overflow-auto h-40 scrollbar-hidden">
+              {hours.map((hour) => (
+                <button
+                  key={hour}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    setSelectedHour(hour);
+                  }}
+                  className={`block w-full py-2 rounded-md hover:bg-green-100 ${
+                    selectedHour === hour
+                      ? "bg-[#E7F1E8] text-primary"
+                      : "text-gray-800"
+                  }`}
+                >
+                  {hour}
+                </button>
+              ))}
+            </div>
+            <div className="flex-1 text-center overflow-auto h-40 scrollbar-hidden">
+              {minutes.map((minute) => (
+                <button
+                  key={minute}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    setSelectedMinute(minute);
+                  }}
+                  className={`block w-full py-2 rounded-md hover:bg-green-100 ${
+                    selectedMinute === minute
+                      ? "bg-[#E7F1E8] text-primary"
+                      : "text-gray-800"
+                  }`}
+                >
+                  {minute}
+                </button>
+              ))}
+            </div>
+            <div className="flex-1 text-center">
+              {periods.map((period) => (
+                <button
+                  key={period}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    setSelectedPeriod(period);
+                  }}
+                  className={`block w-full py-2 rounded-md hover:bg-green-100 ${
+                    selectedPeriod === period
+                      ? "bg-[#E7F1E8] text-primary"
+                      : "text-gray-800"
+                  }`}
+                >
+                  {period}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="mt-4 flex items-center justify-between">
+            <button
+              onClick={() => setIsOpen(false)}
+              className="text-primary font-medium hover:font-bold"
+            >
+              Cancel
+            </button>
+            <button
+              onClick={handleSelection}
+              className="text-primary font-medium hover:font-bold"
+            >
+              Confirm
+            </button>
+          </div>
+        </div>,
+        document.body,
+      );
+    }, [
+      disabled,
+      hours,
+      isOpen,
+      minutes,
+      periods,
+      popupStyle,
+      selectedHour,
+      selectedMinute,
+      selectedPeriod,
+    ]);
 
-      {popup}
-    </div>
-  );
-});
+    return (
+      <div
+        ref={dropdownRef}
+        onKeyDown={handleKeyDown}
+        className={`relative text-xs font-sans ${disabled ? "opacity-90" : ""}`}
+      >
+        {label && (
+          <label
+            htmlFor={name}
+            className={`text-sm font-medium ${disabled ? "text-gray-400" : "text-primary"}`}
+          >
+            {label}
+          </label>
+        )}
+        <div className="relative">
+          <input
+            id={name}
+            name={name}
+            value={
+              value || `${selectedHour}:${selectedMinute} ${selectedPeriod}`
+            }
+            readOnly
+            onBlur={onBlur}
+            onClick={handleToggle}
+            type="text"
+            disabled={disabled}
+            aria-label={label || name}
+            aria-invalid={error ? true : undefined}
+            aria-describedby={showError ? errorId : undefined}
+            aria-disabled={disabled ? true : undefined}
+            className={`cursor-pointer w-full text-sm bg-[#F6F6F6] text-gray-500 px-3 py-2.5 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-primary ${
+              disabled ? "cursor-not-allowed opacity-70" : ""
+            } ${error ? "border border-red-500" : "border border-transparent"}`}
+          />
+          <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none">
+            <ClockIcon />
+          </div>
+        </div>
+        {showError && (
+          <span id={errorId} role="alert" style={{ color: "red" }}>
+            {error}
+          </span>
+        )}
+
+        {popup}
+      </div>
+    );
+  },
+);
 
 export default CustomTimePicker;
 ```
@@ -14592,499 +15227,524 @@ import { parseDateString } from "../../../utils";
 import useClickOutside from "../../../hooks/useClickOutside";
 import useKeyboard from "../../../hooks/useKeyboard";
 
-const CustomDatePicker = memo(({
-  label = null,
-  name = "datePicker",
-  value,
-  isForm = false,
-  onChange,
-  onBlur,
-  error,
-  touched = undefined,
-  compact = false,
-  disabled = false,
-  minDate = null,
-  maxDate = null,
-}) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const popupRef = useRef(null);
-  const dropdownRef = useClickOutside(() => setIsOpen(false), [popupRef]);
-  const showError = error && (touched === undefined || touched);
-  const errorId = `${name}-error`;
-  const handleKeyDown = useKeyboard({
-    onEscape: () => setIsOpen(false),
-    enabled: isOpen,
-  });
-  const [selectedDate, setSelectedDate] = useState(
-    value ? parseDateString(value) : new Date()
-  );
-  const [currentMonth, setCurrentMonth] = useState(new Date());
-  const [popupStyle, setPopupStyle] = useState({});
-  const [calendarWidth, setCalendarWidth] = useState(250);
-
-  const isValidDate = (date) => date instanceof Date && !Number.isNaN(date.getTime());
-
-  useEffect(() => {
-    if (!value) {
-      const today = new Date();
-      setSelectedDate(today);
-      setCurrentMonth(today);
-      return;
-    }
-
-    const parsedValue = parseDateString(value);
-    if (isValidDate(parsedValue)) {
-      setSelectedDate(parsedValue);
-      setCurrentMonth(parsedValue);
-    }
-  }, [value]);
-
-  const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
-
-  // Generate dates for the current month
-  const generateCalendarDates = () => {
-    const firstDayOfMonth = new Date(
-      currentMonth.getFullYear(),
-      currentMonth.getMonth(),
-      1
-    );
-    const lastDayOfMonth = new Date(
-      currentMonth.getFullYear(),
-      currentMonth.getMonth() + 1,
-      0
-    );
-
-    const dates = [];
-    const startDate = new Date(firstDayOfMonth);
-
-    // Adjust to start on Monday
-    while (startDate.getDay() !== 1) {
-      startDate.setDate(startDate.getDate() - 1);
-    }
-
-    const endDate = new Date(lastDayOfMonth);
-    while (endDate.getDay() !== 0) {
-      endDate.setDate(endDate.getDate() + 1);
-    }
-
-    for (
-      let date = new Date(startDate);
-      date <= endDate;
-      date.setDate(date.getDate() + 1)
-    ) {
-      dates.push(new Date(date));
-    }
-
-    return dates;
-  };
-
-  const isDateDisabled = (date) => {
-    if (minDate && date < minDate) return true;
-    if (maxDate && date > maxDate) return true;
-    return false;
-  };
-
-  const handleDateClick = (date) => {
-    if (disabled) return;
-    if (isDateDisabled(date)) return;
-
-    setSelectedDate(date);
-    setIsOpen(false);
-    const formattedDate = formatDate(date);
-
-    if (isForm) {
-      onChange({
-        target: {
-          name,
-          value: formattedDate, // Ensure this is a string in "MM-DD-YYYY" format
-        },
-      });
-    } else {
-      onChange(formattedDate);
-    }
-  };
-
-  const handlePrevMonth = (event) => {
-    if (disabled) return;
-    event.preventDefault();
-    setCurrentMonth(
-      new Date(currentMonth.getFullYear(), currentMonth.getMonth() - 1, 1)
-    );
-  };
-
-  const handleNextMonth = (event) => {
-    if (disabled) return;
-    event.preventDefault();
-    setCurrentMonth(
-      new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1, 1)
-    );
-  };
-
-  const handleMonthChange = (event) => {
-    if (disabled) return;
-    const month = event.target.value;
-    setCurrentMonth(new Date(currentMonth.getFullYear(), month, 1));
-  };
-
-  const handleYearChange = (event) => {
-    if (disabled) return;
-    const year = event.target.value;
-    setCurrentMonth(new Date(year, currentMonth.getMonth(), 1));
-  };
-
-  const handleTodayClick = () => {
-    if (disabled) return;
-    const today = new Date();
-    setSelectedDate(today);
-    setCurrentMonth(today);
-    setIsOpen(false);
-    if (isForm) {
-      onChange({
-        target: {
-          name,
-          value: formatDate(today),
-        },
-      });
-    } else {
-      onChange(formatDate(today));
-    }
-  };
-
-  const handleClearClick = () => {
-    if (disabled) return;
-    setSelectedDate(null);
-    setIsOpen(false);
-    if (isForm) {
-      onChange({
-        target: {
-          name,
-          value: "",
-        },
-      });
-    } else {
-      onChange("");
-    }
-  };
-
-  const formatDate = (date) => {
-    if (!date) return "";
-
-    const normalizedDate =
-      date instanceof Date ? date : typeof date === "string" ? parseDateString(date) : new Date(date);
-
-    if (!isValidDate(normalizedDate)) return "";
-
-    const year = normalizedDate.getFullYear();
-    const month = (normalizedDate.getMonth() + 1).toString().padStart(2, "0");
-    const day = normalizedDate.getDate().toString().padStart(2, "0");
-
-    return `${year}-${month}-${day}`; // YYYY-MM-DD format
-  };
-
-  const formatDisplayDate = (date) => {
-    if (!date) return "";
-
-    const normalizedDate =
-      date instanceof Date ? date : typeof date === "string" ? parseDateString(date) : new Date(date);
-
-    if (!isValidDate(normalizedDate)) return "";
-
-    return normalizedDate.toLocaleDateString("en-US", {
-      month: "short",
-      day: "numeric",
-      year: "numeric",
+const CustomDatePicker = memo(
+  ({
+    label = null,
+    name = "datePicker",
+    value,
+    isForm = false,
+    onChange,
+    onBlur,
+    error,
+    touched = undefined,
+    compact = false,
+    disabled = false,
+    minDate = null,
+    maxDate = null,
+  }) => {
+    const [isOpen, setIsOpen] = useState(false);
+    const popupRef = useRef(null);
+    const dropdownRef = useClickOutside(() => setIsOpen(false), [popupRef]);
+    const showError = error && (touched === undefined || touched);
+    const errorId = `${name}-error`;
+    const handleKeyDown = useKeyboard({
+      onEscape: () => setIsOpen(false),
+      enabled: isOpen,
     });
-  };
-
-  // Generate years for the dropdown (e.g., last 20 years and next 10 years)
-  const generateYears = () => {
-    const currentYear = new Date().getFullYear();
-    const years = [];
-    for (let i = currentYear - 60; i <= currentYear + 10; i++) {
-      years.push(i);
-    }
-    return years;
-  };
-
-  // Generate months for the dropdown
-  const generateMonths = () => {
-    return Array.from({ length: 12 }, (_, i) =>
-      new Date(0, i).toLocaleString("default", { month: "long" })
+    const [selectedDate, setSelectedDate] = useState(
+      value ? parseDateString(value) : new Date(),
     );
-  };
+    const [currentMonth, setCurrentMonth] = useState(new Date());
+    const [popupStyle, setPopupStyle] = useState({});
+    const [calendarWidth, setCalendarWidth] = useState(250);
 
-  const handleToggleCalendar = () => {
-    if (disabled) return;
-    setIsOpen(!isOpen);
-  };
+    const isValidDate = (date) =>
+      date instanceof Date && !Number.isNaN(date.getTime());
 
-  useEffect(() => {
-    if (!isOpen || disabled) {
-      return;
-    }
-
-    const updatePopupPosition = () => {
-      const anchorElement = dropdownRef.current;
-      if (!anchorElement) {
+    useEffect(() => {
+      if (!value) {
+        const today = new Date();
+        setSelectedDate(today);
+        setCurrentMonth(today);
         return;
       }
 
-      const rect = anchorElement.getBoundingClientRect();
-      const viewportWidth = window.innerWidth;
-      const viewportHeight = window.innerHeight;
-      const anchorWidth = rect.width || 250;
-      const popupWidth = Math.max(300, Math.min(360, anchorWidth));
-      const left = Math.max(8, Math.min(rect.left, viewportWidth - popupWidth - 8));
-      setCalendarWidth(popupWidth);
+      const parsedValue = parseDateString(value);
+      if (isValidDate(parsedValue)) {
+        setSelectedDate(parsedValue);
+        setCurrentMonth(parsedValue);
+      }
+    }, [value]);
 
-      const actualHeight = popupRef.current?.offsetHeight || 0;
-      const popupHeight = actualHeight > 0 ? actualHeight : 310;
-      const gap = 4;
-      let top;
-      let maxHeight;
+    const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
-      if (rect.bottom + gap + popupHeight <= viewportHeight) {
-        top = rect.bottom + gap;
-      } else if (rect.top - gap - popupHeight >= 0) {
-        top = rect.top - popupHeight - gap;
-      } else if (viewportHeight - rect.bottom > rect.top) {
-        top = rect.bottom + gap;
-        maxHeight = Math.max(200, viewportHeight - rect.bottom - gap - 4);
-      } else {
-        maxHeight = Math.max(200, rect.top - gap - 4);
-        top = Math.max(gap, rect.top - maxHeight - gap);
+    // Generate dates for the current month
+    const generateCalendarDates = () => {
+      const firstDayOfMonth = new Date(
+        currentMonth.getFullYear(),
+        currentMonth.getMonth(),
+        1,
+      );
+      const lastDayOfMonth = new Date(
+        currentMonth.getFullYear(),
+        currentMonth.getMonth() + 1,
+        0,
+      );
+
+      const dates = [];
+      const startDate = new Date(firstDayOfMonth);
+
+      // Adjust to start on Monday
+      while (startDate.getDay() !== 1) {
+        startDate.setDate(startDate.getDate() - 1);
       }
 
-      setPopupStyle({
-        position: "fixed",
-        top: `${top}px`,
-        left: `${left}px`,
-        width: `${Math.min(popupWidth, viewportWidth - 16)}px`,
-        zIndex: 9999999999999,
-        ...(maxHeight ? { maxHeight: `${maxHeight}px`, overflowY: "auto" } : {}),
+      const endDate = new Date(lastDayOfMonth);
+      while (endDate.getDay() !== 0) {
+        endDate.setDate(endDate.getDate() + 1);
+      }
+
+      for (
+        let date = new Date(startDate);
+        date <= endDate;
+        date.setDate(date.getDate() + 1)
+      ) {
+        dates.push(new Date(date));
+      }
+
+      return dates;
+    };
+
+    const isDateDisabled = (date) => {
+      if (minDate && date < minDate) return true;
+      if (maxDate && date > maxDate) return true;
+      return false;
+    };
+
+    const handleDateClick = (date) => {
+      if (disabled) return;
+      if (isDateDisabled(date)) return;
+
+      setSelectedDate(date);
+      setIsOpen(false);
+      const formattedDate = formatDate(date);
+
+      if (isForm) {
+        onChange({
+          target: {
+            name,
+            value: formattedDate, // Ensure this is a string in "MM-DD-YYYY" format
+          },
+        });
+      } else {
+        onChange(formattedDate);
+      }
+    };
+
+    const handlePrevMonth = (event) => {
+      if (disabled) return;
+      event.preventDefault();
+      setCurrentMonth(
+        new Date(currentMonth.getFullYear(), currentMonth.getMonth() - 1, 1),
+      );
+    };
+
+    const handleNextMonth = (event) => {
+      if (disabled) return;
+      event.preventDefault();
+      setCurrentMonth(
+        new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1, 1),
+      );
+    };
+
+    const handleMonthChange = (event) => {
+      if (disabled) return;
+      const month = event.target.value;
+      setCurrentMonth(new Date(currentMonth.getFullYear(), month, 1));
+    };
+
+    const handleYearChange = (event) => {
+      if (disabled) return;
+      const year = event.target.value;
+      setCurrentMonth(new Date(year, currentMonth.getMonth(), 1));
+    };
+
+    const handleTodayClick = () => {
+      if (disabled) return;
+      const today = new Date();
+      setSelectedDate(today);
+      setCurrentMonth(today);
+      setIsOpen(false);
+      if (isForm) {
+        onChange({
+          target: {
+            name,
+            value: formatDate(today),
+          },
+        });
+      } else {
+        onChange(formatDate(today));
+      }
+    };
+
+    const handleClearClick = () => {
+      if (disabled) return;
+      setSelectedDate(null);
+      setIsOpen(false);
+      if (isForm) {
+        onChange({
+          target: {
+            name,
+            value: "",
+          },
+        });
+      } else {
+        onChange("");
+      }
+    };
+
+    const formatDate = (date) => {
+      if (!date) return "";
+
+      const normalizedDate =
+        date instanceof Date
+          ? date
+          : typeof date === "string"
+            ? parseDateString(date)
+            : new Date(date);
+
+      if (!isValidDate(normalizedDate)) return "";
+
+      const year = normalizedDate.getFullYear();
+      const month = (normalizedDate.getMonth() + 1).toString().padStart(2, "0");
+      const day = normalizedDate.getDate().toString().padStart(2, "0");
+
+      return `${year}-${month}-${day}`; // YYYY-MM-DD format
+    };
+
+    const formatDisplayDate = (date) => {
+      if (!date) return "";
+
+      const normalizedDate =
+        date instanceof Date
+          ? date
+          : typeof date === "string"
+            ? parseDateString(date)
+            : new Date(date);
+
+      if (!isValidDate(normalizedDate)) return "";
+
+      return normalizedDate.toLocaleDateString("en-US", {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
       });
     };
 
-    updatePopupPosition();
-    window.addEventListener("resize", updatePopupPosition);
-    window.addEventListener("scroll", updatePopupPosition, true);
-
-    return () => {
-      window.removeEventListener("resize", updatePopupPosition);
-      window.removeEventListener("scroll", updatePopupPosition, true);
+    // Generate years for the dropdown (e.g., last 20 years and next 10 years)
+    const generateYears = () => {
+      const currentYear = new Date().getFullYear();
+      const years = [];
+      for (let i = currentYear - 60; i <= currentYear + 10; i++) {
+        years.push(i);
+      }
+      return years;
     };
-  }, [disabled, isOpen, dropdownRef]);
 
-  const popup = useMemo(() => {
-    if (!isOpen || disabled || typeof document === "undefined") {
-      return null;
-    }
+    // Generate months for the dropdown
+    const generateMonths = () => {
+      return Array.from({ length: 12 }, (_, i) =>
+        new Date(0, i).toLocaleString("default", { month: "long" }),
+      );
+    };
 
-    return createPortal(
-      <div
-        ref={popupRef}
-        className="bg-white text-gray-700 shadow-xl border border-gray-200 rounded-xl p-3"
-        style={popupStyle}
-      >
-        <div className="flex items-center justify-between mb-2">
-          <button
-            onClick={handlePrevMonth}
-            className="p-1 rounded-full hover:bg-gray-100 transition-colors"
-          >
-            <LeftIcon />
-          </button>
-          <div className="flex items-center justify-center gap-2">
-            <select
-              value={currentMonth.getFullYear()}
-              onChange={handleYearChange}
-              className="px-1.5 py-0.5 text-[11px] font-semibold bg-white border border-gray-300 rounded-md outline-none focus:ring-2 focus:ring-primary"
-              disabled={disabled}
-            >
-              {generateYears().map((year) => (
-                <option
-                  className="px-2 bg-white text-[#707070]"
-                  key={year}
-                  value={year}
-                >
-                  {year}
-                </option>
-              ))}
-            </select>
-            <select
-              value={currentMonth.getMonth()}
-              onChange={handleMonthChange}
-              className="px-1.5 py-0.5 text-[11px] font-semibold bg-white border border-gray-300 rounded-md outline-none focus:ring-2 focus:ring-primary"
-              disabled={disabled}
-            >
-              {generateMonths().map((month, index) => (
-                <option key={month} value={index}>
-                  {month}
-                </option>
-              ))}
-            </select>
-          </div>
-          <button
-            onClick={handleNextMonth}
-            className="p-1 rounded-full hover:bg-gray-100 transition-colors"
-          >
-            <RightIcon />
-          </button>
-        </div>
+    const handleToggleCalendar = () => {
+      if (disabled) return;
+      setIsOpen(!isOpen);
+    };
 
+    useEffect(() => {
+      if (!isOpen || disabled) {
+        return;
+      }
+
+      const updatePopupPosition = () => {
+        const anchorElement = dropdownRef.current;
+        if (!anchorElement) {
+          return;
+        }
+
+        const rect = anchorElement.getBoundingClientRect();
+        const viewportWidth = window.innerWidth;
+        const viewportHeight = window.innerHeight;
+        const anchorWidth = rect.width || 250;
+        const popupWidth = Math.max(300, Math.min(360, anchorWidth));
+        const left = Math.max(
+          8,
+          Math.min(rect.left, viewportWidth - popupWidth - 8),
+        );
+        setCalendarWidth(popupWidth);
+
+        const actualHeight = popupRef.current?.offsetHeight || 0;
+        const popupHeight = actualHeight > 0 ? actualHeight : 310;
+        const gap = 4;
+        let top;
+        let maxHeight;
+
+        if (rect.bottom + gap + popupHeight <= viewportHeight) {
+          top = rect.bottom + gap;
+        } else if (rect.top - gap - popupHeight >= 0) {
+          top = rect.top - popupHeight - gap;
+        } else if (viewportHeight - rect.bottom > rect.top) {
+          top = rect.bottom + gap;
+          maxHeight = Math.max(200, viewportHeight - rect.bottom - gap - 4);
+        } else {
+          maxHeight = Math.max(200, rect.top - gap - 4);
+          top = Math.max(gap, rect.top - maxHeight - gap);
+        }
+
+        setPopupStyle({
+          position: "fixed",
+          top: `${top}px`,
+          left: `${left}px`,
+          width: `${Math.min(popupWidth, viewportWidth - 16)}px`,
+          zIndex: 9999999999999,
+          ...(maxHeight
+            ? { maxHeight: `${maxHeight}px`, overflowY: "auto" }
+            : {}),
+        });
+      };
+
+      updatePopupPosition();
+      window.addEventListener("resize", updatePopupPosition);
+      window.addEventListener("scroll", updatePopupPosition, true);
+
+      return () => {
+        window.removeEventListener("resize", updatePopupPosition);
+        window.removeEventListener("scroll", updatePopupPosition, true);
+      };
+    }, [disabled, isOpen, dropdownRef]);
+
+    const popup = useMemo(() => {
+      if (!isOpen || disabled || typeof document === "undefined") {
+        return null;
+      }
+
+      return createPortal(
         <div
-          className="grid grid-cols-7 gap-1 text-center"
-          style={{ width: `${calendarWidth - 24}px`, maxWidth: "80%", margin:"0 auto", maxHeight:"195px"}}
+          ref={popupRef}
+          className="bg-white text-gray-700 shadow-xl border border-gray-200 rounded-xl p-3"
+          style={popupStyle}
         >
-          {daysOfWeek.map((day) => (
-            <div key={day} className="text-[10px] font-semibold text-gray-500 uppercase tracking-wide py-0.5">
-              {day}
-            </div>
-          ))}
-
-          {generateCalendarDates().map((date, index) => {
-            const isCurrentMonth = date?.getMonth() === currentMonth.getMonth();
-            const isSelected =
-              selectedDate &&
-              date.toDateString() === selectedDate.toDateString();
-            const isToday = date.toDateString() === new Date().toDateString();
-            const dateDisabled = isDateDisabled(date);
-
-            return (
-              <button
-                key={index}
-                onClick={() => handleDateClick(date)}
-                className={`p-1.5 rounded-md text-sm transition-colors ${
-                  disabled || dateDisabled
-                    ? "cursor-not-allowed opacity-50"
-                    : "hover:bg-primary/10 cursor-pointer"
-                } ${
-                  isCurrentMonth
-                    ? isSelected
-                      ? "bg-primary text-white"
-                      : isToday
-                        ? "bg-white text-primary border border-primary"
-                        : "text-gray-800"
-                    : "text-gray-400"
-                }`}
-                disabled={disabled || dateDisabled}
+          <div className="flex items-center justify-between mb-2">
+            <button
+              onClick={handlePrevMonth}
+              className="p-1 rounded-full hover:bg-gray-100 transition-colors"
+            >
+              <LeftIcon />
+            </button>
+            <div className="flex items-center justify-center gap-2">
+              <select
+                value={currentMonth.getFullYear()}
+                onChange={handleYearChange}
+                className="px-1.5 py-0.5 text-[11px] font-semibold bg-white border border-gray-300 rounded-md outline-none focus:ring-2 focus:ring-primary"
+                disabled={disabled}
               >
-                {date?.getDate()}
-              </button>
-            );
-          })}
-        </div>
-        <div className="flex justify-between mt-2 pt-1.5 border-t border-gray-100 text-xs">
-          <button
-            onClick={handleTodayClick}
-            className={`text-sm hover:underline ${
-              disabled
-                ? "text-gray-400 cursor-not-allowed"
-                : "text-primary hover:text-primary-dark"
-            }`}
-            disabled={disabled}
-          >
-            Today
-          </button>
-          <button
-            onClick={handleClearClick}
-            className={`text-sm hover:underline ${
-              disabled
-                ? "text-gray-400 cursor-not-allowed"
-                : "text-red-500 hover:text-red-600"
-            }`}
-            disabled={disabled}
-          >
-            Clear
-          </button>
-        </div>
-      </div>,
-      document.body
-    );
-  }, [currentMonth, disabled, isOpen, popupStyle, selectedDate, value]);
-
-  return (
-    <div
-      ref={dropdownRef}
-      onKeyDown={handleKeyDown}
-      className={`relative text-xs font-sans ${disabled ? "opacity-90" : ""}`}
-    >
-      {/* Show the input and label if `label` is provided */}
-      {label && (
-        <label
-          htmlFor={name}
-          className={`text-sm font-normal mb-1 ${
-            disabled ? "text-gray-400" : "text-primary"
-          }`}
-        >
-          {label}
-        </label>
-      )}
-      {!compact && (
-        <div
-          onClick={() => {
-            handleToggleCalendar();
-          }}
-          className={`relative ${
-            disabled ? "cursor-not-allowed" : "cursor-pointer"
-          }`}
-        >
-          <input
-            name={name}
-            id={name}
-            value={value ? formatDisplayDate(value) : ""}
-            readOnly
-            onBlur={onBlur}
-            onChange={disabled ? undefined : onChange}
-            type="text"
-            aria-label={label || name}
-            aria-invalid={error ? true : undefined}
-            aria-describedby={showError ? errorId : undefined}
-            aria-disabled={disabled ? true : undefined}
-            className={`w-full text-sm bg-[#F6F6F6] text-gray-500 px-3 py-2.5 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-primary pr-10 text-left ${
-              disabled ? "cursor-not-allowed opacity-70" : "cursor-pointer"
-            } ${error ? "border border-red-500" : "border border-transparent"}`}
-            disabled={disabled}
-          />
-          <div
-            className={`absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none ${
-              disabled ? "text-gray-300" : "text-gray-400"
-            }`}
-          >
-            <CalenderIcon />
+                {generateYears().map((year) => (
+                  <option
+                    className="px-2 bg-white text-[#707070]"
+                    key={year}
+                    value={year}
+                  >
+                    {year}
+                  </option>
+                ))}
+              </select>
+              <select
+                value={currentMonth.getMonth()}
+                onChange={handleMonthChange}
+                className="px-1.5 py-0.5 text-[11px] font-semibold bg-white border border-gray-300 rounded-md outline-none focus:ring-2 focus:ring-primary"
+                disabled={disabled}
+              >
+                {generateMonths().map((month, index) => (
+                  <option key={month} value={index}>
+                    {month}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <button
+              onClick={handleNextMonth}
+              className="p-1 rounded-full hover:bg-gray-100 transition-colors"
+            >
+              <RightIcon />
+            </button>
           </div>
-        </div>
-      )}
-      {showError && (
-        <span id={errorId} role="alert" style={{ color: "red" }}>
-          {error}
-        </span>
-      )}
 
-      {/* Show calendar standalone if no label is provided */}
-      {compact && (
-        <div
-          className={`flex items-center justify-center text-xs font-light gap-2 ${
-            disabled ? "cursor-not-allowed opacity-70" : "cursor-pointer"
-          }`}
-          onClick={handleToggleCalendar}
-        >
-          <CalenderIcon className={disabled ? "opacity-50" : ""} />
-          <span
-            className={`text-sm ${disabled ? "text-gray-400" : "text-white"}`}
+          <div
+            className="grid grid-cols-7 gap-1 text-center"
+            style={{
+              width: `${calendarWidth - 24}px`,
+              maxWidth: "80%",
+              margin: "0 auto",
+              maxHeight: "195px",
+            }}
           >
-            {selectedDate
-              ? `${selectedDate.getDate()} ${selectedDate.toLocaleString(
-                  "default",
-                  { month: "short" }
-                )} ${selectedDate.getFullYear()}`
-              : "Select Date"}
+            {daysOfWeek.map((day) => (
+              <div
+                key={day}
+                className="text-[10px] font-semibold text-gray-500 uppercase tracking-wide py-0.5"
+              >
+                {day}
+              </div>
+            ))}
+
+            {generateCalendarDates().map((date, index) => {
+              const isCurrentMonth =
+                date?.getMonth() === currentMonth.getMonth();
+              const isSelected =
+                selectedDate &&
+                date.toDateString() === selectedDate.toDateString();
+              const isToday = date.toDateString() === new Date().toDateString();
+              const dateDisabled = isDateDisabled(date);
+
+              return (
+                <button
+                  key={index}
+                  onClick={() => handleDateClick(date)}
+                  className={`p-1.5 rounded-md text-sm transition-colors ${
+                    disabled || dateDisabled
+                      ? "cursor-not-allowed opacity-50"
+                      : "hover:bg-primary/10 cursor-pointer"
+                  } ${
+                    isCurrentMonth
+                      ? isSelected
+                        ? "bg-primary text-white"
+                        : isToday
+                          ? "bg-white text-primary border border-primary"
+                          : "text-gray-800"
+                      : "text-gray-400"
+                  }`}
+                  disabled={disabled || dateDisabled}
+                >
+                  {date?.getDate()}
+                </button>
+              );
+            })}
+          </div>
+          <div className="flex justify-between mt-2 pt-1.5 border-t border-gray-100 text-xs">
+            <button
+              onClick={handleTodayClick}
+              className={`text-sm hover:underline ${
+                disabled
+                  ? "text-gray-400 cursor-not-allowed"
+                  : "text-primary hover:text-primary-dark"
+              }`}
+              disabled={disabled}
+            >
+              Today
+            </button>
+            <button
+              onClick={handleClearClick}
+              className={`text-sm hover:underline ${
+                disabled
+                  ? "text-gray-400 cursor-not-allowed"
+                  : "text-red-500 hover:text-red-600"
+              }`}
+              disabled={disabled}
+            >
+              Clear
+            </button>
+          </div>
+        </div>,
+        document.body,
+      );
+    }, [currentMonth, disabled, isOpen, popupStyle, selectedDate, value]);
+
+    return (
+      <div
+        ref={dropdownRef}
+        onKeyDown={handleKeyDown}
+        className={`relative text-xs font-sans ${disabled ? "opacity-90" : ""}`}
+      >
+        {/* Show the input and label if `label` is provided */}
+        {label && (
+          <label
+            htmlFor={name}
+            className={`text-sm font-normal mb-1 ${
+              disabled ? "text-gray-400" : "text-primary"
+            }`}
+          >
+            {label}
+          </label>
+        )}
+        {!compact && (
+          <div
+            onClick={() => {
+              handleToggleCalendar();
+            }}
+            className={`relative ${
+              disabled ? "cursor-not-allowed" : "cursor-pointer"
+            }`}
+          >
+            <input
+              name={name}
+              id={name}
+              value={value ? formatDisplayDate(value) : ""}
+              readOnly
+              onBlur={onBlur}
+              onChange={disabled ? undefined : onChange}
+              type="text"
+              aria-label={label || name}
+              aria-invalid={error ? true : undefined}
+              aria-describedby={showError ? errorId : undefined}
+              aria-disabled={disabled ? true : undefined}
+              className={`w-full text-sm bg-[#F6F6F6] text-gray-500 px-3 py-2.5 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-primary pr-10 text-left ${
+                disabled ? "cursor-not-allowed opacity-70" : "cursor-pointer"
+              } ${error ? "border border-red-500" : "border border-transparent"}`}
+              disabled={disabled}
+            />
+            <div
+              className={`absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none ${
+                disabled ? "text-gray-300" : "text-gray-400"
+              }`}
+            >
+              <CalenderIcon />
+            </div>
+          </div>
+        )}
+        {showError && (
+          <span id={errorId} role="alert" style={{ color: "red" }}>
+            {error}
           </span>
-        </div>
-      )}
-      {popup}
-    </div>
-  );
-});
+        )}
+
+        {/* Show calendar standalone if no label is provided */}
+        {compact && (
+          <div
+            className={`flex items-center justify-center text-xs font-light gap-2 ${
+              disabled ? "cursor-not-allowed opacity-70" : "cursor-pointer"
+            }`}
+            onClick={handleToggleCalendar}
+          >
+            <CalenderIcon className={disabled ? "opacity-50" : ""} />
+            <span
+              className={`text-sm ${disabled ? "text-gray-400" : "text-white"}`}
+            >
+              {selectedDate
+                ? `${selectedDate.getDate()} ${selectedDate.toLocaleString(
+                    "default",
+                    { month: "short" },
+                  )} ${selectedDate.getFullYear()}`
+                : "Select Date"}
+            </span>
+          </div>
+        )}
+        {popup}
+      </div>
+    );
+  },
+);
 
 export default CustomDatePicker;
 
@@ -15096,10 +15756,10 @@ CustomDatePicker.displayName = "CustomDatePicker";
 ```jsx
 /**
  * DesktopNav — Extracted sub-component
- * 
+ *
  * The desktop navigation bar, extracted from the monolithic Header component.
  * Receives nav items and handlers as props from the Header (local UI concerns).
- * 
+ *
  * Memoized with React.memo to prevent unnecessary re-renders when
  * unrelated Header state changes (e.g., mobile menu toggle).
  */
@@ -15118,9 +15778,7 @@ const DesktopNav = ({
     <div className="hidden lg:flex text-gray-600 text-sm items-center px-4 py-2 relative">
       {navItems.map((item, index) => (
         <div
-          onMouseEnter={() =>
-            !item.isDisable && onMouseEnter(item.label)
-          }
+          onMouseEnter={() => !item.isDisable && onMouseEnter(item.label)}
           onClick={() => !item.isDisable && onNavClick(item.label)}
           key={index}
           className="relative group"
@@ -15131,8 +15789,8 @@ const DesktopNav = ({
               activeNavItem === item.label
                 ? "text-primary font-normal"
                 : item.isDisable
-                ? "text-gray-400 cursor-not-allowed"
-                : "hover:text-primary"
+                  ? "text-gray-400 cursor-not-allowed"
+                  : "hover:text-primary"
             } ${
               index !== navItems.length - 1
                 ? "border-r border-gray-300 pr-4 mr-4"
@@ -15221,21 +15879,25 @@ export default memo(DesktopNav);
  *  The parent's `label` becomes the `group` string on each child automatically.
  */
 
-import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import React, {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { DownArrow, SearchIcon, GripIcon } from "../../../assets/data/icons";
-
-
 
 // ── helpers ─────────────────────────────────────────────────────
 const getRowId = (row, rowKey, index) => {
-    if (typeof rowKey === "function") return rowKey(row, index);
-    return row[rowKey] ?? row.id ?? index;
+  if (typeof rowKey === "function") return rowKey(row, index);
+  return row[rowKey] ?? row.id ?? index;
 };
 
 const widthToCss = (w) => {
-    if (w == null) return "120px";
-    if (typeof w === "number") return `${w}px`;
-    return String(w);
+  if (w == null) return "120px";
+  if (typeof w === "number") return `${w}px`;
+  return String(w);
 };
 
 // Fill the grid gap next to each sticky cell with a solid box-shadow so
@@ -15244,13 +15906,19 @@ const widthToCss = (w) => {
 const GRID_GAP = 8; // gap-2 = 8px
 const GRID_PADDING = 16; // px-4 = 16px — must match the grid container's horizontal padding
 const CHECKBOX_COL_WIDTH = 36; // compact selection column width
-const stickyBoxShadow = (isLast = false, bgColor = "white", isFirst = false) => {
-    const gapRight = `${GRID_GAP}px 0 0 0 ${bgColor}`;
-    const gapLeft = isFirst ? `-${GRID_PADDING + GRID_GAP}px 0 0 0 ${bgColor}` : null;
-    const gapFill = gapLeft ? `${gapLeft}, ${gapRight}` : gapRight;
-    if (!isLast) return gapFill;
-    // last sticky col: gap fill + sharp 1px edge line (no blur)
-    return `${gapFill}, ${GRID_GAP + 1}px 0 0 0 rgba(0,0,0,0.08)`;
+const stickyBoxShadow = (
+  isLast = false,
+  bgColor = "white",
+  isFirst = false,
+) => {
+  const gapRight = `${GRID_GAP}px 0 0 0 ${bgColor}`;
+  const gapLeft = isFirst
+    ? `-${GRID_PADDING + GRID_GAP}px 0 0 0 ${bgColor}`
+    : null;
+  const gapFill = gapLeft ? `${gapLeft}, ${gapRight}` : gapRight;
+  if (!isLast) return gapFill;
+  // last sticky col: gap fill + sharp 1px edge line (no blur)
+  return `${gapFill}, ${GRID_GAP + 1}px 0 0 0 rgba(0,0,0,0.08)`;
 };
 
 // ── flattenColumns ───────────────────────────────────────────────
@@ -15259,897 +15927,1090 @@ const stickyBoxShadow = (isLast = false, bgColor = "white", isFirst = false) => 
 // specifies its own `group` string. Pattern A columns (already flat with a
 // `group` string) pass through unchanged.
 const flattenColumns = (cols = []) => {
-    const result = [];
-    cols.forEach((col) => {
-        if (Array.isArray(col.children) && col.children.length > 0) {
-            col.children.forEach((child) =>
-                result.push({ ...child, group: child.group ?? col.label })
-            );
-        } else {
-            result.push(col);
-        }
-    });
-    return result;
+  const result = [];
+  cols.forEach((col) => {
+    if (Array.isArray(col.children) && col.children.length > 0) {
+      col.children.forEach((child) =>
+        result.push({ ...child, group: child.group ?? col.label }),
+      );
+    } else {
+      result.push(col);
+    }
+  });
+  return result;
 };
 
 // ───────────────────────────────────────────────────────────────
 // Component
 // ───────────────────────────────────────────────────────────────
 export default function DroppableTableView({
-    columns = [],
-    data = [],
-    rowKey = "id",
-    selectable = true,
-    droppable = true,
-    expandable = true,
-    expandToggleAccessor = null,
-    defaultExpanded = [],
-    showAccentBar = false,
-    onFilterChange,
-    onColumnOrderChange,
-    onSelectionChange,
-    selectedIds = null,
-    emptyText = "No results found",
-    loading = false,
-    minTableWidth = 1440,
-    className = "",
-    // sticky / fixed column(s) — pass accessor(s) to freeze left; others scroll underneath
-    // e.g. stickyColumn="employee" or stickyColumns={["employee"]} or per-column { sticky:true }
-    stickyColumn = null,
-    stickyColumns = null,
-    fixedColumn = null,
-    fixedColumns = null,
-    // footer — like CustomTableFooter: Total count left + per-column totals via column.footer / column.total / totals prop
-    showFooter = true,
-    totals = null, // { [accessor]: value } — e.g. { totalPay: "3259.00" }
-    footer = null, // custom footer node — if provided, renders instead of default totals row
+  columns = [],
+  data = [],
+  rowKey = "id",
+  selectable = true,
+  droppable = true,
+  expandable = true,
+  expandToggleAccessor = null,
+  defaultExpanded = [],
+  showAccentBar = false,
+  onFilterChange,
+  onColumnOrderChange,
+  onSelectionChange,
+  selectedIds = null,
+  emptyText = "No results found",
+  loading = false,
+  minTableWidth = 1440,
+  className = "",
+  // sticky / fixed column(s) — pass accessor(s) to freeze left; others scroll underneath
+  // e.g. stickyColumn="employee" or stickyColumns={["employee"]} or per-column { sticky:true }
+  stickyColumn = null,
+  stickyColumns = null,
+  fixedColumn = null,
+  fixedColumns = null,
+  // footer — like CustomTableFooter: Total count left + per-column totals via column.footer / column.total / totals prop
+  showFooter = true,
+  totals = null, // { [accessor]: value } — e.g. { totalPay: "3259.00" }
+  footer = null, // custom footer node — if provided, renders instead of default totals row
 }) {
-    // ── column order (droppable) ────────────────────────────────
-    // orderedColumns always stores FLAT leaf columns.
-    // Pattern B (parent with children[]) is flattened on initial load and on prop change.
-    const [orderedColumns, setOrderedColumns] = useState(() => flattenColumns(columns));
-    useEffect(() => setOrderedColumns(flattenColumns(columns)), [columns]);
+  // ── column order (droppable) ────────────────────────────────
+  // orderedColumns always stores FLAT leaf columns.
+  // Pattern B (parent with children[]) is flattened on initial load and on prop change.
+  const [orderedColumns, setOrderedColumns] = useState(() =>
+    flattenColumns(columns),
+  );
+  useEffect(() => setOrderedColumns(flattenColumns(columns)), [columns]);
 
-    // Detect mobile viewport (< 768px) to disable sticky column positioning on mobile for normal L-R scroll
-    const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.innerWidth < 768);
-    useEffect(() => {
-        const handleResize = () => setIsMobile(window.innerWidth < 768);
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
-    }, []);
+  // Detect mobile viewport (< 768px) to disable sticky column positioning on mobile for normal L-R scroll
+  const [isMobile, setIsMobile] = useState(
+    () => typeof window !== "undefined" && window.innerWidth < 768,
+  );
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-    const dragIdxRef = useRef(null);
+  const dragIdxRef = useRef(null);
 
-    const handleDragStart = useCallback((e, idx) => {
-        dragIdxRef.current = idx;
-        e.dataTransfer.effectAllowed = "move";
-        e.dataTransfer.setData("text/plain", String(idx));
-    }, []);
+  const handleDragStart = useCallback((e, idx) => {
+    dragIdxRef.current = idx;
+    e.dataTransfer.effectAllowed = "move";
+    e.dataTransfer.setData("text/plain", String(idx));
+  }, []);
 
-    const handleDragOver = useCallback((e) => {
-        e.preventDefault();
-        e.dataTransfer.dropEffect = "move";
-    }, []);
+  const handleDragOver = useCallback((e) => {
+    e.preventDefault();
+    e.dataTransfer.dropEffect = "move";
+  }, []);
 
-    const handleDrop = useCallback(
-        (e, dropIdx) => {
-            e.preventDefault();
-            const dragIdx = dragIdxRef.current;
-            if (dragIdx == null || dragIdx === dropIdx) return;
-            const next = [...orderedColumns];
-            const [moved] = next.splice(dragIdx, 1);
-            next.splice(dropIdx, 0, moved);
-            setOrderedColumns(next);
-            onColumnOrderChange?.(next);
-            dragIdxRef.current = null;
-        },
-        [orderedColumns, onColumnOrderChange]
-    );
+  const handleDrop = useCallback(
+    (e, dropIdx) => {
+      e.preventDefault();
+      const dragIdx = dragIdxRef.current;
+      if (dragIdx == null || dragIdx === dropIdx) return;
+      const next = [...orderedColumns];
+      const [moved] = next.splice(dragIdx, 1);
+      next.splice(dropIdx, 0, moved);
+      setOrderedColumns(next);
+      onColumnOrderChange?.(next);
+      dragIdxRef.current = null;
+    },
+    [orderedColumns, onColumnOrderChange],
+  );
 
-    // ── header search input state (matches TableView) ──
-    const [showSearch, setShowSearch] = useState(null);
-    const [activeSearch, setActiveSearch] = useState(null);
+  // ── header search input state (matches TableView) ──
+  const [showSearch, setShowSearch] = useState(null);
+  const [activeSearch, setActiveSearch] = useState(null);
 
-    const handleSearchChange = useCallback(
-        (accessor, value) => {
-            onFilterChange?.(accessor, value);
-        },
-        [onFilterChange]
-    );
+  const handleSearchChange = useCallback(
+    (accessor, value) => {
+      onFilterChange?.(accessor, value);
+    },
+    [onFilterChange],
+  );
 
-    const closeSearch = useCallback(
-        (accessor) => {
-            onFilterChange?.(accessor, null);
-            setShowSearch(null);
-        },
-        [onFilterChange]
-    );
+  const closeSearch = useCallback(
+    (accessor) => {
+      onFilterChange?.(accessor, null);
+      setShowSearch(null);
+    },
+    [onFilterChange],
+  );
 
-    // ── selection ───────────────────────────────────────────────
-    const isControlledSelection = selectedIds !== null && typeof onSelectionChange === "function";
-    const [internalSelected, setInternalSelected] = useState({});
-    const selectedMap = isControlledSelection ? selectedIds : internalSelected;
+  // ── selection ───────────────────────────────────────────────
+  const isControlledSelection =
+    selectedIds !== null && typeof onSelectionChange === "function";
+  const [internalSelected, setInternalSelected] = useState({});
+  const selectedMap = isControlledSelection ? selectedIds : internalSelected;
 
-    const toggleRow = useCallback(
-        (id) => {
-            const next = { ...selectedMap };
-            if (next[id]) delete next[id];
-            else next[id] = true;
-            if (isControlledSelection) onSelectionChange(next);
-            else setInternalSelected(next);
-        },
-        [selectedMap, isControlledSelection, onSelectionChange]
-    );
+  const toggleRow = useCallback(
+    (id) => {
+      const next = { ...selectedMap };
+      if (next[id]) delete next[id];
+      else next[id] = true;
+      if (isControlledSelection) onSelectionChange(next);
+      else setInternalSelected(next);
+    },
+    [selectedMap, isControlledSelection, onSelectionChange],
+  );
 
-    const toggleAll = useCallback(() => {
-        const ids = data.map((r, i) => String(getRowId(r, rowKey, i)));
-        const allSelected = ids.length > 0 && ids.every((id) => selectedMap[id]);
-        let next = {};
-        if (!allSelected) ids.forEach((id) => (next[id] = true));
-        if (isControlledSelection) onSelectionChange(next);
-        else setInternalSelected(next);
-    }, [data, rowKey, selectedMap, isControlledSelection, onSelectionChange]);
+  const toggleAll = useCallback(() => {
+    const ids = data.map((r, i) => String(getRowId(r, rowKey, i)));
+    const allSelected = ids.length > 0 && ids.every((id) => selectedMap[id]);
+    let next = {};
+    if (!allSelected) ids.forEach((id) => (next[id] = true));
+    if (isControlledSelection) onSelectionChange(next);
+    else setInternalSelected(next);
+  }, [data, rowKey, selectedMap, isControlledSelection, onSelectionChange]);
 
-    const headerChecked = data.length > 0 && data.every((r, i) => selectedMap[String(getRowId(r, rowKey, i))]);
-    const headerIndeterminate =
-        !headerChecked && data.some((r, i) => selectedMap[String(getRowId(r, rowKey, i))]);
+  const headerChecked =
+    data.length > 0 &&
+    data.every((r, i) => selectedMap[String(getRowId(r, rowKey, i))]);
+  const headerIndeterminate =
+    !headerChecked &&
+    data.some((r, i) => selectedMap[String(getRowId(r, rowKey, i))]);
 
-    const headerCbRef = useCallback(
-        (el) => {
-            if (el) el.indeterminate = headerIndeterminate;
-        },
-        [headerIndeterminate]
-    );
+  const headerCbRef = useCallback(
+    (el) => {
+      if (el) el.indeterminate = headerIndeterminate;
+    },
+    [headerIndeterminate],
+  );
 
-    // ── expand state ────────────────────────────────────────────
-    const [expandedMap, setExpandedMap] = useState(() => {
-        const m = {};
-        defaultExpanded.forEach((id) => (m[String(id)] = true));
-        return m;
+  // ── expand state ────────────────────────────────────────────
+  const [expandedMap, setExpandedMap] = useState(() => {
+    const m = {};
+    defaultExpanded.forEach((id) => (m[String(id)] = true));
+    return m;
+  });
+
+  const toggleExpand = useCallback((id) => {
+    setExpandedMap((prev) => ({ ...prev, [String(id)]: !prev[String(id)] }));
+  }, []);
+
+  // ── sticky set — union of prop(s) + per-column flags
+  const stickySet = useMemo(() => {
+    const s = new Set();
+    const push = (v) => {
+      if (!v) return;
+      if (Array.isArray(v)) v.forEach((x) => x && s.add(String(x)));
+      else s.add(String(v));
+    };
+    push(stickyColumn);
+    push(stickyColumns);
+    push(fixedColumn);
+    push(fixedColumns);
+    columns.forEach((c) => {
+      if (c.sticky || c.fixed || c.isSticky || c.isFixed)
+        s.add(String(c.accessor));
     });
+    // also honour reordered columns' flags
+    orderedColumns.forEach((c) => {
+      if (c.sticky || c.fixed || c.isSticky || c.isFixed)
+        s.add(String(c.accessor));
+    });
+    return s;
+  }, [
+    stickyColumn,
+    stickyColumns,
+    fixedColumn,
+    fixedColumns,
+    columns,
+    orderedColumns,
+  ]);
 
-    const toggleExpand = useCallback((id) => {
-        setExpandedMap((prev) => ({ ...prev, [String(id)]: !prev[String(id)] }));
-    }, []);
+  // left offsets for sticky columns (checkbox + sticky cols in current order)
+  const stickyLeftMap = useMemo(() => {
+    if (stickySet.size === 0) return {};
+    const GAP = 8; // grid gap-2
+    const map = {};
+    let left = GRID_PADDING;
+    if (selectable) {
+      map.__checkbox = GRID_PADDING;
+      left += CHECKBOX_COL_WIDTH + GAP;
+    }
+    orderedColumns.forEach((c) => {
+      const acc = String(c.accessor);
+      if (stickySet.has(acc)) {
+        map[acc] = left;
+        const w = c.width;
+        const px = typeof w === "number" ? w : parseInt(String(w), 10);
+        left += (Number.isFinite(px) ? px : 120) + GAP;
+      }
+    });
+    return map;
+  }, [stickySet, orderedColumns, selectable]);
 
-    // ── sticky set — union of prop(s) + per-column flags
-    const stickySet = useMemo(() => {
-        const s = new Set();
-        const push = (v) => {
-            if (!v) return;
-            if (Array.isArray(v)) v.forEach((x) => x && s.add(String(x)));
-            else s.add(String(v));
-        };
-        push(stickyColumn);
-        push(stickyColumns);
-        push(fixedColumn);
-        push(fixedColumns);
-        columns.forEach((c) => {
-            if (c.sticky || c.fixed || c.isSticky || c.isFixed) s.add(String(c.accessor));
-        });
-        // also honour reordered columns' flags
-        orderedColumns.forEach((c) => {
-            if (c.sticky || c.fixed || c.isSticky || c.isFixed) s.add(String(c.accessor));
-        });
-        return s;
-    }, [stickyColumn, stickyColumns, fixedColumn, fixedColumns, columns, orderedColumns]);
+  const hasSticky = !isMobile && stickySet.size > 0;
 
-    // left offsets for sticky columns (checkbox + sticky cols in current order)
-    const stickyLeftMap = useMemo(() => {
-        if (stickySet.size === 0) return {};
-        const GAP = 8; // grid gap-2
-        const map = {};
-        let left = GRID_PADDING;
-        if (selectable) {
-            map.__checkbox = GRID_PADDING;
-            left += CHECKBOX_COL_WIDTH + GAP;
+  // ── grid template — stretch to fill like TableView (w-full), still scrolls on small screens via minWidth
+  const gridTemplate = useMemo(() => {
+    const colWidths = orderedColumns
+      .map((c) => {
+        const acc = String(c.accessor);
+        // Sticky columns MUST have fixed width so their actual layout width matches stickyLeftMap exactly
+        if (!isMobile && stickySet.has(acc)) {
+          return widthToCss(c.width);
         }
-        orderedColumns.forEach((c) => {
-            const acc = String(c.accessor);
-            if (stickySet.has(acc)) {
-                map[acc] = left;
-                const w = c.width;
-                const px = typeof w === "number" ? w : parseInt(String(w), 10);
-                left += (Number.isFinite(px) ? px : 120) + GAP;
-            }
+        return `minmax(${widthToCss(c.width)}, 1fr)`;
+      })
+      .join(" ");
+    return selectable ? `${CHECKBOX_COL_WIDTH}px ${colWidths}` : colWidths;
+  }, [orderedColumns, selectable, stickySet, isMobile]);
+
+  // Dynamic min-width: if minTableWidth is default 1440, calculate exact sum needed so mobile doesn't over-scroll
+  const effectiveMinWidth = useMemo(() => {
+    if (minTableWidth !== 1440) return minTableWidth;
+    let sum = selectable ? CHECKBOX_COL_WIDTH + GRID_GAP : 0;
+    orderedColumns.forEach((c) => {
+      const w = c.width;
+      const px = typeof w === "number" ? w : parseInt(String(w), 10);
+      sum += (Number.isFinite(px) ? px : 120) + GRID_GAP;
+    });
+    return Math.max(768, sum + GRID_PADDING * 2);
+  }, [minTableWidth, orderedColumns, selectable]);
+
+  // ── grouped header info ──────────────────────────────────────────────────────
+  // Scans orderedColumns (flat leaf cols) for `group` strings and builds an array
+  // of segments used to render the two-row header:
+  //   { type: "group",  label, from, to, count }  — renders a spanning banner on row 1
+  //   { type: "single", col, idx }                — ungrouped col, spans both rows
+  // When hasGroups is false the original single-row header is rendered instead.
+  const groupHeaderInfo = useMemo(() => {
+    const hasGroups = orderedColumns.some((c) => c.group);
+    if (!hasGroups) return { hasGroups: false, segments: [] };
+    const segments = [];
+    let i = 0;
+    while (i < orderedColumns.length) {
+      const col = orderedColumns[i];
+      if (col.group) {
+        const groupLabel = col.group;
+        const from = i;
+        while (
+          i < orderedColumns.length &&
+          orderedColumns[i].group === groupLabel
+        )
+          i++;
+        segments.push({
+          type: "group",
+          label: groupLabel,
+          from,
+          to: i - 1,
+          count: i - from,
         });
-        return map;
-    }, [stickySet, orderedColumns, selectable]);
+      } else {
+        segments.push({ type: "single", col, idx: i });
+        i++;
+      }
+    }
+    return { hasGroups: true, segments };
+  }, [orderedColumns]);
 
-    const hasSticky = !isMobile && stickySet.size > 0;
-
-    // ── grid template — stretch to fill like TableView (w-full), still scrolls on small screens via minWidth
-    const gridTemplate = useMemo(() => {
-        const colWidths = orderedColumns
-            .map((c) => {
-                const acc = String(c.accessor);
-                // Sticky columns MUST have fixed width so their actual layout width matches stickyLeftMap exactly
-                if (!isMobile && stickySet.has(acc)) {
-                    return widthToCss(c.width);
-                }
-                return `minmax(${widthToCss(c.width)}, 1fr)`;
-            })
-            .join(" ");
-        return selectable ? `${CHECKBOX_COL_WIDTH}px ${colWidths}` : colWidths;
-    }, [orderedColumns, selectable, stickySet, isMobile]);
-
-    // Dynamic min-width: if minTableWidth is default 1440, calculate exact sum needed so mobile doesn't over-scroll
-    const effectiveMinWidth = useMemo(() => {
-        if (minTableWidth !== 1440) return minTableWidth;
-        let sum = selectable ? CHECKBOX_COL_WIDTH + GRID_GAP : 0;
-        orderedColumns.forEach((c) => {
-            const w = c.width;
-            const px = typeof w === "number" ? w : parseInt(String(w), 10);
-            sum += (Number.isFinite(px) ? px : 120) + GRID_GAP;
-        });
-        return Math.max(768, sum + GRID_PADDING * 2);
-    }, [minTableWidth, orderedColumns, selectable]);
-
-    // ── grouped header info ──────────────────────────────────────────────────────
-    // Scans orderedColumns (flat leaf cols) for `group` strings and builds an array
-    // of segments used to render the two-row header:
-    //   { type: "group",  label, from, to, count }  — renders a spanning banner on row 1
-    //   { type: "single", col, idx }                — ungrouped col, spans both rows
-    // When hasGroups is false the original single-row header is rendered instead.
-    const groupHeaderInfo = useMemo(() => {
-        const hasGroups = orderedColumns.some((c) => c.group);
-        if (!hasGroups) return { hasGroups: false, segments: [] };
-        const segments = [];
-        let i = 0;
-        while (i < orderedColumns.length) {
-            const col = orderedColumns[i];
-            if (col.group) {
-                const groupLabel = col.group;
-                const from = i;
-                while (i < orderedColumns.length && orderedColumns[i].group === groupLabel) i++;
-                segments.push({ type: "group", label: groupLabel, from, to: i - 1, count: i - from });
-            } else {
-                segments.push({ type: "single", col, idx: i });
-                i++;
-            }
+  // ── sticky style helper for a leaf column header cell ────────────────────────
+  const getHeaderStickyStyle = useCallback(
+    (acc, idx) => {
+      const isSticky = !isMobile && stickySet.has(acc);
+      if (!isSticky) return { isSticky: false, style: undefined };
+      const isFirst = (() => {
+        if (selectable) return false;
+        for (let k = 0; k < idx; k++) {
+          if (stickySet.has(String(orderedColumns[k].accessor))) return false;
         }
-        return { hasGroups: true, segments };
-    }, [orderedColumns]);
-
-    // ── sticky style helper for a leaf column header cell ────────────────────────
-    const getHeaderStickyStyle = useCallback(
-        (acc, idx) => {
-            const isSticky = !isMobile && stickySet.has(acc);
-            if (!isSticky) return { isSticky: false, style: undefined };
-            const isFirst = (() => {
-                if (selectable) return false;
-                for (let k = 0; k < idx; k++) {
-                    if (stickySet.has(String(orderedColumns[k].accessor))) return false;
-                }
-                return true;
-            })();
-            const isLast = (() => {
-                for (let k = idx + 1; k < orderedColumns.length; k++) {
-                    if (stickySet.has(String(orderedColumns[k].accessor))) return false;
-                }
-                return true;
-            })();
-            return {
-                isSticky: true,
-                style: {
-                    position: "sticky",
-                    left: `${stickyLeftMap[acc]}px`,
-                    zIndex: 40,
-                    background: "white",
-                    boxShadow: stickyBoxShadow(isLast, "white", isFirst),
-                },
-            };
+        return true;
+      })();
+      const isLast = (() => {
+        for (let k = idx + 1; k < orderedColumns.length; k++) {
+          if (stickySet.has(String(orderedColumns[k].accessor))) return false;
+        }
+        return true;
+      })();
+      return {
+        isSticky: true,
+        style: {
+          position: "sticky",
+          left: `${stickyLeftMap[acc]}px`,
+          zIndex: 40,
+          background: "white",
+          boxShadow: stickyBoxShadow(isLast, "white", isFirst),
         },
-        [isMobile, stickySet, selectable, orderedColumns, stickyLeftMap]
-    );
+      };
+    },
+    [isMobile, stickySet, selectable, orderedColumns, stickyLeftMap],
+  );
 
-    // ── leaf header cell content (label / search input / custom render) ───────────
-    const renderLeafHeaderContent = useCallback(
-        (col) => {
-            const acc = String(col.accessor);
-            if (col.headerRender) {
-                return col.headerRender(col, { activeSearch, setActiveSearch, showSearch, setShowSearch });
-            }
-            if (String(showSearch) === acc) {
-                return (
-                    <div
-                        className="relative flex items-center w-full min-w-[100px]"
-                        onClick={(e) => e.stopPropagation()}
-                        onMouseDown={(e) => e.stopPropagation()}
-                    >
-                        <input
-                            autoFocus
-                            name={acc}
-                            type="text"
-                            placeholder={`Search ${typeof col.label === "string" ? col.label.toLowerCase() : acc}...`}
-                            onChange={(e) => handleSearchChange(acc, e.target.value)}
-                            className="w-full text-xs font-normal bg-[#F6F6F6] text-gray-700 pl-2 pr-7 py-1.5 rounded-md border border-transparent focus:outline-none focus:ring-1 focus:ring-primary"
-                        />
-                        <button
-                            type="button"
-                            onClick={(e) => {
-                                e.stopPropagation();
-                                closeSearch(acc);
-                            }}
-                            title="Close search"
-                            aria-label="Close search"
-                            className="absolute right-1 top-1/2 -translate-y-1/2 w-5 h-5 flex items-center justify-center rounded-full text-gray-500 hover:bg-primary hover:text-white transition-colors text-sm leading-none"
-                        >
-                            &times;
-                        </button>
-                    </div>
-                );
-            }
-            return (
-                <>
-                    <span className="truncate">
-                        {typeof col.label === "string" || typeof col.label === "number" ? col.label : col.label ?? col.accessor}
-                    </span>
-                    {(col.isSearchable || col.isSearch || col.searchable) && (
-                        <SearchIcon onClick={() => setShowSearch(acc)} />
-                    )}
-                </>
-            );
-        },
-        [activeSearch, showSearch, handleSearchChange, closeSearch]
-    );
+  // ── leaf header cell content (label / search input / custom render) ───────────
+  const renderLeafHeaderContent = useCallback(
+    (col) => {
+      const acc = String(col.accessor);
+      if (col.headerRender) {
+        return col.headerRender(col, {
+          activeSearch,
+          setActiveSearch,
+          showSearch,
+          setShowSearch,
+        });
+      }
+      if (String(showSearch) === acc) {
+        return (
+          <div
+            className="relative flex items-center w-full min-w-[100px]"
+            onClick={(e) => e.stopPropagation()}
+            onMouseDown={(e) => e.stopPropagation()}
+          >
+            <input
+              autoFocus
+              name={acc}
+              type="text"
+              placeholder={`Search ${typeof col.label === "string" ? col.label.toLowerCase() : acc}...`}
+              onChange={(e) => handleSearchChange(acc, e.target.value)}
+              className="w-full text-xs font-normal bg-[#F6F6F6] text-gray-700 pl-2 pr-7 py-1.5 rounded-md border border-transparent focus:outline-none focus:ring-1 focus:ring-primary"
+            />
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                closeSearch(acc);
+              }}
+              title="Close search"
+              aria-label="Close search"
+              className="absolute right-1 top-1/2 -translate-y-1/2 w-5 h-5 flex items-center justify-center rounded-full text-gray-500 hover:bg-primary hover:text-white transition-colors text-sm leading-none"
+            >
+              &times;
+            </button>
+          </div>
+        );
+      }
+      return (
+        <>
+          <span className="truncate">
+            {typeof col.label === "string" || typeof col.label === "number"
+              ? col.label
+              : (col.label ?? col.accessor)}
+          </span>
+          {(col.isSearchable || col.isSearch || col.searchable) && (
+            <SearchIcon onClick={() => setShowSearch(acc)} />
+          )}
+        </>
+      );
+    },
+    [activeSearch, showSearch, handleSearchChange, closeSearch],
+  );
 
-    // 1-indexed grid column start for a leaf column, accounting for the checkbox column
-    const colBase = selectable ? 2 : 1;
+  // 1-indexed grid column start for a leaf column, accounting for the checkbox column
+  const colBase = selectable ? 2 : 1;
 
-    return (
-        <main
-            className={`w-full bg-white rounded-lg shadow-sm ${className}`}
-            data-purpose="droppable-table-view"
-        >
-            {showAccentBar && (
-                <div className="h-1 w-full bg-primary" data-purpose="status-accent-bar" />
-            )}
+  return (
+    <main
+      className={`w-full bg-white rounded-lg shadow-sm ${className}`}
+      data-purpose="droppable-table-view"
+    >
+      {showAccentBar && (
+        <div
+          className="h-1 w-full bg-primary"
+          data-purpose="status-accent-bar"
+        />
+      )}
 
-            <div className="overflow-x-auto overflow-y-auto max-h-[650px] scrollbar-thin touch-pan-x">
-                <div className="w-full" style={{ minWidth: `${effectiveMinWidth}px` }}>
-
-                    {/* ── Header ───────────────────────────────────────────────────────── */}
-                    {groupHeaderInfo.hasGroups ? (
-                        /* ── Two-row grouped header ────────────────────────────────────── */
-                        <header
-                            className="px-4 text-xs font-semibold text-primary font-serif border-b-4 border-primary bg-white sticky top-0 z-40"
-                            style={{
-                                display: "grid",
-                                gridTemplateColumns: gridTemplate,
-                                gridTemplateRows: "1fr 1fr",
-                                columnGap: `${GRID_GAP}px`,
-                            }}
-                        >
-                            {/* Checkbox — spans both header rows */}
-                            {selectable && (
-                                <div
-                                    className="flex items-center justify-center bg-white h-full"
-                                    style={{
-                                        gridColumn: "1",
-                                        gridRow: "1 / span 2",
-                                        ...(hasSticky
-                                            ? {
-                                                position: "sticky",
-                                                left: GRID_PADDING,
-                                                zIndex: 45,
-                                                boxShadow: stickyBoxShadow(stickySet.size === 0, "white", true),
-                                            }
-                                            : {}),
-                                    }}
-                                >
-                                    {loading ? (
-                                        <div className="h-4 w-4 bg-gray-200 rounded animate-pulse" />
-                                    ) : (
-                                        <input
-                                            type="checkbox"
-                                            aria-label="Select all"
-                                            checked={headerChecked}
-                                            ref={headerCbRef}
-                                            onChange={toggleAll}
-                                            className="w-4 h-4 rounded border-gray-300 accent-primary cursor-pointer focus:outline-none focus:ring-0 focus:ring-offset-0"
-                                        />
-                                    )}
-                                </div>
-                            )}
-
-                            {/* Row 1 — group banners + ungrouped columns (spanning both rows) */}
-                            {groupHeaderInfo.segments.map((seg, si) => {
-                                if (seg.type === "group") {
-                                    /* Group banner — horizontally spans its leaf columns, sits on row 1 only */
-                                    const colStart = colBase + seg.from;
-                                    return (
-                                        <div
-                                            key={`grphdr-${si}`}
-                                            className="flex items-center justify-center text-center border-b border-primary h-full py-1.5"
-                                            style={{ gridColumn: `${colStart} / span ${seg.count}`, gridRow: "1" }}
-                                        >
-                                            {loading ? (
-                                                <div className="h-3 w-20 bg-gray-200 rounded animate-pulse" />
-                                            ) : (
-                                                <span className="truncate">{seg.label}</span>
-                                            )}
-                                        </div>
-                                    );
-                                }
-
-                                /* Ungrouped column — vertically spans both rows, same as original single-row */
-                                const { col, idx } = seg;
-                                const acc = String(col.accessor);
-                                const isDraggable = droppable && !isMobile && (col.isDraggable === true || col.draggable === true);
-                                const { isSticky, style: stickyStyle } = getHeaderStickyStyle(acc, idx);
-                                const alignCls =
-                                    col.align === "right"
-                                        ? "justify-end text-right"
-                                        : col.align === "center"
-                                            ? "justify-center text-center"
-                                            : "justify-start text-left";
-                                return (
-                                    <div
-                                        key={col.accessor ?? idx}
-                                        draggable={isDraggable}
-                                        onDragStart={(e) => isDraggable && handleDragStart(e, idx)}
-                                        onDragOver={handleDragOver}
-                                        onDrop={(e) => isDraggable && handleDrop(e, idx)}
-                                        className={`flex items-center ${alignCls} gap-1.5 min-w-0 group h-full py-2 px-1 ${isDraggable ? "cursor-grab active:cursor-grabbing" : ""} ${col.headerClassName ?? ""} ${isSticky ? "bg-white" : ""}`}
-                                        title={isDraggable ? "Drag to reorder column" : undefined}
-                                        style={{
-                                            gridColumn: `${colBase + idx}`,
-                                            gridRow: "1 / span 2",
-                                            ...stickyStyle,
-                                        }}
-                                    >
-                                        {loading ? (
-                                            <div className="h-3 w-16 bg-gray-200 rounded animate-pulse" />
-                                        ) : (
-                                            <>
-                                                {isDraggable && <GripIcon />}
-                                                {renderLeafHeaderContent(col)}
-                                            </>
-                                        )}
-                                    </div>
-                                );
-                            })}
-
-                            {/* Row 2 — sub-column labels for each group */}
-                            {groupHeaderInfo.segments
-                                .filter((seg) => seg.type === "group")
-                                .flatMap((seg) =>
-                                    orderedColumns.slice(seg.from, seg.to + 1).map((col, li) => {
-                                        const leafIdx = seg.from + li;
-                                        const acc = String(col.accessor);
-                                        const isDraggable = droppable && !isMobile && (col.isDraggable === true || col.draggable === true);
-                                        const { isSticky, style: stickyStyle } = getHeaderStickyStyle(acc, leafIdx);
-                                        const alignCls =
-                                            col.align === "right"
-                                                ? "justify-end text-right"
-                                                : col.align === "left"
-                                                    ? "justify-start text-left"
-                                                    : "justify-center text-center";
-                                        return (
-                                            <div
-                                                key={`leaf-${col.accessor ?? leafIdx}`}
-                                                draggable={isDraggable}
-                                                onDragStart={(e) => isDraggable && handleDragStart(e, leafIdx)}
-                                                onDragOver={handleDragOver}
-                                                onDrop={(e) => isDraggable && handleDrop(e, leafIdx)}
-                                                className={`flex items-center ${alignCls} gap-1.5 min-w-0 group font-medium text-gray-600 px-1 py-1.5 h-full ${isDraggable ? "cursor-grab active:cursor-grabbing" : ""} ${col.headerClassName ?? ""} ${isSticky ? "bg-white" : ""}`}
-                                                title={isDraggable ? "Drag to reorder column" : undefined}
-                                                style={{
-                                                    gridColumn: `${colBase + leafIdx}`,
-                                                    gridRow: "2",
-                                                    ...stickyStyle,
-                                                }}
-                                            >
-                                                {loading ? (
-                                                    <div className="h-3 w-12 bg-gray-200 rounded animate-pulse" />
-                                                ) : (
-                                                    <>
-                                                        {isDraggable && <GripIcon />}
-                                                        {renderLeafHeaderContent(col)}
-                                                    </>
-                                                )}
-                                            </div>
-                                        );
-                                    })
-                                )}
-                        </header>
-                    ) : (
-                        /* ── Single-row header (no groups) — original behaviour, 100% unchanged ── */
-                        <header
-                            className="grid items-center gap-2 px-4 py-2.5 sm:py-3 text-xs font-semibold text-primary font-serif border-b-4 border-primary bg-white sticky top-0 z-40"
-                            style={{ gridTemplateColumns: gridTemplate }}
-                        >
-                            {selectable && (
-                                <div
-                                    className="flex items-center justify-center bg-white"
-                                    style={
-                                        hasSticky
-                                            ? {
-                                                position: "sticky",
-                                                left: GRID_PADDING,
-                                                zIndex: 45,
-                                                boxShadow: stickyBoxShadow(stickySet.size === 0, "white", true),
-                                            }
-                                            : undefined
-                                    }
-                                >
-                                    {loading ? (
-                                        <div className="h-4 w-4 bg-gray-200 rounded animate-pulse" />
-                                    ) : (
-                                        <input
-                                            type="checkbox"
-                                            aria-label="Select all"
-                                            checked={headerChecked}
-                                            ref={headerCbRef}
-                                            onChange={toggleAll}
-                                            className="w-4 h-4 rounded border-gray-300 accent-primary cursor-pointer focus:outline-none focus:ring-0 focus:ring-offset-0"
-                                        />
-                                    )}
-                                </div>
-                            )}
-
-                            {orderedColumns.map((col, idx) => {
-                                const isDraggable = droppable && !isMobile && (col.isDraggable === true || col.draggable === true);
-                                const acc = String(col.accessor);
-                                const isSticky = !isMobile && stickySet.has(acc);
-                                const isFirstSticky = isSticky && (() => {
-                                    if (selectable) return false;
-                                    for (let k = 0; k < idx; k++) {
-                                        if (stickySet.has(String(orderedColumns[k].accessor))) return false;
-                                    }
-                                    return true;
-                                })();
-                                const isLastSticky = isSticky && (() => {
-                                    for (let k = idx + 1; k < orderedColumns.length; k++) {
-                                        if (stickySet.has(String(orderedColumns[k].accessor))) return false;
-                                    }
-                                    return true;
-                                })();
-                                const stickyStyle = isSticky
-                                    ? {
-                                        position: "sticky",
-                                        left: `${stickyLeftMap[acc]}px`,
-                                        zIndex: 40,
-                                        background: "white",
-                                        boxShadow: stickyBoxShadow(isLastSticky, "white", isFirstSticky),
-                                    }
-                                    : undefined;
-                                const alignCls =
-                                    col.align === "right"
-                                        ? "justify-end text-right"
-                                        : col.align === "center"
-                                            ? "justify-center text-center"
-                                            : "justify-start text-left";
-                                return (
-                                    <div
-                                        key={col.accessor ?? idx}
-                                        draggable={isDraggable}
-                                        onDragStart={(e) => isDraggable && handleDragStart(e, idx)}
-                                        onDragOver={handleDragOver}
-                                        onDrop={(e) => isDraggable && handleDrop(e, idx)}
-                                        className={`flex items-center ${alignCls} gap-1.5 min-w-0 group px-1 ${isDraggable ? "cursor-grab active:cursor-grabbing" : ""} ${col.headerClassName ?? ""} ${isSticky ? "bg-white" : ""}`}
-                                        title={isDraggable ? "Drag to reorder column" : undefined}
-                                        style={stickyStyle}
-                                    >
-                                        {loading ? (
-                                            <div className="h-3 w-16 bg-gray-200 rounded animate-pulse" />
-                                        ) : (
-                                            <>
-                                                {isDraggable && <GripIcon />}
-                                                {renderLeafHeaderContent(col)}
-                                            </>
-                                        )}
-                                    </div>
-                                );
-                            })}
-                        </header>
-                    )}
-
-                    {/* ── Body rows — no outer padding so header/footer borders are full-bleed ── */}
-                    <div className="pt-0 pb-3">
-                        {loading ? (
-                            <div className="space-y-3 px-4">
-                                {[1, 2, 3].map((i) => (
-                                    <div key={i} className="grid gap-2 animate-pulse" style={{ gridTemplateColumns: gridTemplate }}>
-                                        {selectable && <div className="h-[76px] bg-gray-100 rounded-md" />}
-                                        {orderedColumns.map((c, j) => (
-                                            <div key={j} className="h-[76px] bg-gray-100 rounded-md" />
-                                        ))}
-                                    </div>
-                                ))}
-                            </div>
-                        ) : data.length === 0 ? (
-                            <div className="mx-4 my-3 py-12 text-center border border-dashed border-gray-200 rounded-lg bg-gray-50">
-                                <p className="text-sm font-semibold text-gray-700">{emptyText}</p>
-                                <p className="text-xs text-gray-500 mt-1">Try adjusting filters or add new data.</p>
-                            </div>
-                        ) : (
-                            data.map((row, rowIndex) => {
-                                const rowId = String(getRowId(row, rowKey, rowIndex));
-                                const isExpanded = !!expandedMap[rowId];
-                                const hasChildren = Array.isArray(row.children) && row.children.length > 0;
-                                const isSelected = !!selectedMap[rowId];
-
-                                return (
-                                    <div
-                                        key={rowId}
-                                        className="mt-3 group"
-                                        data-purpose="toggleable-payroll-row"
-                                        data-row-id={rowId}
-                                    >
-                                        <div
-                                            className="grid items-stretch gap-2 px-4 text-xs rounded-md transition-colors"
-                                            style={{ gridTemplateColumns: gridTemplate }}
-                                        >
-                                            {/* checkbox cell — sticky if any column is sticky */}
-                                            {selectable && (
-                                                <div
-                                                    className={`flex justify-center transition-all duration-500 ease-in-out bg-white ${isExpanded && hasChildren ? "items-start pt-5" : "items-center"}`}
-                                                    style={
-                                                        hasSticky
-                                                            ? {
-                                                                position: "sticky",
-                                                                left: GRID_PADDING,
-                                                                zIndex: 10,
-                                                                boxShadow: stickyBoxShadow(stickySet.size === 0, "white", true),
-                                                            }
-                                                            : undefined
-                                                    }
-                                                >
-                                                    <input
-                                                        type="checkbox"
-                                                        aria-label={`Select row ${rowIndex + 1}`}
-                                                        checked={isSelected}
-                                                        onChange={() => toggleRow(rowId)}
-                                                        className="w-4 h-4 rounded border-gray-300 accent-primary cursor-pointer focus:outline-none focus:ring-0 focus:ring-offset-0"
-                                                    />
-                                                </div>
-                                            )}
-
-                                            {/* data cells */}
-                                            {orderedColumns.map((col, colIdx) => {
-                                                const isToggleHost =
-                                                    expandable && hasChildren && (col.expandToggle || (expandToggleAccessor && col.accessor === expandToggleAccessor));
-
-                                                const alignCls =
-                                                    col.align === "right" ? "items-end text-right" : col.align === "left" ? "items-start text-left" : "items-center text-center";
-
-                                                const expandedHeight = isExpanded && hasChildren;
-                                                // Keep same min height for expanded as collapsed so single-item rows don't shrink on reveal
-                                                const cellHeightClass = expandedHeight ? "min-h-[76px] h-auto" : "min-h-[76px]";
-
-                                                // project-aligned chrome — accent cols use primary theme tint if accent === true
-                                                const isAccent = col.accent === true;
-                                                const isStickyCol = !isMobile && stickySet.has(String(col.accessor));
-                                                // When sticky + accent, swap transparent bg for an opaque equivalent
-                                                // so scrolling content behind doesn't bleed through
-                                                const stickyAccent = isStickyCol && isAccent;
-                                                const OPAQUE_ACCENT_BG = "color-mix(in srgb, hsl(var(--theme-primary)) 7%, white)";
-                                                const cellChrome = isAccent
-                                                    ? `${stickyAccent ? "" : "bg-primary/[0.07]"} border-primary`
-                                                    : "bg-white border-primary";
-                                                const isFirstStickyCol = isStickyCol && (() => {
-                                                    if (selectable) return false;
-                                                    for (let k = 0; k < colIdx; k++) {
-                                                        if (stickySet.has(String(orderedColumns[k].accessor))) return false;
-                                                    }
-                                                    return true;
-                                                })();
-                                                // Determine if this is the last sticky column in order
-                                                const isLastStickyCol = isStickyCol && (() => {
-                                                    for (let k = colIdx + 1; k < orderedColumns.length; k++) {
-                                                        if (stickySet.has(String(orderedColumns[k].accessor))) return false;
-                                                    }
-                                                    return true;
-                                                })();
-                                                const stickyBodyStyle = isStickyCol
-                                                    ? {
-                                                        position: "sticky",
-                                                        left: `${stickyLeftMap[String(col.accessor)]}px`,
-                                                        zIndex: 10,
-                                                        // opaque bg for accent sticky cells; white for normal sticky cells
-                                                        backgroundColor: stickyAccent ? OPAQUE_ACCENT_BG : "white",
-                                                        boxShadow: stickyBoxShadow(
-                                                            isLastStickyCol,
-                                                            stickyAccent ? OPAQUE_ACCENT_BG : "white",
-                                                            isFirstStickyCol
-                                                        ),
-                                                    }
-                                                    : undefined;
-
-                                                let inner;
-
-                                                if (expandedHeight) {
-                                                    if (col.renderExpanded) {
-                                                        inner = col.renderExpanded(row, row.children, rowIndex, {
-                                                            isExpanded: true,
-                                                            hasChildren,
-                                                            toggle: () => toggleExpand(rowId),
-                                                            children: row.children,
-                                                        });
-                                                    } else if (col.render) {
-                                                        inner = col.render(row[col.accessor], row, rowIndex, {
-                                                            isExpanded: true,
-                                                            hasChildren,
-                                                            toggle: () => toggleExpand(rowId),
-                                                            children: row.children,
-                                                        });
-                                                    } else {
-                                                        inner = (
-                                                            <div className="flex flex-col justify-between h-full py-1 w-full gap-4">
-                                                                {row.children.map((child, ci) => (
-                                                                    <span key={ci} className={ci === 0 ? "font-medium text-gray-900" : "text-gray-500 font-normal"}>
-                                                                        {child[col.accessor] ?? row[col.accessor] ?? "—"}
-                                                                    </span>
-                                                                ))}
-                                                            </div>
-                                                        );
-                                                    }
-                                                } else {
-                                                    if (col.renderCollapsed) {
-                                                        inner = col.renderCollapsed(row[col.accessor], row, rowIndex, {
-                                                            isExpanded: false,
-                                                            hasChildren,
-                                                            toggle: () => toggleExpand(rowId),
-                                                            children: row.children,
-                                                        });
-                                                    } else if (col.render) {
-                                                        inner = col.render(row[col.accessor], row, rowIndex, {
-                                                            isExpanded: false,
-                                                            hasChildren,
-                                                            toggle: () => toggleExpand(rowId),
-                                                            children: row.children,
-                                                        });
-                                                    } else {
-                                                        inner = <span className="text-gray-700">{row[col.accessor] ?? "—"}</span>;
-                                                    }
-                                                }
-
-                                                if (isToggleHost) {
-                                                    const toggleStickyStyle = isStickyCol
-                                                        ? {
-                                                            ...stickyBodyStyle,
-                                                            ...(isExpanded && hasChildren ? { alignItems: "flex-start", paddingTop: "16px" } : {}),
-                                                        }
-                                                        : isExpanded && hasChildren
-                                                            ? { alignItems: "flex-start", paddingTop: "16px" }
-                                                            : undefined;
-                                                    return (
-                                                        <div
-                                                            key={col.accessor ?? colIdx}
-                                                            className={`border border-primary rounded-lg p-3 bg-white flex justify-between transition-all duration-500 ease-in-out ${cellHeightClass} ${col.cellClassName ?? ""}`}
-                                                            style={toggleStickyStyle}
-                                                        >
-                                                            <div className={`flex-1 min-w-0 flex flex-col justify-center ${isExpanded ? "justify-start" : ""}`}>
-                                                                {inner}
-                                                            </div>
-                                                            <button
-                                                                aria-expanded={isExpanded}
-                                                                aria-label={isExpanded ? "Collapse breakdown" : "Expand breakdown"}
-                                                                onClick={() => toggleExpand(rowId)}
-                                                                className="ml-2 p-1.5 rounded-md transition-all duration-500 ease-in-out focus:outline-none focus:ring-0 focus:ring-offset-0 focus-visible:outline-none shrink-0 self-center text-primary hover:bg-primary/10"
-                                                                type="button"
-                                                            >
-                                                                <DownArrow className={`size-5 transition-transform duration-300 ${isExpanded ? "rotate-180" : ""}`} />
-                                                            </button>
-                                                        </div>
-                                                    );
-                                                }
-
-                                                return (
-                                                    <div
-                                                        key={col.accessor ?? colIdx}
-                                                        className={`border rounded-lg p-2.5 flex flex-col justify-center transition-all duration-500 ease-in-out ${cellHeightClass} ${alignCls} ${cellChrome} ${col.cellClassName ?? ""}`}
-                                                        style={stickyBodyStyle}
-                                                    >
-                                                        <div className={`w-full ${col.align === "left" ? "text-left" : col.align === "right" ? "text-right" : "text-center"} flex flex-col justify-center ${expandedHeight ? "h-full" : ""}`}>
-                                                            {inner}
-                                                        </div>
-                                                    </div>
-                                                );
-                                            })}
-                                        </div>
-                                    </div>
-                                );
-                            })
-                        )}
-                    </div>
-
-                    {/* ── Footer — full-bleed border, same scroll container ── */}
-                    {showFooter &&
-                        (footer ? (
-                            <div className="bg-green-footer border-t-4 border-primary sticky bottom-0 z-30">
-                                {footer}
-                            </div>
-                        ) : (
-                            <div className="bg-green-footer border-t-4 border-primary sticky bottom-0 z-30">
-                                <div
-                                    className="grid items-center gap-2 px-4 py-3 text-xs font-semibold"
-                                    style={{ gridTemplateColumns: gridTemplate }}
-                                >
-                                    {selectable && (
-                                        <div
-                                            className="bg-green-footer py-2 flex items-center justify-center"
-                                            style={
-                                                hasSticky
-                                                    ? {
-                                                        position: "sticky",
-                                                        left: GRID_PADDING,
-                                                        zIndex: 25,
-                                                        background: "#E2EDE3",
-                                                        boxShadow: stickyBoxShadow(stickySet.size === 0, "#E2EDE3", true),
-                                                    }
-                                                    : undefined
-                                            }
-                                        >
-                                            {loading && <div className="h-3 w-8 bg-[#c8dbc9] rounded animate-pulse" />}
-                                        </div>
-                                    )}
-                                    {orderedColumns.map((col, idx) => {
-                                        const isSticky = !isMobile && stickySet.has(String(col.accessor));
-                                        const isFirstStickyFooter = isSticky && (() => {
-                                            if (selectable) return false;
-                                            for (let k = 0; k < idx; k++) {
-                                                if (stickySet.has(String(orderedColumns[k].accessor))) return false;
-                                            }
-                                            return true;
-                                        })();
-                                        // Determine if this is the last sticky column in order for the footer
-                                        const isLastStickyFooter = isSticky && (() => {
-                                            for (let k = idx + 1; k < orderedColumns.length; k++) {
-                                                if (stickySet.has(String(orderedColumns[k].accessor))) return false;
-                                            }
-                                            return true;
-                                        })();
-                                        let raw =
-                                            totals?.[col.accessor] ??
-                                            col.footer ??
-                                            col.total ??
-                                            col.footerValue ??
-                                            "";
-                                        if (idx === 0 && raw === "") {
-                                            raw = `Total: ${data.length}`;
-                                        }
-                                        const display =
-                                            typeof col.renderFooter === "function"
-                                                ? col.renderFooter(raw, col, data)
-                                                : typeof col.footerRender === "function"
-                                                    ? col.footerRender(raw, col, data)
-                                                    : raw;
-                                        const cellAlignCls = col.align === "right" ? "text-right" : col.align === "left" || idx === 0 ? "text-left pl-2" : "text-center";
-                                        return (
-                                            <div
-                                                key={col.accessor ?? idx}
-                                                className={`py-2 bg-green-footer flex items-center ${cellAlignCls.includes("text-right") ? "justify-end" : cellAlignCls.includes("text-center") ? "justify-center" : "justify-start"} ${col.footerClassName ?? "text-primary font-semibold"}`}
-                                                style={
-                                                    isSticky
-                                                        ? {
-                                                            position: "sticky",
-                                                            left: `${stickyLeftMap[String(col.accessor)]}px`,
-                                                            zIndex: 25,
-                                                            background: "#E2EDE3",
-                                                            boxShadow: stickyBoxShadow(isLastStickyFooter, "#E2EDE3", isFirstStickyFooter),
-                                                        }
-                                                        : undefined
-                                                }
-                                            >
-                                                {loading ? (
-                                                    <div className="h-3 w-16 bg-[#c8dbc9] rounded animate-pulse" />
-                                                ) : (
-                                                    display
-                                                )}
-                                            </div>
-                                        );
-                                    })}
-                                </div>
-                            </div>
-                        ))}
+      <div className="overflow-x-auto overflow-y-auto max-h-[650px] scrollbar-thin touch-pan-x">
+        <div className="w-full" style={{ minWidth: `${effectiveMinWidth}px` }}>
+          {/* ── Header ───────────────────────────────────────────────────────── */}
+          {groupHeaderInfo.hasGroups ? (
+            /* ── Two-row grouped header ────────────────────────────────────── */
+            <header
+              className="px-4 text-xs font-semibold text-primary font-serif border-b-4 border-primary bg-white sticky top-0 z-40"
+              style={{
+                display: "grid",
+                gridTemplateColumns: gridTemplate,
+                gridTemplateRows: "1fr 1fr",
+                columnGap: `${GRID_GAP}px`,
+              }}
+            >
+              {/* Checkbox — spans both header rows */}
+              {selectable && (
+                <div
+                  className="flex items-center justify-center bg-white h-full"
+                  style={{
+                    gridColumn: "1",
+                    gridRow: "1 / span 2",
+                    ...(hasSticky
+                      ? {
+                          position: "sticky",
+                          left: GRID_PADDING,
+                          zIndex: 45,
+                          boxShadow: stickyBoxShadow(
+                            stickySet.size === 0,
+                            "white",
+                            true,
+                          ),
+                        }
+                      : {}),
+                  }}
+                >
+                  {loading ? (
+                    <div className="h-4 w-4 bg-gray-200 rounded animate-pulse" />
+                  ) : (
+                    <input
+                      type="checkbox"
+                      aria-label="Select all"
+                      checked={headerChecked}
+                      ref={headerCbRef}
+                      onChange={toggleAll}
+                      className="w-4 h-4 rounded border-gray-300 accent-primary cursor-pointer focus:outline-none focus:ring-0 focus:ring-offset-0"
+                    />
+                  )}
                 </div>
-            </div>
+              )}
 
-        </main>
-    );
+              {/* Row 1 — group banners + ungrouped columns (spanning both rows) */}
+              {groupHeaderInfo.segments.map((seg, si) => {
+                if (seg.type === "group") {
+                  /* Group banner — horizontally spans its leaf columns, sits on row 1 only */
+                  const colStart = colBase + seg.from;
+                  return (
+                    <div
+                      key={`grphdr-${si}`}
+                      className="flex items-center justify-center text-center border-b border-primary h-full py-1.5"
+                      style={{
+                        gridColumn: `${colStart} / span ${seg.count}`,
+                        gridRow: "1",
+                      }}
+                    >
+                      {loading ? (
+                        <div className="h-3 w-20 bg-gray-200 rounded animate-pulse" />
+                      ) : (
+                        <span className="truncate">{seg.label}</span>
+                      )}
+                    </div>
+                  );
+                }
+
+                /* Ungrouped column — vertically spans both rows, same as original single-row */
+                const { col, idx } = seg;
+                const acc = String(col.accessor);
+                const isDraggable =
+                  droppable &&
+                  !isMobile &&
+                  (col.isDraggable === true || col.draggable === true);
+                const { isSticky, style: stickyStyle } = getHeaderStickyStyle(
+                  acc,
+                  idx,
+                );
+                const alignCls =
+                  col.align === "right"
+                    ? "justify-end text-right"
+                    : col.align === "center"
+                      ? "justify-center text-center"
+                      : "justify-start text-left";
+                return (
+                  <div
+                    key={col.accessor ?? idx}
+                    draggable={isDraggable}
+                    onDragStart={(e) => isDraggable && handleDragStart(e, idx)}
+                    onDragOver={handleDragOver}
+                    onDrop={(e) => isDraggable && handleDrop(e, idx)}
+                    className={`flex items-center ${alignCls} gap-1.5 min-w-0 group h-full py-2 px-1 ${isDraggable ? "cursor-grab active:cursor-grabbing" : ""} ${col.headerClassName ?? ""} ${isSticky ? "bg-white" : ""}`}
+                    title={isDraggable ? "Drag to reorder column" : undefined}
+                    style={{
+                      gridColumn: `${colBase + idx}`,
+                      gridRow: "1 / span 2",
+                      ...stickyStyle,
+                    }}
+                  >
+                    {loading ? (
+                      <div className="h-3 w-16 bg-gray-200 rounded animate-pulse" />
+                    ) : (
+                      <>
+                        {isDraggable && <GripIcon />}
+                        {renderLeafHeaderContent(col)}
+                      </>
+                    )}
+                  </div>
+                );
+              })}
+
+              {/* Row 2 — sub-column labels for each group */}
+              {groupHeaderInfo.segments
+                .filter((seg) => seg.type === "group")
+                .flatMap((seg) =>
+                  orderedColumns.slice(seg.from, seg.to + 1).map((col, li) => {
+                    const leafIdx = seg.from + li;
+                    const acc = String(col.accessor);
+                    const isDraggable =
+                      droppable &&
+                      !isMobile &&
+                      (col.isDraggable === true || col.draggable === true);
+                    const { isSticky, style: stickyStyle } =
+                      getHeaderStickyStyle(acc, leafIdx);
+                    const alignCls =
+                      col.align === "right"
+                        ? "justify-end text-right"
+                        : col.align === "left"
+                          ? "justify-start text-left"
+                          : "justify-center text-center";
+                    return (
+                      <div
+                        key={`leaf-${col.accessor ?? leafIdx}`}
+                        draggable={isDraggable}
+                        onDragStart={(e) =>
+                          isDraggable && handleDragStart(e, leafIdx)
+                        }
+                        onDragOver={handleDragOver}
+                        onDrop={(e) => isDraggable && handleDrop(e, leafIdx)}
+                        className={`flex items-center ${alignCls} gap-1.5 min-w-0 group font-medium text-gray-600 px-1 py-1.5 h-full ${isDraggable ? "cursor-grab active:cursor-grabbing" : ""} ${col.headerClassName ?? ""} ${isSticky ? "bg-white" : ""}`}
+                        title={
+                          isDraggable ? "Drag to reorder column" : undefined
+                        }
+                        style={{
+                          gridColumn: `${colBase + leafIdx}`,
+                          gridRow: "2",
+                          ...stickyStyle,
+                        }}
+                      >
+                        {loading ? (
+                          <div className="h-3 w-12 bg-gray-200 rounded animate-pulse" />
+                        ) : (
+                          <>
+                            {isDraggable && <GripIcon />}
+                            {renderLeafHeaderContent(col)}
+                          </>
+                        )}
+                      </div>
+                    );
+                  }),
+                )}
+            </header>
+          ) : (
+            /* ── Single-row header (no groups) — original behaviour, 100% unchanged ── */
+            <header
+              className="grid items-center gap-2 px-4 py-2.5 sm:py-3 text-xs font-semibold text-primary font-serif border-b-4 border-primary bg-white sticky top-0 z-40"
+              style={{ gridTemplateColumns: gridTemplate }}
+            >
+              {selectable && (
+                <div
+                  className="flex items-center justify-center bg-white"
+                  style={
+                    hasSticky
+                      ? {
+                          position: "sticky",
+                          left: GRID_PADDING,
+                          zIndex: 45,
+                          boxShadow: stickyBoxShadow(
+                            stickySet.size === 0,
+                            "white",
+                            true,
+                          ),
+                        }
+                      : undefined
+                  }
+                >
+                  {loading ? (
+                    <div className="h-4 w-4 bg-gray-200 rounded animate-pulse" />
+                  ) : (
+                    <input
+                      type="checkbox"
+                      aria-label="Select all"
+                      checked={headerChecked}
+                      ref={headerCbRef}
+                      onChange={toggleAll}
+                      className="w-4 h-4 rounded border-gray-300 accent-primary cursor-pointer focus:outline-none focus:ring-0 focus:ring-offset-0"
+                    />
+                  )}
+                </div>
+              )}
+
+              {orderedColumns.map((col, idx) => {
+                const isDraggable =
+                  droppable &&
+                  !isMobile &&
+                  (col.isDraggable === true || col.draggable === true);
+                const acc = String(col.accessor);
+                const isSticky = !isMobile && stickySet.has(acc);
+                const isFirstSticky =
+                  isSticky &&
+                  (() => {
+                    if (selectable) return false;
+                    for (let k = 0; k < idx; k++) {
+                      if (stickySet.has(String(orderedColumns[k].accessor)))
+                        return false;
+                    }
+                    return true;
+                  })();
+                const isLastSticky =
+                  isSticky &&
+                  (() => {
+                    for (let k = idx + 1; k < orderedColumns.length; k++) {
+                      if (stickySet.has(String(orderedColumns[k].accessor)))
+                        return false;
+                    }
+                    return true;
+                  })();
+                const stickyStyle = isSticky
+                  ? {
+                      position: "sticky",
+                      left: `${stickyLeftMap[acc]}px`,
+                      zIndex: 40,
+                      background: "white",
+                      boxShadow: stickyBoxShadow(
+                        isLastSticky,
+                        "white",
+                        isFirstSticky,
+                      ),
+                    }
+                  : undefined;
+                const alignCls =
+                  col.align === "right"
+                    ? "justify-end text-right"
+                    : col.align === "center"
+                      ? "justify-center text-center"
+                      : "justify-start text-left";
+                return (
+                  <div
+                    key={col.accessor ?? idx}
+                    draggable={isDraggable}
+                    onDragStart={(e) => isDraggable && handleDragStart(e, idx)}
+                    onDragOver={handleDragOver}
+                    onDrop={(e) => isDraggable && handleDrop(e, idx)}
+                    className={`flex items-center ${alignCls} gap-1.5 min-w-0 group px-1 ${isDraggable ? "cursor-grab active:cursor-grabbing" : ""} ${col.headerClassName ?? ""} ${isSticky ? "bg-white" : ""}`}
+                    title={isDraggable ? "Drag to reorder column" : undefined}
+                    style={stickyStyle}
+                  >
+                    {loading ? (
+                      <div className="h-3 w-16 bg-gray-200 rounded animate-pulse" />
+                    ) : (
+                      <>
+                        {isDraggable && <GripIcon />}
+                        {renderLeafHeaderContent(col)}
+                      </>
+                    )}
+                  </div>
+                );
+              })}
+            </header>
+          )}
+
+          {/* ── Body rows — no outer padding so header/footer borders are full-bleed ── */}
+          <div className="pt-0 pb-3">
+            {loading ? (
+              <div className="space-y-3 px-4">
+                {[1, 2, 3].map((i) => (
+                  <div
+                    key={i}
+                    className="grid gap-2 animate-pulse"
+                    style={{ gridTemplateColumns: gridTemplate }}
+                  >
+                    {selectable && (
+                      <div className="h-[76px] bg-gray-100 rounded-md" />
+                    )}
+                    {orderedColumns.map((c, j) => (
+                      <div
+                        key={j}
+                        className="h-[76px] bg-gray-100 rounded-md"
+                      />
+                    ))}
+                  </div>
+                ))}
+              </div>
+            ) : data.length === 0 ? (
+              <div className="mx-4 my-3 py-12 text-center border border-dashed border-gray-200 rounded-lg bg-gray-50">
+                <p className="text-sm font-semibold text-gray-700">
+                  {emptyText}
+                </p>
+                <p className="text-xs text-gray-500 mt-1">
+                  Try adjusting filters or add new data.
+                </p>
+              </div>
+            ) : (
+              data.map((row, rowIndex) => {
+                const rowId = String(getRowId(row, rowKey, rowIndex));
+                const isExpanded = !!expandedMap[rowId];
+                const hasChildren =
+                  Array.isArray(row.children) && row.children.length > 0;
+                const isSelected = !!selectedMap[rowId];
+
+                return (
+                  <div
+                    key={rowId}
+                    className="mt-3 group"
+                    data-purpose="toggleable-payroll-row"
+                    data-row-id={rowId}
+                  >
+                    <div
+                      className="grid items-stretch gap-2 px-4 text-xs rounded-md transition-colors"
+                      style={{ gridTemplateColumns: gridTemplate }}
+                    >
+                      {/* checkbox cell — sticky if any column is sticky */}
+                      {selectable && (
+                        <div
+                          className={`flex justify-center transition-all duration-500 ease-in-out bg-white ${isExpanded && hasChildren ? "items-start pt-5" : "items-center"}`}
+                          style={
+                            hasSticky
+                              ? {
+                                  position: "sticky",
+                                  left: GRID_PADDING,
+                                  zIndex: 10,
+                                  boxShadow: stickyBoxShadow(
+                                    stickySet.size === 0,
+                                    "white",
+                                    true,
+                                  ),
+                                }
+                              : undefined
+                          }
+                        >
+                          <input
+                            type="checkbox"
+                            aria-label={`Select row ${rowIndex + 1}`}
+                            checked={isSelected}
+                            onChange={() => toggleRow(rowId)}
+                            className="w-4 h-4 rounded border-gray-300 accent-primary cursor-pointer focus:outline-none focus:ring-0 focus:ring-offset-0"
+                          />
+                        </div>
+                      )}
+
+                      {/* data cells */}
+                      {orderedColumns.map((col, colIdx) => {
+                        const isToggleHost =
+                          expandable &&
+                          hasChildren &&
+                          (col.expandToggle ||
+                            (expandToggleAccessor &&
+                              col.accessor === expandToggleAccessor));
+
+                        const alignCls =
+                          col.align === "right"
+                            ? "items-end text-right"
+                            : col.align === "left"
+                              ? "items-start text-left"
+                              : "items-center text-center";
+
+                        const expandedHeight = isExpanded && hasChildren;
+                        // Keep same min height for expanded as collapsed so single-item rows don't shrink on reveal
+                        const cellHeightClass = expandedHeight
+                          ? "min-h-[76px] h-auto"
+                          : "min-h-[76px]";
+
+                        // project-aligned chrome — accent cols use primary theme tint if accent === true
+                        const isAccent = col.accent === true;
+                        const isStickyCol =
+                          !isMobile && stickySet.has(String(col.accessor));
+                        // When sticky + accent, swap transparent bg for an opaque equivalent
+                        // so scrolling content behind doesn't bleed through
+                        const stickyAccent = isStickyCol && isAccent;
+                        const OPAQUE_ACCENT_BG =
+                          "color-mix(in srgb, hsl(var(--theme-primary)) 7%, white)";
+                        const cellChrome = isAccent
+                          ? `${stickyAccent ? "" : "bg-primary/[0.07]"} border-primary`
+                          : "bg-white border-primary";
+                        const isFirstStickyCol =
+                          isStickyCol &&
+                          (() => {
+                            if (selectable) return false;
+                            for (let k = 0; k < colIdx; k++) {
+                              if (
+                                stickySet.has(
+                                  String(orderedColumns[k].accessor),
+                                )
+                              )
+                                return false;
+                            }
+                            return true;
+                          })();
+                        // Determine if this is the last sticky column in order
+                        const isLastStickyCol =
+                          isStickyCol &&
+                          (() => {
+                            for (
+                              let k = colIdx + 1;
+                              k < orderedColumns.length;
+                              k++
+                            ) {
+                              if (
+                                stickySet.has(
+                                  String(orderedColumns[k].accessor),
+                                )
+                              )
+                                return false;
+                            }
+                            return true;
+                          })();
+                        const stickyBodyStyle = isStickyCol
+                          ? {
+                              position: "sticky",
+                              left: `${stickyLeftMap[String(col.accessor)]}px`,
+                              zIndex: 10,
+                              // opaque bg for accent sticky cells; white for normal sticky cells
+                              backgroundColor: stickyAccent
+                                ? OPAQUE_ACCENT_BG
+                                : "white",
+                              boxShadow: stickyBoxShadow(
+                                isLastStickyCol,
+                                stickyAccent ? OPAQUE_ACCENT_BG : "white",
+                                isFirstStickyCol,
+                              ),
+                            }
+                          : undefined;
+
+                        let inner;
+
+                        if (expandedHeight) {
+                          if (col.renderExpanded) {
+                            inner = col.renderExpanded(
+                              row,
+                              row.children,
+                              rowIndex,
+                              {
+                                isExpanded: true,
+                                hasChildren,
+                                toggle: () => toggleExpand(rowId),
+                                children: row.children,
+                              },
+                            );
+                          } else if (col.render) {
+                            inner = col.render(
+                              row[col.accessor],
+                              row,
+                              rowIndex,
+                              {
+                                isExpanded: true,
+                                hasChildren,
+                                toggle: () => toggleExpand(rowId),
+                                children: row.children,
+                              },
+                            );
+                          } else {
+                            inner = (
+                              <div className="flex flex-col justify-between h-full py-1 w-full gap-4">
+                                {row.children.map((child, ci) => (
+                                  <span
+                                    key={ci}
+                                    className={
+                                      ci === 0
+                                        ? "font-medium text-gray-900"
+                                        : "text-gray-500 font-normal"
+                                    }
+                                  >
+                                    {child[col.accessor] ??
+                                      row[col.accessor] ??
+                                      "—"}
+                                  </span>
+                                ))}
+                              </div>
+                            );
+                          }
+                        } else {
+                          if (col.renderCollapsed) {
+                            inner = col.renderCollapsed(
+                              row[col.accessor],
+                              row,
+                              rowIndex,
+                              {
+                                isExpanded: false,
+                                hasChildren,
+                                toggle: () => toggleExpand(rowId),
+                                children: row.children,
+                              },
+                            );
+                          } else if (col.render) {
+                            inner = col.render(
+                              row[col.accessor],
+                              row,
+                              rowIndex,
+                              {
+                                isExpanded: false,
+                                hasChildren,
+                                toggle: () => toggleExpand(rowId),
+                                children: row.children,
+                              },
+                            );
+                          } else {
+                            inner = (
+                              <span className="text-gray-700">
+                                {row[col.accessor] ?? "—"}
+                              </span>
+                            );
+                          }
+                        }
+
+                        if (isToggleHost) {
+                          const toggleStickyStyle = isStickyCol
+                            ? {
+                                ...stickyBodyStyle,
+                                ...(isExpanded && hasChildren
+                                  ? {
+                                      alignItems: "flex-start",
+                                      paddingTop: "16px",
+                                    }
+                                  : {}),
+                              }
+                            : isExpanded && hasChildren
+                              ? { alignItems: "flex-start", paddingTop: "16px" }
+                              : undefined;
+                          return (
+                            <div
+                              key={col.accessor ?? colIdx}
+                              className={`border border-primary rounded-lg p-3 bg-white flex justify-between transition-all duration-500 ease-in-out ${cellHeightClass} ${col.cellClassName ?? ""}`}
+                              style={toggleStickyStyle}
+                            >
+                              <div
+                                className={`flex-1 min-w-0 flex flex-col justify-center ${isExpanded ? "justify-start" : ""}`}
+                              >
+                                {inner}
+                              </div>
+                              <button
+                                aria-expanded={isExpanded}
+                                aria-label={
+                                  isExpanded
+                                    ? "Collapse breakdown"
+                                    : "Expand breakdown"
+                                }
+                                onClick={() => toggleExpand(rowId)}
+                                className="ml-2 p-1.5 rounded-md transition-all duration-500 ease-in-out focus:outline-none focus:ring-0 focus:ring-offset-0 focus-visible:outline-none shrink-0 self-center text-primary hover:bg-primary/10"
+                                type="button"
+                              >
+                                <DownArrow
+                                  className={`size-5 transition-transform duration-300 ${isExpanded ? "rotate-180" : ""}`}
+                                />
+                              </button>
+                            </div>
+                          );
+                        }
+
+                        return (
+                          <div
+                            key={col.accessor ?? colIdx}
+                            className={`border rounded-lg p-2.5 flex flex-col justify-center transition-all duration-500 ease-in-out ${cellHeightClass} ${alignCls} ${cellChrome} ${col.cellClassName ?? ""}`}
+                            style={stickyBodyStyle}
+                          >
+                            <div
+                              className={`w-full ${col.align === "left" ? "text-left" : col.align === "right" ? "text-right" : "text-center"} flex flex-col justify-center ${expandedHeight ? "h-full" : ""}`}
+                            >
+                              {inner}
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })
+            )}
+          </div>
+
+          {/* ── Footer — full-bleed border, same scroll container ── */}
+          {showFooter &&
+            (footer ? (
+              <div className="bg-green-footer border-t-4 border-primary sticky bottom-0 z-30">
+                {footer}
+              </div>
+            ) : (
+              <div className="bg-green-footer border-t-4 border-primary sticky bottom-0 z-30">
+                <div
+                  className="grid items-center gap-2 px-4 py-3 text-xs font-semibold"
+                  style={{ gridTemplateColumns: gridTemplate }}
+                >
+                  {selectable && (
+                    <div
+                      className="bg-green-footer py-2 flex items-center justify-center"
+                      style={
+                        hasSticky
+                          ? {
+                              position: "sticky",
+                              left: GRID_PADDING,
+                              zIndex: 25,
+                              background: "#E2EDE3",
+                              boxShadow: stickyBoxShadow(
+                                stickySet.size === 0,
+                                "#E2EDE3",
+                                true,
+                              ),
+                            }
+                          : undefined
+                      }
+                    >
+                      {loading && (
+                        <div className="h-3 w-8 bg-[#c8dbc9] rounded animate-pulse" />
+                      )}
+                    </div>
+                  )}
+                  {orderedColumns.map((col, idx) => {
+                    const isSticky =
+                      !isMobile && stickySet.has(String(col.accessor));
+                    const isFirstStickyFooter =
+                      isSticky &&
+                      (() => {
+                        if (selectable) return false;
+                        for (let k = 0; k < idx; k++) {
+                          if (stickySet.has(String(orderedColumns[k].accessor)))
+                            return false;
+                        }
+                        return true;
+                      })();
+                    // Determine if this is the last sticky column in order for the footer
+                    const isLastStickyFooter =
+                      isSticky &&
+                      (() => {
+                        for (let k = idx + 1; k < orderedColumns.length; k++) {
+                          if (stickySet.has(String(orderedColumns[k].accessor)))
+                            return false;
+                        }
+                        return true;
+                      })();
+                    let raw =
+                      totals?.[col.accessor] ??
+                      col.footer ??
+                      col.total ??
+                      col.footerValue ??
+                      "";
+                    if (idx === 0 && raw === "") {
+                      raw = `Total: ${data.length}`;
+                    }
+                    const display =
+                      typeof col.renderFooter === "function"
+                        ? col.renderFooter(raw, col, data)
+                        : typeof col.footerRender === "function"
+                          ? col.footerRender(raw, col, data)
+                          : raw;
+                    const cellAlignCls =
+                      col.align === "right"
+                        ? "text-right"
+                        : col.align === "left" || idx === 0
+                          ? "text-left pl-2"
+                          : "text-center";
+                    return (
+                      <div
+                        key={col.accessor ?? idx}
+                        className={`py-2 bg-green-footer flex items-center ${cellAlignCls.includes("text-right") ? "justify-end" : cellAlignCls.includes("text-center") ? "justify-center" : "justify-start"} ${col.footerClassName ?? "text-primary font-semibold"}`}
+                        style={
+                          isSticky
+                            ? {
+                                position: "sticky",
+                                left: `${stickyLeftMap[String(col.accessor)]}px`,
+                                zIndex: 25,
+                                background: "#E2EDE3",
+                                boxShadow: stickyBoxShadow(
+                                  isLastStickyFooter,
+                                  "#E2EDE3",
+                                  isFirstStickyFooter,
+                                ),
+                              }
+                            : undefined
+                        }
+                      >
+                        {loading ? (
+                          <div className="h-3 w-16 bg-[#c8dbc9] rounded animate-pulse" />
+                        ) : (
+                          display
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
+        </div>
+      </div>
+    </main>
+  );
 }
 ```
 
@@ -16172,255 +17033,271 @@ import CustomTextArea from "../CustomTextArea";
 import InputField from "../InputField";
 import useValidation from "../../../hooks/useValidation";
 
-const DynamicForm = memo(({
-  error_message,
-  formConfig,
-  className = "",
-  footer,
-  onSubmit,
-  initialData = {},
-  onClose,
-  loading = false,
-}) => {
-  const [formState, setFormState] = useState(
-    formConfig.reduce((acc, field) => {
-      acc[field.name] = initialData[field.name] || "";
-      return acc;
-    }, {})
-  );
-
-  const rules = React.useMemo(() => {
-    return formConfig.reduce((acc, field) => {
-      if (field.required) {
-        acc[field.name] = { required: true, label: field.label, requiredMessage: `${field.label} is required.` };
-      }
-      return acc;
-    }, {});
-  }, [formConfig]);
-
-  const { errors, touched, handleBlur, validateForm, setErrors, resetValidation } =
-    useValidation(rules);
-
-  useEffect(() => {
-    if (Object.keys(initialData).length > 0) {
-      setFormState((prev) => ({
-        ...prev,
-        ...formConfig.reduce((acc, field) => {
-          if (
-            initialData[field.name] !== undefined ||
-            initialData[field.name] !== null
-          )
-            acc[field.name] = initialData[field.name];
-          return acc;
-        }, {}),
-      }));
-    }
-  }, [initialData, formConfig]);
-
-  const handleChange = (name, value, field) => {
-    setFormState((prev) => ({ ...prev, [name]: value }));
-    setErrors((prev) => ({ ...prev, [name]: "" }));
-    if (field.onChange) {
-      field.onChange?.(value);
-    }
-  };
-
-  const handleBlurField = (field) => {
-    handleBlur(field.name, formState[field.name]);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (loading) return;
-    if (!validateForm(formState)) return;
-    onSubmit(formState);
-  };
-
-  const handleReset = () => {
-    setFormState(
+const DynamicForm = memo(
+  ({
+    error_message,
+    formConfig,
+    className = "",
+    footer,
+    onSubmit,
+    initialData = {},
+    onClose,
+    loading = false,
+  }) => {
+    const [formState, setFormState] = useState(
       formConfig.reduce((acc, field) => {
         acc[field.name] = initialData[field.name] || "";
         return acc;
-      }, {})
+      }, {}),
     );
-    resetValidation();
-  };
 
-  const lastFieldName = formConfig.length > 0 ? formConfig[formConfig.length - 1].name : null;
+    const rules = React.useMemo(() => {
+      return formConfig.reduce((acc, field) => {
+        if (field.required) {
+          acc[field.name] = {
+            required: true,
+            label: field.label,
+            requiredMessage: `${field.label} is required.`,
+          };
+        }
+        return acc;
+      }, {});
+    }, [formConfig]);
 
-  const handleFormKeyDown = (e) => {
-    if (e.key === "Enter") {
-      const target = e.target;
-      const isField = target && target.name === lastFieldName;
-      if (isField && typeof handleSubmit === "function") {
-        e.preventDefault();
-        handleSubmit(e);
+    const {
+      errors,
+      touched,
+      handleBlur,
+      validateForm,
+      setErrors,
+      resetValidation,
+    } = useValidation(rules);
+
+    useEffect(() => {
+      if (Object.keys(initialData).length > 0) {
+        setFormState((prev) => ({
+          ...prev,
+          ...formConfig.reduce((acc, field) => {
+            if (
+              initialData[field.name] !== undefined ||
+              initialData[field.name] !== null
+            )
+              acc[field.name] = initialData[field.name];
+            return acc;
+          }, {}),
+        }));
       }
-    } else if (e.key === "Escape") {
-      if (onClose) onClose();
-      else handleReset();
-    }
-  };
+    }, [initialData, formConfig]);
 
-  return (
-    <form onSubmit={handleSubmit} onKeyDown={handleFormKeyDown} noValidate>
-      {error_message && (
-        <div role="alert" className="text-red py-4 px-1 text-lg text-center font-medium bg-[#F6F6F6] rounded-lg shadow-sm">
-          {error_message}
+    const handleChange = (name, value, field) => {
+      setFormState((prev) => ({ ...prev, [name]: value }));
+      setErrors((prev) => ({ ...prev, [name]: "" }));
+      if (field.onChange) {
+        field.onChange?.(value);
+      }
+    };
+
+    const handleBlurField = (field) => {
+      handleBlur(field.name, formState[field.name]);
+    };
+
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      if (loading) return;
+      if (!validateForm(formState)) return;
+      onSubmit(formState);
+    };
+
+    const handleReset = () => {
+      setFormState(
+        formConfig.reduce((acc, field) => {
+          acc[field.name] = initialData[field.name] || "";
+          return acc;
+        }, {}),
+      );
+      resetValidation();
+    };
+
+    const lastFieldName =
+      formConfig.length > 0 ? formConfig[formConfig.length - 1].name : null;
+
+    const handleFormKeyDown = (e) => {
+      if (e.key === "Enter") {
+        const target = e.target;
+        const isField = target && target.name === lastFieldName;
+        if (isField && typeof handleSubmit === "function") {
+          e.preventDefault();
+          handleSubmit(e);
+        }
+      } else if (e.key === "Escape") {
+        if (onClose) onClose();
+        else handleReset();
+      }
+    };
+
+    return (
+      <form onSubmit={handleSubmit} onKeyDown={handleFormKeyDown} noValidate>
+        {error_message && (
+          <div
+            role="alert"
+            className="text-red py-4 px-1 text-lg text-center font-medium bg-[#F6F6F6] rounded-lg shadow-sm"
+          >
+            {error_message}
+          </div>
+        )}
+        <div className={`grid ${className} gap-4`}>
+          {formConfig.map((field) => {
+            const gridClass = field.colSpan || "col-span-1";
+            // FIX for [object Object]: Ensure we pass a string, never an object
+            const fieldValue = formState[field.name] || "";
+
+            return (
+              <div key={field.name} className={gridClass}>
+                {(() => {
+                  switch (field.fieldType) {
+                    case "input":
+                      return (
+                        <InputField
+                          id={field.name}
+                          name={field.name}
+                          label={field.label}
+                          value={fieldValue}
+                          type={field.type}
+                          placeholder={field.placeholder}
+                          onChange={(e) =>
+                            handleChange(field.name, e.target.value, field)
+                          }
+                          onBlur={() => handleBlurField(field)}
+                          error={errors[field.name]}
+                          touched={touched[field.name]}
+                          disabled={field.disabled || loading}
+                        />
+                      );
+
+                    case "textarea":
+                      return (
+                        <CustomTextArea
+                          id={field.name}
+                          name={field.name}
+                          label={field.label}
+                          placeholder={field.placeholder}
+                          value={formState[field.name]}
+                          onChange={(e) =>
+                            handleChange(field.name, e.target.value, field)
+                          }
+                          onBlur={() => handleBlurField(field)}
+                          error={errors[field.name]}
+                          touched={touched[field.name]}
+                          disabled={field.disabled || loading}
+                        />
+                      );
+
+                    // ADDED: Case for file upload
+                    case "file":
+                      return (
+                        <FormField
+                          type="select"
+                          label={field.label}
+                          name={field.name}
+                          options={field.options}
+                          placeholder={field.placeholder}
+                          value={formState[field.name]}
+                          onChange={(value) =>
+                            handleChange(field.name, value, field)
+                          }
+                          error={errors[field.name]}
+                        />
+                      );
+
+                    case "select":
+                    case "search-select":
+                      return (
+                        <FormField
+                          type={field.fieldType}
+                          label={field.label}
+                          name={field.name}
+                          options={field.options}
+                          placeholder={field.placeholder}
+                          value={formState[field.name]}
+                          onChange={(value) =>
+                            handleChange(field.name, value, field)
+                          }
+                          error={errors[field.name]}
+                          disabled={field.disabled || loading}
+                        />
+                      );
+                    case "checkbox":
+                      return (
+                        <CustomCheckbox
+                          label={field.label}
+                          name={field.name}
+                          checked={!!formState[field.name]}
+                          onChange={(e) =>
+                            handleChange(field.name, e.target.checked, field)
+                          }
+                          onBlur={() => handleBlurField(field)}
+                          error={errors[field.name]}
+                          disabled={field.disabled || loading}
+                        />
+                      );
+                    case "radio":
+                      return (
+                        <FormField
+                          type="radio"
+                          label={field.label}
+                          name={field.name}
+                          options={field.options}
+                          value={formState[field.name]}
+                          onChange={(value) =>
+                            handleChange(field.name, value, field)
+                          }
+                          error={errors[field.name]}
+                          className={field.className}
+                        />
+                      );
+                    case "datePicker":
+                      return (
+                        <CustomDatePicker
+                          label={field.label}
+                          name={field.name}
+                          value={formState[field.name]}
+                          onChange={(date) =>
+                            handleChange(field.name, date, field)
+                          }
+                          onBlur={() => handleBlurField(field)}
+                          error={errors[field.name]}
+                          touched={touched[field.name]}
+                          disabled={field.disabled || loading}
+                        />
+                      );
+                    case "timePicker":
+                      return (
+                        <CustomTimePicker
+                          label={field.label}
+                          name={field.name}
+                          value={formState[field.name]}
+                          onChange={(value) =>
+                            handleChange(field.name, value, field)
+                          }
+                          onBlur={() => handleBlurField(field)}
+                          error={errors[field.name]}
+                          touched={touched[field.name]}
+                          disabled={field.disabled || loading}
+                        />
+                      );
+                    default:
+                      return <>{field.children}</>;
+                  }
+                })()}
+              </div>
+            );
+          })}
         </div>
-      )}
-      <div className={`grid ${className} gap-4`}>
-        {formConfig.map((field) => {
-          const gridClass = field.colSpan || "col-span-1";
-          // FIX for [object Object]: Ensure we pass a string, never an object
-          const fieldValue = formState[field.name] || "";
-
-          return (
-            <div key={field.name} className={gridClass}>
-              {(() => {
-                switch (field.fieldType) {
-                  case "input":
-                    return (
-                      <InputField
-                        id={field.name}
-                        name={field.name}
-                        label={field.label}
-                        value={fieldValue}
-                        type={field.type}
-                        placeholder={field.placeholder}
-                        onChange={(e) =>
-                          handleChange(field.name, e.target.value, field)
-                        }
-                        onBlur={() => handleBlurField(field)}
-                        error={errors[field.name]}
-                        touched={touched[field.name]}
-                        disabled={field.disabled || loading}
-                      />
-                    );
-
-                  case "textarea":
-                    return (
-                      <CustomTextArea
-                        id={field.name}
-                        name={field.name}
-                        label={field.label}
-                        placeholder={field.placeholder}
-                        value={formState[field.name]}
-                        onChange={(e) =>
-                          handleChange(field.name, e.target.value, field)
-                        }
-                        onBlur={() => handleBlurField(field)}
-                        error={errors[field.name]}
-                        touched={touched[field.name]}
-                        disabled={field.disabled || loading}
-                      />
-                    );
-
-                  // ADDED: Case for file upload
-                  case "file":
-                    return (
-                      <FormField
-                        type="select"
-                        label={field.label}
-                        name={field.name}
-                        options={field.options}
-                        placeholder={field.placeholder}
-                        value={formState[field.name]}
-                        onChange={(value) =>
-                          handleChange(field.name, value, field)
-                        }
-                        error={errors[field.name]}
-                      />
-                    );
-
-                  case "select":
-                  case "search-select":
-                    return (
-                      <FormField
-                        type={field.fieldType}
-                        label={field.label}
-                        name={field.name}
-                        options={field.options}
-                        placeholder={field.placeholder}
-                        value={formState[field.name]}
-                        onChange={(value) =>
-                          handleChange(field.name, value, field)
-                        }
-                        error={errors[field.name]}
-                        disabled={field.disabled || loading}
-                      />
-                    );
-                  case "checkbox":
-                    return (
-                      <CustomCheckbox
-                        label={field.label}
-                        name={field.name}
-                        checked={!!formState[field.name]}
-                        onChange={(e) =>
-                          handleChange(field.name, e.target.checked, field)
-                        }
-                        onBlur={() => handleBlurField(field)}
-                        error={errors[field.name]}
-                        disabled={field.disabled || loading}
-                      />
-                    );
-                  case "radio":
-                    return (
-                      <FormField
-                        type="radio"
-                        label={field.label}
-                        name={field.name}
-                        options={field.options}
-                        value={formState[field.name]}
-                        onChange={(value) =>
-                          handleChange(field.name, value, field)
-                        }
-                        error={errors[field.name]}
-                        className={field.className}
-                      />
-                    );
-                  case "datePicker":
-                    return (
-                      <CustomDatePicker
-                        label={field.label}
-                        name={field.name}
-                        value={formState[field.name]}
-                        onChange={(date) =>
-                          handleChange(field.name, date, field)
-                        }
-                        onBlur={() => handleBlurField(field)}
-                        error={errors[field.name]}
-                        touched={touched[field.name]}
-                        disabled={field.disabled || loading}
-                      />
-                    );
-                  case "timePicker":
-                    return (
-                      <CustomTimePicker
-                        label={field.label}
-                        name={field.name}
-                        value={formState[field.name]}
-                        onChange={(value) =>
-                          handleChange(field.name, value, field)
-                        }
-                        onBlur={() => handleBlurField(field)}
-                        error={errors[field.name]}
-                        touched={touched[field.name]}
-                        disabled={field.disabled || loading}
-                      />
-                    );
-                  default:
-                    return <>{field.children}</>;
-                }
-              })()}
-            </div>
-          );
-        })}
-      </div>
-      {footer && <div style={{ marginTop: "1rem" }}>{footer}</div>}
-    </form>
-  );
-});
+        {footer && <div style={{ marginTop: "1rem" }}>{footer}</div>}
+      </form>
+    );
+  },
+);
 
 export default DynamicForm;
 ```
@@ -16518,96 +17395,115 @@ import React, { memo, useId, useState } from "react";
 import { EyeIcon } from "../../../assets/data/icons";
 
 const EyeOffIcon = ({ size = 20 }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.243 4.243L6.228 6.228" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.243 4.243L6.228 6.228"
+    />
   </svg>
 );
 
-const InputField = memo(({
-  hasAccess = true,
-  id,
-  label,
-  value,
-  type,
-  placeholder,
-  icon,
-  onChange,
-  onBlur,
-  error,
-  name,
-  disabled = false,
-  touched = undefined,
-  className = "",
-  ...props
-}) => {
-  const isDisabled = !hasAccess || disabled;
-  const isReadOnly = !hasAccess || props.readOnly;
-  const [showPassword, setShowPassword] = useState(false);
-  const generatedId = useId();
-  const controlId = id || name || generatedId;
-  const errorId = `${controlId}-error`;
-  // Show error when touched (or when no touched tracking is used)
-  const showError = error && (touched === undefined || touched);
+const InputField = memo(
+  ({
+    hasAccess = true,
+    id,
+    label,
+    value,
+    type,
+    placeholder,
+    icon,
+    onChange,
+    onBlur,
+    error,
+    name,
+    disabled = false,
+    touched = undefined,
+    className = "",
+    ...props
+  }) => {
+    const isDisabled = !hasAccess || disabled;
+    const isReadOnly = !hasAccess || props.readOnly;
+    const [showPassword, setShowPassword] = useState(false);
+    const generatedId = useId();
+    const controlId = id || name || generatedId;
+    const errorId = `${controlId}-error`;
+    // Show error when touched (or when no touched tracking is used)
+    const showError = error && (touched === undefined || touched);
 
-  const togglePasswordVisibility = () => {
-    setShowPassword(!showPassword);
-  };
+    const togglePasswordVisibility = () => {
+      setShowPassword(!showPassword);
+    };
 
-  return (
-    <div className={`flex flex-col w-full ${className}`.trim()}>
-      <label
-        htmlFor={controlId}
-        className={`text-sm font-normal mb-1 ${disabled ? "text-gray-400" : "text-primary"}`}
-      >
-        {label}
-      </label>
-      <div className="relative">
-        <input
-          {...props}
-          id={controlId}
-          name={name}
-          type={
-            type === "password" ? (showPassword ? "text" : "password") : type
-          }
-          value={value}
-          onChange={onChange}
-          onBlur={onBlur}
-          placeholder={placeholder}
-          disabled={isDisabled}
-          readOnly={isReadOnly}
-          aria-invalid={error ? true : undefined}
-          aria-describedby={showError ? errorId : undefined}
-          aria-disabled={isDisabled ? true : undefined}
-          className={`${type === "date" ? "uppercase" : ""
+    return (
+      <div className={`flex flex-col w-full ${className}`.trim()}>
+        <label
+          htmlFor={controlId}
+          className={`text-sm font-normal mb-1 ${disabled ? "text-gray-400" : "text-primary"}`}
+        >
+          {label}
+        </label>
+        <div className="relative">
+          <input
+            {...props}
+            id={controlId}
+            name={name}
+            type={
+              type === "password" ? (showPassword ? "text" : "password") : type
+            }
+            value={value}
+            onChange={onChange}
+            onBlur={onBlur}
+            placeholder={placeholder}
+            disabled={isDisabled}
+            readOnly={isReadOnly}
+            aria-invalid={error ? true : undefined}
+            aria-describedby={showError ? errorId : undefined}
+            aria-disabled={isDisabled ? true : undefined}
+            className={`${
+              type === "date" ? "uppercase" : ""
             } w-full h-[42px] text-sm bg-[#F6F6F6] text-gray-500 px-3 py-2.5 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-primary placeholder:text-sm ${
-            error ? "border border-red-500" : "border border-transparent"
-          } ${disabled ? "opacity-60 cursor-not-allowed" : ""}`}
-        />
-        {type === "password" ? (
-          <div
-            className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 cursor-pointer"
-            onClick={togglePasswordVisibility}
-            role="button"
-            aria-label={showPassword ? "Hide password" : "Show password"}
-          >
-            {showPassword ? <EyeOffIcon size={20} /> : <EyeIcon className="size-5" />}
-          </div>
-        ) : (
-          icon && (
-            <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400">
-              {icon}
+              error ? "border border-red-500" : "border border-transparent"
+            } ${disabled ? "opacity-60 cursor-not-allowed" : ""}`}
+          />
+          {type === "password" ? (
+            <div
+              className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 cursor-pointer"
+              onClick={togglePasswordVisibility}
+              role="button"
+              aria-label={showPassword ? "Hide password" : "Show password"}
+            >
+              {showPassword ? (
+                <EyeOffIcon size={20} />
+              ) : (
+                <EyeIcon className="size-5" />
+              )}
             </div>
-          )
-        )}
-        {showError && (
-          <span id={errorId} role="alert" className="text-red text-sm block">
-            {error}
-          </span>
-        )}
+          ) : (
+            icon && (
+              <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+                {icon}
+              </div>
+            )
+          )}
+          {showError && (
+            <span id={errorId} role="alert" className="text-red text-sm block">
+              {error}
+            </span>
+          )}
+        </div>
       </div>
-    </div>
-  );
-});
+    );
+  },
+);
 
 export default InputField;
 ```
@@ -16619,15 +17515,31 @@ export default function MapWithDirections({ lat, lng, address, label }) {
   if (!lat && !lng && !address) return null;
   const query = lat && lng ? `${lat},${lng}` : encodeURIComponent(address);
   const dirHref = `https://www.google.com/maps/dir/?api=1&destination=${query}`;
-  const embedSrc = lat && lng
-    ? `https://www.google.com/maps?q=${lat},${lng}&z=15&output=embed`
-    : `https://www.google.com/maps?q=${encodeURIComponent(address)}&z=15&output=embed`;
+  const embedSrc =
+    lat && lng
+      ? `https://www.google.com/maps?q=${lat},${lng}&z=15&output=embed`
+      : `https://www.google.com/maps?q=${encodeURIComponent(address)}&z=15&output=embed`;
   return (
     <div className="rounded-lg border overflow-hidden">
-      <iframe title={label || address || 'Map'} src={embedSrc} className="w-full h-48 border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+      <iframe
+        title={label || address || "Map"}
+        src={embedSrc}
+        className="w-full h-48 border-0"
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
       <div className="flex items-center justify-between p-2 bg-gray-50 text-sm">
-        <span className="truncate text-gray-600">{label || address || `${lat}, ${lng}`}</span>
-        <a href={dirHref} target="_blank" rel="noopener noreferrer" className="ml-2 shrink-0 px-3 py-1 bg-green-600 text-white rounded hover:bg-green-700">Get Directions</a>
+        <span className="truncate text-gray-600">
+          {label || address || `${lat}, ${lng}`}
+        </span>
+        <a
+          href={dirHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-2 shrink-0 px-3 py-1 bg-green-600 text-white rounded hover:bg-green-700"
+        >
+          Get Directions
+        </a>
       </div>
     </div>
   );
@@ -16639,10 +17551,10 @@ export default function MapWithDirections({ lat, lng, address, label }) {
 ```jsx
 /**
  * MobileNav — Extracted sub-component
- * 
+ *
  * The mobile/tablet navigation menu, extracted from the monolithic Header.
  * Manages its own dropdown state for mobile menu items.
- * 
+ *
  * Receives nav items and handlers as props from Header.
  * User data comes from Redux via useAuth hook instead of prop drilling.
  */
@@ -16690,8 +17602,8 @@ const MobileNav = ({
                 activeNavItem === item.label
                   ? "bg-primary text-white font-medium"
                   : item.isDisable
-                  ? "text-gray-400 cursor-not-allowed"
-                  : "text-gray-700 hover:bg-gray-100"
+                    ? "text-gray-400 cursor-not-allowed"
+                    : "text-gray-700 hover:bg-gray-100"
               }`}
               onClick={() => {
                 if (!item.isDisable) {
@@ -16790,119 +17702,129 @@ import useClickOutside from "../../hooks/useClickOutside";
 import useKeyboard from "../../hooks/useKeyboard";
 import useFocusManager from "../../hooks/useFocusManager";
 
-const Modal = memo(({
-  hasAccess = true,
-  size = "xl",
-  title,
-  className = "bg-primary",
-  description = "",
-  onClose,
-  closeOnBackdrop = false,
-  zIndex = "z-[2147483647]",
-  headerExtra,
-  children,
-}) => {
-  if (!hasAccess) return null;
-  const titleId = useId();
-  const descriptionId = React.useId();
-  const dialogRef = useRef(null);
-  const containerRef = useFocusManager();
-  const onCloseRef = useRef(onClose);
+const Modal = memo(
+  ({
+    hasAccess = true,
+    size = "xl",
+    title,
+    className = "bg-primary",
+    description = "",
+    onClose,
+    closeOnBackdrop = false,
+    zIndex = "z-[2147483647]",
+    headerExtra,
+    children,
+  }) => {
+    if (!hasAccess) return null;
+    const titleId = useId();
+    const descriptionId = React.useId();
+    const dialogRef = useRef(null);
+    const containerRef = useFocusManager();
+    const onCloseRef = useRef(onClose);
 
-  React.useEffect(() => {
-    onCloseRef.current = onClose;
-  });
+    React.useEffect(() => {
+      onCloseRef.current = onClose;
+    });
 
-  useClickOutside(() => {
-    if (closeOnBackdrop && typeof onCloseRef.current === "function") {
-      onCloseRef.current();
-    }
-  }, [dialogRef]);
+    useClickOutside(() => {
+      if (closeOnBackdrop && typeof onCloseRef.current === "function") {
+        onCloseRef.current();
+      }
+    }, [dialogRef]);
 
-  useKeyboard({
-    onEscape: () => {
-      if (typeof onCloseRef.current === "function") onCloseRef.current();
-    },
-    global: true,
-  });
+    useKeyboard({
+      onEscape: () => {
+        if (typeof onCloseRef.current === "function") onCloseRef.current();
+      },
+      global: true,
+    });
 
-  // Mobile-first size map - on mobile (< 640px), all sizes use nearly full width
-  // Sizes scale up on larger screens
-  const sizeMap = {
-    sm: { width: "min(95vw, 500px)", maxHeight: "90vh" },
-    md: { width: "min(95vw, 650px)", maxHeight: "90vh" },
-    lg: { width: "min(95vw, 800px)", maxHeight: "92vh" },
-    xl: { width: "min(95vw, 1000px)", maxHeight: "92vh" },
-    "2xl": { width: "min(95vw, 1200px)", maxHeight: "94vh" },
-    xxl: { width: "min(95vw, 1200px)", maxHeight: "94vh" },
-    xxxl: { width: "min(96vw, 1400px)", maxHeight: "95vh" },
-    "4xl": { width: "min(97vw, 1600px)", maxHeight: "96vh" },
-    xxxxl: { width: "min(97vw, 1600px)", maxHeight: "96vh" },
-    full: { width: "calc(100vw - 2%)", maxHeight: "calc(100vh - 2%)" },
-  };
+    // Mobile-first size map - on mobile (< 640px), all sizes use nearly full width
+    // Sizes scale up on larger screens
+    const sizeMap = {
+      sm: { width: "min(95vw, 500px)", maxHeight: "90vh" },
+      md: { width: "min(95vw, 650px)", maxHeight: "90vh" },
+      lg: { width: "min(95vw, 800px)", maxHeight: "92vh" },
+      xl: { width: "min(95vw, 1000px)", maxHeight: "92vh" },
+      "2xl": { width: "min(95vw, 1200px)", maxHeight: "94vh" },
+      xxl: { width: "min(95vw, 1200px)", maxHeight: "94vh" },
+      xxxl: { width: "min(96vw, 1400px)", maxHeight: "95vh" },
+      "4xl": { width: "min(97vw, 1600px)", maxHeight: "96vh" },
+      xxxxl: { width: "min(97vw, 1600px)", maxHeight: "96vh" },
+      full: { width: "calc(100vw - 2%)", maxHeight: "calc(100vh - 2%)" },
+    };
 
-  const selectedSize = (size && sizeMap[size]) ? sizeMap[size] : (sizeMap["xl"] || { width: "min(95vw, 1000px)", maxHeight: "90vh" });
+    const selectedSize =
+      size && sizeMap[size]
+        ? sizeMap[size]
+        : sizeMap["xl"] || { width: "min(95vw, 1000px)", maxHeight: "90vh" };
 
-  return (
-    <div
-      ref={containerRef}
-      className={`fixed inset-0 flex items-center justify-center backdrop-blur-sm bg-opacity-50 ${zIndex} p-2 sm:p-4 overflow-hidden`}
-      onClick={(e) => {
-        if (closeOnBackdrop && e.target === e.currentTarget) {
-          onClose?.();
-        }
-      }}
-    >
+    return (
       <div
-        ref={dialogRef}
-        style={{
-          maxWidth: selectedSize.width,
-          maxHeight: selectedSize.maxHeight,
-          width: "100%",
+        ref={containerRef}
+        className={`fixed inset-0 flex items-center justify-center backdrop-blur-sm bg-opacity-50 ${zIndex} p-2 sm:p-4 overflow-hidden`}
+        onClick={(e) => {
+          if (closeOnBackdrop && e.target === e.currentTarget) {
+            onClose?.();
+          }
         }}
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby={titleId}
-        aria-describedby={description ? descriptionId : undefined}
-        onClick={(e) => e.stopPropagation()}
-        onMouseDown={(e) => e.stopPropagation()}
-        className={`bg-white dark:bg-gray-900 rounded-lg border dark:border-gray-700 text-black dark:text-gray-100 flex flex-col overflow-hidden max-w-full min-w-0`}
       >
-        {/* Header - Fixed */}
         <div
-          className={`flex justify-between items-center ${className} text-base sm:text-lg font-medium text-white font-sans p-2 sm:p-3 rounded-t-lg flex-shrink-0`}
+          ref={dialogRef}
+          style={{
+            maxWidth: selectedSize.width,
+            maxHeight: selectedSize.maxHeight,
+            width: "100%",
+          }}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby={titleId}
+          aria-describedby={description ? descriptionId : undefined}
+          onClick={(e) => e.stopPropagation()}
+          onMouseDown={(e) => e.stopPropagation()}
+          className={`bg-white dark:bg-gray-900 rounded-lg border dark:border-gray-700 text-black dark:text-gray-100 flex flex-col overflow-hidden max-w-full min-w-0`}
         >
-          <div className="w-full min-w-0">
-            <h2
-              id={titleId}
-              className={`${typeof title === "string" ? "truncate" : ""} text-sm sm:text-lg`}
-            >
-              {title}
-            </h2>
-            {description && (
-              <p id={descriptionId} className="text-[10px] sm:text-xs truncate">
-                {description}
-              </p>
-            )}
-          </div>
-          {headerExtra && <div className="flex-shrink-0 ml-auto mr-2">{headerExtra}</div>}
-          <button
-            onClick={onClose}
-            aria-label="Close modal"
-            className="flex-shrink-0 ml-2 hover:opacity-80 transition-opacity"
+          {/* Header - Fixed */}
+          <div
+            className={`flex justify-between items-center ${className} text-base sm:text-lg font-medium text-white font-sans p-2 sm:p-3 rounded-t-lg flex-shrink-0`}
           >
-            <CloseIcon />
-          </button>
-        </div>
+            <div className="w-full min-w-0">
+              <h2
+                id={titleId}
+                className={`${typeof title === "string" ? "truncate" : ""} text-sm sm:text-lg`}
+              >
+                {title}
+              </h2>
+              {description && (
+                <p
+                  id={descriptionId}
+                  className="text-[10px] sm:text-xs truncate"
+                >
+                  {description}
+                </p>
+              )}
+            </div>
+            {headerExtra && (
+              <div className="flex-shrink-0 ml-auto mr-2">{headerExtra}</div>
+            )}
+            <button
+              onClick={onClose}
+              aria-label="Close modal"
+              className="flex-shrink-0 ml-2 hover:opacity-80 transition-opacity"
+            >
+              <CloseIcon />
+            </button>
+          </div>
 
-        {/* Content - Scrollable */}
-        <div className="flex-1 overflow-y-auto overflow-x-hidden p-2 sm:p-4 min-w-0 w-full">
-          {children}
+          {/* Content - Scrollable */}
+          <div className="flex-1 overflow-y-auto overflow-x-hidden p-2 sm:p-4 min-w-0 w-full">
+            {children}
+          </div>
         </div>
       </div>
-    </div>
-  );
-});
+    );
+  },
+);
 
 export default Modal;
 ```
@@ -16923,421 +17845,431 @@ import {
 import { parseDateString } from "../../../utils";
 import useClickOutside from "../../../hooks/useClickOutside";
 
-const MultiSelectDatePicker = memo(({
-  label = null,
-  name = "datePicker",
-  value = [],
-  isForm = false,
-  onChange,
-  error,
-  disabled = false,
-}) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedDates, setSelectedDates] = useState(value || []);
-  const [currentMonth, setCurrentMonth] = useState(new Date());
-  const [firstSelection, setFirstSelection] = useState(null);
-  const [selectionPhase, setSelectionPhase] = useState("start");
-  const [mode, setMode] = useState("normal"); // "normal" or "continuous"
-  
-  const calendarRef = useClickOutside(() => setIsOpen(false));
+const MultiSelectDatePicker = memo(
+  ({
+    label = null,
+    name = "datePicker",
+    value = [],
+    isForm = false,
+    onChange,
+    error,
+    disabled = false,
+  }) => {
+    const [isOpen, setIsOpen] = useState(false);
+    const [selectedDates, setSelectedDates] = useState(value || []);
+    const [currentMonth, setCurrentMonth] = useState(new Date());
+    const [firstSelection, setFirstSelection] = useState(null);
+    const [selectionPhase, setSelectionPhase] = useState("start");
+    const [mode, setMode] = useState("normal"); // "normal" or "continuous"
 
-  const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+    const calendarRef = useClickOutside(() => setIsOpen(false));
 
-  useEffect(() => {
-    setSelectedDates(
-      value.map((date) => (typeof date === "string" ? parseDateString(date) : date))
-    );
-  }, [value]);
+    const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
-  // Generate calendar dates
-  const generateCalendarDates = () => {
-    const firstDayOfMonth = new Date(
-      currentMonth.getFullYear(),
-      currentMonth.getMonth(),
-      1
-    );
-    const lastDayOfMonth = new Date(
-      currentMonth.getFullYear(),
-      currentMonth.getMonth() + 1,
-      0
-    );
-    const dates = [];
-    let startDate = new Date(firstDayOfMonth);
-
-    while (startDate.getDay() !== 1) {
-      startDate.setDate(startDate.getDate() - 1);
-    }
-
-    let endDate = new Date(lastDayOfMonth);
-    while (endDate.getDay() !== 0) {
-      endDate.setDate(endDate.getDate() + 1);
-    }
-
-    for (
-      let date = new Date(startDate);
-      date <= endDate;
-      date.setDate(date.getDate() + 1)
-    ) {
-      dates.push(new Date(date));
-    }
-
-    return dates;
-  };
-
-  // Handle month navigation
-  const handleMonthChange = (e, direction) => {
-    e.preventDefault();
-    e.stopPropagation();
-    if (direction === "prev") {
-      setCurrentMonth(
-        new Date(currentMonth.getFullYear(), currentMonth.getMonth() - 1, 1)
+    useEffect(() => {
+      setSelectedDates(
+        value.map((date) =>
+          typeof date === "string" ? parseDateString(date) : date,
+        ),
       );
-    } else {
-      setCurrentMonth(
-        new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1, 1)
-      );
-    }
-  };
+    }, [value]);
 
-  // Handle range selection
-  const handleRangeSelection = (date) => {
-    if (selectionPhase === "start") {
-      setFirstSelection(date);
-      setSelectionPhase("end");
-      setSelectedDates([]);
-    } else if (selectionPhase === "end") {
-      // Second click - set end date and select range
-      if (firstSelection) {
-        const start = new Date(Math.min(firstSelection, date));
-        const end = new Date(Math.max(firstSelection, date));
-        const range = [];
-        let current = new Date(start);
-        
-        while (current <= end) {
-          range.push(new Date(current));
-          current.setDate(current.getDate() + 1);
+    // Generate calendar dates
+    const generateCalendarDates = () => {
+      const firstDayOfMonth = new Date(
+        currentMonth.getFullYear(),
+        currentMonth.getMonth(),
+        1,
+      );
+      const lastDayOfMonth = new Date(
+        currentMonth.getFullYear(),
+        currentMonth.getMonth() + 1,
+        0,
+      );
+      const dates = [];
+      let startDate = new Date(firstDayOfMonth);
+
+      while (startDate.getDay() !== 1) {
+        startDate.setDate(startDate.getDate() - 1);
+      }
+
+      let endDate = new Date(lastDayOfMonth);
+      while (endDate.getDay() !== 0) {
+        endDate.setDate(endDate.getDate() + 1);
+      }
+
+      for (
+        let date = new Date(startDate);
+        date <= endDate;
+        date.setDate(date.getDate() + 1)
+      ) {
+        dates.push(new Date(date));
+      }
+
+      return dates;
+    };
+
+    // Handle month navigation
+    const handleMonthChange = (e, direction) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (direction === "prev") {
+        setCurrentMonth(
+          new Date(currentMonth.getFullYear(), currentMonth.getMonth() - 1, 1),
+        );
+      } else {
+        setCurrentMonth(
+          new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1, 1),
+        );
+      }
+    };
+
+    // Handle range selection
+    const handleRangeSelection = (date) => {
+      if (selectionPhase === "start") {
+        setFirstSelection(date);
+        setSelectionPhase("end");
+        setSelectedDates([]);
+      } else if (selectionPhase === "end") {
+        // Second click - set end date and select range
+        if (firstSelection) {
+          const start = new Date(Math.min(firstSelection, date));
+          const end = new Date(Math.max(firstSelection, date));
+          const range = [];
+          let current = new Date(start);
+
+          while (current <= end) {
+            range.push(new Date(current));
+            current.setDate(current.getDate() + 1);
+          }
+
+          setSelectedDates(range);
+          updateParent(range);
+
+          // Reset for next range selection
+          setFirstSelection(null);
+          setSelectionPhase("start");
         }
-        
-        setSelectedDates(range);
-        updateParent(range);
-        
-        // Reset for next range selection
+      }
+    };
+
+    // Handle normal selection (individual dates)
+    const handleNormalSelection = (date) => {
+      const updatedDates = selectedDates.some(
+        (d) => new Date(d).toDateString() === date.toDateString(),
+      )
+        ? selectedDates.filter(
+            (d) => new Date(d).toDateString() !== date.toDateString(),
+          )
+        : [...selectedDates, date];
+
+      setSelectedDates(updatedDates);
+      updateParent(updatedDates);
+    };
+
+    const handleDateClick = (e, date) => {
+      e.preventDefault();
+      e.stopPropagation();
+
+      if (disabled) return;
+
+      if (mode === "continuous") {
+        handleRangeSelection(date);
+      } else {
+        handleNormalSelection(date);
+      }
+    };
+
+    const handleRemoveDate = (e, dateToRemove) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (disabled) return;
+
+      if (mode === "continuous") {
+        // In continuous mode, removing a date clears all selections
+        setSelectedDates([]);
         setFirstSelection(null);
         setSelectionPhase("start");
+        updateParent([]);
+      } else {
+        const updatedDates = selectedDates.filter(
+          (date) => date.toDateString() !== dateToRemove.toDateString(),
+        );
+        setSelectedDates(updatedDates);
+        updateParent(updatedDates);
       }
-    }
-  };
+    };
 
-  // Handle normal selection (individual dates)
-  const handleNormalSelection = (date) => {
-    const updatedDates = selectedDates.some(
-      (d) => new Date(d).toDateString() === date.toDateString()
-    )
-      ? selectedDates.filter(
-          (d) => new Date(d).toDateString() !== date.toDateString()
-        )
-      : [...selectedDates, date];
+    const updateParent = (dates) => {
+      if (isForm) {
+        onChange({
+          target: { name, value: dates.map(formatDate) },
+        });
+      } else {
+        onChange(dates.map(formatDate));
+      }
+    };
 
-    setSelectedDates(updatedDates);
-    updateParent(updatedDates);
-  };
+    const formatDate = (date) => {
+      if (!date) return "";
+      if (typeof date === "string") date = parseDateString(date);
+      return `${date.getFullYear()}-${(date.getMonth() + 1)
+        ?.toString()
+        ?.padStart(2, "0")}-${date.getDate()?.toString()?.padStart(2, "0")}`;
+    };
 
-  const handleDateClick = (e, date) => {
-    e.preventDefault();
-    e.stopPropagation();
+    const formatDateForDisplay = (date) => {
+      if (!date) return "";
+      if (typeof date === "string") date = parseDateString(date);
+      return date.toLocaleDateString("en-US", {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+      });
+    };
 
-    if (disabled) return;
+    // Toggle mode handler
+    const toggleMode = (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const newMode = mode === "normal" ? "continuous" : "normal";
+      setMode(newMode);
 
-    if (mode === "continuous") {
-      handleRangeSelection(date);
-    } else {
-      handleNormalSelection(date);
-    }
-  };
-
-  const handleRemoveDate = (e, dateToRemove) => {
-    e.preventDefault();
-    e.stopPropagation();
-    if (disabled) return;
-    
-    if (mode === "continuous") {
-      // In continuous mode, removing a date clears all selections
+      // Reset selections when switching modes
       setSelectedDates([]);
       setFirstSelection(null);
       setSelectionPhase("start");
       updateParent([]);
-    } else {
-      const updatedDates = selectedDates.filter(
-        (date) => date.toDateString() !== dateToRemove.toDateString()
+    };
+
+    // Check if a date is selected
+    const isDateSelected = (date) => {
+      return selectedDates.some(
+        (d) => d.toDateString() === date.toDateString(),
       );
-      setSelectedDates(updatedDates);
-      updateParent(updatedDates);
-    }
-  };
+    };
 
-  const updateParent = (dates) => {
-    if (isForm) {
-      onChange({
-        target: { name, value: dates.map(formatDate) },
-      });
-    } else {
-      onChange(dates.map(formatDate));
-    }
-  };
+    return (
+      <div className="relative text-sm font-sans" ref={calendarRef}>
+        {label && (
+          <label className="block text-sm text-primary mb-1">{label}</label>
+        )}
 
-  const formatDate = (date) => {
-    if (!date) return "";
-    if (typeof date === "string") date = parseDateString(date);
-    return `${date.getFullYear()}-${(date.getMonth() + 1)
-      ?.toString()
-      ?.padStart(2, "0")}-${date.getDate()?.toString()?.padStart(2, "0")}`;
-  };
-
-  const formatDateForDisplay = (date) => {
-    if (!date) return "";
-    if (typeof date === "string") date = parseDateString(date);
-    return date.toLocaleDateString("en-US", {
-      month: "short",
-      day: "numeric",
-      year: "numeric",
-    });
-  };
-
-  // Toggle mode handler
-  const toggleMode = (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-    const newMode = mode === "normal" ? "continuous" : "normal";
-    setMode(newMode);
-    
-    // Reset selections when switching modes
-    setSelectedDates([]);
-    setFirstSelection(null);
-    setSelectionPhase("start");
-    updateParent([]);
-  };
-
-  // Check if a date is selected
-  const isDateSelected = (date) => {
-    return selectedDates.some(
-      (d) => d.toDateString() === date.toDateString()
-    );
-  };
-
-  return (
-    <div className="relative text-sm font-sans" ref={calendarRef}>
-      {label && (
-        <label className="block text-sm text-primary mb-1">{label}</label>
-      )}
-
-      {/* Input Field */}
-      <div className="relative">
-        <input
-          name={name}
-          value={selectedDates.map(formatDate).join(", ")}
-          readOnly
-          type="text"
-          onClick={() => setIsOpen(!isOpen)}
-          className={`w-full text-sm bg-white text-gray-600 border ${
-            error ? "border-red-500" : "border-gray-300"
-          } rounded-md shadow-sm pl-3 pr-10 py-2.5 text-left cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary`}
-          placeholder="Select dates..."
-        />
-        <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
-          <CalenderIcon className="h-5 w-5 text-gray-400" />
+        {/* Input Field */}
+        <div className="relative">
+          <input
+            name={name}
+            value={selectedDates.map(formatDate).join(", ")}
+            readOnly
+            type="text"
+            onClick={() => setIsOpen(!isOpen)}
+            className={`w-full text-sm bg-white text-gray-600 border ${
+              error ? "border-red-500" : "border-gray-300"
+            } rounded-md shadow-sm pl-3 pr-10 py-2.5 text-left cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary`}
+            placeholder="Select dates..."
+          />
+          <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+            <CalenderIcon className="h-5 w-5 text-gray-400" />
+          </div>
         </div>
-      </div>
 
-      {/* Calendar */}
-      {isOpen && (
-        <div className="absolute mt-1 w-full max-w-2xl bg-white shadow-lg rounded-lg overflow-hidden z-[2147483647] border border-gray-200">
-          <div className="flex flex-col md:flex-row">
-            {/* Left: Calendar - 50% width */}
-            <div className="w-full md:w-2/3 p-4">
-              {/* Mode Toggle inside calendar */}
-              <div className="flex items-center justify-between mb-3">
-                <div className="flex items-center gap-3">
-                  <span className="text-xs font-medium text-gray-700">
-                    Mode:
-                  </span>
-                  <button
-                    onClick={toggleMode}
-                    className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 ${
-                      mode === "continuous" ? "bg-primary" : "bg-gray-300"
-                    }`}
-                    disabled={disabled}
-                  >
-                    <span
-                      className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
-                        mode === "continuous" ? "translate-x-6" : "translate-x-1"
-                      }`}
-                    />
-                  </button>
-                  <span className="text-xs text-gray-600">
-                    {mode === "normal" ? "Individual" : "Range"}
-                  </span>
-                </div>
-                
-                {/* Mode indicator */}
-                <div className="text-xs text-gray-500 bg-gray-100 rounded px-2 py-1">
-                  {mode === "continuous" 
-                    ? selectionPhase === "start" 
-                      ? "Click to select start date" 
-                      : "Click to select end date"
-                    : "Click to select/deselect"}
-                </div>
-              </div>
-
-              {/* Header with navigation */}
-              <div className="flex items-center justify-between mb-4">
-                <button
-                  onClick={(e) => handleMonthChange(e, "prev")}
-                  className="p-2 rounded-full hover:bg-gray-100 text-gray-600 hover:text-gray-900"
-                >
-                  <LeftIcon className="h-4 w-4" />
-                </button>
-                <div className="text-sm font-semibold text-gray-800">
-                  {currentMonth.toLocaleString("default", { month: "long" })}{" "}
-                  {currentMonth.getFullYear()}
-                </div>
-                <button
-                  onClick={(e) => handleMonthChange(e, "next")}
-                  className="p-2 rounded-full hover:bg-gray-100 text-gray-600 hover:text-gray-900"
-                >
-                  <RightIcon className="h-4 w-4" />
-                </button>
-              </div>
-
-              {/* Calendar Grid */}
-              <div className="grid grid-cols-7 gap-1">
-                {daysOfWeek.map((day) => (
-                  <div
-                    key={day}
-                    className="text-center text-xs font-medium text-gray-500 py-2"
-                  >
-                    {day}
-                  </div>
-                ))}
-
-                {generateCalendarDates().map((date, index) => {
-                  const isCurrentMonth =
-                    date.getMonth() === currentMonth.getMonth();
-                  const isSelected = isDateSelected(date);
-                  const isToday =
-                    new Date().toDateString() === date.toDateString();
-                  
-                  const isFirstSelection = mode === "continuous" && 
-                    firstSelection && 
-                    date.toDateString() === firstSelection.toDateString();
-
-                  let buttonClass = `h-8 w-full rounded-full flex items-center justify-center text-sm transition-colors`;
-                  
-                  if (mode === "continuous") {
-                    if (isFirstSelection) {
-                      buttonClass += " bg-primary text-white ring-2 ring-primary ring-offset-2";
-                    } else if (isSelected) {
-                      buttonClass += " bg-primary text-white";
-                    }
-                    // Current month dates
-                    else if (isCurrentMonth) {
-                      buttonClass += " text-gray-900 hover:bg-primary hover:bg-opacity-20";
-                    } 
-                    // Other month dates
-                    else {
-                      buttonClass += " text-gray-400";
-                    }
-                  } else {
-                    // Normal mode
-                    if (isSelected) {
-                      buttonClass += " bg-primary text-white";
-                    } else if (isCurrentMonth) {
-                      buttonClass += " text-gray-900 hover:bg-primary hover:bg-opacity-20";
-                    } else {
-                      buttonClass += " text-gray-400";
-                    }
-                  }
-
-                  // Today indicator (only if not selected and not in range)
-                  if (isToday && !isSelected && !isFirstSelection) {
-                    buttonClass += " border border-primary";
-                  }
-
-                  if (disabled) {
-                    buttonClass += " cursor-default";
-                  }
-
-                  return (
+        {/* Calendar */}
+        {isOpen && (
+          <div className="absolute mt-1 w-full max-w-2xl bg-white shadow-lg rounded-lg overflow-hidden z-[2147483647] border border-gray-200">
+            <div className="flex flex-col md:flex-row">
+              {/* Left: Calendar - 50% width */}
+              <div className="w-full md:w-2/3 p-4">
+                {/* Mode Toggle inside calendar */}
+                <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xs font-medium text-gray-700">
+                      Mode:
+                    </span>
                     <button
-                      key={index}
-                      onClick={(e) => handleDateClick(e, date)}
-                      className={buttonClass}
+                      onClick={toggleMode}
+                      className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 ${
+                        mode === "continuous" ? "bg-primary" : "bg-gray-300"
+                      }`}
+                      disabled={disabled}
                     >
-                      {date.getDate()}
+                      <span
+                        className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                          mode === "continuous"
+                            ? "translate-x-6"
+                            : "translate-x-1"
+                        }`}
+                      />
                     </button>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Right: Selected Dates List - 50% width */}
-            <div className="w-full md:w-1/2 bg-gray-50 p-4 border-t md:border-t-0 md:border-l border-gray-200">
-              <div className="flex justify-between items-center mb-3">
-                <h3 className="text-sm font-semibold text-gray-700">
-                  Selected {mode === "continuous" ? "Range" : "Dates"}
-                </h3>
-                <span className="text-xs bg-primary text-white rounded-full px-2 py-1">
-                  {selectedDates.length}
-                </span>
-              </div>
-
-              <div className="space-y-2 max-h-60 overflow-y-auto pr-2">
-                {selectedDates.length > 0 ? (
-                  selectedDates
-                    .sort((a, b) => a - b)
-                    .map((date, index) => (
-                      <div
-                        key={index}
-                        className="flex items-center justify-between bg-white p-2 rounded border border-gray-200 hover:border-primary transition-colors"
-                      >
-                        <span className="text-sm text-gray-700">
-                          {formatDateForDisplay(date)}
-                        </span>
-                        {!disabled && (
-                          <button
-                            onClick={(e) => handleRemoveDate(e, date)}
-                            className="text-gray-400 hover:text-red-500 transition-colors p-1"
-                          >
-                            <CloseIcon className="h-3 w-3" />
-                          </button>
-                        )}
-                      </div>
-                    ))
-                ) : (
-                  <div className="text-center py-4">
-                    <p className="text-sm text-gray-500">
-                      {mode === "continuous" 
-                        ? firstSelection 
-                          ? `Start: ${formatDateForDisplay(firstSelection)} - Click end date` 
-                          : "Select start date for range" 
-                        : "No dates selected"}
-                    </p>
-                    {mode === "continuous" && firstSelection && (
-                      <p className="text-xs text-primary mt-1">
-                        Click end date to complete range
-                      </p>
-                    )}
+                    <span className="text-xs text-gray-600">
+                      {mode === "normal" ? "Individual" : "Range"}
+                    </span>
                   </div>
-                )}
+
+                  {/* Mode indicator */}
+                  <div className="text-xs text-gray-500 bg-gray-100 rounded px-2 py-1">
+                    {mode === "continuous"
+                      ? selectionPhase === "start"
+                        ? "Click to select start date"
+                        : "Click to select end date"
+                      : "Click to select/deselect"}
+                  </div>
+                </div>
+
+                {/* Header with navigation */}
+                <div className="flex items-center justify-between mb-4">
+                  <button
+                    onClick={(e) => handleMonthChange(e, "prev")}
+                    className="p-2 rounded-full hover:bg-gray-100 text-gray-600 hover:text-gray-900"
+                  >
+                    <LeftIcon className="h-4 w-4" />
+                  </button>
+                  <div className="text-sm font-semibold text-gray-800">
+                    {currentMonth.toLocaleString("default", { month: "long" })}{" "}
+                    {currentMonth.getFullYear()}
+                  </div>
+                  <button
+                    onClick={(e) => handleMonthChange(e, "next")}
+                    className="p-2 rounded-full hover:bg-gray-100 text-gray-600 hover:text-gray-900"
+                  >
+                    <RightIcon className="h-4 w-4" />
+                  </button>
+                </div>
+
+                {/* Calendar Grid */}
+                <div className="grid grid-cols-7 gap-1">
+                  {daysOfWeek.map((day) => (
+                    <div
+                      key={day}
+                      className="text-center text-xs font-medium text-gray-500 py-2"
+                    >
+                      {day}
+                    </div>
+                  ))}
+
+                  {generateCalendarDates().map((date, index) => {
+                    const isCurrentMonth =
+                      date.getMonth() === currentMonth.getMonth();
+                    const isSelected = isDateSelected(date);
+                    const isToday =
+                      new Date().toDateString() === date.toDateString();
+
+                    const isFirstSelection =
+                      mode === "continuous" &&
+                      firstSelection &&
+                      date.toDateString() === firstSelection.toDateString();
+
+                    let buttonClass = `h-8 w-full rounded-full flex items-center justify-center text-sm transition-colors`;
+
+                    if (mode === "continuous") {
+                      if (isFirstSelection) {
+                        buttonClass +=
+                          " bg-primary text-white ring-2 ring-primary ring-offset-2";
+                      } else if (isSelected) {
+                        buttonClass += " bg-primary text-white";
+                      }
+                      // Current month dates
+                      else if (isCurrentMonth) {
+                        buttonClass +=
+                          " text-gray-900 hover:bg-primary hover:bg-opacity-20";
+                      }
+                      // Other month dates
+                      else {
+                        buttonClass += " text-gray-400";
+                      }
+                    } else {
+                      // Normal mode
+                      if (isSelected) {
+                        buttonClass += " bg-primary text-white";
+                      } else if (isCurrentMonth) {
+                        buttonClass +=
+                          " text-gray-900 hover:bg-primary hover:bg-opacity-20";
+                      } else {
+                        buttonClass += " text-gray-400";
+                      }
+                    }
+
+                    // Today indicator (only if not selected and not in range)
+                    if (isToday && !isSelected && !isFirstSelection) {
+                      buttonClass += " border border-primary";
+                    }
+
+                    if (disabled) {
+                      buttonClass += " cursor-default";
+                    }
+
+                    return (
+                      <button
+                        key={index}
+                        onClick={(e) => handleDateClick(e, date)}
+                        className={buttonClass}
+                      >
+                        {date.getDate()}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Right: Selected Dates List - 50% width */}
+              <div className="w-full md:w-1/2 bg-gray-50 p-4 border-t md:border-t-0 md:border-l border-gray-200">
+                <div className="flex justify-between items-center mb-3">
+                  <h3 className="text-sm font-semibold text-gray-700">
+                    Selected {mode === "continuous" ? "Range" : "Dates"}
+                  </h3>
+                  <span className="text-xs bg-primary text-white rounded-full px-2 py-1">
+                    {selectedDates.length}
+                  </span>
+                </div>
+
+                <div className="space-y-2 max-h-60 overflow-y-auto pr-2">
+                  {selectedDates.length > 0 ? (
+                    selectedDates
+                      .sort((a, b) => a - b)
+                      .map((date, index) => (
+                        <div
+                          key={index}
+                          className="flex items-center justify-between bg-white p-2 rounded border border-gray-200 hover:border-primary transition-colors"
+                        >
+                          <span className="text-sm text-gray-700">
+                            {formatDateForDisplay(date)}
+                          </span>
+                          {!disabled && (
+                            <button
+                              onClick={(e) => handleRemoveDate(e, date)}
+                              className="text-gray-400 hover:text-red-500 transition-colors p-1"
+                            >
+                              <CloseIcon className="h-3 w-3" />
+                            </button>
+                          )}
+                        </div>
+                      ))
+                  ) : (
+                    <div className="text-center py-4">
+                      <p className="text-sm text-gray-500">
+                        {mode === "continuous"
+                          ? firstSelection
+                            ? `Start: ${formatDateForDisplay(firstSelection)} - Click end date`
+                            : "Select start date for range"
+                          : "No dates selected"}
+                      </p>
+                      {mode === "continuous" && firstSelection && (
+                        <p className="text-xs text-primary mt-1">
+                          Click end date to complete range
+                        </p>
+                      )}
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      )}
+        )}
 
-      {error && <p className="mt-1 text-sm text-red-600">{error}</p>}
-    </div>
-  );
-});
+        {error && <p className="mt-1 text-sm text-red-600">{error}</p>}
+      </div>
+    );
+  },
+);
 
 export default MultiSelectDatePicker;
 ```
@@ -17352,139 +18284,150 @@ import React, { memo, useEffect, useRef, useState } from "react";
 import { DownArrow } from "../../../assets/data/icons";
 import useClickOutside from "../../../hooks/useClickOutside";
 
-const MultiSelectField = memo(({
-  label,
-  placeholder,
-  value = [],
-  onChange,
-  options = [],
-  maxSelection,
-  className = "mb-4",
-}) => {
-  const [selectedItems, setSelectedItems] = useState(value);
-  const [isOpen, setIsOpen] = useState(false);
-  const [searchTerm, setSearchTerm] = useState("");
-  const searchInputRef = useRef(null);
+const MultiSelectField = memo(
+  ({
+    label,
+    placeholder,
+    value = [],
+    onChange,
+    options = [],
+    maxSelection,
+    className = "mb-4",
+  }) => {
+    const [selectedItems, setSelectedItems] = useState(value);
+    const [isOpen, setIsOpen] = useState(false);
+    const [searchTerm, setSearchTerm] = useState("");
+    const searchInputRef = useRef(null);
 
-  const dropdownContainerRef = useClickOutside(() => {
-    setIsOpen(false);
-    setSearchTerm("");
-  });
+    const dropdownContainerRef = useClickOutside(() => {
+      setIsOpen(false);
+      setSearchTerm("");
+    });
 
-  useEffect(() => {
-    setSelectedItems(value);
-  }, [value]);
+    useEffect(() => {
+      setSelectedItems(value);
+    }, [value]);
 
-  useEffect(() => {
-    if (isOpen && searchInputRef.current) {
-      searchInputRef.current.focus(); // Auto-focus search field when dropdown opens
-    }
-  }, [isOpen]);
+    useEffect(() => {
+      if (isOpen && searchInputRef.current) {
+        searchInputRef.current.focus(); // Auto-focus search field when dropdown opens
+      }
+    }, [isOpen]);
 
-  const maxReached = Number.isFinite(Number(maxSelection))
-    && Number(maxSelection) > 0
-    && selectedItems.length >= Number(maxSelection);
+    const maxReached =
+      Number.isFinite(Number(maxSelection)) &&
+      Number(maxSelection) > 0 &&
+      selectedItems.length >= Number(maxSelection);
 
-  const handleSelect = (selectedOption) => {
-    if (selectedItems.some((item) => item.value === selectedOption.value)) return;
-    if (maxReached) return;
+    const handleSelect = (selectedOption) => {
+      if (selectedItems.some((item) => item.value === selectedOption.value))
+        return;
+      if (maxReached) return;
 
-    const newSelectedItems = [...selectedItems, selectedOption];
-    setSelectedItems(newSelectedItems);
-    onChange(newSelectedItems);
-  };
+      const newSelectedItems = [...selectedItems, selectedOption];
+      setSelectedItems(newSelectedItems);
+      onChange(newSelectedItems);
+    };
 
-  const handleRemove = (removedValue) => {
-    const updatedItems = selectedItems.filter(
-      (item) => item.value !== removedValue
-    );
-    setSelectedItems(updatedItems);
-    onChange(updatedItems);
-  };
+    const handleRemove = (removedValue) => {
+      const updatedItems = selectedItems.filter(
+        (item) => item.value !== removedValue,
+      );
+      setSelectedItems(updatedItems);
+      onChange(updatedItems);
+    };
 
-  const filteredOptions = options
-    ?.filter((option) =>
-      option.label?.toLowerCase().includes(searchTerm?.toLowerCase())
-    )
-    .filter(
-      (option) =>
-        !selectedItems.some((selected) => selected.value === option.value)
-    );
+    const filteredOptions = options
+      ?.filter((option) =>
+        option.label?.toLowerCase().includes(searchTerm?.toLowerCase()),
+      )
+      .filter(
+        (option) =>
+          !selectedItems.some((selected) => selected.value === option.value),
+      );
 
-  return (
-    <div className={`flex flex-col relative ${className}`} ref={dropdownContainerRef}>
-      {label && (
-        <label className="text-sm font-normal text-primary mb-1">{label}</label>
-      )}
+    return (
       <div
-        className="w-full text-sm text-gray-600 bg-[#F6F6F6]  px-3 py-2.5 rounded cursor-pointer flex flex-wrap gap-1 items-center focus:ring-2 focus:ring-primary"
-        onClick={() => {
-          setIsOpen(!isOpen);
-        }}
+        className={`flex flex-col relative ${className}`}
+        ref={dropdownContainerRef}
       >
-        {selectedItems.length > 0 ? (
-          selectedItems.map((item, index) => (
-            <span
-              key={index}
-              className="bg-primary text-white text-xs px-2 py-1 rounded flex items-center gap-1"
-            >
-              {item.label || "-"}
-              <span
-                className="cursor-pointer ml-1 text-sm"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  handleRemove(item.value);
-                }}
-              >
-                ✕
-              </span>
-            </span>
-          ))
-        ) : (
-          <span className="text-gray-400">
-            {placeholder || "Select options"}
-          </span>
+        {label && (
+          <label className="text-sm font-normal text-primary mb-1">
+            {label}
+          </label>
         )}
-        <div className="ml-auto pointer-events-none">
-          <DownArrow />
-        </div>
-      </div>
-
-      {isOpen && (
-        <div className="relative text-xs mt-1 w-full bg-[#F6F6F6] border border-gray-300 rounded shadow-md z-[2147483647] max-h-40 overflow-auto">
-          {/* Search Input */}
-          <input
-            type="text"
-            ref={searchInputRef}
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full px-3 py-2 border-b border-gray-300 outline-none sticky top-0 text-sm"
-            placeholder="Search..."
-          />
-
-          {/* Filtered Options */}
-          {filteredOptions.length > 0 ? (
-            filteredOptions.map((option, index) => (
-              <div
+        <div
+          className="w-full text-sm text-gray-600 bg-[#F6F6F6]  px-3 py-2.5 rounded cursor-pointer flex flex-wrap gap-1 items-center focus:ring-2 focus:ring-primary"
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}
+        >
+          {selectedItems.length > 0 ? (
+            selectedItems.map((item, index) => (
+              <span
                 key={index}
-                className={`px-3 py-2 text-gray-600 ${
-                  maxReached ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:bg-gray-200"
-                }`}
-                onClick={() => {
-                  if (!maxReached) handleSelect(option);
-                }}
+                className="bg-primary text-white text-xs px-2 py-1 rounded flex items-center gap-1"
               >
-                {option.label}
-              </div>
+                {item.label || "-"}
+                <span
+                  className="cursor-pointer ml-1 text-sm"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleRemove(item.value);
+                  }}
+                >
+                  ✕
+                </span>
+              </span>
             ))
           ) : (
-            <div className="px-3 py-2 text-gray-400">No options found</div>
+            <span className="text-gray-400">
+              {placeholder || "Select options"}
+            </span>
           )}
+          <div className="ml-auto pointer-events-none">
+            <DownArrow />
+          </div>
         </div>
-      )}
-    </div>
-  );
-});
+
+        {isOpen && (
+          <div className="relative text-xs mt-1 w-full bg-[#F6F6F6] border border-gray-300 rounded shadow-md z-[2147483647] max-h-40 overflow-auto">
+            {/* Search Input */}
+            <input
+              type="text"
+              ref={searchInputRef}
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full px-3 py-2 border-b border-gray-300 outline-none sticky top-0 text-sm"
+              placeholder="Search..."
+            />
+
+            {/* Filtered Options */}
+            {filteredOptions.length > 0 ? (
+              filteredOptions.map((option, index) => (
+                <div
+                  key={index}
+                  className={`px-3 py-2 text-gray-600 ${
+                    maxReached
+                      ? "cursor-not-allowed opacity-50"
+                      : "cursor-pointer hover:bg-gray-200"
+                  }`}
+                  onClick={() => {
+                    if (!maxReached) handleSelect(option);
+                  }}
+                >
+                  {option.label}
+                </div>
+              ))
+            ) : (
+              <div className="px-3 py-2 text-gray-400">No options found</div>
+            )}
+          </div>
+        )}
+      </div>
+    );
+  },
+);
 
 export default MultiSelectField;
 ```
@@ -17504,7 +18447,14 @@ import { DownArrow } from "../../../assets/data/icons";
  * Pure presentational: no data fetching or business logic. Callers supply the
  * `stats` values and the `children` content, and control `expanded`/`onToggle`.
  */
-const PayrollSummaryCard = ({ title, subtitle, stats = [], expanded = false, onToggle, children }) => {
+const PayrollSummaryCard = ({
+  title,
+  subtitle,
+  stats = [],
+  expanded = false,
+  onToggle,
+  children,
+}) => {
   return (
     <div className="bg-white border border-gray-200 rounded-lg mb-4 overflow-hidden shadow-sm">
       <div
@@ -17525,7 +18475,9 @@ const PayrollSummaryCard = ({ title, subtitle, stats = [], expanded = false, onT
           ))}
         </div>
 
-        <span className={`text-gray-400 transition-transform duration-200 ml-auto ${expanded ? "rotate-180" : ""}`}>
+        <span
+          className={`text-gray-400 transition-transform duration-200 ml-auto ${expanded ? "rotate-180" : ""}`}
+        >
           <DownArrow className="!ml-0" />
         </span>
       </div>
@@ -17554,55 +18506,71 @@ import { usePermissionGuard } from "../../hooks/usePermissionGuard";
  * Keeps styling consistent; features pass allActions once.
  * Props: menu, subMenu, resource, allActions=[{label, action, onClick, icon, ...}], row (optional)
  */
-const PermissionActionMenu = React.memo(({
-  hasAccess: hasAccessProp,
-  menu,
-  subMenu,
-  resource,
-  allActions = [],
-  row,
-  className = "",
-  ...rest
-}) => {
-  const { canAction, isReady } = usePermissionGuard();
+const PermissionActionMenu = React.memo(
+  ({
+    hasAccess: hasAccessProp,
+    menu,
+    subMenu,
+    resource,
+    allActions = [],
+    row,
+    className = "",
+    ...rest
+  }) => {
+    const { canAction, isReady } = usePermissionGuard();
 
-  // For menu/subMenu mode, we need per-action legacy check
-  // We use canAction for resource mode; for menu mode we fallback to per-action usePermission via canAction with resource=action mapping
-  const filtered = React.useMemo(() => {
-    if (typeof hasAccessProp === "boolean" && !hasAccessProp) return [];
-    if (!isReady) return allActions;
-    return allActions.filter((a) => {
-      const act = a.action;
-      if (!act) return true;
-      if (resource) return canAction(resource, act);
-      if (menu || subMenu) {
-        // Check via resource if action maps to resource name of subMenu
-        // Try resource derived from subMenu/resource as fallback
-        const res = resource || subMenu || menu;
-        return canAction(res, act);
-      }
-      return true;
-    });
-  }, [hasAccessProp, isReady, allActions, resource, menu, subMenu, canAction]);
+    // For menu/subMenu mode, we need per-action legacy check
+    // We use canAction for resource mode; for menu mode we fallback to per-action usePermission via canAction with resource=action mapping
+    const filtered = React.useMemo(() => {
+      if (typeof hasAccessProp === "boolean" && !hasAccessProp) return [];
+      if (!isReady) return allActions;
+      return allActions.filter((a) => {
+        const act = a.action;
+        if (!act) return true;
+        if (resource) return canAction(resource, act);
+        if (menu || subMenu) {
+          // Check via resource if action maps to resource name of subMenu
+          // Try resource derived from subMenu/resource as fallback
+          const res = resource || subMenu || menu;
+          return canAction(res, act);
+        }
+        return true;
+      });
+    }, [
+      hasAccessProp,
+      isReady,
+      allActions,
+      resource,
+      menu,
+      subMenu,
+      canAction,
+    ]);
 
-  if (typeof hasAccessProp === "boolean" && !hasAccessProp) return null;
-  if (filtered.length === 0) return null;
+    if (typeof hasAccessProp === "boolean" && !hasAccessProp) return null;
+    if (filtered.length === 0) return null;
 
-  return (
-    <div className={`flex items-center gap-2 flex-wrap ${className}`} {...rest}>
-      {filtered.map((item, idx) => (
-        <button
-          key={item.label || idx}
-          onClick={(e) => item.onClick?.(item, row, e)}
-          className={item.className || "text-xs px-2 py-1 rounded bg-gray-100 hover:bg-gray-200 text-gray-700"}
-          title={item.label}
-        >
-          {item.label}
-        </button>
-      ))}
-    </div>
-  );
-});
+    return (
+      <div
+        className={`flex items-center gap-2 flex-wrap ${className}`}
+        {...rest}
+      >
+        {filtered.map((item, idx) => (
+          <button
+            key={item.label || idx}
+            onClick={(e) => item.onClick?.(item, row, e)}
+            className={
+              item.className ||
+              "text-xs px-2 py-1 rounded bg-gray-100 hover:bg-gray-200 text-gray-700"
+            }
+            title={item.label}
+          >
+            {item.label}
+          </button>
+        ))}
+      </div>
+    );
+  },
+);
 
 PermissionActionMenu.displayName = "PermissionActionMenu";
 export default PermissionActionMenu;
@@ -17624,36 +18592,38 @@ import { usePermission } from "../../hooks/usePermission";
  * Also supports resource/action: <PermissionButton resource="task" action="create">
  * If hasAccess prop is explicitly passed, it takes precedence (direct override).
  */
-const PermissionButton = React.memo(({
-  hasAccess: hasAccessProp,
-  menu,
-  subMenu,
-  resource,
-  action,
-  children,
-  ...buttonProps
-}) => {
-  const { canAction, isReady } = usePermissionGuard();
-  const legacyHasAccess = usePermission(menu, subMenu, action);
+const PermissionButton = React.memo(
+  ({
+    hasAccess: hasAccessProp,
+    menu,
+    subMenu,
+    resource,
+    action,
+    children,
+    ...buttonProps
+  }) => {
+    const { canAction, isReady } = usePermissionGuard();
+    const legacyHasAccess = usePermission(menu, subMenu, action);
 
-  let hasAccess;
-  if (typeof hasAccessProp === "boolean") {
-    hasAccess = hasAccessProp;
-  } else if (resource && action) {
-    hasAccess = !isReady || canAction(resource, action);
-  } else if (menu || subMenu) {
-    // usePermission returns boolean directly; show while loading (!isReady handled via guard's isReady)
-    hasAccess = !isReady || legacyHasAccess;
-  } else {
-    hasAccess = true;
-  }
+    let hasAccess;
+    if (typeof hasAccessProp === "boolean") {
+      hasAccess = hasAccessProp;
+    } else if (resource && action) {
+      hasAccess = !isReady || canAction(resource, action);
+    } else if (menu || subMenu) {
+      // usePermission returns boolean directly; show while loading (!isReady handled via guard's isReady)
+      hasAccess = !isReady || legacyHasAccess;
+    } else {
+      hasAccess = true;
+    }
 
-  return (
-    <Button hasAccess={hasAccess} {...buttonProps}>
-      {children}
-    </Button>
-  );
-});
+    return (
+      <Button hasAccess={hasAccess} {...buttonProps}>
+        {children}
+      </Button>
+    );
+  },
+);
 
 PermissionButton.displayName = "PermissionButton";
 export default PermissionButton;
@@ -17667,15 +18637,39 @@ import { useSelector } from "react-redux";
 import { usePermission } from "../../hooks/usePermission";
 import { selectUserRoles } from "../../store/slices/authSlice";
 
-export function PermissionGate({ menu, subMenu, action, role, children, fallback = null, disabled = false }) {
+export function PermissionGate({
+  menu,
+  subMenu,
+  action,
+  role,
+  children,
+  fallback = null,
+  disabled = false,
+}) {
   const allowed = usePermission(menu, subMenu, action);
   const userRoles = useSelector(selectUserRoles);
 
-  const roleOk = !role || (Array.isArray(userRoles) && userRoles.some((r) => String(typeof r === "string" ? r : r?.name || r?.displayName || r?.role || "").toLowerCase() === String(role).toLowerCase()));
+  const roleOk =
+    !role ||
+    (Array.isArray(userRoles) &&
+      userRoles.some(
+        (r) =>
+          String(
+            typeof r === "string"
+              ? r
+              : r?.name || r?.displayName || r?.role || "",
+          ).toLowerCase() === String(role).toLowerCase(),
+      ));
   const canRender = allowed && roleOk;
 
   if (!canRender && disabled) {
-    return <span style={{ opacity: 0.4, pointerEvents: "none", cursor: "not-allowed" }}>{children}</span>;
+    return (
+      <span
+        style={{ opacity: 0.4, pointerEvents: "none", cursor: "not-allowed" }}
+      >
+        {children}
+      </span>
+    );
   }
 
   if (!canRender) return fallback;
@@ -17699,25 +18693,28 @@ import { usePermissionGuard } from "../../hooks/usePermissionGuard";
  * Computes hasAccess (disabled state) and passes to InputField/CustomTextArea
  * Props: multiline (bool), menu/subMenu/resource, action (default update), ...inputProps
  */
-const PermissionInput = React.memo(({
-  hasAccess: hasAccessProp,
-  menu,
-  subMenu,
-  resource,
-  action = "update",
-  multiline = false,
-  ...inputProps
-}) => {
-  const { canAction, isReady } = usePermissionGuard();
-  let hasAccess;
-  if (typeof hasAccessProp === "boolean") hasAccess = hasAccessProp;
-  else if (resource) hasAccess = !isReady || canAction(resource, action);
-  else if (menu || subMenu) hasAccess = !isReady || canAction(subMenu || menu, action);
-  else hasAccess = true;
+const PermissionInput = React.memo(
+  ({
+    hasAccess: hasAccessProp,
+    menu,
+    subMenu,
+    resource,
+    action = "update",
+    multiline = false,
+    ...inputProps
+  }) => {
+    const { canAction, isReady } = usePermissionGuard();
+    let hasAccess;
+    if (typeof hasAccessProp === "boolean") hasAccess = hasAccessProp;
+    else if (resource) hasAccess = !isReady || canAction(resource, action);
+    else if (menu || subMenu)
+      hasAccess = !isReady || canAction(subMenu || menu, action);
+    else hasAccess = true;
 
-  const Component = multiline ? CustomTextArea : InputField;
-  return <Component hasAccess={hasAccess} {...inputProps} />;
-});
+    const Component = multiline ? CustomTextArea : InputField;
+    return <Component hasAccess={hasAccess} {...inputProps} />;
+  },
+);
 
 PermissionInput.displayName = "PermissionInput";
 export default PermissionInput;
@@ -17735,24 +18732,31 @@ import { usePermissionGuard } from "../../hooks/usePermissionGuard";
  * PermissionModal — Lean middleware wrapper
  * Computes hasAccess and passes to Modal
  */
-const PermissionModal = React.memo(({
-  hasAccess: hasAccessProp,
-  menu,
-  subMenu,
-  resource,
-  action = "get",
-  children,
-  ...modalProps
-}) => {
-  const { canAction, isReady } = usePermissionGuard();
-  let hasAccess;
-  if (typeof hasAccessProp === "boolean") hasAccess = hasAccessProp;
-  else if (resource) hasAccess = !isReady || canAction(resource, action);
-  else if (menu || subMenu) hasAccess = !isReady || canAction(subMenu || menu, action);
-  else hasAccess = true;
+const PermissionModal = React.memo(
+  ({
+    hasAccess: hasAccessProp,
+    menu,
+    subMenu,
+    resource,
+    action = "get",
+    children,
+    ...modalProps
+  }) => {
+    const { canAction, isReady } = usePermissionGuard();
+    let hasAccess;
+    if (typeof hasAccessProp === "boolean") hasAccess = hasAccessProp;
+    else if (resource) hasAccess = !isReady || canAction(resource, action);
+    else if (menu || subMenu)
+      hasAccess = !isReady || canAction(subMenu || menu, action);
+    else hasAccess = true;
 
-  return <Modal hasAccess={hasAccess} {...modalProps}>{children}</Modal>;
-});
+    return (
+      <Modal hasAccess={hasAccess} {...modalProps}>
+        {children}
+      </Modal>
+    );
+  },
+);
 
 PermissionModal.displayName = "PermissionModal";
 export default PermissionModal;
@@ -17771,39 +18775,64 @@ import { usePermissionGuard } from "../../hooks/usePermissionGuard";
  * Filters columns: builds from baseColumns and optionally appends actions column if permitted.
  * Props: menu, subMenu, resource, action (for actions col, default A.GET), baseColumns=[], data, rows, actionsColumnRenderer
  */
-const PermissionTable = React.memo(({
-  hasAccess: hasAccessProp,
-  menu,
-  subMenu,
-  resource,
-  action = "get",
-  baseColumns = [],
-  columns: columnsProp,
-  data,
-  rows,
-  actionsColumnRenderer,
-  ...tableProps
-}) => {
-  const { canAction, isReady } = usePermissionGuard();
-  const base = columnsProp || baseColumns || [];
-  const tableData = rows || data || [];
+const PermissionTable = React.memo(
+  ({
+    hasAccess: hasAccessProp,
+    menu,
+    subMenu,
+    resource,
+    action = "get",
+    baseColumns = [],
+    columns: columnsProp,
+    data,
+    rows,
+    actionsColumnRenderer,
+    ...tableProps
+  }) => {
+    const { canAction, isReady } = usePermissionGuard();
+    const base = columnsProp || baseColumns || [];
+    const tableData = rows || data || [];
 
-  const columns = React.useMemo(() => {
-    let cols = [...base];
-    if (actionsColumnRenderer) {
-      const res = resource || subMenu || menu;
-      const allowed = !isReady || (res ? canAction(res, action) : true);
-      if (allowed) {
-        cols = [...cols, { label: "Actions", accessor: "actions", render: (val, row) => actionsColumnRenderer(row, val) }];
+    const columns = React.useMemo(() => {
+      let cols = [...base];
+      if (actionsColumnRenderer) {
+        const res = resource || subMenu || menu;
+        const allowed = !isReady || (res ? canAction(res, action) : true);
+        if (allowed) {
+          cols = [
+            ...cols,
+            {
+              label: "Actions",
+              accessor: "actions",
+              render: (val, row) => actionsColumnRenderer(row, val),
+            },
+          ];
+        }
       }
-    }
-    return cols;
-  }, [base, actionsColumnRenderer, resource, subMenu, menu, action, isReady, canAction]);
+      return cols;
+    }, [
+      base,
+      actionsColumnRenderer,
+      resource,
+      subMenu,
+      menu,
+      action,
+      isReady,
+      canAction,
+    ]);
 
-  const hasAccess = typeof hasAccessProp === "boolean" ? hasAccessProp : true;
+    const hasAccess = typeof hasAccessProp === "boolean" ? hasAccessProp : true;
 
-  return <TableView hasAccess={hasAccess} columns={columns} rows={tableData} {...tableProps} />;
-});
+    return (
+      <TableView
+        hasAccess={hasAccess}
+        columns={columns}
+        rows={tableData}
+        {...tableProps}
+      />
+    );
+  },
+);
 
 PermissionTable.displayName = "PermissionTable";
 export default PermissionTable;
@@ -17818,14 +18847,24 @@ import ProtectedSection from "./ProtectedSection";
 import { usePermission } from "../../hooks/usePermission";
 
 // Generic wrapper supporting both APIs: menu/subMenu/action (prompt) and resource/action (existing)
-const PermissionWrapper = memo(({ menu, subMenu, action, resource, fallback = null, children }) => {
-  if (resource) {
-    return <ProtectedSection resource={resource} action={action || "get"} fallback={fallback}>{children}</ProtectedSection>;
-  }
-  // menu/subMenu path via usePermission
-  const allowed = usePermission(menu, subMenu, action);
-  return allowed ? children : fallback;
-});
+const PermissionWrapper = memo(
+  ({ menu, subMenu, action, resource, fallback = null, children }) => {
+    if (resource) {
+      return (
+        <ProtectedSection
+          resource={resource}
+          action={action || "get"}
+          fallback={fallback}
+        >
+          {children}
+        </ProtectedSection>
+      );
+    }
+    // menu/subMenu path via usePermission
+    const allowed = usePermission(menu, subMenu, action);
+    return allowed ? children : fallback;
+  },
+);
 PermissionWrapper.displayName = "PermissionWrapper";
 export default PermissionWrapper;
 ```
@@ -17846,59 +18885,64 @@ import React from "react";
 import { usePermissionGuard } from "../../hooks/usePermissionGuard";
 import Tooltip from "./Tooltip";
 
-const ProtectedButton = React.memo(({
-  resource,
-  action,
-  data = {},
-  onPermissionDenied,
-  showDeniedState = false,
-  children,
-  className = "",
-  ...buttonProps
-}) => {
-  const { canActionOn, isReady } = usePermissionGuard();
+const ProtectedButton = React.memo(
+  ({
+    resource,
+    action,
+    data = {},
+    onPermissionDenied,
+    showDeniedState = false,
+    children,
+    className = "",
+    ...buttonProps
+  }) => {
+    const { canActionOn, isReady } = usePermissionGuard();
 
-  if (!isReady) return null;
+    if (!isReady) return null;
 
-  const hasPermission = canActionOn(resource, action, data);
+    const hasPermission = canActionOn(resource, action, data);
 
-  if (!hasPermission) {
-    // Hide completely if showDeniedState is false
-    if (showDeniedState === false) return null;
+    if (!hasPermission) {
+      // Hide completely if showDeniedState is false
+      if (showDeniedState === false) return null;
 
-    // Render as disabled with tooltip explaining why
-    return (
-      <Tooltip content={`No permission: ${action}:${resource}`} ariaLabel={`No permission: ${action}:${resource}`}>
-        <button
-          {...buttonProps}
-          disabled
-          aria-label={`No permission: ${action}:${resource}`}
-          title={`No permission: ${action}:${resource}`}
-          className={`${className} opacity-40 cursor-not-allowed`}
-          onClick={undefined}
+      // Render as disabled with tooltip explaining why
+      return (
+        <Tooltip
+          content={`No permission: ${action}:${resource}`}
+          ariaLabel={`No permission: ${action}:${resource}`}
         >
-          {children}
-        </button>
-      </Tooltip>
-    );
-  }
+          <button
+            {...buttonProps}
+            disabled
+            aria-label={`No permission: ${action}:${resource}`}
+            title={`No permission: ${action}:${resource}`}
+            className={`${className} opacity-40 cursor-not-allowed`}
+            onClick={undefined}
+          >
+            {children}
+          </button>
+        </Tooltip>
+      );
+    }
 
-  return (
-    <button
-      {...buttonProps}
-      className={className}
-      onClick={(e) => {
-        if (onPermissionDenied && !hasPermission) {
-          onPermissionDenied(e);
-        } else {
-          buttonProps.onClick?.(e);
-        }
-      }}
-    >
-      {children}
-    </button>
-  );
-});
+    return (
+      <button
+        {...buttonProps}
+        className={className}
+        onClick={(e) => {
+          if (onPermissionDenied && !hasPermission) {
+            onPermissionDenied(e);
+          } else {
+            buttonProps.onClick?.(e);
+          }
+        }}
+      >
+        {children}
+      </button>
+    );
+  },
+);
 
 ProtectedButton.displayName = "ProtectedButton";
 
@@ -17918,29 +18962,26 @@ export default ProtectedButton;
 import React from "react";
 import { usePermissionGuard } from "../../hooks/usePermissionGuard";
 
-const ProtectedInput = React.memo(({
-  resource,
-  action,
-  data = {},
-  children,
-  className = "",
-  ...inputProps
-}) => {
-  const { canActionOn, isReady } = usePermissionGuard();
+const ProtectedInput = React.memo(
+  ({
+    resource,
+    action,
+    data = {},
+    children,
+    className = "",
+    ...inputProps
+  }) => {
+    const { canActionOn, isReady } = usePermissionGuard();
 
-  if (!isReady) return null;
+    if (!isReady) return null;
 
-  const hasPermission = canActionOn(resource, action, data);
+    const hasPermission = canActionOn(resource, action, data);
 
-  if (!hasPermission) return null;
+    if (!hasPermission) return null;
 
-  return (
-    <input
-      {...inputProps}
-      className={className}
-    />
-  );
-});
+    return <input {...inputProps} className={className} />;
+  },
+);
 
 ProtectedInput.displayName = "ProtectedInput";
 
@@ -17950,15 +18991,16 @@ export default ProtectedInput;
 ### `Frontend/src/components/common/ProtectedRoute.jsx`
 
 ```jsx
-import { Navigate } from 'react-router-dom';
-import { useAuthStore } from '../../store/authStore';
-import { useUIStore } from '../../store/uiStore';
+import { Navigate } from "react-router-dom";
+import { useAuthStore } from "../../store/authStore";
+import { useUIStore } from "../../store/uiStore";
 
 export default function ProtectedRoute({ children, requiredRole }) {
   const { isAuthenticated } = useAuthStore();
   const { userRole } = useUIStore();
   if (!isAuthenticated) return <Navigate to="/login" replace />;
-  if (requiredRole && userRole !== requiredRole) return <Navigate to="/" replace />;
+  if (requiredRole && userRole !== requiredRole)
+    return <Navigate to="/" replace />;
   return children;
 }
 ```
@@ -18203,253 +19245,266 @@ export default RichTextEditor;
 ### `Frontend/src/components/common/SearchableCheckboxDropdown/index.jsx`
 
 ```jsx
-import React, { memo, useState, useRef, useEffect } from 'react';
+import React, { memo, useState, useRef, useEffect } from "react";
 import { DownArrow, SearchIcon } from "../../../assets/data/icons";
-import useClickOutside from '../../../hooks/useClickOutside';
-import CustomCheckbox from '../CustomCheckbox';
+import useClickOutside from "../../../hooks/useClickOutside";
+import CustomCheckbox from "../CustomCheckbox";
 
-const SearchableCheckboxDropdown = memo(({
-  options,
-  value,
-  onChange,
-  placeholder = "Search & select...",
-  className = "",
-  maxHeight = "280px",
-  disabledValues = [],
-  ...rest
-}) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [search, setSearch] = useState("");
-  const [focusedIndex, setFocusedIndex] = useState(-1);
-  const wrapperRef = useClickOutside(() => setIsOpen(false));
-  const searchInputRef = useRef(null);
-  const optionRefs = useRef([]);
+const SearchableCheckboxDropdown = memo(
+  ({
+    options,
+    value,
+    onChange,
+    placeholder = "Search & select...",
+    className = "",
+    maxHeight = "280px",
+    disabledValues = [],
+    ...rest
+  }) => {
+    const [isOpen, setIsOpen] = useState(false);
+    const [search, setSearch] = useState("");
+    const [focusedIndex, setFocusedIndex] = useState(-1);
+    const wrapperRef = useClickOutside(() => setIsOpen(false));
+    const searchInputRef = useRef(null);
+    const optionRefs = useRef([]);
 
-  // Auto-focus search input when dropdown opens
-  useEffect(() => {
-    if (isOpen && searchInputRef.current) {
-      setTimeout(() => searchInputRef.current.focus(), 50);
-    }
-  }, [isOpen]);
-
-  const allSelected = options.length > 0 && value.length === options.length;
-  const filteredOptions = options.filter(opt =>
-    opt.label.toLowerCase().includes(search.toLowerCase())
-  );
-  const hasResults = filteredOptions.length > 0;
-  const selectedCount = value.length;
-
-  const disabledSet = new Set(disabledValues);
-  const handleSelectAll = (e) => {
-    if (e.target.checked) {
-      const allVals = options.map((opt) => opt.value);
-      onChange([...new Set([...disabledValues, ...allVals])]);
-    } else {
-      onChange([...disabledValues]);
-    }
-  };
-
-  const handleOptionChange = (optionValue) => {
-    if (disabledSet.has(optionValue)) return;
-    if (value.includes(optionValue)) {
-      onChange(value.filter((v) => v !== optionValue));
-    } else {
-      onChange([...value, optionValue]);
-    }
-  };
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-    if (!isOpen) {
-      setSearch("");
-      setFocusedIndex(-1);
-    }
-  };
-
-  const handleKeyDown = (e) => {
-    if (!isOpen) {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        setIsOpen(true);
+    // Auto-focus search input when dropdown opens
+    useEffect(() => {
+      if (isOpen && searchInputRef.current) {
+        setTimeout(() => searchInputRef.current.focus(), 50);
       }
-      return;
-    }
+    }, [isOpen]);
 
-    switch (e.key) {
-      case 'Escape':
-        setIsOpen(false);
-        break;
-      case 'ArrowDown':
-        e.preventDefault();
-        setFocusedIndex(prev => 
-          prev < filteredOptions.length - 1 ? prev + 1 : prev
-        );
-        break;
-      case 'ArrowUp':
-        e.preventDefault();
-        setFocusedIndex(prev => prev > 0 ? prev - 1 : -1);
-        break;
-      case 'Enter':
-        e.preventDefault();
-        if (focusedIndex >= 0 && focusedIndex < filteredOptions.length) {
-          const option = filteredOptions[focusedIndex];
-          handleOptionChange(option.value);
+    const allSelected = options.length > 0 && value.length === options.length;
+    const filteredOptions = options.filter((opt) =>
+      opt.label.toLowerCase().includes(search.toLowerCase()),
+    );
+    const hasResults = filteredOptions.length > 0;
+    const selectedCount = value.length;
+
+    const disabledSet = new Set(disabledValues);
+    const handleSelectAll = (e) => {
+      if (e.target.checked) {
+        const allVals = options.map((opt) => opt.value);
+        onChange([...new Set([...disabledValues, ...allVals])]);
+      } else {
+        onChange([...disabledValues]);
+      }
+    };
+
+    const handleOptionChange = (optionValue) => {
+      if (disabledSet.has(optionValue)) return;
+      if (value.includes(optionValue)) {
+        onChange(value.filter((v) => v !== optionValue));
+      } else {
+        onChange([...value, optionValue]);
+      }
+    };
+
+    const toggleDropdown = () => {
+      setIsOpen(!isOpen);
+      if (!isOpen) {
+        setSearch("");
+        setFocusedIndex(-1);
+      }
+    };
+
+    const handleKeyDown = (e) => {
+      if (!isOpen) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          setIsOpen(true);
         }
-        break;
-      default:
-        break;
-    }
-  };
+        return;
+      }
 
-  // Scroll focused option into view
-  useEffect(() => {
-    if (focusedIndex >= 0 && optionRefs.current[focusedIndex]) {
-      optionRefs.current[focusedIndex].scrollIntoView({
-        block: 'nearest',
-        behavior: 'smooth'
-      });
-    }
-  }, [focusedIndex]);
+      switch (e.key) {
+        case "Escape":
+          setIsOpen(false);
+          break;
+        case "ArrowDown":
+          e.preventDefault();
+          setFocusedIndex((prev) =>
+            prev < filteredOptions.length - 1 ? prev + 1 : prev,
+          );
+          break;
+        case "ArrowUp":
+          e.preventDefault();
+          setFocusedIndex((prev) => (prev > 0 ? prev - 1 : -1));
+          break;
+        case "Enter":
+          e.preventDefault();
+          if (focusedIndex >= 0 && focusedIndex < filteredOptions.length) {
+            const option = filteredOptions[focusedIndex];
+            handleOptionChange(option.value);
+          }
+          break;
+        default:
+          break;
+      }
+    };
 
-  const getDisplayText = () => {
-    if (selectedCount === 0) return placeholder;
-    if (selectedCount === 1) return `${selectedCount} item selected`;
-    return `${selectedCount} items selected`;
-  };
+    // Scroll focused option into view
+    useEffect(() => {
+      if (focusedIndex >= 0 && optionRefs.current[focusedIndex]) {
+        optionRefs.current[focusedIndex].scrollIntoView({
+          block: "nearest",
+          behavior: "smooth",
+        });
+      }
+    }, [focusedIndex]);
 
-  return (
-    <div 
-      className={`relative w-full ${className}`} 
-      ref={wrapperRef}
-      {...rest}
-    >
-      {/* Dropdown Trigger with Integrated Search */}
+    const getDisplayText = () => {
+      if (selectedCount === 0) return placeholder;
+      if (selectedCount === 1) return `${selectedCount} item selected`;
+      return `${selectedCount} items selected`;
+    };
+
+    return (
       <div
-        className="relative w-full cursor-pointer"
-        onClick={toggleDropdown}
-        onKeyDown={handleKeyDown}
-        tabIndex={0}
-        role="combobox"
-        aria-expanded={isOpen}
-        aria-haspopup="listbox"
+        className={`relative w-full ${className}`}
+        ref={wrapperRef}
+        {...rest}
       >
-        <div className="relative w-full bg-white border-2 border-gray-200 rounded-lg hover:border-gray-300 transition-colors focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20">
-          {/* Search Icon */}
-          <div className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none">
-            <SearchIcon className="w-4 h-4" />
-          </div>
-
-          {/* Main Input */}
-          <input
-            ref={searchInputRef}
-            type="text"
-            value={isOpen ? search : getDisplayText()}
-            onChange={(e) => setSearch(e.target.value)}
-            onFocus={() => {
-              if (!isOpen) setIsOpen(true);
-            }}
-            placeholder={placeholder}
-            className="w-full text-sm text-gray-700 bg-transparent pl-9 pr-20 py-2.5 rounded-lg focus:outline-none cursor-text"
-            readOnly={!isOpen}
-          />
-
-          {/* Selection Badge + Arrow */}
-          <div className="absolute right-2 top-1/2 transform -translate-y-1/2 flex items-center gap-2">
-            {selectedCount > 0 && !isOpen && (
-              <span className="text-xs font-medium bg-primary/10 text-primary px-2 py-0.5 rounded-full">
-                {selectedCount}
-              </span>
-            )}
-            <div className={`text-gray-400 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}>
-              <DownArrow />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Dropdown Panel */}
-      {isOpen && (
-        <div className="absolute w-full mt-2 bg-white shadow-xl border border-gray-200 rounded-xl z-[2147483647] overflow-hidden animate-fadeIn">
-          <div className="max-h-[280px] overflow-y-auto py-2">
-            {/* "Select All" Option */}
-            <div
-              className={`px-4 py-2.5 text-sm flex items-center border-b border-gray-100 ${
-                allSelected ? "bg-primary/5" : "hover:bg-gray-50"
-              }`}
-              onClick={(e) => e.stopPropagation()}
-            >
-              <CustomCheckbox
-                label={<span className="font-medium text-gray-700">Select All</span>}
-                checked={allSelected}
-                onChange={handleSelectAll}
-                className="w-full"
-                tickColor="text-white"
-              />
+        {/* Dropdown Trigger with Integrated Search */}
+        <div
+          className="relative w-full cursor-pointer"
+          onClick={toggleDropdown}
+          onKeyDown={handleKeyDown}
+          tabIndex={0}
+          role="combobox"
+          aria-expanded={isOpen}
+          aria-haspopup="listbox"
+        >
+          <div className="relative w-full bg-white border-2 border-gray-200 rounded-lg hover:border-gray-300 transition-colors focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20">
+            {/* Search Icon */}
+            <div className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none">
+              <SearchIcon className="w-4 h-4" />
             </div>
 
-            {/* Options List */}
-            {hasResults ? (
-              <div className="py-1">
-                {filteredOptions.map((option, index) => {
-                  const isSelected = value.includes(option.value);
-                  const isFocused = focusedIndex === index;
-                  const isDisabled = disabledSet.has(option.value);
-                  return (
-                    <div
-                      key={option.value}
-                      ref={el => optionRefs.current[index] = el}
-                      className={`px-4 py-2.5 text-sm flex items-center transition-colors ${
-                        isDisabled ? "opacity-60 cursor-not-allowed" : "cursor-pointer"
-                      } ${isSelected ? "bg-primary/5" : ""} ${isFocused && !isDisabled ? "bg-gray-100" : !isDisabled ? "hover:bg-gray-50" : ""}`}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        if (!isDisabled) handleOptionChange(option.value);
-                      }}
-                      onMouseEnter={() => setFocusedIndex(index)}
-                      role="option"
-                      aria-selected={isSelected}
-                      aria-disabled={isDisabled}
-                    >
-                      <CustomCheckbox
-                        label={option.label}
-                        checked={isSelected}
-                        onChange={() => {}}
-                        disabled={isDisabled}
-                        className="w-full pointer-events-none"
-                        tickColor="text-white"
-                      />
-                    </div>
-                  );
-                })}
-              </div>
-            ) : (
-              <div className="px-4 py-8 text-center text-gray-500 text-sm">
-                <p className="font-medium">No results found</p>
-                <p className="text-xs mt-1">Try adjusting your search</p>
-              </div>
-            )}
-          </div>
+            {/* Main Input */}
+            <input
+              ref={searchInputRef}
+              type="text"
+              value={isOpen ? search : getDisplayText()}
+              onChange={(e) => setSearch(e.target.value)}
+              onFocus={() => {
+                if (!isOpen) setIsOpen(true);
+              }}
+              placeholder={placeholder}
+              className="w-full text-sm text-gray-700 bg-transparent pl-9 pr-20 py-2.5 rounded-lg focus:outline-none cursor-text"
+              readOnly={!isOpen}
+            />
 
-          {/* Footer with summary */}
-          {selectedCount > 0 && (
-            <div className="border-t border-gray-100 px-4 py-2.5 bg-gray-50 flex items-center justify-between">
-              <span className="text-xs text-gray-600">
-                {selectedCount} {selectedCount === 1 ? 'item' : 'items'} selected
-              </span>
-              <button
-                type="button"
-                onClick={(e) => { e.stopPropagation(); onChange([...disabledValues]); }}
-                className="text-xs text-primary hover:text-primary/80 font-medium transition-colors"
+            {/* Selection Badge + Arrow */}
+            <div className="absolute right-2 top-1/2 transform -translate-y-1/2 flex items-center gap-2">
+              {selectedCount > 0 && !isOpen && (
+                <span className="text-xs font-medium bg-primary/10 text-primary px-2 py-0.5 rounded-full">
+                  {selectedCount}
+                </span>
+              )}
+              <div
+                className={`text-gray-400 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
               >
-                Clear All
-              </button>
+                <DownArrow />
+              </div>
             </div>
-          )}
+          </div>
         </div>
-      )}
 
-      {/* Animation styles */}
-      <style>{`
+        {/* Dropdown Panel */}
+        {isOpen && (
+          <div className="absolute w-full mt-2 bg-white shadow-xl border border-gray-200 rounded-xl z-[2147483647] overflow-hidden animate-fadeIn">
+            <div className="max-h-[280px] overflow-y-auto py-2">
+              {/* "Select All" Option */}
+              <div
+                className={`px-4 py-2.5 text-sm flex items-center border-b border-gray-100 ${
+                  allSelected ? "bg-primary/5" : "hover:bg-gray-50"
+                }`}
+                onClick={(e) => e.stopPropagation()}
+              >
+                <CustomCheckbox
+                  label={
+                    <span className="font-medium text-gray-700">
+                      Select All
+                    </span>
+                  }
+                  checked={allSelected}
+                  onChange={handleSelectAll}
+                  className="w-full"
+                  tickColor="text-white"
+                />
+              </div>
+
+              {/* Options List */}
+              {hasResults ? (
+                <div className="py-1">
+                  {filteredOptions.map((option, index) => {
+                    const isSelected = value.includes(option.value);
+                    const isFocused = focusedIndex === index;
+                    const isDisabled = disabledSet.has(option.value);
+                    return (
+                      <div
+                        key={option.value}
+                        ref={(el) => (optionRefs.current[index] = el)}
+                        className={`px-4 py-2.5 text-sm flex items-center transition-colors ${
+                          isDisabled
+                            ? "opacity-60 cursor-not-allowed"
+                            : "cursor-pointer"
+                        } ${isSelected ? "bg-primary/5" : ""} ${isFocused && !isDisabled ? "bg-gray-100" : !isDisabled ? "hover:bg-gray-50" : ""}`}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          if (!isDisabled) handleOptionChange(option.value);
+                        }}
+                        onMouseEnter={() => setFocusedIndex(index)}
+                        role="option"
+                        aria-selected={isSelected}
+                        aria-disabled={isDisabled}
+                      >
+                        <CustomCheckbox
+                          label={option.label}
+                          checked={isSelected}
+                          onChange={() => {}}
+                          disabled={isDisabled}
+                          className="w-full pointer-events-none"
+                          tickColor="text-white"
+                        />
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : (
+                <div className="px-4 py-8 text-center text-gray-500 text-sm">
+                  <p className="font-medium">No results found</p>
+                  <p className="text-xs mt-1">Try adjusting your search</p>
+                </div>
+              )}
+            </div>
+
+            {/* Footer with summary */}
+            {selectedCount > 0 && (
+              <div className="border-t border-gray-100 px-4 py-2.5 bg-gray-50 flex items-center justify-between">
+                <span className="text-xs text-gray-600">
+                  {selectedCount} {selectedCount === 1 ? "item" : "items"}{" "}
+                  selected
+                </span>
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onChange([...disabledValues]);
+                  }}
+                  className="text-xs text-primary hover:text-primary/80 font-medium transition-colors"
+                >
+                  Clear All
+                </button>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Animation styles */}
+        <style>{`
         @keyframes fadeIn {
           from {
             opacity: 0;
@@ -18464,11 +19519,12 @@ const SearchableCheckboxDropdown = memo(({
           animation: fadeIn 0.2s ease-out;
         }
       `}</style>
-    </div>
-  );
-});
+      </div>
+    );
+  },
+);
 
-SearchableCheckboxDropdown.displayName = 'SearchableCheckboxDropdown';
+SearchableCheckboxDropdown.displayName = "SearchableCheckboxDropdown";
 
 export default SearchableCheckboxDropdown;
 ```
@@ -18484,218 +19540,260 @@ export default SearchableCheckboxDropdown;
  * - Wrapped in React.memo for performance
  * - Same visual behavior as before
  */
-import React, { memo, useCallback, useEffect, useId, useRef, useState } from "react";
+import React, {
+  memo,
+  useCallback,
+  useEffect,
+  useId,
+  useRef,
+  useState,
+} from "react";
 import { DownArrow } from "../../../assets/data/icons";
 import useClickOutside from "../../../hooks/useClickOutside";
 
-const CustomSelectField = memo(({
-  hasAccess = true,
-  label,
-  placeholder = "Select option",
-  value,
-  onChange,
-  error,
-  options = [],
-  className = "",
-  disabled = false,
-  ...rest
-}) => {
-  const isDisabled = !hasAccess || disabled;
-  const [isOpen, setIsOpen] = useState(false);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [displayValue, setDisplayValue] = useState("");
-  const inputRef = useRef(null);
-  const selectRef = useRef(null);
-  const generatedId = useId();
-  const controlId = rest.id || rest.name || generatedId;
-  const nativeSelectId = `${controlId}-native`;
-  const listboxId = `${controlId}-listbox`;
+const CustomSelectField = memo(
+  ({
+    hasAccess = true,
+    label,
+    placeholder = "Select option",
+    value,
+    onChange,
+    error,
+    options = [],
+    className = "",
+    disabled = false,
+    ...rest
+  }) => {
+    const isDisabled = !hasAccess || disabled;
+    const [isOpen, setIsOpen] = useState(false);
+    const [searchTerm, setSearchTerm] = useState("");
+    const [displayValue, setDisplayValue] = useState("");
+    const inputRef = useRef(null);
+    const selectRef = useRef(null);
+    const generatedId = useId();
+    const controlId = rest.id || rest.name || generatedId;
+    const nativeSelectId = `${controlId}-native`;
+    const listboxId = `${controlId}-listbox`;
 
-  // Reusable hook replaces manual click-outside pattern
-  const dropdownRef = useClickOutside(() => {
-    setIsOpen(false);
-    setSearchTerm("");
-  });
-
-  const getOptionLabel = useCallback(
-    (val) => {
-      const found = options.find((opt) => String(opt.value ?? opt) === String(val));
-      if (!found) return "";
-      const lab = found?.label ?? found;
-      return typeof lab === 'object' ? String(lab?.label ?? lab?.value ?? '') : String(lab);
-    },
-    [options]
-  );
-
-  const filteredOptions = options.filter((option) =>
-    String(option.label ?? option).toLowerCase().includes(searchTerm.toLowerCase())
-  );
-
-  const handleSelect = (selected) => {
-    if (selected?.disabled) {
-      return;
-    }
-    const val = selected.value ?? selected;
-    const label = getOptionLabel(val);
-
-    // Update display and search
-    setDisplayValue(label);
-    setSearchTerm("");
-    setIsOpen(false);
-
-    // Call onChange directly with proper event structure
-    if (onChange && selectRef.current) {
-      selectRef.current.value = val;
-      // Create a proper synthetic event object that matches what React expects
-      const syntheticEvent = {
-        target: {
-          name: selectRef.current.name,
-          value: val
-        },
-        currentTarget: {
-          name: selectRef.current.name,
-          value: val
-        }
-      };
-      onChange(syntheticEvent);
-    }
-  };
-
-  useEffect(() => {
-    const selectedLabel = getOptionLabel(value);
-    setDisplayValue(selectedLabel);
-  }, [value, options, getOptionLabel]);
-
-  const handleInputClick = (e) => {
-    if (isDisabled) {
-      return;
-    }
-
-    if (isOpen) {
+    // Reusable hook replaces manual click-outside pattern
+    const dropdownRef = useClickOutside(() => {
       setIsOpen(false);
       setSearchTerm("");
-    } else {
-      setIsOpen(true);
+    });
+
+    const getOptionLabel = useCallback(
+      (val) => {
+        const found = options.find(
+          (opt) => String(opt.value ?? opt) === String(val),
+        );
+        if (!found) return "";
+        const lab = found?.label ?? found;
+        return typeof lab === "object"
+          ? String(lab?.label ?? lab?.value ?? "")
+          : String(lab);
+      },
+      [options],
+    );
+
+    const filteredOptions = options.filter((option) =>
+      String(option.label ?? option)
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase()),
+    );
+
+    const handleSelect = (selected) => {
+      if (selected?.disabled) {
+        return;
+      }
+      const val = selected.value ?? selected;
+      const label = getOptionLabel(val);
+
+      // Update display and search
+      setDisplayValue(label);
       setSearchTerm("");
-      inputRef.current?.focus();
-    }
-  };
+      setIsOpen(false);
 
-  const handleInputChange = (e) => {
-    if (isDisabled) {
-      return;
-    }
+      // Call onChange directly with proper event structure
+      if (onChange && selectRef.current) {
+        selectRef.current.value = val;
+        // Create a proper synthetic event object that matches what React expects
+        const syntheticEvent = {
+          target: {
+            name: selectRef.current.name,
+            value: val,
+          },
+          currentTarget: {
+            name: selectRef.current.name,
+            value: val,
+          },
+        };
+        onChange(syntheticEvent);
+      }
+    };
 
-    setSearchTerm(e.target.value);
-    setIsOpen(true);
-  };
+    useEffect(() => {
+      const selectedLabel = getOptionLabel(value);
+      setDisplayValue(selectedLabel);
+    }, [value, options, getOptionLabel]);
 
-  // Click-outside handling is now done by useClickOutside hook above
+    const handleInputClick = (e) => {
+      if (isDisabled) {
+        return;
+      }
 
-  return (
-    <div className={`flex flex-col w-full ${className} ${isDisabled ? "pointer-events-none opacity-75" : ""}`.trim()} ref={dropdownRef}>
-      {label && (
-        <label htmlFor={controlId} className="text-sm font-normal text-primary mb-1">{label}</label>
-      )}
+      if (isOpen) {
+        setIsOpen(false);
+        setSearchTerm("");
+      } else {
+        setIsOpen(true);
+        setSearchTerm("");
+        inputRef.current?.focus();
+      }
+    };
 
-      <div className="relative w-full">
-        {/* Hidden native select for compatibility */}
-        <select
-          ref={selectRef}
-          id={nativeSelectId}
-          name={rest.name}
-          value={typeof value === 'object' ? String(value?.value ?? '') : String(value ?? '')}
-          onChange={onChange}
-          disabled={isDisabled}
-          className="hidden"
-          aria-hidden="true"
-        >
-          <option value="" disabled>
-            {placeholder}
-          </option>
-          {options.map((option, index) => {
-            const optVal = option.value ?? option;
-            const optLabelRaw = option.label ?? option;
-            const optLabel = typeof optLabelRaw === 'object' ? String(optLabelRaw?.label ?? optLabelRaw?.value ?? '') : String(optLabelRaw ?? '');
-            const optValStr = typeof optVal === 'object' ? String(optVal?.value ?? '') : String(optVal ?? '');
-            return (
-            <option
-              key={index}
-              value={optValStr}
-              id={optLabel}
-              disabled={Boolean(option.disabled)}
-            >
-              {optLabel}
-            </option>
-            );
-          })}
-        </select>
+    const handleInputChange = (e) => {
+      if (isDisabled) {
+        return;
+      }
 
-        {/* Custom input styled as select */}
-        <input
-          ref={inputRef}
-          id={controlId}
-          type="text"
-          role="combobox"
-          aria-expanded={isOpen}
-          aria-haspopup="listbox"
-          aria-controls={listboxId}
-          value={isOpen ? searchTerm : displayValue || ""}
-          placeholder={placeholder}
-          onChange={handleInputChange}
-          onClick={handleInputClick}
-          readOnly={!isOpen}
-          disabled={isDisabled}
-          className="w-full text-sm text-gray-700 bg-[#F6F6F6] px-3 py-2.5 rounded focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer disabled:cursor-not-allowed disabled:opacity-70"
-        />
-        <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none">
-          <DownArrow />
-        </div>
+      setSearchTerm(e.target.value);
+      setIsOpen(true);
+    };
 
-        {isOpen && (
-          <div
-            id={listboxId}
-            role="listbox"
-            className="absolute w-full mt-1 bg-white  shadow-lg text-gray-700   border-gray-200 border-2 rounded-lg z-[2147483647] max-h-60 overflow-y-auto"
+    // Click-outside handling is now done by useClickOutside hook above
+
+    return (
+      <div
+        className={`flex flex-col w-full ${className} ${isDisabled ? "pointer-events-none opacity-75" : ""}`.trim()}
+        ref={dropdownRef}
+      >
+        {label && (
+          <label
+            htmlFor={controlId}
+            className="text-sm font-normal text-primary mb-1"
           >
-            {filteredOptions.length > 0 ? (
-              filteredOptions.map((option, index) => {
-                const val = option.value ?? option;
-                const rawLabel = option.label ?? option;
-                const label = typeof rawLabel === 'object' ? String(rawLabel?.label ?? rawLabel?.value ?? '') : String(rawLabel ?? '');
-                const isSelected = String(value) === String(val);
-                const isDisabled = Boolean(option.disabled);
+            {label}
+          </label>
+        )}
 
-                return (
-                  <div
-                    key={index}
-                    className={`px-3 py-2 text-sm ${
-                      isDisabled
-                        ? "text-gray-400 cursor-not-allowed"
-                        : "cursor-pointer hover:bg-gray-100"
-                    } ${
-                      isSelected && !isDisabled
-                        ? "bg-gray-100 font-medium text-primary"
-                        : ""
-                    }`}
-                    onClick={() => handleSelect(option)}
-                  >
-                    {label}
-                  </div>
-                );
-              })
-            ) : (
-              <div className="px-3 py-2 text-sm text-gray-400">
-                No options found
-              </div>
-            )}
+        <div className="relative w-full">
+          {/* Hidden native select for compatibility */}
+          <select
+            ref={selectRef}
+            id={nativeSelectId}
+            name={rest.name}
+            value={
+              typeof value === "object"
+                ? String(value?.value ?? "")
+                : String(value ?? "")
+            }
+            onChange={onChange}
+            disabled={isDisabled}
+            className="hidden"
+            aria-hidden="true"
+          >
+            <option value="" disabled>
+              {placeholder}
+            </option>
+            {options.map((option, index) => {
+              const optVal = option.value ?? option;
+              const optLabelRaw = option.label ?? option;
+              const optLabel =
+                typeof optLabelRaw === "object"
+                  ? String(optLabelRaw?.label ?? optLabelRaw?.value ?? "")
+                  : String(optLabelRaw ?? "");
+              const optValStr =
+                typeof optVal === "object"
+                  ? String(optVal?.value ?? "")
+                  : String(optVal ?? "");
+              return (
+                <option
+                  key={index}
+                  value={optValStr}
+                  id={optLabel}
+                  disabled={Boolean(option.disabled)}
+                >
+                  {optLabel}
+                </option>
+              );
+            })}
+          </select>
+
+          {/* Custom input styled as select */}
+          <input
+            ref={inputRef}
+            id={controlId}
+            type="text"
+            role="combobox"
+            aria-expanded={isOpen}
+            aria-haspopup="listbox"
+            aria-controls={listboxId}
+            value={isOpen ? searchTerm : displayValue || ""}
+            placeholder={placeholder}
+            onChange={handleInputChange}
+            onClick={handleInputClick}
+            readOnly={!isOpen}
+            disabled={isDisabled}
+            className="w-full text-sm text-gray-700 bg-[#F6F6F6] px-3 py-2.5 rounded focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer disabled:cursor-not-allowed disabled:opacity-70"
+          />
+          <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none">
+            <DownArrow />
           </div>
+
+          {isOpen && (
+            <div
+              id={listboxId}
+              role="listbox"
+              className="absolute w-full mt-1 bg-white  shadow-lg text-gray-700   border-gray-200 border-2 rounded-lg z-[2147483647] max-h-60 overflow-y-auto"
+            >
+              {filteredOptions.length > 0 ? (
+                filteredOptions.map((option, index) => {
+                  const val = option.value ?? option;
+                  const rawLabel = option.label ?? option;
+                  const label =
+                    typeof rawLabel === "object"
+                      ? String(rawLabel?.label ?? rawLabel?.value ?? "")
+                      : String(rawLabel ?? "");
+                  const isSelected = String(value) === String(val);
+                  const isDisabled = Boolean(option.disabled);
+
+                  return (
+                    <div
+                      key={index}
+                      className={`px-3 py-2 text-sm ${
+                        isDisabled
+                          ? "text-gray-400 cursor-not-allowed"
+                          : "cursor-pointer hover:bg-gray-100"
+                      } ${
+                        isSelected && !isDisabled
+                          ? "bg-gray-100 font-medium text-primary"
+                          : ""
+                      }`}
+                      onClick={() => handleSelect(option)}
+                    >
+                      {label}
+                    </div>
+                  );
+                })
+              ) : (
+                <div className="px-3 py-2 text-sm text-gray-400">
+                  No options found
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+        {error && (
+          <span className="text-red text-sm mt-1">
+            {typeof error === "object"
+              ? String(error?.message ?? error?.label ?? "")
+              : String(error)}
+          </span>
         )}
       </div>
-      {error && <span className="text-red text-sm mt-1">{typeof error === 'object' ? String(error?.message ?? error?.label ?? '') : String(error)}</span>}
-    </div>
-  );
-});
+    );
+  },
+);
 
 export default CustomSelectField;
 ```
@@ -18715,33 +19813,28 @@ import React, { memo, useState } from "react";
 import { DownArrow } from "../../../assets/data/icons";
 import useClickOutside from "../../../hooks/useClickOutside";
 
-const SelectFilter = memo(({
-  options,
-  value,
-  onChange,
-  placeholder = "Select...",
-  className = "",
-}) => {
-  const [isOpen, setIsOpen] = useState(false);
+const SelectFilter = memo(
+  ({ options, value, onChange, placeholder = "Select...", className = "" }) => {
+    const [isOpen, setIsOpen] = useState(false);
 
-  // Reusable hook replaces manual addEventListener/removeEventListener pattern
-  const containerRef = useClickOutside(() => setIsOpen(false));
+    // Reusable hook replaces manual addEventListener/removeEventListener pattern
+    const containerRef = useClickOutside(() => setIsOpen(false));
 
-  const selectedOption = options?.find((opt) => opt.value === value);
-  const displayText = selectedOption ? selectedOption.label : placeholder;
+    const selectedOption = options?.find((opt) => opt.value === value);
+    const displayText = selectedOption ? selectedOption.label : placeholder;
 
-  const handleSelect = (optionValue) => {
-    onChange(optionValue);
-    setIsOpen(false);
-  };
+    const handleSelect = (optionValue) => {
+      onChange(optionValue);
+      setIsOpen(false);
+    };
 
-  return (
-    <div className={`relative inline-block ${className}`} ref={containerRef}>
-      {/* Select Trigger */}
-      <button
-        type="button"
-        onClick={() => setIsOpen(!isOpen)}
-        className={`
+    return (
+      <div className={`relative inline-block ${className}`} ref={containerRef}>
+        {/* Select Trigger */}
+        <button
+          type="button"
+          onClick={() => setIsOpen(!isOpen)}
+          className={`
           flex items-center justify-between gap-2 w-full
           text-xs border border-white/30 rounded-lg px-3 py-2
           bg-transparent text-white
@@ -18751,54 +19844,55 @@ const SelectFilter = memo(({
           ${value ? "bg-white/20 border-white/50" : ""}
           ${isOpen ? "bg-white/20 border-white" : ""}
         `}
-      >
-        <span className="truncate">{displayText}</span>
-        <DownArrow
-          className={`w-3 h-3 transition-transform ${
-            isOpen ? "rotate-180" : ""
-          }`}
-        />
-      </button>
+        >
+          <span className="truncate">{displayText}</span>
+          <DownArrow
+            className={`w-3 h-3 transition-transform ${
+              isOpen ? "rotate-180" : ""
+            }`}
+          />
+        </button>
 
-      {/* Dropdown Menu - Always opens downward */}
-      {isOpen && (
-        <div className="absolute left-0 top-full mt-1 bg-white border border-gray-300 rounded-lg shadow-lg z-[2147483647] min-w-full">
-          {/* Options List */}
-          <div className="py-1 max-h-60 overflow-y-auto">
-            {/* Clear Option */}
-            <div
-              className={`px-3 py-2 cursor-pointer text-xs flex items-center justify-between ${
-                !value
-                  ? "font-medium text-gray-700"
-                  : "hover:bg-gray-50 text-gray-700"
-              }`}
-              onClick={() => handleSelect("")}
-            >
-              <span>{placeholder}</span>
-              {!value && <span>✓</span>}
-            </div>
-
-            {/* Filter Options */}
-            {options?.map((option) => (
+        {/* Dropdown Menu - Always opens downward */}
+        {isOpen && (
+          <div className="absolute left-0 top-full mt-1 bg-white border border-gray-300 rounded-lg shadow-lg z-[2147483647] min-w-full">
+            {/* Options List */}
+            <div className="py-1 max-h-60 overflow-y-auto">
+              {/* Clear Option */}
               <div
-                key={option.value}
                 className={`px-3 py-2 cursor-pointer text-xs flex items-center justify-between ${
-                  value === option.value
+                  !value
                     ? "font-medium text-gray-700"
                     : "hover:bg-gray-50 text-gray-700"
                 }`}
-                onClick={() => handleSelect(option.value)}
+                onClick={() => handleSelect("")}
               >
-                <span>{option.label}</span>
-                {value === option.value && <span>✓</span>}
+                <span>{placeholder}</span>
+                {!value && <span>✓</span>}
               </div>
-            ))}
+
+              {/* Filter Options */}
+              {options?.map((option) => (
+                <div
+                  key={option.value}
+                  className={`px-3 py-2 cursor-pointer text-xs flex items-center justify-between ${
+                    value === option.value
+                      ? "font-medium text-gray-700"
+                      : "hover:bg-gray-50 text-gray-700"
+                  }`}
+                  onClick={() => handleSelect(option.value)}
+                >
+                  <span>{option.label}</span>
+                  {value === option.value && <span>✓</span>}
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
-    </div>
-  );
-});
+        )}
+      </div>
+    );
+  },
+);
 
 export default SelectFilter;
 ```
@@ -18990,89 +20084,104 @@ export default PersonalDetailsLoader;
 import React, { memo, useId, useMemo, useState } from "react";
 import { CloseIcon } from "../../../assets/data/icons";
 
-const TabbedModal = memo(({
-  title,
-  description,
-  tabs = [],
-  defaultTabId,
-  onClose,
-  className = "bg-primary",
-  zIndex = "z-[2147483647]",
-}) => {
-  const titleId = useId();
-  const [activeTabId, setActiveTabId] = useState(defaultTabId || tabs[0]?.id || "");
+const TabbedModal = memo(
+  ({
+    title,
+    description,
+    tabs = [],
+    defaultTabId,
+    onClose,
+    className = "bg-primary",
+    zIndex = "z-[2147483647]",
+  }) => {
+    const titleId = useId();
+    const [activeTabId, setActiveTabId] = useState(
+      defaultTabId || tabs[0]?.id || "",
+    );
 
-  const activeTab = useMemo(
-    () => tabs.find((tab) => tab.id === activeTabId) || tabs[0],
-    [tabs, activeTabId]
-  );
+    const activeTab = useMemo(
+      () => tabs.find((tab) => tab.id === activeTabId) || tabs[0],
+      [tabs, activeTabId],
+    );
 
-  if (!tabs.length) return null;
+    if (!tabs.length) return null;
 
-  return (
-    <div
-      className={`fixed inset-0 flex items-center justify-center backdrop-blur-sm bg-opacity-50 ${zIndex} p-2 sm:p-4 overflow-hidden`}
-      onClick={(e) => e.stopPropagation()}
-      onMouseDown={(e) => e.stopPropagation()}
-    >
+    return (
       <div
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby={titleId}
-        className="bg-white dark:bg-gray-900 rounded-lg border dark:border-gray-700 text-black dark:text-gray-100 flex flex-col overflow-hidden max-w-full min-w-0"
-        style={{ width: "min(96vw, 1200px)", maxHeight: "94vh" }}
+        className={`fixed inset-0 flex items-center justify-center backdrop-blur-sm bg-opacity-50 ${zIndex} p-2 sm:p-4 overflow-hidden`}
         onClick={(e) => e.stopPropagation()}
         onMouseDown={(e) => e.stopPropagation()}
       >
-        <div className={`flex items-center justify-between gap-3 ${className} text-white p-3 sm:p-4 flex-shrink-0`}>
-          <div className="min-w-0">
-            {title && <h2 id={titleId} className="truncate text-sm sm:text-lg font-medium">{title}</h2>}
-            {description && typeof description === "string" ? (
-              <p className="truncate text-[10px] sm:text-xs">{description}</p>
-            ) : (
-              <div className="text-[10px] sm:text-xs">{description}</div>
-            )}
-          </div>
-          <button
-            type="button"
-            onClick={onClose}
-            className="flex-shrink-0 rounded-full p-1 hover:bg-white/10 transition-colors"
-            aria-label="Close modal"
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby={titleId}
+          className="bg-white dark:bg-gray-900 rounded-lg border dark:border-gray-700 text-black dark:text-gray-100 flex flex-col overflow-hidden max-w-full min-w-0"
+          style={{ width: "min(96vw, 1200px)", maxHeight: "94vh" }}
+          onClick={(e) => e.stopPropagation()}
+          onMouseDown={(e) => e.stopPropagation()}
+        >
+          <div
+            className={`flex items-center justify-between gap-3 ${className} text-white p-3 sm:p-4 flex-shrink-0`}
           >
-            <CloseIcon />
-          </button>
-        </div>
-
-        <div className="px-3 sm:px-4 pt-4 pb-3 border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-          <div className="flex flex-wrap gap-2">
-            {tabs.map((tab) => {
-              const isActive = tab.id === activeTab?.id;
-              return (
-                <button
-                  key={tab.id}
-                  type="button"
-                  onClick={() => setActiveTabId(tab.id)}
-                  title={tab.title || tab.label}
-                  className={`px-4 py-2 rounded-full border text-sm font-semibold transition-colors ${
-                    isActive
-                      ? "bg-primary text-white border-primary"
-                      : "bg-white text-primary border-primary hover:bg-primary/10"
-                  }`}
+            <div className="min-w-0">
+              {title && (
+                <h2
+                  id={titleId}
+                  className="truncate text-sm sm:text-lg font-medium"
                 >
-                  <span className="block max-w-[180px] truncate">{tab.label}</span>
-                </button>
-              );
-            })}
+                  {title}
+                </h2>
+              )}
+              {description && typeof description === "string" ? (
+                <p className="truncate text-[10px] sm:text-xs">{description}</p>
+              ) : (
+                <div className="text-[10px] sm:text-xs">{description}</div>
+              )}
+            </div>
+            <button
+              type="button"
+              onClick={onClose}
+              className="flex-shrink-0 rounded-full p-1 hover:bg-white/10 transition-colors"
+              aria-label="Close modal"
+            >
+              <CloseIcon />
+            </button>
           </div>
-        </div>
 
-        <div className="flex-1 overflow-y-auto overflow-x-hidden bg-white dark:bg-gray-900">
-          <div className="p-4 sm:p-6">{activeTab?.content}</div>
+          <div className="px-3 sm:px-4 pt-4 pb-3 border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
+            <div className="flex flex-wrap gap-2">
+              {tabs.map((tab) => {
+                const isActive = tab.id === activeTab?.id;
+                return (
+                  <button
+                    key={tab.id}
+                    type="button"
+                    onClick={() => setActiveTabId(tab.id)}
+                    title={tab.title || tab.label}
+                    className={`px-4 py-2 rounded-full border text-sm font-semibold transition-colors ${
+                      isActive
+                        ? "bg-primary text-white border-primary"
+                        : "bg-white text-primary border-primary hover:bg-primary/10"
+                    }`}
+                  >
+                    <span className="block max-w-[180px] truncate">
+                      {tab.label}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="flex-1 overflow-y-auto overflow-x-hidden bg-white dark:bg-gray-900">
+            <div className="p-4 sm:p-6">{activeTab?.content}</div>
+          </div>
         </div>
       </div>
-    </div>
-  );
-});
+    );
+  },
+);
 
 TabbedModal.displayName = "TabbedModal";
 
@@ -19093,452 +20202,514 @@ import { SearchIcon } from "../../../assets/data/icons";
 import { SkeletonTable } from "../SkletonLoader/index";
 import { DownArrow } from "../../../assets/data/icons";
 
-const TableHeader = memo(({ columns, onFilterChange, hasExpandableRows, selectionColumn, headerChecked, headerIndeterminate, onToggleSelectAll }) => {
-  const [showSearch, setShowSearch] = useState(null);
+const TableHeader = memo(
+  ({
+    columns,
+    onFilterChange,
+    hasExpandableRows,
+    selectionColumn,
+    headerChecked,
+    headerIndeterminate,
+    onToggleSelectAll,
+  }) => {
+    const [showSearch, setShowSearch] = useState(null);
 
-  const handleSearchChange = (accessor, value) => {
-    onFilterChange(accessor, value);
-  };
+    const handleSearchChange = (accessor, value) => {
+      onFilterChange(accessor, value);
+    };
 
-  const closeSearch = (accessor) => {
-    onFilterChange(accessor, null);
-    setShowSearch(null);
-  };
+    const closeSearch = (accessor) => {
+      onFilterChange(accessor, null);
+      setShowSearch(null);
+    };
 
-  const handleHeaderCheck = (e) => {
-    if (e.key === " " || e.key === "Enter" || e.type === "click") {
-      if (e.key) e.preventDefault();
-      onToggleSelectAll?.();
-    }
-  };
+    const handleHeaderCheck = (e) => {
+      if (e.key === " " || e.key === "Enter" || e.type === "click") {
+        if (e.key) e.preventDefault();
+        onToggleSelectAll?.();
+      }
+    };
 
-  return (
-    <thead className="text-primary border-b-4 border-primary bg-white sticky top-0 z-50 font-serif shadow-md">
-      <tr>
-        {selectionColumn && (
-          <th className="p-3 sm:p-4 text-xs text-left font-medium w-10">
-            <input
-              type="checkbox"
-              aria-label="Select all rows"
-              checked={headerChecked}
-              ref={(el) => {
-                if (el) el.indeterminate = headerIndeterminate;
+    return (
+      <thead className="text-primary border-b-4 border-primary bg-white sticky top-0 z-50 font-serif shadow-md">
+        <tr>
+          {selectionColumn && (
+            <th className="p-3 sm:p-4 text-xs text-left font-medium w-10">
+              <input
+                type="checkbox"
+                aria-label="Select all rows"
+                checked={headerChecked}
+                ref={(el) => {
+                  if (el) el.indeterminate = headerIndeterminate;
+                }}
+                onChange={handleHeaderCheck}
+                onKeyDown={handleHeaderCheck}
+                className="w-4 h-4 accent-primary cursor-pointer"
+              />
+            </th>
+          )}
+          {hasExpandableRows && (
+            <th className="p-3 sm:p-4 text-xs text-left font-medium w-10"></th>
+          )}
+          {columns.map((column, index) => (
+            <th
+              key={index}
+              className="p-4 sm:p-6 text-xs text-left font-medium whitespace-nowrap"
+              style={{
+                width: `${(column.width / 24) * 100}%`,
+                minWidth:
+                  column.accessor === "sn"
+                    ? "60px"
+                    : column.accessor === "name" || column.accessor === "client"
+                      ? "200px"
+                      : "120px",
               }}
-              onChange={handleHeaderCheck}
-              onKeyDown={handleHeaderCheck}
-              className="w-4 h-4 accent-primary cursor-pointer"
-            />
-          </th>
-        )}
-        {hasExpandableRows && (
-          <th className="p-3 sm:p-4 text-xs text-left font-medium w-10"></th>
-        )}
-        {columns.map((column, index) => (
-          <th
-            key={index}
-            className="p-4 sm:p-6 text-xs text-left font-medium whitespace-nowrap"
-            style={{ 
-              width: `${(column.width / 24) * 100}%`,
-              minWidth: column.accessor === "sn" ? "60px" : column.accessor === "name" || column.accessor === "client" ? "200px" : "120px"
-            }}
-          >
-            {showSearch === column.accessor ? (
-              <div className="relative flex items-center w-full min-w-[100px]">
-                <input
-                  autoFocus
-                  name={column.accessor}
-                  type="text"
-                  placeholder={`Search ${column.label.toLowerCase()}...`}
-                  onChange={(e) =>
-                    handleSearchChange(column.accessor, e.target.value)
-                  }
-                  className="w-full text-xs font-normal bg-[#F6F6F6] text-gray-700 pl-2 pr-7 py-1.5 rounded-md border border-transparent focus:outline-none focus:ring-1 focus:ring-primary"
-                />
+            >
+              {showSearch === column.accessor ? (
+                <div className="relative flex items-center w-full min-w-[100px]">
+                  <input
+                    autoFocus
+                    name={column.accessor}
+                    type="text"
+                    placeholder={`Search ${column.label.toLowerCase()}...`}
+                    onChange={(e) =>
+                      handleSearchChange(column.accessor, e.target.value)
+                    }
+                    className="w-full text-xs font-normal bg-[#F6F6F6] text-gray-700 pl-2 pr-7 py-1.5 rounded-md border border-transparent focus:outline-none focus:ring-1 focus:ring-primary"
+                  />
+                  <button
+                    onClick={() => closeSearch(column.accessor)}
+                    title="Close search"
+                    aria-label="Close search"
+                    className="absolute right-1 top-1/2 -translate-y-1/2 w-5 h-5 flex items-center justify-center rounded-full text-gray-500 hover:bg-primary hover:text-white transition-colors text-sm leading-none"
+                  >
+                    &times;
+                  </button>
+                </div>
+              ) : (
+                <span className="flex items-center gap-1">
+                  {column.isComponent ? column.label : <>{column.label}</>}
+                  {!column.isComponent && column.isSearch && (
+                    <SearchIcon
+                      onClick={() => setShowSearch(column.accessor)}
+                      className="text-primary cursor-pointer w-3 h-3 sm:w-4 sm:h-4"
+                    />
+                  )}
+                </span>
+              )}
+            </th>
+          ))}
+        </tr>
+      </thead>
+    );
+  },
+);
+
+const TableRow = memo(
+  ({
+    row,
+    rowIndex,
+    columns,
+    hasExpandableRows,
+    isExpanded,
+    onToggleExpand,
+    selectionColumn,
+    isSelected,
+    onToggleRow,
+  }) => {
+    const hasChildren = !!row.children;
+
+    const handleToggleRow = (e) => {
+      if (e.key === " ") {
+        e.preventDefault();
+        onToggleRow?.();
+      } else if (e.type === "click") {
+        onToggleRow?.();
+      }
+    };
+
+    return (
+      <>
+        <tr
+          data-testid={row.dataTestId || `row-${row.id || rowIndex}`}
+          aria-selected={
+            selectionColumn ? (isSelected ? true : false) : undefined
+          }
+          className={`transition-colors hover:bg-gray-50 ${isSelected ? "bg-primary/5" : ""}`}
+        >
+          {selectionColumn && (
+            <td className="py-2 px-3 border-b border-gray-100">
+              <input
+                type="checkbox"
+                aria-label={`Select row ${rowIndex + 1}`}
+                checked={isSelected}
+                onChange={handleToggleRow}
+                onKeyDown={handleToggleRow}
+                tabIndex={0}
+                className="w-4 h-4 accent-primary cursor-pointer"
+              />
+            </td>
+          )}
+          {hasExpandableRows && (
+            <td className="py-2 px-2 border-b border-gray-100">
+              {hasChildren ? (
                 <button
-                  onClick={() => closeSearch(column.accessor)}
-                  title="Close search"
-                  aria-label="Close search"
-                  className="absolute right-1 top-1/2 -translate-y-1/2 w-5 h-5 flex items-center justify-center rounded-full text-gray-500 hover:bg-primary hover:text-white transition-colors text-sm leading-none"
+                  onClick={() => onToggleExpand(row.id)}
+                  className={`p-1 rounded hover:bg-gray-200 transition-all duration-200 ${isExpanded ? "bg-primary/10" : ""}`}
                 >
-                  &times;
+                  <DownArrow
+                    className={`w-4 h-4 text-primary transition-transform duration-200 ${isExpanded ? "rotate-180" : ""}`}
+                  />
+                </button>
+              ) : (
+                <span className="w-6 h-6 inline-block"></span>
+              )}
+            </td>
+          )}
+          {columns.map((column, index) => (
+            <td
+              key={index}
+              className={`py-2 px-2 sm:px-3 text-xs sm:text-sm text-gray-700 whitespace-nowrap border-b border-gray-100`}
+              style={{
+                width: `${(column.width / 24) * 100}%`,
+                minWidth:
+                  column.accessor === "sn"
+                    ? "60px"
+                    : column.accessor === "name" || column.accessor === "client"
+                      ? "200px"
+                      : "120px",
+              }}
+            >
+              {column.render
+                ? column.render(row[column.accessor], row)
+                : row[column.accessor] || "N/A"}{" "}
+            </td>
+          ))}
+        </tr>
+        {/* Expandable content row */}
+        {hasExpandableRows && hasChildren && isExpanded && (
+          <tr className="bg-gray-50/80">
+            <td
+              colSpan={columns.length + 1 + (selectionColumn ? 1 : 0)}
+              className="p-0"
+            >
+              {row.children}
+            </td>
+          </tr>
+        )}
+      </>
+    );
+  },
+);
+
+const TableFooter = memo(
+  ({ totalCount = 0, currentPage = 1, pageSize = 10, onPageChange }) => {
+    const totalPages = pageSize > 0 ? Math.ceil(totalCount / pageSize) : 1;
+
+    // Limit visible page buttons for better compactness
+    const getVisiblePages = () => {
+      const delta = 1; // Number of pages to show on each side of current page
+      const range = [];
+      const rangeWithDots = [];
+
+      for (
+        let i = Math.max(2, currentPage - delta);
+        i <= Math.min(totalPages - 1, currentPage + delta);
+        i++
+      ) {
+        range.push(i);
+      }
+
+      if (currentPage - delta > 2) {
+        rangeWithDots.push(1, "...");
+      } else {
+        rangeWithDots.push(1);
+      }
+
+      rangeWithDots.push(...range);
+
+      if (currentPage + delta < totalPages - 1) {
+        rangeWithDots.push("...", totalPages);
+      } else if (totalPages > 1) {
+        rangeWithDots.push(totalPages);
+      }
+
+      return rangeWithDots;
+    };
+
+    return (
+      <tfoot className="bg-[#E2EDE3] border-t border-primary sticky bottom-0 z-20 shadow-sm">
+        <tr>
+          <td colSpan="100%" className="p-2 font-bold text-primary text-xs">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+              <span className="text-gray-700 whitespace-nowrap text-xs sm:text-sm">
+                Total: {totalCount}
+              </span>
+
+              <div className="flex items-center gap-1 overflow-x-auto">
+                <button
+                  onClick={() => onPageChange(currentPage - 1)}
+                  disabled={currentPage === 1}
+                  className="px-2 sm:px-3 py-1 bg-primary text-white rounded text-xs sm:text-sm disabled:opacity-50 hover:bg-primary-dark transition-colors duration-200 flex-shrink-0"
+                >
+                  ‹
+                </button>
+
+                <div className="flex gap-1">
+                  {getVisiblePages().map((page, index) =>
+                    page === "..." ? (
+                      <span
+                        key={index}
+                        className="px-1 sm:px-2 py-1 text-gray-500 text-xs sm:text-sm"
+                      >
+                        ...
+                      </span>
+                    ) : (
+                      <button
+                        key={index}
+                        onClick={() => onPageChange(page)}
+                        className={`px-2 sm:px-3 py-1 rounded text-xs sm:text-sm transition-colors duration-200 flex-shrink-0 ${
+                          currentPage === page
+                            ? "bg-primary text-white hover:bg-primary-dark"
+                            : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                        }`}
+                      >
+                        {page}
+                      </button>
+                    ),
+                  )}
+                </div>
+
+                <button
+                  onClick={() => onPageChange(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                  className="px-2 sm:px-3 py-1 bg-primary text-white rounded text-xs sm:text-sm disabled:opacity-50 hover:bg-primary-dark transition-colors duration-200 flex-shrink-0"
+                >
+                  ›
                 </button>
               </div>
-            ) : (
-              <span className="flex items-center gap-1">
-                {column.isComponent ? column.label : <>{column.label}</>}
-                {!column.isComponent && column.isSearch && (
-                  <SearchIcon
-                    onClick={() => setShowSearch(column.accessor)}
-                    className="text-primary cursor-pointer w-3 h-3 sm:w-4 sm:h-4"
-                  />
-                )}
-              </span>
-            )}
-          </th>
-        ))}
-      </tr>
-    </thead>
-  );
-});
-
-const TableRow = memo(({ row, rowIndex, columns, hasExpandableRows, isExpanded, onToggleExpand, selectionColumn, isSelected, onToggleRow }) => {
-  const hasChildren = !!row.children;
-
-  const handleToggleRow = (e) => {
-    if (e.key === " ") {
-      e.preventDefault();
-      onToggleRow?.();
-    } else if (e.type === "click") {
-      onToggleRow?.();
-    }
-  };
-
-  return (
-    <>
-      <tr
-        data-testid={row.dataTestId || `row-${row.id || rowIndex}`}
-        aria-selected={selectionColumn ? (isSelected ? true : false) : undefined}
-        className={`transition-colors hover:bg-gray-50 ${isSelected ? "bg-primary/5" : ""}`}
-      >
-        {selectionColumn && (
-          <td className="py-2 px-3 border-b border-gray-100">
-            <input
-              type="checkbox"
-              aria-label={`Select row ${rowIndex + 1}`}
-              checked={isSelected}
-              onChange={handleToggleRow}
-              onKeyDown={handleToggleRow}
-              tabIndex={0}
-              className="w-4 h-4 accent-primary cursor-pointer"
-            />
-          </td>
-        )}
-        {hasExpandableRows && (
-          <td className="py-2 px-2 border-b border-gray-100">
-            {hasChildren ? (
-              <button
-                onClick={() => onToggleExpand(row.id)}
-                className={`p-1 rounded hover:bg-gray-200 transition-all duration-200 ${isExpanded ? 'bg-primary/10' : ''}`}
-              >
-                <DownArrow
-                  className={`w-4 h-4 text-primary transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}
-                />
-              </button>
-            ) : (
-              <span className="w-6 h-6 inline-block"></span>
-            )}
-          </td>
-        )}
-        {columns.map((column, index) => (
-          <td
-            key={index}
-            className={`py-2 px-2 sm:px-3 text-xs sm:text-sm text-gray-700 whitespace-nowrap border-b border-gray-100`}
-            style={{ 
-              width: `${(column.width / 24) * 100}%`,
-              minWidth: column.accessor === "sn" ? "60px" : column.accessor === "name" || column.accessor === "client" ? "200px" : "120px"
-            }}
-          >
-            {column.render
-              ? column.render(row[column.accessor], row)
-              : row[column.accessor] || "N/A"}{" "}
-          </td>
-        ))}
-      </tr>
-      {/* Expandable content row */}
-      {hasExpandableRows && hasChildren && isExpanded && (
-        <tr className="bg-gray-50/80">
-          <td colSpan={columns.length + 1 + (selectionColumn ? 1 : 0)} className="p-0">
-            {row.children}
+            </div>
           </td>
         </tr>
-      )}
-    </>
-  );
-});
+      </tfoot>
+    );
+  },
+);
 
-const TableFooter = memo(({
-  totalCount = 0,
-  currentPage = 1,
-  pageSize = 10,
-  onPageChange,
-}) => {
-  const totalPages = pageSize > 0 ? Math.ceil(totalCount / pageSize) : 1;
+const TableView = memo(
+  ({
+    hasAccess = true,
+    columns,
+    rows,
+    totalCount,
+    onFilterChange,
+    currentPage,
+    pageSize,
+    onPageChange,
+    loading,
+    footer,
+    customHeader,
+    selectionColumn = false,
+    selectedRowIds = null,
+    onSelectionChange,
+  }) => {
+    if (!hasAccess) return null;
+    const [expandedRows, setExpandedRows] = useState({});
+    const [internalSelected, setInternalSelected] = useState({});
+    const tbodyRef = useRef(null);
+    const showPaginationFooter = typeof onPageChange === "function";
 
-  // Limit visible page buttons for better compactness
-  const getVisiblePages = () => {
-    const delta = 1; // Number of pages to show on each side of current page
-    const range = [];
-    const rangeWithDots = [];
+    const isControlledSelection =
+      selectedRowIds !== null && typeof onSelectionChange === "function";
+    const selectedMap = isControlledSelection
+      ? selectedRowIds
+      : internalSelected;
 
-    for (
-      let i = Math.max(2, currentPage - delta);
-      i <= Math.min(totalPages - 1, currentPage + delta);
-      i++
-    ) {
-      range.push(i);
-    }
+    const toggleSelect = (rowId) => {
+      if (!selectionColumn) return;
+      const next = { ...selectedMap };
+      if (next[rowId]) delete next[rowId];
+      else next[rowId] = true;
+      if (isControlledSelection) onSelectionChange(next);
+      else setInternalSelected(next);
+    };
 
-    if (currentPage - delta > 2) {
-      rangeWithDots.push(1, "...");
-    } else {
-      rangeWithDots.push(1);
-    }
+    const toggleSelectAll = () => {
+      if (!selectionColumn) return;
+      const allSelected =
+        rows.length > 0 && rows.every((row) => selectedMap[row.id]);
+      let next = {};
+      if (!allSelected) {
+        rows.forEach((row) => {
+          next[row.id] = true;
+        });
+      }
+      if (isControlledSelection) onSelectionChange(next);
+      else setInternalSelected(next);
+    };
 
-    rangeWithDots.push(...range);
+    // Check if any row has children (expandable content)
+    const hasExpandableRows = rows.some((row) => row.children);
 
-    if (currentPage + delta < totalPages - 1) {
-      rangeWithDots.push("...", totalPages);
-    } else if (totalPages > 1) {
-      rangeWithDots.push(totalPages);
-    }
+    const toggleExpand = (rowId) => {
+      setExpandedRows((prev) => ({
+        ...prev,
+        [rowId]: !prev[rowId],
+      }));
+    };
 
-    return rangeWithDots;
-  };
+    // Keyboard navigation: ArrowUp/ArrowDown to traverse selectable rows
+    const handleBodyKeyDown = (e) => {
+      if (!selectionColumn) return;
+      const rowsEl = Array.from(
+        tbodyRef.current?.querySelectorAll("tr[data-testid]") || [],
+      );
+      if (rowsEl.length === 0) return;
+      const currentIndex = rowsEl.indexOf(document.activeElement);
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        const next = rowsEl[(currentIndex + 1) % rowsEl.length];
+        next?.querySelector('input[type="checkbox"]')?.focus?.() ||
+          next?.focus?.();
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        const next = rowsEl[(currentIndex - 1 + rowsEl.length) % rowsEl.length];
+        next?.querySelector('input[type="checkbox"]')?.focus?.() ||
+          next?.focus?.();
+      }
+    };
 
-  return (
-    <tfoot className="bg-[#E2EDE3] border-t border-primary sticky bottom-0 z-20 shadow-sm">
-      <tr>
-        <td colSpan="100%" className="p-2 font-bold text-primary text-xs">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-            <span className="text-gray-700 whitespace-nowrap text-xs sm:text-sm">
-              Total: {totalCount}
-            </span>
+    useEffect(() => {
+      if (!loading && !isControlledSelection) {
+        setInternalSelected((prev) => {
+          const currentIds = new Set(rows.map((r) => r.id));
+          const pruned = {};
+          Object.keys(prev)
+            .filter((id) => currentIds.has(id))
+            .forEach((id) => {
+              pruned[id] = true;
+            });
+          if (Object.keys(pruned).length === Object.keys(prev).length)
+            return prev;
+          return pruned;
+        });
+      }
+    }, [rows, loading, isControlledSelection]);
 
-            <div className="flex items-center gap-1 overflow-x-auto">
-              <button
-                onClick={() => onPageChange(currentPage - 1)}
-                disabled={currentPage === 1}
-                className="px-2 sm:px-3 py-1 bg-primary text-white rounded text-xs sm:text-sm disabled:opacity-50 hover:bg-primary-dark transition-colors duration-200 flex-shrink-0"
-              >
-                ‹
-              </button>
+    const allVisibleSelected =
+      rows.length > 0 && rows.every((row) => selectedMap[row.id]);
+    const someVisibleSelected =
+      rows.some((row) => selectedMap[row.id]) && !allVisibleSelected;
 
-              <div className="flex gap-1">
-                {getVisiblePages().map((page, index) =>
-                  page === "..." ? (
-                    <span key={index} className="px-1 sm:px-2 py-1 text-gray-500 text-xs sm:text-sm">
-                      ...
-                    </span>
-                  ) : (
-                    <button
-                      key={index}
-                      onClick={() => onPageChange(page)}
-                      className={`px-2 sm:px-3 py-1 rounded text-xs sm:text-sm transition-colors duration-200 flex-shrink-0 ${
-                        currentPage === page
-                          ? "bg-primary text-white hover:bg-primary-dark"
-                          : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-                      }`}
-                    >
-                      {page}
-                    </button>
-                  )
-                )}
-              </div>
-
-              <button
-                onClick={() => onPageChange(currentPage + 1)}
-                disabled={currentPage === totalPages}
-                className="px-2 sm:px-3 py-1 bg-primary text-white rounded text-xs sm:text-sm disabled:opacity-50 hover:bg-primary-dark transition-colors duration-200 flex-shrink-0"
-              >
-                ›
-              </button>
-            </div>
-          </div>
-        </td>
-      </tr>
-    </tfoot>
-  );
-});
-
-const TableView = memo(({
-  hasAccess = true,
-  columns,
-  rows,
-  totalCount,
-  onFilterChange,
-  currentPage,
-  pageSize,
-  onPageChange,
-  loading,
-  footer,
-  customHeader,
-  selectionColumn = false,
-  selectedRowIds = null,
-  onSelectionChange,
-}) => {
-  if (!hasAccess) return null;
-  const [expandedRows, setExpandedRows] = useState({});
-  const [internalSelected, setInternalSelected] = useState({});
-  const tbodyRef = useRef(null);
-  const showPaginationFooter = typeof onPageChange === "function";
-
-  const isControlledSelection = selectedRowIds !== null && typeof onSelectionChange === "function";
-  const selectedMap = isControlledSelection ? selectedRowIds : internalSelected;
-
-  const toggleSelect = (rowId) => {
-    if (!selectionColumn) return;
-    const next = { ...selectedMap };
-    if (next[rowId]) delete next[rowId];
-    else next[rowId] = true;
-    if (isControlledSelection) onSelectionChange(next);
-    else setInternalSelected(next);
-  };
-
-  const toggleSelectAll = () => {
-    if (!selectionColumn) return;
-    const allSelected = rows.length > 0 && rows.every((row) => selectedMap[row.id]);
-    let next = {};
-    if (!allSelected) {
-      rows.forEach((row) => {
-        next[row.id] = true;
-      });
-    }
-    if (isControlledSelection) onSelectionChange(next);
-    else setInternalSelected(next);
-  };
-
-  // Check if any row has children (expandable content)
-  const hasExpandableRows = rows.some((row) => row.children);
-
-  const toggleExpand = (rowId) => {
-    setExpandedRows((prev) => ({
-      ...prev,
-      [rowId]: !prev[rowId],
-    }));
-  };
-
-  // Keyboard navigation: ArrowUp/ArrowDown to traverse selectable rows
-  const handleBodyKeyDown = (e) => {
-    if (!selectionColumn) return;
-    const rowsEl = Array.from(tbodyRef.current?.querySelectorAll('tr[data-testid]') || []);
-    if (rowsEl.length === 0) return;
-    const currentIndex = rowsEl.indexOf(document.activeElement);
-    if (e.key === "ArrowDown") {
-      e.preventDefault();
-      const next = rowsEl[(currentIndex + 1) % rowsEl.length];
-      next?.querySelector('input[type="checkbox"]')?.focus?.() || next?.focus?.();
-    } else if (e.key === "ArrowUp") {
-      e.preventDefault();
-      const next = rowsEl[(currentIndex - 1 + rowsEl.length) % rowsEl.length];
-      next?.querySelector('input[type="checkbox"]')?.focus?.() || next?.focus?.();
-    }
-  };
-
-  useEffect(() => {
-    if (!loading && !isControlledSelection) {
-      setInternalSelected((prev) => {
-        const currentIds = new Set(rows.map((r) => r.id));
-        const pruned = {};
-        Object.keys(prev)
-          .filter((id) => currentIds.has(id))
-          .forEach((id) => {
-            pruned[id] = true;
-          });
-        if (Object.keys(pruned).length === Object.keys(prev).length) return prev;
-        return pruned;
-      });
-    }
-  }, [rows, loading, isControlledSelection]);
-
-  const allVisibleSelected =
-    rows.length > 0 && rows.every((row) => selectedMap[row.id]);
-  const someVisibleSelected =
-    rows.some((row) => selectedMap[row.id]) && !allVisibleSelected;
-
-  return (
-    <div
-      className="w-full bg-white rounded-lg shadow-sm"
-      aria-busy={loading ? true : undefined}
-    >
-      {customHeader && customHeader}
-      <div className="overflow-x-auto overflow-y-auto max-h-[650px] scrollbar-thin border border-gray-200 rounded-b-lg">
-        <table
-          className="min-w-full border-collapse table-auto text-sm"
-          aria-rowcount={loading ? undefined : rows.length}
-          aria-colcount={columns.length + (hasExpandableRows ? 1 : 0) + (selectionColumn ? 1 : 0)}
-        >
-          <TableHeader
-            columns={columns}
-            onFilterChange={onFilterChange}
-            hasExpandableRows={hasExpandableRows}
-            selectionColumn={selectionColumn}
-            headerChecked={allVisibleSelected}
-            headerIndeterminate={someVisibleSelected}
-            onToggleSelectAll={toggleSelectAll}
-          />
-          <tbody ref={tbodyRef} onKeyDown={handleBodyKeyDown}>
-            {loading ? (
-              <tr>
-                <td colSpan={columns.length + (hasExpandableRows ? 1 : 0) + (selectionColumn ? 1 : 0)}>
-                  <SkeletonTable
-                    rowCount={8}
-                    columnCount={columns.length}
-                    compact={true}
-                  />
-                </td>
-              </tr>
-            ) : rows.length > 0 ? (
-              rows.map((row, rowIndex) => (
-                <TableRow
-                  key={row.id || rowIndex}
-                  row={row}
-                  rowIndex={rowIndex}
-                  columns={columns}
-                  hasExpandableRows={hasExpandableRows}
-                  isExpanded={expandedRows[row.id]}
-                  onToggleExpand={toggleExpand}
-                  selectionColumn={selectionColumn}
-                  isSelected={!!selectedMap[row.id]}
-                  onToggleRow={() => toggleSelect(row.id)}
-                />
-              ))
-            ) : (
-              <tr>
-                <td
-                  colSpan={columns.length + (hasExpandableRows ? 1 : 0) + (selectionColumn ? 1 : 0)}
-                  className="py-6 text-center"
-                >
-                  <div className="flex flex-col items-center justify-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-8 w-8 text-gray-400 mb-2"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                    <p className="text-gray-600 text-base font-semibold">
-                      No results found
-                    </p>
-                    <p className="text-gray-500 text-xs">
-                      Try adjusting your search or filters.
-                    </p>
-                  </div>
-                </td>
-              </tr>
-            )}
-          </tbody>
-          {footer && footer}
-
-          {showPaginationFooter && (
-            <TableFooter
-              totalCount={totalCount}
-              currentPage={currentPage}
-              pageSize={pageSize}
-              onPageChange={onPageChange}
+    return (
+      <div
+        className="w-full bg-white rounded-lg shadow-sm"
+        aria-busy={loading ? true : undefined}
+      >
+        {customHeader && customHeader}
+        <div className="overflow-x-auto overflow-y-auto max-h-[650px] scrollbar-thin border border-gray-200 rounded-b-lg">
+          <table
+            className="min-w-full border-collapse table-auto text-sm"
+            aria-rowcount={loading ? undefined : rows.length}
+            aria-colcount={
+              columns.length +
+              (hasExpandableRows ? 1 : 0) +
+              (selectionColumn ? 1 : 0)
+            }
+          >
+            <TableHeader
+              columns={columns}
+              onFilterChange={onFilterChange}
+              hasExpandableRows={hasExpandableRows}
+              selectionColumn={selectionColumn}
+              headerChecked={allVisibleSelected}
+              headerIndeterminate={someVisibleSelected}
+              onToggleSelectAll={toggleSelectAll}
             />
-          )}
-        </table>
+            <tbody ref={tbodyRef} onKeyDown={handleBodyKeyDown}>
+              {loading ? (
+                <tr>
+                  <td
+                    colSpan={
+                      columns.length +
+                      (hasExpandableRows ? 1 : 0) +
+                      (selectionColumn ? 1 : 0)
+                    }
+                  >
+                    <SkeletonTable
+                      rowCount={8}
+                      columnCount={columns.length}
+                      compact={true}
+                    />
+                  </td>
+                </tr>
+              ) : rows.length > 0 ? (
+                rows.map((row, rowIndex) => (
+                  <TableRow
+                    key={row.id || rowIndex}
+                    row={row}
+                    rowIndex={rowIndex}
+                    columns={columns}
+                    hasExpandableRows={hasExpandableRows}
+                    isExpanded={expandedRows[row.id]}
+                    onToggleExpand={toggleExpand}
+                    selectionColumn={selectionColumn}
+                    isSelected={!!selectedMap[row.id]}
+                    onToggleRow={() => toggleSelect(row.id)}
+                  />
+                ))
+              ) : (
+                <tr>
+                  <td
+                    colSpan={
+                      columns.length +
+                      (hasExpandableRows ? 1 : 0) +
+                      (selectionColumn ? 1 : 0)
+                    }
+                    className="py-6 text-center"
+                  >
+                    <div className="flex flex-col items-center justify-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-8 w-8 text-gray-400 mb-2"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                      <p className="text-gray-600 text-base font-semibold">
+                        No results found
+                      </p>
+                      <p className="text-gray-500 text-xs">
+                        Try adjusting your search or filters.
+                      </p>
+                    </div>
+                  </td>
+                </tr>
+              )}
+            </tbody>
+            {footer && footer}
+
+            {showPaginationFooter && (
+              <TableFooter
+                totalCount={totalCount}
+                currentPage={currentPage}
+                pageSize={pageSize}
+                onPageChange={onPageChange}
+              />
+            )}
+          </table>
+        </div>
       </div>
-    </div>
-  );
-});
+    );
+  },
+);
 
 export default TableView;
 ```
@@ -19548,10 +20719,10 @@ export default TableView;
 ```jsx
 /**
  * ThemeCustomizer — Extracted sub-component
- * 
+ *
  * Renders the theme color picker modal content.
  * Previously inlined inside Header.js, now a standalone memoized component.
- * 
+ *
  * Reads/writes theme via Redux (useUI hook) instead of prop drilling
  * setShowModal, selectedTheme, handleThemeChange through Header → child.
  */
@@ -19575,7 +20746,6 @@ const THEME_COLORS = [
   { label: "Yellow", hsl: "50 95% 55%" },
   { label: "Cyan", hsl: "190 90% 50%" },
 ];
-
 
 const ThemeCustomizer = () => {
   const { themeColor, updateTheme, closeThemeModal } = useUI();
@@ -19632,7 +20802,6 @@ const ToggleButton = ({
   labelOff = "Deactive",
   size = "default", // "default" | "small"
 }) => {
-
   const handleToggle = (e) => {
     e.preventDefault();
     e.stopPropagation();
@@ -19677,7 +20846,7 @@ const ToggleButton = ({
           }`}
         />
       </button>
-      
+
       {/* Optional labels */}
       {(labelOn || labelOff) && (
         <span className="text-xs text-gray-600">
@@ -19694,9 +20863,15 @@ export default ToggleButton;
 ### `Frontend/src/components/common/Tooltip.jsx`
 
 ```jsx
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-export default function Tooltip({ content, detail, children, side = 'top', ariaLabel }) {
+export default function Tooltip({
+  content,
+  detail,
+  children,
+  side = "top",
+  ariaLabel,
+}) {
   const [open, setOpen] = useState(false);
   if (!content) return children;
   return (
@@ -19706,20 +20881,24 @@ export default function Tooltip({ content, detail, children, side = 'top', ariaL
       onMouseLeave={() => setOpen(false)}
       onFocus={() => setOpen(true)}
       onBlur={() => setOpen(false)}
-      aria-label={ariaLabel || (typeof content === 'string' ? content : undefined)}
+      aria-label={
+        ariaLabel || (typeof content === "string" ? content : undefined)
+      }
     >
       {children}
       {open && (
         <span
           role="tooltip"
           className={`absolute z-50 whitespace-nowrap rounded bg-gray-900 px-2 py-1 text-xs text-white shadow-lg
-            ${side === 'top' ? 'bottom-full left-1/2 -translate-x-1/2 mb-1' : ''}
-            ${side === 'bottom' ? 'top-full left-1/2 -translate-x-1/2 mt-1' : ''}
-            ${side === 'left' ? 'right-full top-1/2 -translate-y-1/2 mr-1' : ''}
-            ${side === 'right' ? 'left-full top-1/2 -translate-y-1/2 ml-1' : ''}`}
+            ${side === "top" ? "bottom-full left-1/2 -translate-x-1/2 mb-1" : ""}
+            ${side === "bottom" ? "top-full left-1/2 -translate-x-1/2 mt-1" : ""}
+            ${side === "left" ? "right-full top-1/2 -translate-y-1/2 mr-1" : ""}
+            ${side === "right" ? "left-full top-1/2 -translate-y-1/2 ml-1" : ""}`}
         >
           <span className="block font-medium">{content}</span>
-          {detail && <span className="block text-[10px] text-gray-300">{detail}</span>}
+          {detail && (
+            <span className="block text-[10px] text-gray-300">{detail}</span>
+          )}
         </span>
       )}
     </span>
@@ -19770,14 +20949,19 @@ const variantStyles = {
     container: "flex items-center gap-4 text-sm pb-2",
     button: (active) =>
       `py-2 px-4 rounded-lg font-medium transition-all cursor-pointer ${
-        active ? "bg-primary text-white" : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+        active
+          ? "bg-primary text-white"
+          : "bg-gray-200 text-gray-700 hover:bg-gray-300"
       }`,
   },
   segmented: {
-    container: "flex items-center border border-gray-200 rounded-lg overflow-hidden w-fit bg-white shadow-sm mb-2",
+    container:
+      "flex items-center border border-gray-200 rounded-lg overflow-hidden w-fit bg-white shadow-sm mb-2",
     button: (active) =>
       `px-6 py-2.5 text-sm font-semibold transition-colors border-r border-gray-200 last:border-r-0 cursor-pointer ${
-        active ? "bg-primary text-white" : "bg-white text-gray-700 hover:bg-gray-50"
+        active
+          ? "bg-primary text-white"
+          : "bg-white text-gray-700 hover:bg-gray-50"
       }`,
   },
 };
@@ -19813,18 +20997,25 @@ export const UrlTabs = ({
   const activeTab = isControlled ? controlledActiveTab : hook.activeTab;
   const normalized = hook.tabs;
   const isActive = isControlled
-    ? controlledIsActive || ((tabOrValue) => {
+    ? controlledIsActive ||
+      ((tabOrValue) => {
         let val;
         if (typeof tabOrValue === "object") {
           const vk = valueKey || hook.valueKey;
-          val = tabOrValue[vk] ?? tabOrValue.label ?? tabOrValue.id ?? tabOrValue.path;
+          val =
+            tabOrValue[vk] ??
+            tabOrValue.label ??
+            tabOrValue.id ??
+            tabOrValue.path;
         } else {
           val = String(tabOrValue);
         }
         return activeTab === val;
       })
     : hook.isActive;
-  const handleTabChange = isControlled ? controlledHandleTabChange : hook.handleTabChange;
+  const handleTabChange = isControlled
+    ? controlledHandleTabChange
+    : hook.handleTabChange;
 
   const styles = variantStyles[variant] || variantStyles.segmented;
 
@@ -19890,12 +21081,12 @@ export { CustomTableView, Footer, Header, PageMaker, PopMessage, TableView };
 ### `Frontend/src/components/layout/AppShell.jsx`
 
 ```jsx
-import { Outlet } from 'react-router-dom';
-import { useAuthStore } from '../../store/authStore';
-import { useUIStore } from '../../store/uiStore';
-import Header from './Header';
-import Sidebar from './Sidebar';
-import Footer from './Footer';
+import { Outlet } from "react-router-dom";
+import { useAuthStore } from "../../store/authStore";
+import { useUIStore } from "../../store/uiStore";
+import Header from "./Header";
+import Sidebar from "./Sidebar";
+import Footer from "./Footer";
 
 export default function AppShell() {
   const { isAuthenticated } = useAuthStore();
@@ -19920,7 +21111,7 @@ export default function AppShell() {
 ### `Frontend/src/components/layout/Footer.jsx`
 
 ```jsx
-import { assets } from '../../assets/assets';
+import { assets } from "../../assets/assets";
 
 export default function Footer() {
   return (
@@ -19928,29 +21119,62 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8">
         <div>
           <img src={assets.logo} alt="Vintage Bite" className="h-8 mb-3" />
-          <p className="text-sm text-gray-600 max-w-xs">Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients.</p>
+          <p className="text-sm text-gray-600 max-w-xs">
+            Choose from a diverse menu featuring a delectable array of dishes
+            crafted with the finest ingredients.
+          </p>
           <div className="flex gap-3 mt-4">
-            <img src={assets.facebook_icon} alt="fb" className="h-8 w-8 rounded-full border border-green-border p-1 bg-white cursor-pointer hover:scale-110 transition" />
-            <img src={assets.twitter_icon} alt="tw" className="h-8 w-8 rounded-full border border-green-border p-1 bg-white cursor-pointer hover:scale-110 transition" />
-            <img src={assets.linkedin_icon} alt="in" className="h-8 w-8 rounded-full border border-green-border p-1 bg-white cursor-pointer hover:scale-110 transition" />
+            <img
+              src={assets.facebook_icon}
+              alt="fb"
+              className="h-8 w-8 rounded-full border border-green-border p-1 bg-white cursor-pointer hover:scale-110 transition"
+            />
+            <img
+              src={assets.twitter_icon}
+              alt="tw"
+              className="h-8 w-8 rounded-full border border-green-border p-1 bg-white cursor-pointer hover:scale-110 transition"
+            />
+            <img
+              src={assets.linkedin_icon}
+              alt="in"
+              className="h-8 w-8 rounded-full border border-green-border p-1 bg-white cursor-pointer hover:scale-110 transition"
+            />
           </div>
         </div>
         <div>
-          <h4 className="font-semibold font-serif text-gray-900 mb-3">Company</h4>
+          <h4 className="font-semibold font-serif text-gray-900 mb-3">
+            Company
+          </h4>
           <ul className="space-y-2 text-sm text-gray-600">
-            <li>Home</li><li>About us</li><li>Delivery</li><li>Privacy policy</li>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Delivery</li>
+            <li>Privacy policy</li>
           </ul>
         </div>
         <div>
-          <h4 className="font-semibold font-serif text-gray-900 mb-3">Get in touch</h4>
-          <p className="text-sm text-gray-600">+1-212-456-7890</p><p className="text-sm text-gray-600">contact@vintagebite.com</p>
+          <h4 className="font-semibold font-serif text-gray-900 mb-3">
+            Get in touch
+          </h4>
+          <p className="text-sm text-gray-600">+1-212-456-7890</p>
+          <p className="text-sm text-gray-600">contact@vintagebite.com</p>
           <div className="flex gap-3 mt-4">
-            <img src={assets.play_store} alt="Play Store" className="h-10 cursor-pointer" />
-            <img src={assets.app_store} alt="App Store" className="h-10 cursor-pointer" />
+            <img
+              src={assets.play_store}
+              alt="Play Store"
+              className="h-10 cursor-pointer"
+            />
+            <img
+              src={assets.app_store}
+              alt="App Store"
+              className="h-10 cursor-pointer"
+            />
           </div>
         </div>
       </div>
-      <div className="border-t border-green-border py-4 text-center text-sm text-gray-600">© 2024 Vintage Bite. All rights reserved.</div>
+      <div className="border-t border-green-border py-4 text-center text-sm text-gray-600">
+        © 2024 Vintage Bite. All rights reserved.
+      </div>
     </footer>
   );
 }
@@ -19959,41 +21183,73 @@ export default function Footer() {
 ### `Frontend/src/components/layout/Header.jsx`
 
 ```jsx
-import { useAuthStore } from '../../store/authStore';
-import { useUIStore } from '../../store/uiStore';
-import { useNavigate } from 'react-router-dom';
-import { PrimaryButton, SecondaryButton } from '../common/Button';
-import { assets } from '../../assets/assets';
-import { BasketIcon, MenuIcon } from '../../assets/data/icons';
-import { useCart } from '../../api/hooks';
-import UserMenu from './UserMenu';
+import { useAuthStore } from "../../store/authStore";
+import { useUIStore } from "../../store/uiStore";
+import { useNavigate } from "react-router-dom";
+import { PrimaryButton, SecondaryButton } from "../common/Button";
+import { assets } from "../../assets/assets";
+import { BasketIcon, MenuIcon } from "../../assets/data/icons";
+import { useCart } from "../../api/hooks";
+import UserMenu from "./UserMenu";
 
 export default function Header() {
   const { isAuthenticated } = useAuthStore();
   const { toggleSidebar } = useUIStore();
   const navigate = useNavigate();
   const { data: cartData } = useCart();
-  const cartCount = (cartData?.data || cartData?.items || []).reduce((s, i) => s + (i.quantity || 1), 0);
+  const cartCount = (cartData?.data || cartData?.items || []).reduce(
+    (s, i) => s + (i.quantity || 1),
+    0,
+  );
   return (
     <header className="bg-white border-b-4 border-primary px-6 py-3 sticky top-0 z-40 shadow-sm">
       <div className="flex items-center justify-between gap-4">
         <div className="flex items-center gap-4">
           {isAuthenticated && (
-            <button onClick={toggleSidebar} className="p-2 hover:bg-green-footer rounded-lg border border-transparent hover:border-green-border transition" aria-label="Toggle menu"><MenuIcon className="size-6 text-primary" /></button>
+            <button
+              onClick={toggleSidebar}
+              className="p-2 hover:bg-green-footer rounded-lg border border-transparent hover:border-green-border transition"
+              aria-label="Toggle menu"
+            >
+              <MenuIcon className="size-6 text-primary" />
+            </button>
           )}
-          <img src={assets.logo} alt="Vintage Bite" className="h-9 w-auto cursor-pointer" onClick={()=>navigate('/')} />
-          <h1 className="hidden sm:block text-xl font-bold text-primary font-serif cursor-pointer" onClick={()=>navigate('/')}>Vintage Bite</h1>
+          <img
+            src={assets.logo}
+            alt="Vintage Bite"
+            className="h-9 w-auto cursor-pointer"
+            onClick={() => navigate("/")}
+          />
+          <h1
+            className="hidden sm:block text-xl font-bold text-primary font-serif cursor-pointer"
+            onClick={() => navigate("/")}
+          >
+            Vintage Bite
+          </h1>
         </div>
         <div className="flex items-center gap-3">
-          <button onClick={()=>navigate('/cart')} className="relative p-2 hover:bg-green-footer rounded-lg transition" aria-label="Cart">
+          <button
+            onClick={() => navigate("/cart")}
+            className="relative p-2 hover:bg-green-footer rounded-lg transition"
+            aria-label="Cart"
+          >
             <BasketIcon className="size-6 text-primary" />
-            {cartCount > 0 && <span className="absolute -top-1 -right-1 bg-red-600 text-white text-[10px] min-w-[18px] h-[18px] px-1 rounded-full flex items-center justify-center font-bold">{cartCount}</span>}
+            {cartCount > 0 && (
+              <span className="absolute -top-1 -right-1 bg-red-600 text-white text-[10px] min-w-[18px] h-[18px] px-1 rounded-full flex items-center justify-center font-bold">
+                {cartCount}
+              </span>
+            )}
           </button>
 
-          {isAuthenticated ? <UserMenu /> : (
+          {isAuthenticated ? (
+            <UserMenu />
+          ) : (
             <>
-              <PrimaryButton label="Login" onClick={()=>navigate('/login')} />
-              <SecondaryButton label="Register" onClick={()=>navigate('/register')} />
+              <PrimaryButton label="Login" onClick={() => navigate("/login")} />
+              <SecondaryButton
+                label="Register"
+                onClick={() => navigate("/register")}
+              />
             </>
           )}
         </div>
@@ -20006,27 +21262,37 @@ export default function Header() {
 ### `Frontend/src/components/layout/Sidebar.jsx`
 
 ```jsx
-import { useUIStore } from '../../store/uiStore';
-import { Link, useLocation } from 'react-router-dom';
-import { HomeIcon, BasketIcon, PackageIcon, ProfileIcon, ChartBarIcon, CrownIcon, GroupUserIcon, DocumentIcon, BulletListIcon } from '../../assets/data/icons';
+import { useUIStore } from "../../store/uiStore";
+import { Link, useLocation } from "react-router-dom";
+import {
+  HomeIcon,
+  BasketIcon,
+  PackageIcon,
+  ProfileIcon,
+  ChartBarIcon,
+  CrownIcon,
+  GroupUserIcon,
+  DocumentIcon,
+  BulletListIcon,
+} from "../../assets/data/icons";
 
 const BUYER_NAV = [
-  { name: 'Home', path: '/', Icon: HomeIcon },
-  { name: 'Cart', path: '/cart', Icon: BasketIcon },
-  { name: 'Orders', path: '/orders', Icon: PackageIcon },
-  { name: 'Profile', path: '/profile', Icon: ProfileIcon },
+  { name: "Home", path: "/", Icon: HomeIcon },
+  { name: "Cart", path: "/cart", Icon: BasketIcon },
+  { name: "Orders", path: "/orders", Icon: PackageIcon },
+  { name: "Profile", path: "/profile", Icon: ProfileIcon },
 ];
 const SELLER_NAV = [
-  { name: 'Dashboard', path: '/seller', Icon: ChartBarIcon },
-  { name: 'Products', path: '/seller/products', Icon: PackageIcon },
-  { name: 'Orders', path: '/seller/orders', Icon: BulletListIcon },
-  { name: 'Analytics', path: '/seller/analytics', Icon: ChartBarIcon },
+  { name: "Dashboard", path: "/seller", Icon: ChartBarIcon },
+  { name: "Products", path: "/seller/products", Icon: PackageIcon },
+  { name: "Orders", path: "/seller/orders", Icon: BulletListIcon },
+  { name: "Analytics", path: "/seller/analytics", Icon: ChartBarIcon },
 ];
 const ADMIN_NAV = [
-  { name: 'Dashboard', path: '/admin', Icon: CrownIcon },
-  { name: 'Users', path: '/admin/users', Icon: GroupUserIcon },
-  { name: 'Products', path: '/admin/products', Icon: PackageIcon },
-  { name: 'Orders', path: '/admin/orders', Icon: DocumentIcon },
+  { name: "Dashboard", path: "/admin", Icon: CrownIcon },
+  { name: "Users", path: "/admin/users", Icon: GroupUserIcon },
+  { name: "Products", path: "/admin/products", Icon: PackageIcon },
+  { name: "Orders", path: "/admin/orders", Icon: DocumentIcon },
 ];
 
 export default function Sidebar() {
@@ -20038,8 +21304,13 @@ export default function Sidebar() {
     <aside className="w-64 bg-white border-r border-gray-200 p-6 shrink-0 sticky top-[65px] h-[calc(100vh-65px)] overflow-y-auto">
       <nav className="space-y-2">
         {nav.map((item) => (
-          <Link key={item.path} to={item.path} className={`flex items-center gap-3 px-4 py-3 rounded-lg transition ${pathname===item.path ? 'bg-green-50 text-primary font-semibold border border-green-border' : 'text-gray-700 hover:bg-gray-50'}`}>
-            <item.Icon className="size-5 shrink-0" /><span>{item.name}</span>
+          <Link
+            key={item.path}
+            to={item.path}
+            className={`flex items-center gap-3 px-4 py-3 rounded-lg transition ${pathname === item.path ? "bg-green-50 text-primary font-semibold border border-green-border" : "text-gray-700 hover:bg-gray-50"}`}
+          >
+            <item.Icon className="size-5 shrink-0" />
+            <span>{item.name}</span>
           </Link>
         ))}
       </nav>
@@ -20051,11 +21322,11 @@ export default function Sidebar() {
 ### `Frontend/src/components/layout/UserMenu.jsx`
 
 ```jsx
-import { useState, useRef, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { useAuthStore } from '../../store/authStore';
-import { useUIStore } from '../../store/uiStore';
-import { ProfileIcon, LogoutIcon } from '../../assets/data/icons';
+import { useState, useRef, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { useAuthStore } from "../../store/authStore";
+import { useUIStore } from "../../store/uiStore";
+import { ProfileIcon, LogoutIcon } from "../../assets/data/icons";
 
 export default function UserMenu() {
   const { user, logout } = useAuthStore();
@@ -20063,34 +21334,64 @@ export default function UserMenu() {
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
   const navigate = useNavigate();
-  const email = user?.email || user?.userEmail || '—';
-  const name = user?.name || user?.userName || email.split('@')[0] || 'User';
+  const email = user?.email || user?.userEmail || "—";
+  const name = user?.name || user?.userName || email.split("@")[0] || "User";
 
-  useEffect(()=>{
-    const h = e => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); };
-    document.addEventListener('mousedown', h);
-    return ()=> document.removeEventListener('mousedown', h);
-  },[]);
+  useEffect(() => {
+    const h = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) setOpen(false);
+    };
+    document.addEventListener("mousedown", h);
+    return () => document.removeEventListener("mousedown", h);
+  }, []);
 
   return (
     <div className="relative" ref={ref}>
-      <button onClick={()=>setOpen(v=>!v)} className="flex items-center gap-2 p-1 pr-2 rounded-full hover:bg-gray-50 border border-transparent hover:border-gray-200 transition">
-        <span className="w-9 h-9 rounded-full bg-green-footer border border-green-border flex items-center justify-center text-primary"><ProfileIcon size={20} /></span>
-        <span className="hidden md:block text-sm font-medium text-gray-700 max-w-[140px] truncate">{name}</span>
+      <button
+        onClick={() => setOpen((v) => !v)}
+        className="flex items-center gap-2 p-1 pr-2 rounded-full hover:bg-gray-50 border border-transparent hover:border-gray-200 transition"
+      >
+        <span className="w-9 h-9 rounded-full bg-green-footer border border-green-border flex items-center justify-center text-primary">
+          <ProfileIcon size={20} />
+        </span>
+        <span className="hidden md:block text-sm font-medium text-gray-700 max-w-[140px] truncate">
+          {name}
+        </span>
       </button>
       {open && (
         <div className="absolute right-0 mt-2 w-72 bg-white rounded-xl shadow-xl border border-gray-200 overflow-hidden z-50">
           <div className="p-4 bg-green-footer border-b border-green-border flex items-center gap-3">
-            <span className="w-12 h-12 rounded-full bg-white border border-green-border flex items-center justify-center text-primary"><ProfileIcon size={28} /></span>
+            <span className="w-12 h-12 rounded-full bg-white border border-green-border flex items-center justify-center text-primary">
+              <ProfileIcon size={28} />
+            </span>
             <div className="flex-1 min-w-0">
               <p className="font-semibold text-gray-900 truncate">{name}</p>
               <p className="text-xs text-gray-600 truncate">{email}</p>
-              <span className="inline-block mt-1 text-[11px] bg-white border border-green-border text-primary px-2 py-0.5 rounded-full font-medium">{userRole}</span>
+              <span className="inline-block mt-1 text-[11px] bg-white border border-green-border text-primary px-2 py-0.5 rounded-full font-medium">
+                {userRole}
+              </span>
             </div>
           </div>
           <div className="p-2 flex flex-col gap-1">
-            <button onClick={()=>{setOpen(false); navigate('/profile');}} className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-gray-50 text-sm text-gray-700 text-left"><ProfileIcon size={18} /> View Profile</button>
-            <button onClick={async()=>{setOpen(false); await logout(); navigate('/login');}} className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-red-50 text-sm text-red-600 text-left"><LogoutIcon /> Logout</button>
+            <button
+              onClick={() => {
+                setOpen(false);
+                navigate("/profile");
+              }}
+              className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-gray-50 text-sm text-gray-700 text-left"
+            >
+              <ProfileIcon size={18} /> View Profile
+            </button>
+            <button
+              onClick={async () => {
+                setOpen(false);
+                await logout();
+                navigate("/login");
+              }}
+              className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-red-50 text-sm text-red-600 text-left"
+            >
+              <LogoutIcon /> Logout
+            </button>
           </div>
         </div>
       )}
@@ -20102,17 +21403,20 @@ export default function UserMenu() {
 ### `Frontend/src/hooks/useAuth.js`
 
 ```javascript
-import { useAuthStore } from '../store/authStore';
+import { useAuthStore } from "../store/authStore";
 export const useAuth = () => useAuthStore();
 ```
 
 ### `Frontend/src/hooks/useDebounce.js`
 
 ```javascript
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 export const useDebounce = (value, delay = 500) => {
   const [debounced, setDebounced] = useState(value);
-  useEffect(() => { const t = setTimeout(() => setDebounced(value), delay); return () => clearTimeout(t); }, [value, delay]);
+  useEffect(() => {
+    const t = setTimeout(() => setDebounced(value), delay);
+    return () => clearTimeout(t);
+  }, [value, delay]);
   return debounced;
 };
 ```
@@ -20120,13 +21424,25 @@ export const useDebounce = (value, delay = 500) => {
 ### `Frontend/src/hooks/useLocalStorage.js`
 
 ```javascript
-import { useState } from 'react';
+import { useState } from "react";
 export const useLocalStorage = (key, initialValue) => {
   const [storedValue, setStoredValue] = useState(() => {
-    try { const item = window.localStorage.getItem(key); return item ? JSON.parse(item) : initialValue; } catch { return initialValue; }
+    try {
+      const item = window.localStorage.getItem(key);
+      return item ? JSON.parse(item) : initialValue;
+    } catch {
+      return initialValue;
+    }
   });
   const setValue = (value) => {
-    try { const valueToStore = value instanceof Function ? value(storedValue) : value; setStoredValue(valueToStore); window.localStorage.setItem(key, JSON.stringify(valueToStore)); } catch (e) { console.error(e); }
+    try {
+      const valueToStore =
+        value instanceof Function ? value(storedValue) : value;
+      setStoredValue(valueToStore);
+      window.localStorage.setItem(key, JSON.stringify(valueToStore));
+    } catch (e) {
+      console.error(e);
+    }
   };
   return [storedValue, setValue];
 };
@@ -20144,19 +21460,23 @@ export const useLocalStorage = (key, initialValue) => {
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 ```
 
 ### `Frontend/src/main.jsx`
 
 ```jsx
-import { createRoot } from 'react-dom/client';
-import './index.css';
-import App from './App.jsx';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { Toaster } from 'react-hot-toast';
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Toaster } from "react-hot-toast";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -20164,11 +21484,11 @@ const queryClient = new QueryClient({
   },
 });
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <QueryClientProvider client={queryClient}>
     <App />
     <Toaster position="top-right" />
-  </QueryClientProvider>
+  </QueryClientProvider>,
 );
 ```
 
@@ -20180,10 +21500,22 @@ export default function AdminDashboard() {
     <div>
       <h1 className="text-3xl font-bold mb-6">Admin Dashboard</h1>
       <div className="grid grid-cols-4 gap-4">
-        <div className="bg-white p-6 rounded-lg border"><p className="text-sm text-gray-600">Total Users</p><p className="text-3xl font-bold">—</p></div>
-        <div className="bg-white p-6 rounded-lg border"><p className="text-sm text-gray-600">Total Products</p><p className="text-3xl font-bold">—</p></div>
-        <div className="bg-white p-6 rounded-lg border"><p className="text-sm text-gray-600">Total Orders</p><p className="text-3xl font-bold">—</p></div>
-        <div className="bg-white p-6 rounded-lg border"><p className="text-sm text-gray-600">Revenue</p><p className="text-3xl font-bold text-green-600">—</p></div>
+        <div className="bg-white p-6 rounded-lg border">
+          <p className="text-sm text-gray-600">Total Users</p>
+          <p className="text-3xl font-bold">—</p>
+        </div>
+        <div className="bg-white p-6 rounded-lg border">
+          <p className="text-sm text-gray-600">Total Products</p>
+          <p className="text-3xl font-bold">—</p>
+        </div>
+        <div className="bg-white p-6 rounded-lg border">
+          <p className="text-sm text-gray-600">Total Orders</p>
+          <p className="text-3xl font-bold">—</p>
+        </div>
+        <div className="bg-white p-6 rounded-lg border">
+          <p className="text-sm text-gray-600">Revenue</p>
+          <p className="text-3xl font-bold text-green-600">—</p>
+        </div>
       </div>
     </div>
   );
@@ -20193,20 +21525,30 @@ export default function AdminDashboard() {
 ### `Frontend/src/pages/admin/Orders.jsx`
 
 ```jsx
-import { useQuery } from '@tanstack/react-query';
-import client from '../../api/client';
-import { SkeletonTableLoader } from '../../components/common/SkletonLoader';
+import { useQuery } from "@tanstack/react-query";
+import client from "../../api/client";
+import { SkeletonTableLoader } from "../../components/common/SkletonLoader";
 
 export default function AdminOrders() {
-  const { data, isLoading } = useQuery({ queryKey: ['admin-orders'], queryFn: () => client.get('/getOrdersAsAnAdmin').then(r=>r.data) });
+  const { data, isLoading } = useQuery({
+    queryKey: ["admin-orders"],
+    queryFn: () => client.get("/getOrdersAsAnAdmin").then((r) => r.data),
+  });
   if (isLoading) return <SkeletonTableLoader />;
   const orders = data?.data || data || [];
   return (
     <div>
       <h1 className="text-3xl font-bold mb-6">All Orders</h1>
-      {orders.length===0 ? <p className="text-gray-600">No orders.</p> : orders.map(o=>(
-        <div key={o._id} className="bg-white p-4 rounded border mb-2"><p>Order #{o._id}</p><p className="text-sm text-gray-500">{o.orderStatus}</p></div>
-      ))}
+      {orders.length === 0 ? (
+        <p className="text-gray-600">No orders.</p>
+      ) : (
+        orders.map((o) => (
+          <div key={o._id} className="bg-white p-4 rounded border mb-2">
+            <p>Order #{o._id}</p>
+            <p className="text-sm text-gray-500">{o.orderStatus}</p>
+          </div>
+        ))
+      )}
     </div>
   );
 }
@@ -20215,8 +21557,8 @@ export default function AdminOrders() {
 ### `Frontend/src/pages/admin/Products.jsx`
 
 ```jsx
-import { useProducts } from '../../api/hooks';
-import { SkeletonTableLoader } from '../../components/common/SkletonLoader';
+import { useProducts } from "../../api/hooks";
+import { SkeletonTableLoader } from "../../components/common/SkletonLoader";
 
 export default function AdminProducts() {
   const { data, isLoading } = useProducts();
@@ -20225,8 +21567,14 @@ export default function AdminProducts() {
   return (
     <div>
       <h1 className="text-3xl font-bold mb-6">Product Moderation</h1>
-      {products.map(p=>(
-        <div key={p._id} className="bg-white p-4 rounded border mb-2 flex justify-between"><span>{p.productName || p.name}</span><span>Rs {p.productPrice || p.price}</span></div>
+      {products.map((p) => (
+        <div
+          key={p._id}
+          className="bg-white p-4 rounded border mb-2 flex justify-between"
+        >
+          <span>{p.productName || p.name}</span>
+          <span>Rs {p.productPrice || p.price}</span>
+        </div>
       ))}
     </div>
   );
@@ -20236,20 +21584,33 @@ export default function AdminProducts() {
 ### `Frontend/src/pages/admin/Users.jsx`
 
 ```jsx
-import { useQuery } from '@tanstack/react-query';
-import client from '../../api/client';
-import { SkeletonTableLoader } from '../../components/common/SkletonLoader';
+import { useQuery } from "@tanstack/react-query";
+import client from "../../api/client";
+import { SkeletonTableLoader } from "../../components/common/SkletonLoader";
 
 export default function AdminUsers() {
-  const { data, isLoading } = useQuery({ queryKey: ['admin-users'], queryFn: () => client.get('/users').then(r=>r.data) });
+  const { data, isLoading } = useQuery({
+    queryKey: ["admin-users"],
+    queryFn: () => client.get("/users").then((r) => r.data),
+  });
   if (isLoading) return <SkeletonTableLoader />;
   const users = data?.data || data || [];
   return (
     <div>
       <h1 className="text-3xl font-bold mb-6">Users</h1>
-      {users.length===0 ? <p className="text-gray-600">No users or failed to load.</p> : users.map(u=>(
-        <div key={u._id} className="bg-white p-4 rounded border mb-2 flex justify-between"><span>{u.userEmail || u.email}</span><span className="text-sm text-gray-500">{u.role}</span></div>
-      ))}
+      {users.length === 0 ? (
+        <p className="text-gray-600">No users or failed to load.</p>
+      ) : (
+        users.map((u) => (
+          <div
+            key={u._id}
+            className="bg-white p-4 rounded border mb-2 flex justify-between"
+          >
+            <span>{u.userEmail || u.email}</span>
+            <span className="text-sm text-gray-500">{u.role}</span>
+          </div>
+        ))
+      )}
     </div>
   );
 }
@@ -20281,7 +21642,7 @@ const Login = () => {
       const res = await login(userData);
       const role = res?._resolvedUser?.role || res?.data?.role;
       toast.success("Login successful");
-      if (role === 'admin' || role === 'seller') navigate("/seller");
+      if (role === "admin" || role === "seller") navigate("/seller");
       else navigate("/");
     } catch (err) {
       toast.error(err.response?.data?.message || "Login failed");
@@ -20294,11 +21655,35 @@ const Login = () => {
         <h2 className="text-2xl font-bold text-center mb-6">Login</h2>
         {error && <p className="text-red-600 text-sm mb-4">{error}</p>}
         <form onSubmit={handleOnSubmit} className="space-y-4">
-          <InputField label="Email" name="userEmail" type="text" value={userData.userEmail} onChange={handleChange} placeholder="Email" />
-          <InputField label="Password" name="userPassword" type="password" value={userData.userPassword} onChange={handleChange} placeholder="Password" />
-          <PrimaryButton label={loading ? "Loading..." : "Login"} type="submit" loading={loading} className="w-full justify-center" />
+          <InputField
+            label="Email"
+            name="userEmail"
+            type="text"
+            value={userData.userEmail}
+            onChange={handleChange}
+            placeholder="Email"
+          />
+          <InputField
+            label="Password"
+            name="userPassword"
+            type="password"
+            value={userData.userPassword}
+            onChange={handleChange}
+            placeholder="Password"
+          />
+          <PrimaryButton
+            label={loading ? "Loading..." : "Login"}
+            type="submit"
+            loading={loading}
+            className="w-full justify-center"
+          />
         </form>
-        <p className="text-center text-sm mt-4">No account? <Link to="/register" className="text-green-600">Register</Link></p>
+        <p className="text-center text-sm mt-4">
+          No account?{" "}
+          <Link to="/register" className="text-green-600">
+            Register
+          </Link>
+        </p>
       </div>
     </div>
   );
@@ -20319,8 +21704,14 @@ import toast from "react-hot-toast";
 const Register = () => {
   const navigate = useNavigate();
   const { register, loading, error } = useAuthStore();
-  const [userData, setUserData] = useState({ userName: "", userPhone: "", userEmail: "", userPassword: "" });
-  const handleChange = (e) => setUserData({ ...userData, [e.target.name]: e.target.value });
+  const [userData, setUserData] = useState({
+    userName: "",
+    userPhone: "",
+    userEmail: "",
+    userPassword: "",
+  });
+  const handleChange = (e) =>
+    setUserData({ ...userData, [e.target.name]: e.target.value });
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -20337,13 +21728,48 @@ const Register = () => {
         <h2 className="text-2xl font-bold text-center mb-6">Register</h2>
         {error && <p className="text-red-600 text-sm mb-4">{error}</p>}
         <form onSubmit={handleSubmit} className="space-y-4">
-          <InputField label="Username" name="userName" value={userData.userName} onChange={handleChange} placeholder="Username" />
-          <InputField label="Email" name="userEmail" value={userData.userEmail} onChange={handleChange} placeholder="Email" />
-          <InputField label="Phone" name="userPhone" value={userData.userPhone} onChange={handleChange} placeholder="Phone" />
-          <InputField label="Password" name="userPassword" type="password" value={userData.userPassword} onChange={handleChange} placeholder="Password" />
-          <PrimaryButton label={loading ? "Loading..." : "Register"} type="submit" loading={loading} className="w-full justify-center" />
+          <InputField
+            label="Username"
+            name="userName"
+            value={userData.userName}
+            onChange={handleChange}
+            placeholder="Username"
+          />
+          <InputField
+            label="Email"
+            name="userEmail"
+            value={userData.userEmail}
+            onChange={handleChange}
+            placeholder="Email"
+          />
+          <InputField
+            label="Phone"
+            name="userPhone"
+            value={userData.userPhone}
+            onChange={handleChange}
+            placeholder="Phone"
+          />
+          <InputField
+            label="Password"
+            name="userPassword"
+            type="password"
+            value={userData.userPassword}
+            onChange={handleChange}
+            placeholder="Password"
+          />
+          <PrimaryButton
+            label={loading ? "Loading..." : "Register"}
+            type="submit"
+            loading={loading}
+            className="w-full justify-center"
+          />
         </form>
-        <p className="text-center text-sm mt-4">Already have account? <Link to="/login" className="text-green-600">Login</Link></p>
+        <p className="text-center text-sm mt-4">
+          Already have account?{" "}
+          <Link to="/login" className="text-green-600">
+            Login
+          </Link>
+        </p>
       </div>
     </div>
   );
@@ -20354,15 +21780,20 @@ export default Register;
 ### `Frontend/src/pages/buyer/Cart.jsx`
 
 ```jsx
-import { useCart, useRemoveFromCart } from '../../api/hooks';
-import { PrimaryButton } from '../../components/common/Button';
-import { useNavigate } from 'react-router-dom';
-import { SkeletonTableLoader } from '../../components/common/SkletonLoader';
-import { assets } from '../../assets/assets';
-import { getProductImage, handleImgError } from '../../utils/productImage';
-import { getCartPrice, getCartName, getCartProduct, calcSubtotal } from '../../utils/cart';
-import { TrashIcon } from '../../assets/data/icons';
-import toast from 'react-hot-toast';
+import { useCart, useRemoveFromCart } from "../../api/hooks";
+import { PrimaryButton } from "../../components/common/Button";
+import { useNavigate } from "react-router-dom";
+import { SkeletonTableLoader } from "../../components/common/SkletonLoader";
+import { assets } from "../../assets/assets";
+import { getProductImage, handleImgError } from "../../utils/productImage";
+import {
+  getCartPrice,
+  getCartName,
+  getCartProduct,
+  calcSubtotal,
+} from "../../utils/cart";
+import { TrashIcon } from "../../assets/data/icons";
+import toast from "react-hot-toast";
 
 export default function Cart() {
   const { data, isLoading } = useCart();
@@ -20370,45 +21801,111 @@ export default function Cart() {
   const navigate = useNavigate();
   if (isLoading) return <SkeletonTableLoader />;
   const items = data?.data || data?.items || data?.cart || [];
-  if (!items.length) return (
-    <div className="text-center py-16 border border-dashed border-green-border rounded-xl bg-green-footer/40">
-      <img src={assets.basket_icon} alt="Empty cart" className="mx-auto h-24 mb-4 opacity-60" />
-      <p className="text-gray-700 font-medium mb-2">Your cart is empty</p>
-      <p className="text-sm text-gray-500 mb-6">Looks like you haven't added anything yet.</p>
-      <PrimaryButton label="Continue Shopping" onClick={()=>navigate('/')} />
-    </div>
-  );
+  if (!items.length)
+    return (
+      <div className="text-center py-16 border border-dashed border-green-border rounded-xl bg-green-footer/40">
+        <img
+          src={assets.basket_icon}
+          alt="Empty cart"
+          className="mx-auto h-24 mb-4 opacity-60"
+        />
+        <p className="text-gray-700 font-medium mb-2">Your cart is empty</p>
+        <p className="text-sm text-gray-500 mb-6">
+          Looks like you haven't added anything yet.
+        </p>
+        <PrimaryButton
+          label="Continue Shopping"
+          onClick={() => navigate("/")}
+        />
+      </div>
+    );
   const subtotal = calcSubtotal(items);
   return (
     <div>
-      <h1 className="text-3xl font-bold font-serif text-primary mb-6 flex items-center gap-3"><img src={assets.basket_icon} alt="" className="h-8" /> Shopping Cart</h1>
+      <h1 className="text-3xl font-bold font-serif text-primary mb-6 flex items-center gap-3">
+        <img src={assets.basket_icon} alt="" className="h-8" /> Shopping Cart
+      </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="lg:col-span-2 space-y-4">
           {items.map((item, idx) => {
             const prod = getCartProduct(item);
             return (
-            <div key={item._id || item.productId || idx} className="bg-white p-4 rounded-xl border border-gray-200 flex gap-4 hover:shadow-sm transition">
-              <img src={getProductImage(prod, idx)} alt={getCartName(item)} onError={(e)=>handleImgError(e, idx)} className="w-20 h-20 rounded-lg object-cover border border-green-footer shrink-0" />
-              <div className="flex-1 min-w-0">
-                <p className="font-semibold text-gray-900 truncate">{getCartName(item)}</p>
-                <p className="text-sm text-gray-500">Qty: {item.quantity || 1} · Rs {getCartPrice(item)}</p>
-                <div className="flex items-center gap-2 mt-1">
-                  <img src={assets.add_icon_green} alt="add" className="h-6 w-6 cursor-pointer hover:scale-110 transition" onClick={()=>toast('Use product page to adjust quantity')} />
-                  <img src={assets.remove_icon_red} alt="remove" className="h-6 w-6 cursor-pointer hover:scale-110 transition" onClick={()=>remove(item._id || item.productId, { onSuccess: ()=>toast.success('Removed')})} />
+              <div
+                key={item._id || item.productId || idx}
+                className="bg-white p-4 rounded-xl border border-gray-200 flex gap-4 hover:shadow-sm transition"
+              >
+                <img
+                  src={getProductImage(prod, idx)}
+                  alt={getCartName(item)}
+                  onError={(e) => handleImgError(e, idx)}
+                  className="w-20 h-20 rounded-lg object-cover border border-green-footer shrink-0"
+                />
+                <div className="flex-1 min-w-0">
+                  <p className="font-semibold text-gray-900 truncate">
+                    {getCartName(item)}
+                  </p>
+                  <p className="text-sm text-gray-500">
+                    Qty: {item.quantity || 1} · Rs {getCartPrice(item)}
+                  </p>
+                  <div className="flex items-center gap-2 mt-1">
+                    <img
+                      src={assets.add_icon_green}
+                      alt="add"
+                      className="h-6 w-6 cursor-pointer hover:scale-110 transition"
+                      onClick={() =>
+                        toast("Use product page to adjust quantity")
+                      }
+                    />
+                    <img
+                      src={assets.remove_icon_red}
+                      alt="remove"
+                      className="h-6 w-6 cursor-pointer hover:scale-110 transition"
+                      onClick={() =>
+                        remove(item._id || item.productId, {
+                          onSuccess: () => toast.success("Removed"),
+                        })
+                      }
+                    />
+                  </div>
                 </div>
+                <button
+                  onClick={() =>
+                    remove(item._id || item.productId, {
+                      onSuccess: () => toast.success("Removed"),
+                    })
+                  }
+                  className="self-start p-2 hover:bg-red-50 rounded-lg text-gray-400 hover:text-red-600 transition"
+                  aria-label="Remove"
+                >
+                  <TrashIcon />
+                </button>
               </div>
-              <button onClick={()=>remove(item._id || item.productId, { onSuccess: ()=>toast.success('Removed')})} className="self-start p-2 hover:bg-red-50 rounded-lg text-gray-400 hover:text-red-600 transition" aria-label="Remove"><TrashIcon /></button>
-            </div>
-          );})}
+            );
+          })}
         </div>
         <div className="bg-white p-6 rounded-xl border border-green-border h-fit shadow-sm">
-          <h3 className="font-semibold font-serif text-gray-900 mb-4 flex items-center gap-2"><img src={assets.bag_icon} alt="" className="h-5" /> Order Summary</h3>
+          <h3 className="font-semibold font-serif text-gray-900 mb-4 flex items-center gap-2">
+            <img src={assets.bag_icon} alt="" className="h-5" /> Order Summary
+          </h3>
           <div className="space-y-2 text-sm mb-4">
-            <div className="flex justify-between"><span className="text-gray-600">Subtotal</span><span className="font-semibold">Rs {subtotal}</span></div>
-            <div className="flex justify-between"><span className="text-gray-600">Delivery</span><span className="font-semibold text-primary">Free</span></div>
-            <div className="border-t border-gray-200 pt-2 flex justify-between font-bold"><span>Total</span><span className="text-primary">Rs {subtotal}</span></div>
+            <div className="flex justify-between">
+              <span className="text-gray-600">Subtotal</span>
+              <span className="font-semibold">Rs {subtotal}</span>
+            </div>
+            <div className="flex justify-between">
+              <span className="text-gray-600">Delivery</span>
+              <span className="font-semibold text-primary">Free</span>
+            </div>
+            <div className="border-t border-gray-200 pt-2 flex justify-between font-bold">
+              <span>Total</span>
+              <span className="text-primary">Rs {subtotal}</span>
+            </div>
           </div>
-          <PrimaryButton label="Proceed to Checkout" className="w-full justify-center" onClick={()=>navigate('/checkout')} />
+          <PrimaryButton
+            label="Proceed to Checkout"
+            className="w-full justify-center"
+            onClick={() => navigate("/checkout")}
+          />
           <img src={assets.cross_icon} alt="" className="hidden" />
         </div>
       </div>
@@ -20420,26 +21917,27 @@ export default function Cart() {
 ### `Frontend/src/pages/buyer/Checkout.jsx`
 
 ```jsx
-import { useState, useEffect } from 'react';
-import { useCreateOrder, useInitiatePayment, useCart } from '../../api/hooks';
-import { PrimaryButton } from '../../components/common/Button';
-import InputField from '../../components/common/InputField';
-import { useNavigate } from 'react-router-dom';
-import toast from 'react-hot-toast';
-import { assets } from '../../assets/assets';
-import { PackageIcon, LocationIcon } from '../../assets/data/icons';
-import { getCartProductId, calcSubtotal } from '../../utils/cart';
-import { useAuthStore } from '../../store/authStore';
+import { useState, useEffect } from "react";
+import { useCreateOrder, useInitiatePayment, useCart } from "../../api/hooks";
+import { PrimaryButton } from "../../components/common/Button";
+import InputField from "../../components/common/InputField";
+import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
+import { assets } from "../../assets/assets";
+import { PackageIcon, LocationIcon } from "../../assets/data/icons";
+import { getCartProductId, calcSubtotal } from "../../utils/cart";
+import { useAuthStore } from "../../store/authStore";
 
 export default function Checkout() {
   const { data } = useCart();
   const { user } = useAuthStore();
   const items = data?.data || data?.items || data?.cart || [];
   const subtotal = calcSubtotal(items);
-  const [shippingAddress, setShippingAddress] = useState('');
+  const [shippingAddress, setShippingAddress] = useState("");
   const [detecting, setDetecting] = useState(false);
   const { mutate: createOrder, isPending } = useCreateOrder();
-  const { mutate: initiatePayment, isPending: payPending } = useInitiatePayment();
+  const { mutate: initiatePayment, isPending: payPending } =
+    useInitiatePayment();
   const navigate = useNavigate();
 
   // prefill from user profile if available
@@ -20448,67 +21946,177 @@ export default function Checkout() {
   }, [user]);
 
   const detectLocation = () => {
-    if (!navigator.geolocation) return toast.error('Geolocation not supported');
+    if (!navigator.geolocation) return toast.error("Geolocation not supported");
     setDetecting(true);
-    navigator.geolocation.getCurrentPosition(async (pos) => {
-      try {
-        const { latitude, longitude } = pos.coords;
-        // reverse via nominatim (no key)
-        const res = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`);
-        const json = await res.json();
-        const addr = json.display_name || `${latitude}, ${longitude}`;
-        setShippingAddress(addr);
-        toast.success('Location detected');
-      } catch { toast.error('Failed to reverse geocode'); }
-      finally { setDetecting(false); }
-    }, () => { toast.error('Location permission denied'); setDetecting(false); });
+    navigator.geolocation.getCurrentPosition(
+      async (pos) => {
+        try {
+          const { latitude, longitude } = pos.coords;
+          // reverse via nominatim (no key)
+          const res = await fetch(
+            `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`,
+          );
+          const json = await res.json();
+          const addr = json.display_name || `${latitude}, ${longitude}`;
+          setShippingAddress(addr);
+          toast.success("Location detected");
+        } catch {
+          toast.error("Failed to reverse geocode");
+        } finally {
+          setDetecting(false);
+        }
+      },
+      () => {
+        toast.error("Location permission denied");
+        setDetecting(false);
+      },
+    );
   };
 
   const validate = () => {
-    if (!items.length) { toast.error('Cart is empty'); return false; }
-    if (!shippingAddress.trim() || shippingAddress.trim().length < 10) { toast.error('Please enter full delivery address (min 10 chars)'); return false; }
-    if (subtotal <= 0) { toast.error(`Invalid total Rs ${subtotal}. Check cart prices.`); return false; }
+    if (!items.length) {
+      toast.error("Cart is empty");
+      return false;
+    }
+    if (!shippingAddress.trim() || shippingAddress.trim().length < 10) {
+      toast.error("Please enter full delivery address (min 10 chars)");
+      return false;
+    }
+    if (subtotal <= 0) {
+      toast.error(`Invalid total Rs ${subtotal}. Check cart prices.`);
+      return false;
+    }
     return true;
   };
 
   const handleOrder = () => {
     if (!validate()) return;
-    const orderItems = items.map(it => ({ product: getCartProductId(it), quantity: it.quantity || 1 }));
-    createOrder({ shippingAddress: shippingAddress.trim(), items: orderItems, totalAmount: subtotal, paymentDetails: { method: 'cod', status: 'pending' } }, { onSuccess: ()=> { toast.success('Order placed'); navigate('/orders'); }, onError: (e)=> toast.error(e.response?.data?.message|| e.response?.data?.msg || 'Failed') });
+    const orderItems = items.map((it) => ({
+      product: getCartProductId(it),
+      quantity: it.quantity || 1,
+    }));
+    createOrder(
+      {
+        shippingAddress: shippingAddress.trim(),
+        items: orderItems,
+        totalAmount: subtotal,
+        paymentDetails: { method: "cod", status: "pending" },
+      },
+      {
+        onSuccess: () => {
+          toast.success("Order placed");
+          navigate("/orders");
+        },
+        onError: (e) =>
+          toast.error(
+            e.response?.data?.message || e.response?.data?.msg || "Failed",
+          ),
+      },
+    );
   };
   const handleKhalti = () => {
     if (!validate()) return;
-    const orderItems = items.map(it => ({ product: getCartProductId(it), quantity: it.quantity || 1 }));
-    createOrder({ shippingAddress: shippingAddress.trim(), items: orderItems, totalAmount: subtotal, paymentDetails: { method: 'khalti', status: 'unpaid' } }, {
-      onSuccess: (res) => {
-        const orderId = res.data?.data?._id || res.data?._id || res.data?.order?._id;
-        if (!orderId) return toast.error('Order created but no ID');
-        initiatePayment({ orderId, amount: subtotal }, { onSuccess: (r)=> { const url=r.data?.paymentUrl || r.data?.payment_url || r.data?.data?.payment_url; if(url) window.location.href=url; else toast.error('No payment URL'); }, onError: (e)=> toast.error(e.response?.data?.message || 'Payment failed') });
+    const orderItems = items.map((it) => ({
+      product: getCartProductId(it),
+      quantity: it.quantity || 1,
+    }));
+    createOrder(
+      {
+        shippingAddress: shippingAddress.trim(),
+        items: orderItems,
+        totalAmount: subtotal,
+        paymentDetails: { method: "khalti", status: "unpaid" },
       },
-      onError: (e)=> toast.error(e.response?.data?.message || 'Failed to create order')
-    });
+      {
+        onSuccess: (res) => {
+          const orderId =
+            res.data?.data?._id || res.data?._id || res.data?.order?._id;
+          if (!orderId) return toast.error("Order created but no ID");
+          initiatePayment(
+            { orderId, amount: subtotal },
+            {
+              onSuccess: (r) => {
+                const url =
+                  r.data?.paymentUrl ||
+                  r.data?.payment_url ||
+                  r.data?.data?.payment_url;
+                if (url) window.location.href = url;
+                else toast.error("No payment URL");
+              },
+              onError: (e) =>
+                toast.error(e.response?.data?.message || "Payment failed"),
+            },
+          );
+        },
+        onError: (e) =>
+          toast.error(e.response?.data?.message || "Failed to create order"),
+      },
+    );
   };
 
   return (
     <div className="max-w-2xl mx-auto">
-      <h1 className="text-3xl font-bold font-serif text-primary mb-6 flex items-center gap-3"><img src={assets.parcel_icon} alt="" className="h-7" /> Checkout</h1>
+      <h1 className="text-3xl font-bold font-serif text-primary mb-6 flex items-center gap-3">
+        <img src={assets.parcel_icon} alt="" className="h-7" /> Checkout
+      </h1>
       <div className="bg-white p-6 rounded-xl border border-green-border shadow-sm space-y-4">
         <div className="flex items-center justify-between p-4 bg-green-footer rounded-lg border border-green-border">
-          <div className="flex items-center gap-3"><PackageIcon className="size-6 text-primary" /><div><p className="font-semibold text-gray-900">Cart total</p><p className="text-sm text-gray-600">{items.length} items · Rs {subtotal} · Free delivery</p></div></div>
+          <div className="flex items-center gap-3">
+            <PackageIcon className="size-6 text-primary" />
+            <div>
+              <p className="font-semibold text-gray-900">Cart total</p>
+              <p className="text-sm text-gray-600">
+                {items.length} items · Rs {subtotal} · Free delivery
+              </p>
+            </div>
+          </div>
         </div>
 
         <div>
-          <label className="text-sm font-medium text-primary mb-1 flex items-center gap-1.5"><LocationIcon /> Delivery Address *</label>
-          <textarea value={shippingAddress} onChange={e=>setShippingAddress(e.target.value)} rows={3} placeholder="House no, street, city, landmark..." className="w-full bg-[#F6F6F6] rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary border border-transparent" />
-          <button type="button" onClick={detectLocation} disabled={detecting} className="mt-2 text-xs font-medium text-primary hover:underline disabled:opacity-50">{detecting ? 'Detecting...' : '📍 Use my current location'}</button>
-          <p className="text-xs text-gray-500 mt-1">Needed for delivery. Min 10 characters.</p>
+          <label className="text-sm font-medium text-primary mb-1 flex items-center gap-1.5">
+            <LocationIcon /> Delivery Address *
+          </label>
+          <textarea
+            value={shippingAddress}
+            onChange={(e) => setShippingAddress(e.target.value)}
+            rows={3}
+            placeholder="House no, street, city, landmark..."
+            className="w-full bg-[#F6F6F6] rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary border border-transparent"
+          />
+          <button
+            type="button"
+            onClick={detectLocation}
+            disabled={detecting}
+            className="mt-2 text-xs font-medium text-primary hover:underline disabled:opacity-50"
+          >
+            {detecting ? "Detecting..." : "📍 Use my current location"}
+          </button>
+          <p className="text-xs text-gray-500 mt-1">
+            Needed for delivery. Min 10 characters.
+          </p>
         </div>
 
         <div className="grid gap-3 pt-2">
-          <PrimaryButton label={isPending ? 'Placing...' : `Place Order (COD) — Rs ${subtotal}`} loading={isPending} onClick={handleOrder} />
-          <PrimaryButton label={payPending ? 'Redirecting...' : `Pay with Khalti — Rs ${subtotal}`} variant="secondary" loading={payPending} onClick={handleKhalti} />
+          <PrimaryButton
+            label={
+              isPending ? "Placing..." : `Place Order (COD) — Rs ${subtotal}`
+            }
+            loading={isPending}
+            onClick={handleOrder}
+          />
+          <PrimaryButton
+            label={
+              payPending ? "Redirecting..." : `Pay with Khalti — Rs ${subtotal}`
+            }
+            variant="secondary"
+            loading={payPending}
+            onClick={handleKhalti}
+          />
         </div>
-        <p className="text-xs text-gray-500 text-center flex items-center justify-center gap-2"><img src={assets.bag_icon} alt="" className="h-4" /> Secure checkout powered by Khalti</p>
+        <p className="text-xs text-gray-500 text-center flex items-center justify-center gap-2">
+          <img src={assets.bag_icon} alt="" className="h-4" /> Secure checkout
+          powered by Khalti
+        </p>
       </div>
     </div>
   );
@@ -20518,12 +22126,12 @@ export default function Checkout() {
 ### `Frontend/src/pages/buyer/Home.jsx`
 
 ```jsx
-import { useProducts } from '../../api/hooks';
-import { SkeletonTableLoader } from '../../components/common/SkletonLoader';
-import { useNavigate } from 'react-router-dom';
-import { assets, menu_list } from '../../assets/assets';
-import { getProductImage, handleImgError } from '../../utils/productImage';
-import { BasketIcon, SearchIcon } from '../../assets/data/icons';
+import { useProducts } from "../../api/hooks";
+import { SkeletonTableLoader } from "../../components/common/SkletonLoader";
+import { useNavigate } from "react-router-dom";
+import { assets, menu_list } from "../../assets/assets";
+import { getProductImage, handleImgError } from "../../utils/productImage";
+import { BasketIcon, SearchIcon } from "../../assets/data/icons";
 
 export default function Home() {
   const { data, isLoading, error } = useProducts({ page: 1, limit: 20 });
@@ -20534,24 +22142,59 @@ export default function Home() {
   return (
     <div className="space-y-10">
       {/* Hero — uses assets/header_img.png */}
-      <section className="relative bg-primary rounded-2xl overflow-hidden p-8 md:p-12 flex flex-col md:flex-row items-center gap-8" style={{ background: 'hsl(var(--theme-primary))' }}>
+      <section
+        className="relative bg-primary rounded-2xl overflow-hidden p-8 md:p-12 flex flex-col md:flex-row items-center gap-8"
+        style={{ background: "hsl(var(--theme-primary))" }}
+      >
         <div className="flex-1 text-white">
-          <h1 className="text-4xl md:text-5xl font-bold font-serif leading-tight">Order your favourite food here</h1>
-          <p className="mt-4 text-white/90 max-w-xl">Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise.</p>
-          <button onClick={()=>document.getElementById('menu')?.scrollIntoView({behavior:'smooth'})} className="mt-6 bg-white text-primary font-semibold px-8 py-3 rounded-full hover:bg-green-footer transition">View Menu</button>
+          <h1 className="text-4xl md:text-5xl font-bold font-serif leading-tight">
+            Order your favourite food here
+          </h1>
+          <p className="mt-4 text-white/90 max-w-xl">
+            Choose from a diverse menu featuring a delectable array of dishes
+            crafted with the finest ingredients and culinary expertise.
+          </p>
+          <button
+            onClick={() =>
+              document
+                .getElementById("menu")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+            className="mt-6 bg-white text-primary font-semibold px-8 py-3 rounded-full hover:bg-green-footer transition"
+          >
+            View Menu
+          </button>
         </div>
-        <img src={assets.header_img} alt="Delicious food" className="w-full md:w-[520px] h-[300px] object-cover rounded-xl shadow-lg" />
+        <img
+          src={assets.header_img}
+          alt="Delicious food"
+          className="w-full md:w-[520px] h-[300px] object-cover rounded-xl shadow-lg"
+        />
       </section>
 
       {/* Menu — uses assets/menu_*.png via menu_list */}
       <section id="menu">
-        <h2 className="text-2xl font-bold font-serif text-primary mb-2">Explore our menu</h2>
-        <p className="text-gray-600 text-sm max-w-2xl mb-6">Choose from a diverse menu featuring a delectable array of dishes. Our mission is to satisfy your cravings.</p>
+        <h2 className="text-2xl font-bold font-serif text-primary mb-2">
+          Explore our menu
+        </h2>
+        <p className="text-gray-600 text-sm max-w-2xl mb-6">
+          Choose from a diverse menu featuring a delectable array of dishes. Our
+          mission is to satisfy your cravings.
+        </p>
         <div className="flex gap-6 overflow-x-auto scrollbar-hidden pb-4">
           {menu_list.map((m) => (
-            <div key={m.menu_name} className="flex flex-col items-center gap-2 shrink-0 cursor-pointer hover:opacity-80 transition">
-              <img src={m.menu_image} alt={m.menu_name} className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-4 border-green-footer" />
-              <span className="text-sm font-medium text-gray-700">{m.menu_name}</span>
+            <div
+              key={m.menu_name}
+              className="flex flex-col items-center gap-2 shrink-0 cursor-pointer hover:opacity-80 transition"
+            >
+              <img
+                src={m.menu_image}
+                alt={m.menu_name}
+                className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-4 border-green-footer"
+              />
+              <span className="text-sm font-medium text-gray-700">
+                {m.menu_name}
+              </span>
             </div>
           ))}
         </div>
@@ -20559,28 +22202,58 @@ export default function Home() {
 
       {/* Products — uses local food images as fallback */}
       <section>
-        <h2 className="text-2xl font-bold font-serif text-gray-900 mb-6">Top dishes near you</h2>
+        <h2 className="text-2xl font-bold font-serif text-gray-900 mb-6">
+          Top dishes near you
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product, idx) => (
-            <div key={product._id} className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition group">
+            <div
+              key={product._id}
+              className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition group"
+            >
               <div className="relative h-48 overflow-hidden bg-green-footer">
-                <img src={getProductImage(product, idx)} alt={product.productName || product.name} onError={(e)=>handleImgError(e, idx)} className="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
-                <span className="absolute top-3 left-3 bg-white/90 text-primary text-xs font-bold px-2 py-1 rounded-full flex items-center gap-1"><img src={assets.rating_starts} alt="" className="h-3" /> 4.5</span>
+                <img
+                  src={getProductImage(product, idx)}
+                  alt={product.productName || product.name}
+                  onError={(e) => handleImgError(e, idx)}
+                  className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+                />
+                <span className="absolute top-3 left-3 bg-white/90 text-primary text-xs font-bold px-2 py-1 rounded-full flex items-center gap-1">
+                  <img src={assets.rating_starts} alt="" className="h-3" /> 4.5
+                </span>
               </div>
               <div className="p-4">
-                <h3 className="font-semibold text-gray-900 truncate">{product.productName || product.name}</h3>
-                <p className="text-sm text-gray-500 line-clamp-2 h-10 mt-1">{product.productDescription || product.description}</p>
+                <h3 className="font-semibold text-gray-900 truncate">
+                  {product.productName || product.name}
+                </h3>
+                <p className="text-sm text-gray-500 line-clamp-2 h-10 mt-1">
+                  {product.productDescription || product.description}
+                </p>
                 <div className="flex items-center justify-between mt-3">
-                  <p className="text-primary font-bold">Rs {product.productPrice || product.price}</p>
-                  <button onClick={()=>navigate(`/product/${product._id}`)} className="bg-primary text-white p-2 rounded-full hover:bg-green-700 transition" aria-label="View"><BasketIcon className="size-4" /></button>
+                  <p className="text-primary font-bold">
+                    Rs {product.productPrice || product.price}
+                  </p>
+                  <button
+                    onClick={() => navigate(`/product/${product._id}`)}
+                    className="bg-primary text-white p-2 rounded-full hover:bg-green-700 transition"
+                    aria-label="View"
+                  >
+                    <BasketIcon className="size-4" />
+                  </button>
                 </div>
               </div>
             </div>
           ))}
-          {products.length===0 && (
+          {products.length === 0 && (
             <div className="col-span-full text-center py-12 border border-dashed border-gray-200 rounded-xl bg-gray-50">
-              <img src={assets.basket_icon} alt="" className="mx-auto h-16 opacity-40 mb-3" />
-              <p className="text-gray-600">No products found. Check back soon!</p>
+              <img
+                src={assets.basket_icon}
+                alt=""
+                className="mx-auto h-16 opacity-40 mb-3"
+              />
+              <p className="text-gray-600">
+                No products found. Check back soon!
+              </p>
             </div>
           )}
         </div>
@@ -20593,8 +22266,8 @@ export default function Home() {
 ### `Frontend/src/pages/buyer/MyOrders.jsx`
 
 ```jsx
-import { useOrders } from '../../api/hooks';
-import { SkeletonTableLoader } from '../../components/common/SkletonLoader';
+import { useOrders } from "../../api/hooks";
+import { SkeletonTableLoader } from "../../components/common/SkletonLoader";
 
 export default function MyOrders() {
   const { data, isLoading, error } = useOrders();
@@ -20604,19 +22277,54 @@ export default function MyOrders() {
   return (
     <div>
       <h1 className="text-3xl font-bold mb-6">My Orders</h1>
-      {orders.length===0 ? <p className="text-gray-600">No orders yet. Place an order from cart.</p> : orders.map((o)=>(
-        <div key={o._id} className="bg-white p-4 rounded-xl border border-gray-200 mb-4">
-          <div className="flex justify-between items-start">
-            <div>
-              <p className="font-semibold">Order #{String(o._id).slice(-8)} <span className="text-xs font-normal text-gray-500">{new Date(o.createdAt).toLocaleString()}</span></p>
-              <p className="text-sm text-gray-500">Status: <span className="px-2 py-0.5 rounded-full bg-amber-100 text-amber-700 text-xs">{o.orderStatus || o.status || 'pending'}</span> · {o.paymentDetails?.method || 'cod'} · {o.paymentDetails?.status || 'pending'}</p>
-              <p className="text-sm text-gray-600 mt-1">Ship to: {o.shippingAddress}</p>
-              {o.items?.length ? <p className="text-xs text-gray-500 mt-2">{o.items.length} items: {o.items.map(it=> `${it.product?.productName||it.product} x${it.quantity}`).join(', ')}</p> : null}
+      {orders.length === 0 ? (
+        <p className="text-gray-600">
+          No orders yet. Place an order from cart.
+        </p>
+      ) : (
+        orders.map((o) => (
+          <div
+            key={o._id}
+            className="bg-white p-4 rounded-xl border border-gray-200 mb-4"
+          >
+            <div className="flex justify-between items-start">
+              <div>
+                <p className="font-semibold">
+                  Order #{String(o._id).slice(-8)}{" "}
+                  <span className="text-xs font-normal text-gray-500">
+                    {new Date(o.createdAt).toLocaleString()}
+                  </span>
+                </p>
+                <p className="text-sm text-gray-500">
+                  Status:{" "}
+                  <span className="px-2 py-0.5 rounded-full bg-amber-100 text-amber-700 text-xs">
+                    {o.orderStatus || o.status || "pending"}
+                  </span>{" "}
+                  · {o.paymentDetails?.method || "cod"} ·{" "}
+                  {o.paymentDetails?.status || "pending"}
+                </p>
+                <p className="text-sm text-gray-600 mt-1">
+                  Ship to: {o.shippingAddress}
+                </p>
+                {o.items?.length ? (
+                  <p className="text-xs text-gray-500 mt-2">
+                    {o.items.length} items:{" "}
+                    {o.items
+                      .map(
+                        (it) =>
+                          `${it.product?.productName || it.product} x${it.quantity}`,
+                      )
+                      .join(", ")}
+                  </p>
+                ) : null}
+              </div>
+              <p className="font-bold text-primary text-lg">
+                Rs {o.totalAmount ?? o.totalPrice ?? 0}
+              </p>
             </div>
-            <p className="font-bold text-primary text-lg">Rs {o.totalAmount ?? o.totalPrice ?? 0}</p>
           </div>
-        </div>
-      ))}
+        ))
+      )}
     </div>
   );
 }
@@ -20625,49 +22333,73 @@ export default function MyOrders() {
 ### `Frontend/src/pages/buyer/MyProfile.jsx`
 
 ```jsx
-import { useAuthStore } from '../../store/authStore';
-import { useUIStore } from '../../store/uiStore';
-import { useQuery } from '@tanstack/react-query';
-import { userAPI } from '../../api/endpoints/user';
-import { ProfileIcon, EmailIcon } from '../../assets/data/icons';
+import { useAuthStore } from "../../store/authStore";
+import { useUIStore } from "../../store/uiStore";
+import { useQuery } from "@tanstack/react-query";
+import { userAPI } from "../../api/endpoints/user";
+import { ProfileIcon, EmailIcon } from "../../assets/data/icons";
 
 export default function MyProfile() {
   const { user } = useAuthStore();
   const { userRole } = useUIStore();
   const userId = user?._id || user?.id;
   const { data: fresh } = useQuery({
-    queryKey: ['profile', userId],
-    queryFn: () => userAPI.getProfile(userId).then(r=>r.data),
+    queryKey: ["profile", userId],
+    queryFn: () => userAPI.getProfile(userId).then((r) => r.data),
     enabled: !!userId,
   });
   const u = fresh?.data || fresh?.user || user || {};
-  const email = u.email || u.userEmail || 'N/A';
-  const name = u.name || u.userName || 'N/A';
-  const phone = u.phone || u.userPhone || 'N/A';
-  const role = u.role || (userRole==='seller' ? 'admin/seller' : userRole);
+  const email = u.email || u.userEmail || "N/A";
+  const name = u.name || u.userName || "N/A";
+  const phone = u.phone || u.userPhone || "N/A";
+  const role = u.role || (userRole === "seller" ? "admin/seller" : userRole);
 
   return (
     <div className="max-w-3xl mx-auto">
       <h1 className="text-2xl font-bold font-serif mb-6">My Profile</h1>
       <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
         <div className="bg-green-footer border-b border-green-border p-6 flex items-center gap-4">
-          <span className="w-16 h-16 rounded-full bg-white border-2 border-green-border flex items-center justify-center text-primary"><ProfileIcon size={36} /></span>
+          <span className="w-16 h-16 rounded-full bg-white border-2 border-green-border flex items-center justify-center text-primary">
+            <ProfileIcon size={36} />
+          </span>
           <div>
             <h2 className="text-xl font-bold text-gray-900">{name}</h2>
-            <p className="text-sm text-gray-600 flex items-center gap-1.5"><EmailIcon /> {email}</p>
-            <span className="inline-block mt-2 text-xs bg-white border border-green-border text-primary px-3 py-1 rounded-full font-medium capitalize">{role}</span>
+            <p className="text-sm text-gray-600 flex items-center gap-1.5">
+              <EmailIcon /> {email}
+            </p>
+            <span className="inline-block mt-2 text-xs bg-white border border-green-border text-primary px-3 py-1 rounded-full font-medium capitalize">
+              {role}
+            </span>
           </div>
         </div>
         <div className="p-6 grid sm:grid-cols-2 gap-4">
-          <div className="bg-gray-50 rounded-lg p-4"><p className="text-xs text-gray-500 uppercase">Full Name</p><p className="font-medium mt-1">{name}</p></div>
-          <div className="bg-gray-50 rounded-lg p-4"><p className="text-xs text-gray-500 uppercase">Email</p><p className="font-medium mt-1 break-all">{email}</p></div>
-          <div className="bg-gray-50 rounded-lg p-4"><p className="text-xs text-gray-500 uppercase">Phone</p><p className="font-medium mt-1">{phone}</p></div>
-          <div className="bg-gray-50 rounded-lg p-4"><p className="text-xs text-gray-500 uppercase">Member Since</p><p className="font-medium mt-1">{u.createdAt ? new Date(u.createdAt).toLocaleDateString() : '—'}</p></div>
+          <div className="bg-gray-50 rounded-lg p-4">
+            <p className="text-xs text-gray-500 uppercase">Full Name</p>
+            <p className="font-medium mt-1">{name}</p>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-4">
+            <p className="text-xs text-gray-500 uppercase">Email</p>
+            <p className="font-medium mt-1 break-all">{email}</p>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-4">
+            <p className="text-xs text-gray-500 uppercase">Phone</p>
+            <p className="font-medium mt-1">{phone}</p>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-4">
+            <p className="text-xs text-gray-500 uppercase">Member Since</p>
+            <p className="font-medium mt-1">
+              {u.createdAt ? new Date(u.createdAt).toLocaleDateString() : "—"}
+            </p>
+          </div>
         </div>
         <div className="px-6 pb-6">
           <details className="text-xs bg-gray-50 rounded p-3">
-            <summary className="cursor-pointer font-medium">Debug (raw user)</summary>
-            <pre className="mt-2 overflow-auto">{JSON.stringify(u, null, 2)}</pre>
+            <summary className="cursor-pointer font-medium">
+              Debug (raw user)
+            </summary>
+            <pre className="mt-2 overflow-auto">
+              {JSON.stringify(u, null, 2)}
+            </pre>
           </details>
         </div>
       </div>
@@ -20679,14 +22411,18 @@ export default function MyProfile() {
 ### `Frontend/src/pages/buyer/ProductDetails.jsx`
 
 ```jsx
-import { useParams } from 'react-router-dom';
-import { useProductDetail, useAddToCart, useProductReviews } from '../../api/hooks';
-import { SkeletonTableLoader } from '../../components/common/SkletonLoader';
-import { PrimaryButton } from '../../components/common/Button';
-import { assets } from '../../assets/assets';
-import { getProductImage, handleImgError } from '../../utils/productImage';
-import { BasketIcon } from '../../assets/data/icons';
-import toast from 'react-hot-toast';
+import { useParams } from "react-router-dom";
+import {
+  useProductDetail,
+  useAddToCart,
+  useProductReviews,
+} from "../../api/hooks";
+import { SkeletonTableLoader } from "../../components/common/SkletonLoader";
+import { PrimaryButton } from "../../components/common/Button";
+import { assets } from "../../assets/assets";
+import { getProductImage, handleImgError } from "../../utils/productImage";
+import { BasketIcon } from "../../assets/data/icons";
+import toast from "react-hot-toast";
 
 export default function ProductDetails() {
   const { id } = useParams();
@@ -20695,34 +22431,84 @@ export default function ProductDetails() {
   const { mutate: addToCart, isPending } = useAddToCart();
   if (isLoading) return <SkeletonTableLoader />;
   const product = data?.data || data;
-  if (!product) return <div className="text-center py-12"><img src={assets.basket_icon} alt="" className="mx-auto h-16 opacity-40 mb-3" /><p>Product not found</p></div>;
+  if (!product)
+    return (
+      <div className="text-center py-12">
+        <img
+          src={assets.basket_icon}
+          alt=""
+          className="mx-auto h-16 opacity-40 mb-3"
+        />
+        <p>Product not found</p>
+      </div>
+    );
   const reviewsList = reviews?.data || reviews || [];
   return (
     <div className="grid md:grid-cols-2 gap-8">
       <div className="bg-green-footer rounded-xl p-4 border border-green-border">
-        <img src={getProductImage(product, 0)} alt={product.productName || product.name} onError={(e)=>handleImgError(e, 0)} className="w-full h-[380px] object-cover rounded-lg" />
+        <img
+          src={getProductImage(product, 0)}
+          alt={product.productName || product.name}
+          onError={(e) => handleImgError(e, 0)}
+          className="w-full h-[380px] object-cover rounded-lg"
+        />
       </div>
       <div>
-        <h1 className="text-3xl font-bold font-serif text-gray-900 mb-2">{product.productName || product.name}</h1>
-        <div className="flex items-center gap-2 mb-3"><img src={assets.rating_starts} alt="rating" className="h-4" /><span className="text-sm text-gray-600">(122 reviews)</span></div>
-        <p className="text-gray-600 mb-4 leading-relaxed">{product.productDescription || product.description}</p>
-        <p className="text-primary font-bold text-2xl mb-6">Rs {product.productPrice || product.price}</p>
+        <h1 className="text-3xl font-bold font-serif text-gray-900 mb-2">
+          {product.productName || product.name}
+        </h1>
+        <div className="flex items-center gap-2 mb-3">
+          <img src={assets.rating_starts} alt="rating" className="h-4" />
+          <span className="text-sm text-gray-600">(122 reviews)</span>
+        </div>
+        <p className="text-gray-600 mb-4 leading-relaxed">
+          {product.productDescription || product.description}
+        </p>
+        <p className="text-primary font-bold text-2xl mb-6">
+          Rs {product.productPrice || product.price}
+        </p>
         <div className="flex gap-3">
-          <PrimaryButton label={isPending ? 'Adding...' : 'Add to Cart'} loading={isPending} onClick={()=>addToCart({ productID: id }, { onSuccess: ()=>toast.success('Added to cart'), onError: (e)=>toast.error(e.response?.data?.message || 'Failed') })} />
-          <span className="inline-flex items-center gap-2 text-sm text-gray-600 border border-green-border rounded-lg px-4 bg-green-footer"><BasketIcon className="size-4 text-primary" /> Free delivery</span>
+          <PrimaryButton
+            label={isPending ? "Adding..." : "Add to Cart"}
+            loading={isPending}
+            onClick={() =>
+              addToCart(
+                { productID: id },
+                {
+                  onSuccess: () => toast.success("Added to cart"),
+                  onError: (e) =>
+                    toast.error(e.response?.data?.message || "Failed"),
+                },
+              )
+            }
+          />
+          <span className="inline-flex items-center gap-2 text-sm text-gray-600 border border-green-border rounded-lg px-4 bg-green-footer">
+            <BasketIcon className="size-4 text-primary" /> Free delivery
+          </span>
         </div>
         <div className="mt-8 border-t border-gray-200 pt-6">
           <h3 className="font-semibold font-serif mb-3">Reviews</h3>
           {Array.isArray(reviewsList) && reviewsList.length > 0 ? (
             <ul className="space-y-3">
-              {reviewsList.map((r, i)=>(
-                <li key={i} className="bg-white border border-gray-200 rounded-lg p-3 text-sm">
-                  <p className="font-medium">{r.userName || r.user || 'Anonymous'}</p>
-                  <p className="text-gray-600">{r.comment || r.review || r.text || JSON.stringify(r)}</p>
+              {reviewsList.map((r, i) => (
+                <li
+                  key={i}
+                  className="bg-white border border-gray-200 rounded-lg p-3 text-sm"
+                >
+                  <p className="font-medium">
+                    {r.userName || r.user || "Anonymous"}
+                  </p>
+                  <p className="text-gray-600">
+                    {r.comment || r.review || r.text || JSON.stringify(r)}
+                  </p>
                 </li>
               ))}
             </ul>
-          ) : <p className="text-sm text-gray-500 bg-gray-50 p-4 rounded-lg border border-dashed">No reviews yet. Be the first to review!</p>}
+          ) : (
+            <p className="text-sm text-gray-500 bg-gray-50 p-4 rounded-lg border border-dashed">
+              No reviews yet. Be the first to review!
+            </p>
+          )}
         </div>
       </div>
     </div>
@@ -20733,23 +22519,30 @@ export default function ProductDetails() {
 ### `Frontend/src/pages/payment/KhaltiFailed.jsx`
 
 ```jsx
-export default function KhaltiFailed() { return <div className="text-center py-12"><h2 className="text-2xl font-bold text-red-600">Payment Failed</h2><p className="text-gray-600 mt-2">Please try again.</p></div>; }
+export default function KhaltiFailed() {
+  return (
+    <div className="text-center py-12">
+      <h2 className="text-2xl font-bold text-red-600">Payment Failed</h2>
+      <p className="text-gray-600 mt-2">Please try again.</p>
+    </div>
+  );
+}
 ```
 
 ### `Frontend/src/pages/payment/KhaltiSuccess.jsx`
 
 ```jsx
-import { useEffect } from 'react';
-import { useSearchParams, useNavigate } from 'react-router-dom';
-import { useVerifyPayment } from '../../api/hooks';
+import { useEffect } from "react";
+import { useSearchParams, useNavigate } from "react-router-dom";
+import { useVerifyPayment } from "../../api/hooks";
 
 export default function KhaltiSuccess() {
   const [searchParams] = useSearchParams();
   const { mutate: verifyPayment } = useVerifyPayment();
   const navigate = useNavigate();
   useEffect(() => {
-    const pidx = searchParams.get('pidx');
-    if (pidx) verifyPayment({ pidx }, { onSuccess: () => navigate('/orders') });
+    const pidx = searchParams.get("pidx");
+    if (pidx) verifyPayment({ pidx }, { onSuccess: () => navigate("/orders") });
   }, [searchParams, verifyPayment, navigate]);
   return <div className="text-center py-12">Processing payment...</div>;
 }
@@ -20758,67 +22551,113 @@ export default function KhaltiSuccess() {
 ### `Frontend/src/pages/payment/PaymentPending.jsx`
 
 ```jsx
-export default function PaymentPending() { return <div className="text-center py-12">Payment pending...</div>; }
+export default function PaymentPending() {
+  return <div className="text-center py-12">Payment pending...</div>;
+}
 ```
 
 ### `Frontend/src/pages/seller/Analytics.jsx`
 
 ```jsx
-import { useMemo } from 'react';
-import Highcharts from 'highcharts';
-import HighchartsReact from 'highcharts-react-official';
-import { useQuery } from '@tanstack/react-query';
-import client from '../../api/client';
-import { API_ENDPOINTS } from '../../api/config';
+import { useMemo } from "react";
+import Highcharts from "highcharts";
+import HighchartsReact from "highcharts-react-official";
+import { useQuery } from "@tanstack/react-query";
+import client from "../../api/client";
+import { API_ENDPOINTS } from "../../api/config";
 
 export default function SellerAnalytics() {
-  const { data: ordersData } = useQuery({ queryKey: ['admin-orders'], queryFn: () => client.get(API_ENDPOINTS.ADMIN_ORDERS).then(r=>r.data) });
-  const { data: productsData } = useQuery({ queryKey: ['products-analytics'], queryFn: () => client.get(API_ENDPOINTS.PRODUCTS_LIST).then(r=>r.data) });
+  const { data: ordersData } = useQuery({
+    queryKey: ["admin-orders"],
+    queryFn: () => client.get(API_ENDPOINTS.ADMIN_ORDERS).then((r) => r.data),
+  });
+  const { data: productsData } = useQuery({
+    queryKey: ["products-analytics"],
+    queryFn: () => client.get(API_ENDPOINTS.PRODUCTS_LIST).then((r) => r.data),
+  });
 
   const orders = ordersData?.data || ordersData?.orders || [];
   const products = productsData?.data || [];
 
   const stats = useMemo(() => {
-    const byStatus = orders.reduce((acc, o) => { const s = (o.orderStatus||o.status||'pending'); acc[s]=(acc[s]||0)+1; return acc; }, {});
-    const revenue = orders.filter(o=> (o.orderStatus||o.status)!=='cancelled').reduce((sum,o)=> sum + Number(o.totalAmount||o.totalPrice||0),0);
+    const byStatus = orders.reduce((acc, o) => {
+      const s = o.orderStatus || o.status || "pending";
+      acc[s] = (acc[s] || 0) + 1;
+      return acc;
+    }, {});
+    const revenue = orders
+      .filter((o) => (o.orderStatus || o.status) !== "cancelled")
+      .reduce((sum, o) => sum + Number(o.totalAmount || o.totalPrice || 0), 0);
     const byDate = {};
-    orders.forEach(o => { const d = new Date(o.createdAt).toISOString().slice(0,10); byDate[d]=(byDate[d]||0)+Number(o.totalAmount||0); });
+    orders.forEach((o) => {
+      const d = new Date(o.createdAt).toISOString().slice(0, 10);
+      byDate[d] = (byDate[d] || 0) + Number(o.totalAmount || 0);
+    });
     const dates = Object.keys(byDate).sort().slice(-14);
     return { byStatus, revenue, dates, byDate };
   }, [orders]);
 
   const statusPie = {
-    chart: { type: 'pie', backgroundColor: 'transparent' },
-    title: { text: 'Orders by Status' },
-    plotOptions: { pie: { dataLabels: { enabled: true, format: '{point.name}: {point.y}' } } },
-    series: [{ name: 'Orders', data: Object.entries(stats.byStatus).map(([name,y])=>({name,y})) }],
+    chart: { type: "pie", backgroundColor: "transparent" },
+    title: { text: "Orders by Status" },
+    plotOptions: {
+      pie: { dataLabels: { enabled: true, format: "{point.name}: {point.y}" } },
+    },
+    series: [
+      {
+        name: "Orders",
+        data: Object.entries(stats.byStatus).map(([name, y]) => ({ name, y })),
+      },
+    ],
     credits: { enabled: false },
   };
   const revenueLine = {
-    chart: { type: 'column', backgroundColor: 'transparent' },
-    title: { text: 'Revenue (last 14 days)' },
-    xAxis: { categories: stats.dates, title: { text: 'Date' } },
-    yAxis: { title: { text: 'Rs' } },
-    series: [{ name: 'Revenue', data: stats.dates.map(d=> stats.byDate[d]||0), color: '#16a34a' }],
+    chart: { type: "column", backgroundColor: "transparent" },
+    title: { text: "Revenue (last 14 days)" },
+    xAxis: { categories: stats.dates, title: { text: "Date" } },
+    yAxis: { title: { text: "Rs" } },
+    series: [
+      {
+        name: "Revenue",
+        data: stats.dates.map((d) => stats.byDate[d] || 0),
+        color: "#16a34a",
+      },
+    ],
     credits: { enabled: false },
   };
   const productStatusBar = {
-    chart: { type: 'bar', backgroundColor: 'transparent' },
-    title: { text: 'Products' },
-    xAxis: { categories: ['Total','Public','Draft'], title: { text: null } },
-    yAxis: { title: { text: 'Count' } },
-    series: [{ name: 'Products', data: [products.length, products.filter(p=>p.productStatus==='public').length, products.filter(p=>p.productStatus==='draft').length], color: '#15803d' }],
+    chart: { type: "bar", backgroundColor: "transparent" },
+    title: { text: "Products" },
+    xAxis: { categories: ["Total", "Public", "Draft"], title: { text: null } },
+    yAxis: { title: { text: "Count" } },
+    series: [
+      {
+        name: "Products",
+        data: [
+          products.length,
+          products.filter((p) => p.productStatus === "public").length,
+          products.filter((p) => p.productStatus === "draft").length,
+        ],
+        color: "#15803d",
+      },
+    ],
     credits: { enabled: false },
   };
 
-  if (orders.length===0 && products.length===0) {
+  if (orders.length === 0 && products.length === 0) {
     return (
       <div>
         <h1 className="text-3xl font-bold mb-6">Analytics</h1>
-        <div className="bg-white border border-dashed rounded-xl p-12 text-center text-gray-500">No data yet — create products and orders to see charts.</div>
+        <div className="bg-white border border-dashed rounded-xl p-12 text-center text-gray-500">
+          No data yet — create products and orders to see charts.
+        </div>
         <div className="grid md:grid-cols-2 gap-6 mt-6">
-          <div className="bg-white rounded-xl border p-4"><HighchartsReact highcharts={Highcharts} options={statusPie} /></div>
-          <div className="bg-white rounded-xl border p-4"><HighchartsReact highcharts={Highcharts} options={revenueLine} /></div>
+          <div className="bg-white rounded-xl border p-4">
+            <HighchartsReact highcharts={Highcharts} options={statusPie} />
+          </div>
+          <div className="bg-white rounded-xl border p-4">
+            <HighchartsReact highcharts={Highcharts} options={revenueLine} />
+          </div>
         </div>
       </div>
     );
@@ -20828,16 +22667,38 @@ export default function SellerAnalytics() {
     <div className="space-y-6">
       <h1 className="text-3xl font-bold">Analytics</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div className="bg-white p-6 rounded-xl border"><p className="text-sm text-gray-500">Total Orders</p><p className="text-3xl font-bold">{orders.length}</p></div>
-        <div className="bg-white p-6 rounded-xl border"><p className="text-sm text-gray-500">Revenue</p><p className="text-3xl font-bold text-green-600">Rs {stats.revenue.toLocaleString()}</p></div>
-        <div className="bg-white p-6 rounded-xl border"><p className="text-sm text-gray-500">Products</p><p className="text-3xl font-bold">{products.length}</p></div>
-        <div className="bg-white p-6 rounded-xl border"><p className="text-sm text-gray-500">Pending</p><p className="text-3xl font-bold text-amber-600">{stats.byStatus.pending||0}</p></div>
+        <div className="bg-white p-6 rounded-xl border">
+          <p className="text-sm text-gray-500">Total Orders</p>
+          <p className="text-3xl font-bold">{orders.length}</p>
+        </div>
+        <div className="bg-white p-6 rounded-xl border">
+          <p className="text-sm text-gray-500">Revenue</p>
+          <p className="text-3xl font-bold text-green-600">
+            Rs {stats.revenue.toLocaleString()}
+          </p>
+        </div>
+        <div className="bg-white p-6 rounded-xl border">
+          <p className="text-sm text-gray-500">Products</p>
+          <p className="text-3xl font-bold">{products.length}</p>
+        </div>
+        <div className="bg-white p-6 rounded-xl border">
+          <p className="text-sm text-gray-500">Pending</p>
+          <p className="text-3xl font-bold text-amber-600">
+            {stats.byStatus.pending || 0}
+          </p>
+        </div>
       </div>
       <div className="grid md:grid-cols-2 gap-6">
-        <div className="bg-white rounded-xl border p-4"><HighchartsReact highcharts={Highcharts} options={statusPie} /></div>
-        <div className="bg-white rounded-xl border p-4"><HighchartsReact highcharts={Highcharts} options={revenueLine} /></div>
+        <div className="bg-white rounded-xl border p-4">
+          <HighchartsReact highcharts={Highcharts} options={statusPie} />
+        </div>
+        <div className="bg-white rounded-xl border p-4">
+          <HighchartsReact highcharts={Highcharts} options={revenueLine} />
+        </div>
       </div>
-      <div className="bg-white rounded-xl border p-4"><HighchartsReact highcharts={Highcharts} options={productStatusBar} /></div>
+      <div className="bg-white rounded-xl border p-4">
+        <HighchartsReact highcharts={Highcharts} options={productStatusBar} />
+      </div>
     </div>
   );
 }
@@ -20850,12 +22711,27 @@ export default function SellerDashboard() {
   return (
     <div>
       <h1 className="text-3xl font-bold mb-6">Seller Dashboard</h1>
-      <p className="text-gray-600 mb-4">Coming Soon — seller analytics will appear when backend adds seller controllers.</p>
+      <p className="text-gray-600 mb-4">
+        Coming Soon — seller analytics will appear when backend adds seller
+        controllers.
+      </p>
       <div className="grid grid-cols-4 gap-4">
-        <div className="bg-white p-6 rounded-lg border"><p className="text-sm text-gray-600">Total Products</p><p className="text-3xl font-bold">—</p></div>
-        <div className="bg-white p-6 rounded-lg border"><p className="text-sm text-gray-600">Total Orders</p><p className="text-3xl font-bold">—</p></div>
-        <div className="bg-white p-6 rounded-lg border"><p className="text-sm text-gray-600">Revenue</p><p className="text-3xl font-bold text-green-600">—</p></div>
-        <div className="bg-white p-6 rounded-lg border"><p className="text-sm text-gray-600">Avg Rating</p><p className="text-3xl font-bold">—</p></div>
+        <div className="bg-white p-6 rounded-lg border">
+          <p className="text-sm text-gray-600">Total Products</p>
+          <p className="text-3xl font-bold">—</p>
+        </div>
+        <div className="bg-white p-6 rounded-lg border">
+          <p className="text-sm text-gray-600">Total Orders</p>
+          <p className="text-3xl font-bold">—</p>
+        </div>
+        <div className="bg-white p-6 rounded-lg border">
+          <p className="text-sm text-gray-600">Revenue</p>
+          <p className="text-3xl font-bold text-green-600">—</p>
+        </div>
+        <div className="bg-white p-6 rounded-lg border">
+          <p className="text-sm text-gray-600">Avg Rating</p>
+          <p className="text-3xl font-bold">—</p>
+        </div>
       </div>
     </div>
   );
@@ -20865,40 +22741,86 @@ export default function SellerDashboard() {
 ### `Frontend/src/pages/seller/Orders.jsx`
 
 ```jsx
-import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
-import client from '../../api/client';
-import { API_ENDPOINTS } from '../../api/config';
-import toast from 'react-hot-toast';
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import client from "../../api/client";
+import { API_ENDPOINTS } from "../../api/config";
+import toast from "react-hot-toast";
 
 export default function SellerOrders() {
   const qc = useQueryClient();
-  const { data, isLoading } = useQuery({ queryKey:['admin-orders'], queryFn:()=>client.get(API_ENDPOINTS.ADMIN_ORDERS).then(r=>r.data) });
+  const { data, isLoading } = useQuery({
+    queryKey: ["admin-orders"],
+    queryFn: () => client.get(API_ENDPOINTS.ADMIN_ORDERS).then((r) => r.data),
+  });
   const orders = data?.data || data?.orders || [];
-  const update = useMutation({ mutationFn:({id,status})=>client.patch(API_ENDPOINTS.ADMIN_ORDER_UPDATE.replace(':id',id),{status}), onSuccess:()=>{qc.invalidateQueries({queryKey:['admin-orders']}); toast.success('Updated');}, onError:e=>toast.error(e.response?.data?.message||'Failed') });
+  const update = useMutation({
+    mutationFn: ({ id, status }) =>
+      client.patch(API_ENDPOINTS.ADMIN_ORDER_UPDATE.replace(":id", id), {
+        status,
+      }),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ["admin-orders"] });
+      toast.success("Updated");
+    },
+    onError: (e) => toast.error(e.response?.data?.message || "Failed"),
+  });
   if (isLoading) return <div className="p-6">Loading orders...</div>;
   return (
     <div>
       <h1 className="text-2xl font-bold font-serif mb-6">Orders Management</h1>
-      {orders.length===0 ? <div className="bg-white border border-dashed rounded-xl p-12 text-center text-gray-500">No orders yet.</div> :
-      <div className="bg-white rounded-xl border overflow-hidden">
-        <table className="w-full text-sm">
-          <thead className="bg-green-footer border-b"><tr><th className="p-3 text-left">Order</th><th className="p-3">Status</th><th className="p-3">Total</th><th className="p-3">Action</th></tr></thead>
-          <tbody>
-            {orders.map(o=>(
-              <tr key={o._id} className="border-b hover:bg-gray-50">
-                <td className="p-3"><p className="font-medium">{o._id?.slice(-8)}</p><p className="text-xs text-gray-500">{new Date(o.createdAt).toLocaleDateString()}</p></td>
-                <td className="p-3 text-center"><span className="px-2 py-1 rounded-full text-xs bg-amber-100 text-amber-700">{o.orderStatus || o.status}</span></td>
-                <td className="p-3 text-center font-semibold">Rs {o.totalAmount || o.totalPrice}</td>
-                <td className="p-3 text-center flex gap-1 justify-center">
-                  <select value={o.orderStatus || o.status} onChange={e=>update.mutate({id:o._id,status:e.target.value})} className="border rounded px-2 py-1 text-xs">
-                    <option value="pending">pending</option><option value="confirmed">confirmed</option><option value="shipped">shipped</option><option value="delivered">delivered</option><option value="cancelled">cancelled</option>
-                  </select>
-                </td>
+      {orders.length === 0 ? (
+        <div className="bg-white border border-dashed rounded-xl p-12 text-center text-gray-500">
+          No orders yet.
+        </div>
+      ) : (
+        <div className="bg-white rounded-xl border overflow-hidden">
+          <table className="w-full text-sm">
+            <thead className="bg-green-footer border-b">
+              <tr>
+                <th className="p-3 text-left">Order</th>
+                <th className="p-3">Status</th>
+                <th className="p-3">Total</th>
+                <th className="p-3">Action</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>}
+            </thead>
+            <tbody>
+              {orders.map((o) => (
+                <tr key={o._id} className="border-b hover:bg-gray-50">
+                  <td className="p-3">
+                    <p className="font-medium">{o._id?.slice(-8)}</p>
+                    <p className="text-xs text-gray-500">
+                      {new Date(o.createdAt).toLocaleDateString()}
+                    </p>
+                  </td>
+                  <td className="p-3 text-center">
+                    <span className="px-2 py-1 rounded-full text-xs bg-amber-100 text-amber-700">
+                      {o.orderStatus || o.status}
+                    </span>
+                  </td>
+                  <td className="p-3 text-center font-semibold">
+                    Rs {o.totalAmount || o.totalPrice}
+                  </td>
+                  <td className="p-3 text-center flex gap-1 justify-center">
+                    <select
+                      value={o.orderStatus || o.status}
+                      onChange={(e) =>
+                        update.mutate({ id: o._id, status: e.target.value })
+                      }
+                      className="border rounded px-2 py-1 text-xs"
+                    >
+                      <option value="pending">pending</option>
+                      <option value="confirmed">confirmed</option>
+                      <option value="shipped">shipped</option>
+                      <option value="delivered">delivered</option>
+                      <option value="cancelled">cancelled</option>
+                    </select>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
     </div>
   );
 }
@@ -20907,70 +22829,141 @@ export default function SellerOrders() {
 ### `Frontend/src/pages/seller/ProductCreate.jsx`
 
 ```jsx
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { useCreateProduct } from '../../api/hooks';
-import InputField from '../../components/common/InputField';
-import { PrimaryButton } from '../../components/common/Button';
-import { CloudArrow } from '../../assets/data/icons';
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useCreateProduct } from "../../api/hooks";
+import InputField from "../../components/common/InputField";
+import { PrimaryButton } from "../../components/common/Button";
+import { CloudArrow } from "../../assets/data/icons";
 
 export default function SellerProductCreate() {
   const navigate = useNavigate();
   const { mutateAsync, isPending } = useCreateProduct();
-  const [form, setForm] = useState({ productName:'', productDescription:'', productPrice:'', productStock:'', productStatus:'public' });
+  const [form, setForm] = useState({
+    productName: "",
+    productDescription: "",
+    productPrice: "",
+    productStock: "",
+    productStatus: "public",
+  });
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
 
-  const onChange = e => setForm(f=>({...f, [e.target.name]: e.target.value}));
-  const onFile = e => {
+  const onChange = (e) =>
+    setForm((f) => ({ ...f, [e.target.name]: e.target.value }));
+  const onFile = (e) => {
     const f = e.target.files?.[0];
-    if (f) { setFile(f); setPreview(URL.createObjectURL(f)); }
+    if (f) {
+      setFile(f);
+      setPreview(URL.createObjectURL(f));
+    }
   };
 
-  const onSubmit = async e => {
+  const onSubmit = async (e) => {
     e.preventDefault();
-    if (!file) { alert('Product image required'); return; }
+    if (!file) {
+      alert("Product image required");
+      return;
+    }
     const fd = new FormData();
-    fd.append('productName', form.productName);
-    fd.append('productDescription', form.productDescription);
-    fd.append('productPrice', form.productPrice);
-    fd.append('productStock', form.productStock);
-    fd.append('productStatus', form.productStatus);
-    fd.append('productImage', file);
-    try { await mutateAsync(fd); navigate('/seller/products'); } catch {}
+    fd.append("productName", form.productName);
+    fd.append("productDescription", form.productDescription);
+    fd.append("productPrice", form.productPrice);
+    fd.append("productStock", form.productStock);
+    fd.append("productStatus", form.productStatus);
+    fd.append("productImage", file);
+    try {
+      await mutateAsync(fd);
+      navigate("/seller/products");
+    } catch {}
   };
 
   return (
     <div className="max-w-3xl mx-auto">
       <h1 className="text-2xl font-bold font-serif mb-6">Add New Product</h1>
-      <form onSubmit={onSubmit} className="bg-white rounded-xl border border-gray-200 p-6 space-y-4">
-        <InputField label="Product Name" name="productName" value={form.productName} onChange={onChange} placeholder="e.g. Vintage Burger" />
+      <form
+        onSubmit={onSubmit}
+        className="bg-white rounded-xl border border-gray-200 p-6 space-y-4"
+      >
+        <InputField
+          label="Product Name"
+          name="productName"
+          value={form.productName}
+          onChange={onChange}
+          placeholder="e.g. Vintage Burger"
+        />
         <div>
           <label className="text-sm text-primary mb-1 block">Description</label>
-          <textarea name="productDescription" value={form.productDescription} onChange={onChange} rows={4} className="w-full bg-[#F6F6F6] rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Describe the dish..." />
+          <textarea
+            name="productDescription"
+            value={form.productDescription}
+            onChange={onChange}
+            rows={4}
+            className="w-full bg-[#F6F6F6] rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+            placeholder="Describe the dish..."
+          />
         </div>
         <div className="grid grid-cols-2 gap-4">
-          <InputField label="Price (Rs)" name="productPrice" type="number" value={form.productPrice} onChange={onChange} placeholder="250" />
-          <InputField label="Stock" name="productStock" type="number" value={form.productStock} onChange={onChange} placeholder="50" />
+          <InputField
+            label="Price (Rs)"
+            name="productPrice"
+            type="number"
+            value={form.productPrice}
+            onChange={onChange}
+            placeholder="250"
+          />
+          <InputField
+            label="Stock"
+            name="productStock"
+            type="number"
+            value={form.productStock}
+            onChange={onChange}
+            placeholder="50"
+          />
         </div>
         <div>
           <label className="text-sm text-primary mb-1 block">Status</label>
-          <select name="productStatus" value={form.productStatus} onChange={onChange} className="w-full bg-[#F6F6F6] rounded px-3 py-2 h-[42px] text-sm">
+          <select
+            name="productStatus"
+            value={form.productStatus}
+            onChange={onChange}
+            className="w-full bg-[#F6F6F6] rounded px-3 py-2 h-[42px] text-sm"
+          >
             <option value="draft">Draft</option>
             <option value="public">Public</option>
           </select>
         </div>
         <div>
-          <label className="text-sm text-primary mb-1 block">Product Photo *</label>
+          <label className="text-sm text-primary mb-1 block">
+            Product Photo *
+          </label>
           <label className="flex flex-col items-center justify-center border-2 border-dashed border-green-border bg-green-footer rounded-xl p-6 cursor-pointer hover:bg-green-50 transition">
             <CloudArrow />
-            <span className="text-sm text-gray-600 mt-2">{file ? file.name : 'Click to upload image'}</span>
+            <span className="text-sm text-gray-600 mt-2">
+              {file ? file.name : "Click to upload image"}
+            </span>
             <span className="text-xs text-gray-400">PNG, JPG up to 5MB</span>
-            <input type="file" accept="image/*" onChange={onFile} className="hidden" />
+            <input
+              type="file"
+              accept="image/*"
+              onChange={onFile}
+              className="hidden"
+            />
           </label>
-          {preview && <img src={preview} alt="preview" className="mt-3 h-40 w-full object-cover rounded-lg border" />}
+          {preview && (
+            <img
+              src={preview}
+              alt="preview"
+              className="mt-3 h-40 w-full object-cover rounded-lg border"
+            />
+          )}
         </div>
-        <PrimaryButton label={isPending ? 'Creating...' : 'Create Product'} type="submit" loading={isPending} className="w-full justify-center" />
+        <PrimaryButton
+          label={isPending ? "Creating..." : "Create Product"}
+          type="submit"
+          loading={isPending}
+          className="w-full justify-center"
+        />
       </form>
     </div>
   );
@@ -20980,13 +22973,13 @@ export default function SellerProductCreate() {
 ### `Frontend/src/pages/seller/Products.jsx`
 
 ```jsx
-import { useProducts, useDeleteProduct } from '../../api/hooks';
-import { getProductImage, handleImgError } from '../../utils/productImage';
-import { Link } from 'react-router-dom';
-import { PrimaryButton, SecondaryButton } from '../../components/common/Button';
+import { useProducts, useDeleteProduct } from "../../api/hooks";
+import { getProductImage, handleImgError } from "../../utils/productImage";
+import { Link } from "react-router-dom";
+import { PrimaryButton, SecondaryButton } from "../../components/common/Button";
 
 export default function SellerProducts() {
-  const { data, isLoading } = useProducts({ page:1, limit:50 });
+  const { data, isLoading } = useProducts({ page: 1, limit: 50 });
   const { mutate: del } = useDeleteProduct();
   const products = data?.data || data?.products || [];
   if (isLoading) return <div className="p-6">Loading...</div>;
@@ -20994,26 +22987,59 @@ export default function SellerProducts() {
     <div>
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold font-serif">Manage Products</h1>
-        <Link to="/seller/products/create"><PrimaryButton label="+ Add Product" onClick={()=>{}} /></Link>
+        <Link to="/seller/products/create">
+          <PrimaryButton label="+ Add Product" onClick={() => {}} />
+        </Link>
       </div>
-      {products.length===0 ? <div className="bg-white border border-dashed rounded-xl p-12 text-center text-gray-500">No products yet. Create your first product.</div> :
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {products.map((p,i)=>(
-          <div key={p._id} className="bg-white rounded-xl border overflow-hidden hover:shadow-md transition">
-            <img src={getProductImage(p,i)} onError={e=>handleImgError(e,i)} alt={p.productName} className="h-48 w-full object-cover bg-green-footer" />
-            <div className="p-4">
-              <h3 className="font-semibold truncate">{p.productName || p.name}</h3>
-              <p className="text-sm text-gray-500 line-clamp-2">{p.productDescription}</p>
-              <p className="font-bold text-primary mt-2">Rs {p.productPrice}</p>
-              <p className="text-xs text-gray-400">Stock: {p.productStock} • {p.productStatus}</p>
-              <div className="flex gap-2 mt-3">
-                <SecondaryButton label="Delete" onClick={()=> { if(confirm('Delete?')) del(p._id); }} className="flex-1 justify-center" />
-                <span className={`text-xs px-2 py-1 rounded-full self-center ${p.productStatus==='public'?'bg-green-100 text-green-700':'bg-amber-100 text-amber-700'}`}>{p.productStatus}</span>
+      {products.length === 0 ? (
+        <div className="bg-white border border-dashed rounded-xl p-12 text-center text-gray-500">
+          No products yet. Create your first product.
+        </div>
+      ) : (
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {products.map((p, i) => (
+            <div
+              key={p._id}
+              className="bg-white rounded-xl border overflow-hidden hover:shadow-md transition"
+            >
+              <img
+                src={getProductImage(p, i)}
+                onError={(e) => handleImgError(e, i)}
+                alt={p.productName}
+                className="h-48 w-full object-cover bg-green-footer"
+              />
+              <div className="p-4">
+                <h3 className="font-semibold truncate">
+                  {p.productName || p.name}
+                </h3>
+                <p className="text-sm text-gray-500 line-clamp-2">
+                  {p.productDescription}
+                </p>
+                <p className="font-bold text-primary mt-2">
+                  Rs {p.productPrice}
+                </p>
+                <p className="text-xs text-gray-400">
+                  Stock: {p.productStock} • {p.productStatus}
+                </p>
+                <div className="flex gap-2 mt-3">
+                  <SecondaryButton
+                    label="Delete"
+                    onClick={() => {
+                      if (confirm("Delete?")) del(p._id);
+                    }}
+                    className="flex-1 justify-center"
+                  />
+                  <span
+                    className={`text-xs px-2 py-1 rounded-full self-center ${p.productStatus === "public" ? "bg-green-100 text-green-700" : "bg-amber-100 text-amber-700"}`}
+                  >
+                    {p.productStatus}
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>}
+          ))}
+        </div>
+      )}
     </div>
   );
 }
@@ -21022,70 +23048,207 @@ export default function SellerProducts() {
 ### `Frontend/src/routes.jsx`
 
 ```jsx
-import { createBrowserRouter, Navigate } from 'react-router-dom';
-import { lazy, Suspense } from 'react';
-import AppShell from './components/layout/AppShell';
-import Login from './pages/auth/login/Login';
-import Register from './pages/auth/register/Register';
-import ProtectedRoute from './components/common/ProtectedRoute';
+import { createBrowserRouter, Navigate } from "react-router-dom";
+import { lazy, Suspense } from "react";
+import AppShell from "./components/layout/AppShell";
+import Login from "./pages/auth/login/Login";
+import Register from "./pages/auth/register/Register";
+import ProtectedRoute from "./components/common/ProtectedRoute";
 
-const Home = lazy(() => import('./pages/buyer/Home'));
-const ProductDetails = lazy(() => import('./pages/buyer/ProductDetails'));
-const Cart = lazy(() => import('./pages/buyer/Cart'));
-const Checkout = lazy(() => import('./pages/buyer/Checkout'));
-const MyOrders = lazy(() => import('./pages/buyer/MyOrders'));
-const MyProfile = lazy(() => import('./pages/buyer/MyProfile'));
-const SellerDashboard = lazy(() => import('./pages/seller/Dashboard'));
-const SellerProducts = lazy(() => import('./pages/seller/Products'));
-const SellerProductCreate = lazy(() => import('./pages/seller/ProductCreate'));
-const SellerOrders = lazy(() => import('./pages/seller/Orders'));
-const SellerAnalytics = lazy(() => import('./pages/seller/Analytics'));
-const AdminDashboard = lazy(() => import('./pages/admin/Dashboard'));
-const AdminUsers = lazy(() => import('./pages/admin/Users'));
-const AdminProducts = lazy(() => import('./pages/admin/Products'));
-const AdminOrders = lazy(() => import('./pages/admin/Orders'));
-const KhaltiSuccess = lazy(() => import('./pages/payment/KhaltiSuccess'));
-const KhaltiFailed = lazy(() => import('./pages/payment/KhaltiFailed'));
+const Home = lazy(() => import("./pages/buyer/Home"));
+const ProductDetails = lazy(() => import("./pages/buyer/ProductDetails"));
+const Cart = lazy(() => import("./pages/buyer/Cart"));
+const Checkout = lazy(() => import("./pages/buyer/Checkout"));
+const MyOrders = lazy(() => import("./pages/buyer/MyOrders"));
+const MyProfile = lazy(() => import("./pages/buyer/MyProfile"));
+const SellerDashboard = lazy(() => import("./pages/seller/Dashboard"));
+const SellerProducts = lazy(() => import("./pages/seller/Products"));
+const SellerProductCreate = lazy(() => import("./pages/seller/ProductCreate"));
+const SellerOrders = lazy(() => import("./pages/seller/Orders"));
+const SellerAnalytics = lazy(() => import("./pages/seller/Analytics"));
+const AdminDashboard = lazy(() => import("./pages/admin/Dashboard"));
+const AdminUsers = lazy(() => import("./pages/admin/Users"));
+const AdminProducts = lazy(() => import("./pages/admin/Products"));
+const AdminOrders = lazy(() => import("./pages/admin/Orders"));
+const KhaltiSuccess = lazy(() => import("./pages/payment/KhaltiSuccess"));
+const KhaltiFailed = lazy(() => import("./pages/payment/KhaltiFailed"));
 
-const PageLoader = () => <div className="flex items-center justify-center h-screen">Loading...</div>;
+const PageLoader = () => (
+  <div className="flex items-center justify-center h-screen">Loading...</div>
+);
 
 const router = createBrowserRouter([
-  { path: '/login', element: <Login /> },
-  { path: '/register', element: <Register /> },
+  { path: "/login", element: <Login /> },
+  { path: "/register", element: <Register /> },
   {
-    path: '/',
+    path: "/",
     element: <AppShell />,
     children: [
-      { index: true, element: <Suspense fallback={<PageLoader />}><Home /></Suspense> },
-      { path: 'product/:id', element: <Suspense fallback={<PageLoader />}><ProductDetails /></Suspense> },
-      { path: 'cart', element: <Suspense fallback={<PageLoader />}><Cart /></Suspense> },
-      { path: 'checkout', element: <Suspense fallback={<PageLoader />}><ProtectedRoute><Checkout /></ProtectedRoute></Suspense> },
-      { path: 'orders', element: <Suspense fallback={<PageLoader />}><ProtectedRoute><MyOrders /></ProtectedRoute></Suspense> },
-      { path: 'profile', element: <Suspense fallback={<PageLoader />}><ProtectedRoute><MyProfile /></ProtectedRoute></Suspense> },
       {
-        path: 'seller',
+        index: true,
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Home />
+          </Suspense>
+        ),
+      },
+      {
+        path: "product/:id",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <ProductDetails />
+          </Suspense>
+        ),
+      },
+      {
+        path: "cart",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Cart />
+          </Suspense>
+        ),
+      },
+      {
+        path: "checkout",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <ProtectedRoute>
+              <Checkout />
+            </ProtectedRoute>
+          </Suspense>
+        ),
+      },
+      {
+        path: "orders",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <ProtectedRoute>
+              <MyOrders />
+            </ProtectedRoute>
+          </Suspense>
+        ),
+      },
+      {
+        path: "profile",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <ProtectedRoute>
+              <MyProfile />
+            </ProtectedRoute>
+          </Suspense>
+        ),
+      },
+      {
+        path: "seller",
         children: [
-          { index: true, element: <Suspense fallback={<PageLoader />}><ProtectedRoute requiredRole="seller"><SellerDashboard /></ProtectedRoute></Suspense> },
-          { path: 'products', element: <Suspense fallback={<PageLoader />}><ProtectedRoute requiredRole="seller"><SellerProducts /></ProtectedRoute></Suspense> },
-          { path: 'products/create', element: <Suspense fallback={<PageLoader />}><ProtectedRoute requiredRole="seller"><SellerProductCreate /></ProtectedRoute></Suspense> },
-          { path: 'orders', element: <Suspense fallback={<PageLoader />}><ProtectedRoute requiredRole="seller"><SellerOrders /></ProtectedRoute></Suspense> },
-          { path: 'analytics', element: <Suspense fallback={<PageLoader />}><ProtectedRoute requiredRole="seller"><SellerAnalytics /></ProtectedRoute></Suspense> },
+          {
+            index: true,
+            element: (
+              <Suspense fallback={<PageLoader />}>
+                <ProtectedRoute requiredRole="seller">
+                  <SellerDashboard />
+                </ProtectedRoute>
+              </Suspense>
+            ),
+          },
+          {
+            path: "products",
+            element: (
+              <Suspense fallback={<PageLoader />}>
+                <ProtectedRoute requiredRole="seller">
+                  <SellerProducts />
+                </ProtectedRoute>
+              </Suspense>
+            ),
+          },
+          {
+            path: "products/create",
+            element: (
+              <Suspense fallback={<PageLoader />}>
+                <ProtectedRoute requiredRole="seller">
+                  <SellerProductCreate />
+                </ProtectedRoute>
+              </Suspense>
+            ),
+          },
+          {
+            path: "orders",
+            element: (
+              <Suspense fallback={<PageLoader />}>
+                <ProtectedRoute requiredRole="seller">
+                  <SellerOrders />
+                </ProtectedRoute>
+              </Suspense>
+            ),
+          },
+          {
+            path: "analytics",
+            element: (
+              <Suspense fallback={<PageLoader />}>
+                <ProtectedRoute requiredRole="seller">
+                  <SellerAnalytics />
+                </ProtectedRoute>
+              </Suspense>
+            ),
+          },
         ],
       },
       {
-        path: 'admin',
+        path: "admin",
         children: [
-          { index: true, element: <Suspense fallback={<PageLoader />}><AdminDashboard /></Suspense> },
-          { path: 'users', element: <Suspense fallback={<PageLoader />}><AdminUsers /></Suspense> },
-          { path: 'products', element: <Suspense fallback={<PageLoader />}><AdminProducts /></Suspense> },
-          { path: 'orders', element: <Suspense fallback={<PageLoader />}><AdminOrders /></Suspense> },
+          {
+            index: true,
+            element: (
+              <Suspense fallback={<PageLoader />}>
+                <AdminDashboard />
+              </Suspense>
+            ),
+          },
+          {
+            path: "users",
+            element: (
+              <Suspense fallback={<PageLoader />}>
+                <AdminUsers />
+              </Suspense>
+            ),
+          },
+          {
+            path: "products",
+            element: (
+              <Suspense fallback={<PageLoader />}>
+                <AdminProducts />
+              </Suspense>
+            ),
+          },
+          {
+            path: "orders",
+            element: (
+              <Suspense fallback={<PageLoader />}>
+                <AdminOrders />
+              </Suspense>
+            ),
+          },
         ],
       },
-      { path: 'payment/success', element: <Suspense fallback={<PageLoader />}><KhaltiSuccess /></Suspense> },
-      { path: 'payment/failed', element: <Suspense fallback={<PageLoader />}><KhaltiFailed /></Suspense> },
+      {
+        path: "payment/success",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <KhaltiSuccess />
+          </Suspense>
+        ),
+      },
+      {
+        path: "payment/failed",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <KhaltiFailed />
+          </Suspense>
+        ),
+      },
     ],
   },
-  { path: '*', element: <Navigate to="/" replace /> },
+  { path: "*", element: <Navigate to="/" replace /> },
 ]);
 
 export default router;
@@ -21094,28 +23257,31 @@ export default router;
 ### `Frontend/src/store/authStore.js`
 
 ```javascript
-import { create } from 'zustand';
-import { authAPI } from '../api/endpoints/auth';
-import { useUIStore } from './uiStore';
+import { create } from "zustand";
+import { authAPI } from "../api/endpoints/auth";
+import { useUIStore } from "./uiStore";
 
 function mapRoleToUI(role) {
-  if (role === 'admin' || role === 'seller') return 'seller';
-  if (role === 'customer') return 'buyer';
-  return role || 'buyer';
+  if (role === "admin" || role === "seller") return "seller";
+  if (role === "customer") return "buyer";
+  return role || "buyer";
 }
 
 function syncRoleFromUser(user) {
   const role = user?.role ? mapRoleToUI(user.role) : null;
   if (role) {
-    localStorage.setItem('userRole', role);
+    localStorage.setItem("userRole", role);
     useUIStore.setState({ userRole: role });
   }
 }
 
 export const useAuthStore = create((set) => ({
-  user: JSON.parse(localStorage.getItem('user') || 'null'),
-  token: localStorage.getItem('token') || localStorage.getItem('authToken') || null,
-  isAuthenticated: !!(localStorage.getItem('token') || localStorage.getItem('authToken')),
+  user: JSON.parse(localStorage.getItem("user") || "null"),
+  token:
+    localStorage.getItem("token") || localStorage.getItem("authToken") || null,
+  isAuthenticated: !!(
+    localStorage.getItem("token") || localStorage.getItem("authToken")
+  ),
   loading: false,
   error: null,
   login: async (userData) => {
@@ -21123,15 +23289,21 @@ export const useAuthStore = create((set) => ({
     try {
       const { data } = await authAPI.login(userData);
       const token = data.token || data.data;
-      localStorage.setItem('token', token);
-      localStorage.setItem('authToken', token);
-      const userObj = data.data && typeof data.data === 'object' && !Array.isArray(data.data) && data.data.email ? data.data : (data.data?.user || data.user || null);
-      if (userObj) localStorage.setItem('user', JSON.stringify(userObj));
+      localStorage.setItem("token", token);
+      localStorage.setItem("authToken", token);
+      const userObj =
+        data.data &&
+        typeof data.data === "object" &&
+        !Array.isArray(data.data) &&
+        data.data.email
+          ? data.data
+          : data.data?.user || data.user || null;
+      if (userObj) localStorage.setItem("user", JSON.stringify(userObj));
       syncRoleFromUser(userObj);
       set({ user: userObj, token, isAuthenticated: true, loading: false });
       return { ...data, _resolvedUser: userObj };
     } catch (err) {
-      const msg = err.response?.data?.message || 'Login failed';
+      const msg = err.response?.data?.message || "Login failed";
       set({ error: msg, loading: false });
       throw err;
     }
@@ -21141,21 +23313,35 @@ export const useAuthStore = create((set) => ({
     try {
       const { data } = await authAPI.register(userData);
       const token = data.token || data.data;
-      if (token && typeof token === 'string') { localStorage.setItem('token', token); localStorage.setItem('authToken', token); }
-      set({ user: data.data?.user || data.user || null, token, isAuthenticated: !!token, loading: false });
+      if (token && typeof token === "string") {
+        localStorage.setItem("token", token);
+        localStorage.setItem("authToken", token);
+      }
+      set({
+        user: data.data?.user || data.user || null,
+        token,
+        isAuthenticated: !!token,
+        loading: false,
+      });
       return data;
     } catch (err) {
-      const msg = err.response?.data?.message || 'Registration failed';
+      const msg = err.response?.data?.message || "Registration failed";
       set({ error: msg, loading: false });
       throw err;
     }
   },
   logout: async () => {
-    localStorage.removeItem('token'); localStorage.removeItem('authToken'); localStorage.removeItem('user'); localStorage.removeItem('userRole');
-    useUIStore.setState({ userRole: 'buyer' });
+    localStorage.removeItem("token");
+    localStorage.removeItem("authToken");
+    localStorage.removeItem("user");
+    localStorage.removeItem("userRole");
+    useUIStore.setState({ userRole: "buyer" });
     set({ user: null, token: null, isAuthenticated: false });
   },
-  setUser: (user) => { localStorage.setItem('user', JSON.stringify(user)); set({ user }); },
+  setUser: (user) => {
+    localStorage.setItem("user", JSON.stringify(user));
+    set({ user });
+  },
   clearError: () => set({ error: null }),
 }));
 ```
@@ -21163,30 +23349,46 @@ export const useAuthStore = create((set) => ({
 ### `Frontend/src/store/cartStore.js`
 
 ```javascript
-import { create } from 'zustand';
+import { create } from "zustand";
 
 export const useCartStore = create((set, get) => ({
-  items: JSON.parse(localStorage.getItem('cartItems') || '[]'),
-  addItem: (product) => set((state) => {
-    const exists = state.items.find((i) => (i._id || i.id) === (product._id || product.id));
-    let updated;
-    if (exists) updated = state.items.map((i) => (i._id || i.id) === (product._id || product.id) ? { ...i, quantity: (i.quantity || 1) + 1 } : i);
-    else updated = [...state.items, { ...product, quantity: 1 }];
-    localStorage.setItem('cartItems', JSON.stringify(updated));
-    return { items: updated };
-  }),
-  removeItem: (id) => set((state) => {
-    const updated = state.items.filter((i) => (i._id || i.id) !== id);
-    localStorage.setItem('cartItems', JSON.stringify(updated));
-    return { items: updated };
-  }),
-  updateQuantity: (id, qty) => set((state) => {
-    const updated = state.items.map((i) => (i._id || i.id) === id ? { ...i, quantity: Math.max(1, qty) } : i);
-    localStorage.setItem('cartItems', JSON.stringify(updated));
-    return { items: updated };
-  }),
-  clearCart: () => { localStorage.removeItem('cartItems'); set({ items: [] }); },
-  getTotal: () => get().items.reduce((t, i) => t + (i.price || 0) * (i.quantity || 1), 0),
+  items: JSON.parse(localStorage.getItem("cartItems") || "[]"),
+  addItem: (product) =>
+    set((state) => {
+      const exists = state.items.find(
+        (i) => (i._id || i.id) === (product._id || product.id),
+      );
+      let updated;
+      if (exists)
+        updated = state.items.map((i) =>
+          (i._id || i.id) === (product._id || product.id)
+            ? { ...i, quantity: (i.quantity || 1) + 1 }
+            : i,
+        );
+      else updated = [...state.items, { ...product, quantity: 1 }];
+      localStorage.setItem("cartItems", JSON.stringify(updated));
+      return { items: updated };
+    }),
+  removeItem: (id) =>
+    set((state) => {
+      const updated = state.items.filter((i) => (i._id || i.id) !== id);
+      localStorage.setItem("cartItems", JSON.stringify(updated));
+      return { items: updated };
+    }),
+  updateQuantity: (id, qty) =>
+    set((state) => {
+      const updated = state.items.map((i) =>
+        (i._id || i.id) === id ? { ...i, quantity: Math.max(1, qty) } : i,
+      );
+      localStorage.setItem("cartItems", JSON.stringify(updated));
+      return { items: updated };
+    }),
+  clearCart: () => {
+    localStorage.removeItem("cartItems");
+    set({ items: [] });
+  },
+  getTotal: () =>
+    get().items.reduce((t, i) => t + (i.price || 0) * (i.quantity || 1), 0),
   getCount: () => get().items.reduce((t, i) => t + (i.quantity || 1), 0),
 }));
 ```
@@ -21194,25 +23396,32 @@ export const useCartStore = create((set, get) => ({
 ### `Frontend/src/store/index.js`
 
 ```javascript
-export { useAuthStore } from './authStore';
-export { useCartStore } from './cartStore';
-export { useUIStore } from './uiStore';
+export { useAuthStore } from "./authStore";
+export { useCartStore } from "./cartStore";
+export { useUIStore } from "./uiStore";
 ```
 
 ### `Frontend/src/store/uiStore.js`
 
 ```javascript
-import { create } from 'zustand';
+import { create } from "zustand";
 
 export const useUIStore = create((set) => ({
   sidebarOpen: true,
-  userRole: localStorage.getItem('userRole') || 'buyer',
-  theme: 'light',
+  userRole: localStorage.getItem("userRole") || "buyer",
+  theme: "light",
   notifications: [],
   toggleSidebar: () => set((s) => ({ sidebarOpen: !s.sidebarOpen })),
-  setUserRole: (role) => { localStorage.setItem('userRole', role); set({ userRole: role }); },
-  addNotification: (n) => set((s) => ({ notifications: [...s.notifications, { id: Date.now(), ...n }] })),
-  removeNotification: (id) => set((s) => ({ notifications: s.notifications.filter((x) => x.id !== id) })),
+  setUserRole: (role) => {
+    localStorage.setItem("userRole", role);
+    set({ userRole: role });
+  },
+  addNotification: (n) =>
+    set((s) => ({
+      notifications: [...s.notifications, { id: Date.now(), ...n }],
+    })),
+  removeNotification: (id) =>
+    set((s) => ({ notifications: s.notifications.filter((x) => x.id !== id) })),
 }));
 ```
 
@@ -21220,7 +23429,9 @@ export const useUIStore = create((set) => ({
 
 ```javascript
 export function getCartProduct(item) {
-  return item?.product && typeof item.product === 'object' ? item.product : item;
+  return item?.product && typeof item.product === "object"
+    ? item.product
+    : item;
 }
 export function getCartPrice(item) {
   const p = getCartProduct(item);
@@ -21228,43 +23439,89 @@ export function getCartPrice(item) {
 }
 export function getCartName(item) {
   const p = getCartProduct(item);
-  return p?.productName ?? p?.name ?? item?.productName ?? 'Item';
+  return p?.productName ?? p?.name ?? item?.productName ?? "Item";
 }
 export function getCartProductId(item) {
   const p = item?.product;
-  if (p && typeof p === 'object' && p._id) return p._id;
-  if (typeof p === 'string') return p;
+  if (p && typeof p === "object" && p._id) return p._id;
+  if (typeof p === "string") return p;
   return item?.product ?? item?.productId ?? item?._id;
 }
 export function calcSubtotal(items) {
-  return (items||[]).reduce((s,it) => s + getCartPrice(it) * (Number(it.quantity)||1), 0);
+  return (items || []).reduce(
+    (s, it) => s + getCartPrice(it) * (Number(it.quantity) || 1),
+    0,
+  );
 }
 ```
 
 ### `Frontend/src/utils/constants.js`
 
 ```javascript
-export const USER_ROLES = { BUYER: 'buyer', SELLER: 'seller', ADMIN: 'admin' };
-export const ORDER_STATUSES = { PENDING: 'pending', CONFIRMED: 'confirmed', SHIPPED: 'shipped', DELIVERED: 'delivered', CANCELLED: 'cancelled', RETURNED: 'returned' };
-export const PAYMENT_STATUSES = { INITIATED: 'initiated', COMPLETED: 'completed', FAILED: 'failed', PENDING: 'pending' };
-export const PRODUCT_STATUSES = { DRAFT: 'draft', PENDING_APPROVAL: 'pending_approval', APPROVED: 'approved', REJECTED: 'rejected', INACTIVE: 'inactive' };
+export const USER_ROLES = { BUYER: "buyer", SELLER: "seller", ADMIN: "admin" };
+export const ORDER_STATUSES = {
+  PENDING: "pending",
+  CONFIRMED: "confirmed",
+  SHIPPED: "shipped",
+  DELIVERED: "delivered",
+  CANCELLED: "cancelled",
+  RETURNED: "returned",
+};
+export const PAYMENT_STATUSES = {
+  INITIATED: "initiated",
+  COMPLETED: "completed",
+  FAILED: "failed",
+  PENDING: "pending",
+};
+export const PRODUCT_STATUSES = {
+  DRAFT: "draft",
+  PENDING_APPROVAL: "pending_approval",
+  APPROVED: "approved",
+  REJECTED: "rejected",
+  INACTIVE: "inactive",
+};
 ```
 
 ### `Frontend/src/utils/errorHandler.js`
 
 ```javascript
-import toast from 'react-hot-toast';
-export const handleError = (error) => { const message = error.response?.data?.message || error.message || 'An error occurred'; toast.error(message); console.error('Error:', error); return message; };
-export const getErrorMessage = (error) => error.response?.data?.message || error.message || 'An unexpected error occurred';
+import toast from "react-hot-toast";
+export const handleError = (error) => {
+  const message =
+    error.response?.data?.message || error.message || "An error occurred";
+  toast.error(message);
+  console.error("Error:", error);
+  return message;
+};
+export const getErrorMessage = (error) =>
+  error.response?.data?.message ||
+  error.message ||
+  "An unexpected error occurred";
 ```
 
 ### `Frontend/src/utils/formatters.js`
 
 ```javascript
-export const formatPrice = (price) => new Intl.NumberFormat('en-NP', { style: 'currency', currency: 'NPR' }).format(price);
-export const formatDate = (date) => new Intl.DateTimeFormat('en-NP', { year: 'numeric', month: 'short', day: 'numeric' }).format(new Date(date));
-export const formatDateTime = (date) => new Intl.DateTimeFormat('en-NP', { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' }).format(new Date(date));
-export const truncateText = (text, length = 50) => text.length > length ? `${text.substring(0, length)}...` : text;
+export const formatPrice = (price) =>
+  new Intl.NumberFormat("en-NP", { style: "currency", currency: "NPR" }).format(
+    price,
+  );
+export const formatDate = (date) =>
+  new Intl.DateTimeFormat("en-NP", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  }).format(new Date(date));
+export const formatDateTime = (date) =>
+  new Intl.DateTimeFormat("en-NP", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  }).format(new Date(date));
+export const truncateText = (text, length = 50) =>
+  text.length > length ? `${text.substring(0, length)}...` : text;
 ```
 
 ### `Frontend/src/utils/productImage.js`
@@ -21275,35 +23532,52 @@ import headerImg from "../assets/header_img.png";
 import foodFallback from "../assets/food_1.png";
 
 // Map of food images for fallback cycling
-const fallbackImages = Object.values(assets).filter(v => typeof v === 'string' && v.includes('food_')).length
-  ? null : foodFallback;
+const fallbackImages = Object.values(assets).filter(
+  (v) => typeof v === "string" && v.includes("food_"),
+).length
+  ? null
+  : foodFallback;
 
 const FOOD_IMAGES = [];
 for (let i = 1; i <= 32; i++) {
-  try { FOOD_IMAGES.push(new URL(`../assets/food_${i}.png`, import.meta.url).href); } catch { /* ignore */ }
+  try {
+    FOOD_IMAGES.push(new URL(`../assets/food_${i}.png`, import.meta.url).href);
+  } catch {
+    /* ignore */
+  }
 }
 
-const API_ORIGIN = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api').replace(/\/api\/?$/, '');
+const API_ORIGIN = (
+  import.meta.env.VITE_API_BASE_URL || "http://localhost:3000/api"
+).replace(/\/api\/?$/, "");
 
 export function getProductImage(product, index = 0) {
   let raw = product?.productImage || product?.image || product?.imageUrl || "";
-  if (typeof raw !== 'string') raw = String(raw || '');
+  if (typeof raw !== "string") raw = String(raw || "");
   raw = raw.trim();
-  if (!raw || raw.includes('spotify.com') || raw === 'draft') raw = '';
+  if (!raw || raw.includes("spotify.com") || raw === "draft") raw = "";
   if (raw) {
-    if (raw.startsWith('http://') || raw.startsWith('https://') || raw.startsWith('data:')) return raw;
-    if (raw.startsWith('/uploads') || raw.startsWith('uploads/')) {
-      const path = raw.startsWith('/') ? raw : `/${raw}`;
+    if (
+      raw.startsWith("http://") ||
+      raw.startsWith("https://") ||
+      raw.startsWith("data:")
+    )
+      return raw;
+    if (raw.startsWith("/uploads") || raw.startsWith("uploads/")) {
+      const path = raw.startsWith("/") ? raw : `/${raw}`;
       return `${API_ORIGIN}${path}`;
     }
-    if (raw.startsWith('/')) return `${API_ORIGIN}${raw}`;
+    if (raw.startsWith("/")) return `${API_ORIGIN}${raw}`;
     // backend may store just filename like "abc.jpg"
-    if (/\.(png|jpg|jpeg|webp|gif)$/i.test(raw)) return `${API_ORIGIN}/${raw.replace(/^\//,'')}`;
+    if (/\.(png|jpg|jpeg|webp|gif)$/i.test(raw))
+      return `${API_ORIGIN}/${raw.replace(/^\//, "")}`;
     // if raw is a valid path-like string, return as-is (will fallback on error)
     if (raw.length > 5) return raw;
   }
   // only fallback when no real image exists — not hardcoded per product, just graceful placeholder
-  const hash = String(product?._id || index).split("").reduce((a,c)=>a+c.charCodeAt(0),0);
+  const hash = String(product?._id || index)
+    .split("")
+    .reduce((a, c) => a + c.charCodeAt(0), 0);
   return FOOD_IMAGES[hash % FOOD_IMAGES.length] || headerImg;
 }
 
@@ -21317,9 +23591,11 @@ export function handleImgError(e, fallbackIndex = 0) {
 ### `Frontend/src/utils/validators.js`
 
 ```javascript
-export const validateEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+export const validateEmail = (email) =>
+  /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 export const validatePassword = (password) => password.length >= 8;
-export const validatePhone = (phone) => /^[0-9]{10}$/.test(phone.replace(/\D/g, ''));
+export const validatePhone = (phone) =>
+  /^[0-9]{10}$/.test(phone.replace(/\D/g, ""));
 export const validateRequired = (value) => value && value.trim().length > 0;
 ```
 
@@ -21328,10 +23604,7 @@ export const validateRequired = (value) => value && value.trim().length > 0;
 ```javascript
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -21362,8 +23635,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': {
-        target: 'http://localhost:3000',
+      "/api": {
+        target: "http://localhost:3000",
         changeOrigin: true,
       },
     },
@@ -21409,11 +23682,11 @@ As a result, DigitalMandu Platform is not simply a refreshed version of an older
 
 ## Stack
 
-| Layer | Tech |
-|-------|------|
+| Layer    | Tech                                                                                                       |
+| -------- | ---------------------------------------------------------------------------------------------------------- |
 | Frontend | React 19 + Vite 6, React Router 7, Zustand 4, TanStack Query 5, Tailwind 4, Axios, React Hot Toast, Lucide |
-| Backend | Node.js + Express 4, Mongoose 8, JWT, bcryptjs, Multer, Nodemailer, Socket.IO |
-| Database | MongoDB (local `digitalmandu` / Atlas) |
+| Backend  | Node.js + Express 4, Mongoose 8, JWT, bcryptjs, Multer, Nodemailer, Socket.IO                              |
+| Database | MongoDB (local `digitalmandu` / Atlas)                                                                     |
 
 ## Monorepo Layout
 
@@ -21465,11 +23738,11 @@ npm run dev            # http://localhost:3000
 
 Seeded accounts:
 
-| Email | Password | Role |
-|-------|----------|------|
-| admin@digitalmandu.local | Admin@123 | admin |
+| Email                       | Password     | Role     |
+| --------------------------- | ------------ | -------- |
+| admin@digitalmandu.local    | Admin@123    | admin    |
 | customer@digitalmandu.local | Customer@123 | customer |
-| seller@digitalmandu.local | Seller@123 | customer |
+| seller@digitalmandu.local   | Seller@123   | customer |
 
 `Backend/.env` for local dev:
 
@@ -21509,32 +23782,32 @@ Root + subproject `.gitignore` already cover `node_modules/`, `.env*`, `dist/`, 
 
 Base: `http://localhost:3000/api`
 
-| Method | Path | Auth | Description |
-|--------|------|------|-------------|
-| POST | /register | no | Register |
-| POST | /login | no | Login -> token |
-| GET | /products | no | List products |
-| GET | /products/:id | no | Product detail |
-| POST | /add_product | admin | Create product (multipart) |
-| PATCH/DELETE | /products/:id | admin | Update/delete |
-| GET/POST | /cart | customer | Cart |
-| POST | /orders | customer | Place order |
-| GET | /orders | customer | My orders |
-| GET | /getOrdersAsAnAdmin | admin | All orders |
-| POST | /payment/khalti/init | customer | Khalti init |
-| GET | /profile/:id | auth | Profile |
+| Method       | Path                 | Auth     | Description                |
+| ------------ | -------------------- | -------- | -------------------------- |
+| POST         | /register            | no       | Register                   |
+| POST         | /login               | no       | Login -> token             |
+| GET          | /products            | no       | List products              |
+| GET          | /products/:id        | no       | Product detail             |
+| POST         | /add_product         | admin    | Create product (multipart) |
+| PATCH/DELETE | /products/:id        | admin    | Update/delete              |
+| GET/POST     | /cart                | customer | Cart                       |
+| POST         | /orders              | customer | Place order                |
+| GET          | /orders              | customer | My orders                  |
+| GET          | /getOrdersAsAnAdmin  | admin    | All orders                 |
+| POST         | /payment/khalti/init | customer | Khalti init                |
+| GET          | /profile/:id         | auth     | Profile                    |
 
 Auth header: `user_auth_token: <jwt>` (see `Backend/middlewares/isAuthenticated.js`).
 
 ## Scripts
 
-| Location | Command | Purpose |
-|----------|---------|---------|
-| Backend | `npm run dev` | nodemon |
-| Backend | `npm run seed` | seed local DB |
-| Backend | `npm run seed:reset` | drop & reseed |
-| Frontend | `npm run dev` | Vite dev |
-| Frontend | `npm run build` | Vite build |
+| Location | Command              | Purpose       |
+| -------- | -------------------- | ------------- |
+| Backend  | `npm run dev`        | nodemon       |
+| Backend  | `npm run seed`       | seed local DB |
+| Backend  | `npm run seed:reset` | drop & reseed |
+| Frontend | `npm run dev`        | Vite dev      |
+| Frontend | `npm run build`      | Vite build    |
 
 ## Security Notes
 

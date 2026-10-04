@@ -1,1 +1,0 @@
-import{j as e}from"./index-DkZSgGC0.js";function a(){return e.jsxs("div",{className:"text-center py-12",children:[e.jsx("h2",{className:"text-2xl font-bold text-red-600",children:"Payment Failed"}),e.jsx("p",{className:"text-gray-600 mt-2",children:"Please try again."})]})}export{a as default};

@@ -4,14 +4,37 @@ import { useAuthStore } from "../../../store/authStore";
 import InputField from "../../../components/common/InputField";
 import { PrimaryButton } from "../../../components/common/Button";
 import toast from "react-hot-toast";
+import { validateGmail, validatePhone } from "../../../utils/validators";
 
 const Register = () => {
   const navigate = useNavigate();
   const { register, loading, error } = useAuthStore();
-  const [userData, setUserData] = useState({ userName: "", userPhone: "", userEmail: "", userPassword: "" });
-  const handleChange = (e) => setUserData({ ...userData, [e.target.name]: e.target.value });
+  const [userData, setUserData] = useState({
+    userName: "",
+    userPhone: "",
+    userEmail: "",
+    userPassword: "",
+  });
+  const [validationErrors, setValidationErrors] = useState({});
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setUserData({
+      ...userData,
+      [name]:
+        name === "userPhone" ? value.replace(/\D/g, "").slice(0, 10) : value,
+    });
+    setValidationErrors({ ...validationErrors, [name]: "" });
+  };
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const errors = {};
+    if (!validateGmail(userData.userEmail))
+      errors.userEmail = "Please enter a valid Gmail address.";
+    if (!validatePhone(userData.userPhone))
+      errors.userPhone = "Phone number must contain exactly 10 digits.";
+    setValidationErrors(errors);
+    if (Object.keys(errors).length > 0) return;
+
     try {
       await register(userData);
       toast.success("Registered successfully");
@@ -26,13 +49,54 @@ const Register = () => {
         <h2 className="text-2xl font-bold text-center mb-6">Register</h2>
         {error && <p className="text-red-600 text-sm mb-4">{error}</p>}
         <form onSubmit={handleSubmit} className="space-y-4">
-          <InputField label="Username" name="userName" value={userData.userName} onChange={handleChange} placeholder="Username" />
-          <InputField label="Email" name="userEmail" value={userData.userEmail} onChange={handleChange} placeholder="Email" />
-          <InputField label="Phone" name="userPhone" value={userData.userPhone} onChange={handleChange} placeholder="Phone" />
-          <InputField label="Password" name="userPassword" type="password" value={userData.userPassword} onChange={handleChange} placeholder="Password" />
-          <PrimaryButton label={loading ? "Loading..." : "Register"} type="submit" loading={loading} className="w-full justify-center" />
+          <InputField
+            label="Username"
+            name="userName"
+            value={userData.userName}
+            onChange={handleChange}
+            placeholder="Username"
+          />
+          <InputField
+            label="Email"
+            name="userEmail"
+            type="email"
+            value={userData.userEmail}
+            onChange={handleChange}
+            placeholder="Email"
+            error={validationErrors.userEmail}
+          />
+          <InputField
+            label="Phone"
+            name="userPhone"
+            type="text"
+            inputMode="numeric"
+            maxLength={10}
+            value={userData.userPhone}
+            onChange={handleChange}
+            placeholder="Phone"
+            error={validationErrors.userPhone}
+          />
+          <InputField
+            label="Password"
+            name="userPassword"
+            type="password"
+            value={userData.userPassword}
+            onChange={handleChange}
+            placeholder="Password"
+          />
+          <PrimaryButton
+            label={loading ? "Loading..." : "Register"}
+            type="submit"
+            loading={loading}
+            className="w-full justify-center"
+          />
         </form>
-        <p className="text-center text-sm mt-4">Already have account? <Link to="/login" className="text-green-600">Login</Link></p>
+        <p className="text-center text-sm mt-4">
+          Already have account?{" "}
+          <Link to="/login" className="text-green-600">
+            Login
+          </Link>
+        </p>
       </div>
     </div>
   );
